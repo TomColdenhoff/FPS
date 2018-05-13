@@ -1,0 +1,15 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Parsing headers for FPSEditor
+    Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSEditor in 7.6838606 seconds
+  Performing 6 actions (4 in parallel)
+  SMG.gen.cpp
+  SMG.cpp
+  BaseWeapon.gen.cpp
+  BaseWeapon.cpp
+e:\projects\fps\fps\source\fps\SMG.h(20): error C3668: 'USMG::Fire': method with override specifier 'override' did not override any base class methods
+E:\Projects\FPS\FPS\Source\FPS\SMG.h(20): error C3668: 'USMG::Fire': method with override specifier 'override' did not override any base class methods
+UnrealBuildTool : error : UBT ERROR: Failed to produce item: E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-9791.dll
+  Total build time: 9.05 seconds (Local executor: 0.00 seconds)
+E:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Build\BatchFiles\Build.bat" FPSEditor Win64 Development "E:\Projects\FPS\FPS\FPS.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
