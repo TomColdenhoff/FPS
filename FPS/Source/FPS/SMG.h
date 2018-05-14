@@ -3,21 +3,32 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "WeaponBase.h"
+#include "BaseWeapon.h"
 #include "SMG.generated.h"
 
 /**
  * 
  */
-UCLASS()
-class FPS_API USMG : public UWeaponBase
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+class FPS_API USMG : public UBaseWeapon
 {
 	GENERATED_BODY()
 	
 public:
-	virtual void Fire() override;
-
 	USMG();
+
+	virtual void Fire() override;
+	virtual void Reload() override;
+	virtual void ChangeWeaponMode() override;
+
+protected:
+	virtual void BeginPlay() override;
+
+private:
+	void SetDefaultValues();
+
+	const int MAX_CLIP_SIZE = 30;
+	const int MAX_OUT_OF_CLIP_AMMO = 210;
 
 	
 	

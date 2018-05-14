@@ -5,6 +5,9 @@
 #include "Runtime/Engine/Classes/Camera/CameraComponent.h"
 #include "Runtime/Engine/Classes/Components/SceneComponent.h"
 #include "Runtime/Engine//Classes/Components/SkeletalMeshComponent.h"
+#include "BaseWeapon.h"
+#include "SMG.h"
+#include <typeinfo>
 
 
 // Sets default values
@@ -18,12 +21,7 @@ AFPSPlayer::AFPSPlayer()
 	CameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0f));
 	CameraComponent->bUsePawnControlRotation = true;
 
-	// TODO Change to game needs
-	//CurrentWeaponMesh = CreateAbstractDefaultSubobject<USkeletalMeshComponent>(TEXT("CurrentWeaponMesh"));
-	//CurrentWeaponMesh->SetOnlyOwnerSee(true);
-	//CurrentWeaponMesh->SetupAttachment(CameraComponent);
-	//CurrentWeaponMesh->bCastDynamicShadow = false;
-	//CurrentWeaponMesh->CastShadow = false;
+	AddMainWeapon<USMG>();
 	
 }
 
@@ -46,15 +44,22 @@ void AFPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	//Movement Axis
 	PlayerInputComponent->BindAxis("MoveForward", this, &AFPSPlayer::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AFPSPlayer::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &AFPSPlayer::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &AFPSPlayer::AddControllerPitchInput);
 
+	//Movement Actions
 	PlayerInputComponent->BindAction("Jump", EInputEvent::IE_Pressed, this, &AFPSPlayer::ToggleJump);
 	PlayerInputComponent->BindAction("Jump", EInputEvent::IE_Released, this, &AFPSPlayer::ToggleJump);
 	PlayerInputComponent->BindAction("Run", EInputEvent::IE_Pressed, this, &AFPSPlayer::ToggleRun);
 	PlayerInputComponent->BindAction("Run", EInputEvent::IE_Released, this, &AFPSPlayer::ToggleRun);
+
+	//Weapon Actions
+	PlayerInputComponent->BindAction("Fire", EInputEvent::IE_Pressed, this, &AFPSPlayer::Fire);
+	PlayerInputComponent->BindAction("Reload", EInputEvent::IE_Pressed, this, &AFPSPlayer::Reload);
+	PlayerInputComponent->BindAction("ChangeWeaponMode", EInputEvent::IE_Pressed, this, &AFPSPlayer::ChangeWeaponMode);
 }
 
 void AFPSPlayer::MoveForward(float Value)
@@ -93,6 +98,50 @@ void AFPSPlayer::ToggleRun()
 
 void AFPSPlayer::Fire()
 {
+	if (m_CurrentWeapon == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
+		return;
+	}
 
+	m_CurrentWeapon->Fire();
 }
+
+void AFPSPlayer::Reload()
+{
+	if (m_CurrentWeapon == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
+		return;
+	}
+
+	m_CurrentWeapon->Reload();
+}
+
+void AFPSPlayer::ChangeWeaponMode()
+{
+	if (m_CurrentWeapon == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
+		return;
+	}
+
+	m_CurrentWeapon->ChangeWeaponMode();
+}
+
+template<typename T>
+void AFPSPlayer::AddMainWeapon()
+{
+	// TODO Add class check
+
+	//TODO Change to game needs
+	CurrentWeaponMesh = CreateAbstractDefaultSubobject<T>(TEXT("CurrentWeaponMesh"));
+	CurrentWeaponMesh->SetOnlyOwnerSee(true);
+	CurrentWeaponMesh->SetupAttachment(CameraComponent);
+	CurrentWeaponMesh->bCastDynamicShadow = false;
+	CurrentWeaponMesh->CastShadow = false;
+
+	m_CurrentWeapon = Cast<UBaseWeapon>(CurrentWeaponMesh);
+}
+
 

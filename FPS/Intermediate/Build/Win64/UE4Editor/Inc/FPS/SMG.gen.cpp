@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeSMG() {}
 // Cross Module References
 	FPS_API UClass* Z_Construct_UClass_USMG_NoRegister();
 	FPS_API UClass* Z_Construct_UClass_USMG();
-	FPS_API UClass* Z_Construct_UClass_UWeaponBase();
+	FPS_API UClass* Z_Construct_UClass_UBaseWeapon();
 	UPackage* Z_Construct_UPackage__Script_FPS();
 // End Cross Module References
 	void USMG::StaticRegisterNativesUSMG()
@@ -31,12 +31,14 @@ void EmptyLinkFunctionForGeneratedCodeSMG() {}
 		if (!OuterClass)
 		{
 			static UObject* (*const DependentSingletons[])() = {
-				(UObject* (*)())Z_Construct_UClass_UWeaponBase,
+				(UObject* (*)())Z_Construct_UClass_UBaseWeapon,
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-				{ "HideCategories", "Trigger PhysicsVolume" },
+				{ "BlueprintSpawnableComponent", "" },
+				{ "ClassGroupNames", "Custom" },
+				{ "HideCategories", "Object Object Mobility Trigger" },
 				{ "IncludePath", "SMG.h" },
 				{ "ModuleRelativePath", "SMG.h" },
 			};
@@ -47,7 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeSMG() {}
 			static const UE4CodeGen_Private::FClassParams ClassParams = {
 				&USMG::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
-				0x00B00080u,
+				0x00B01080u,
 				nullptr, 0,
 				nullptr, 0,
 				nullptr,
@@ -59,7 +61,7 @@ void EmptyLinkFunctionForGeneratedCodeSMG() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USMG, 2167625011);
+	IMPLEMENT_CLASS(USMG, 2606638270);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USMG(Z_Construct_UClass_USMG, &USMG::StaticClass, TEXT("/Script/FPS"), TEXT("USMG"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USMG);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

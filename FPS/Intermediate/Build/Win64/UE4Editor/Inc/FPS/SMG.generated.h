@@ -20,7 +20,7 @@ private: \
 	static void StaticRegisterNativesUSMG(); \
 	friend FPS_API class UClass* Z_Construct_UClass_USMG(); \
 public: \
-	DECLARE_CLASS(USMG, UWeaponBase, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
+	DECLARE_CLASS(USMG, UBaseWeapon, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
 	DECLARE_SERIALIZER(USMG) \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
@@ -30,7 +30,7 @@ private: \
 	static void StaticRegisterNativesUSMG(); \
 	friend FPS_API class UClass* Z_Construct_UClass_USMG(); \
 public: \
-	DECLARE_CLASS(USMG, UWeaponBase, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
+	DECLARE_CLASS(USMG, UBaseWeapon, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
 	DECLARE_SERIALIZER(USMG) \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 

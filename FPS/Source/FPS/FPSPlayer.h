@@ -32,6 +32,10 @@ public:
 	void ToggleRun();
 
 	void Fire();
+	void Reload();
+	void ChangeWeaponMode();
+
+	template<typename T> void AddMainWeapon();
 
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* CameraComponent;
@@ -44,5 +48,7 @@ public:
 private:
 
 	bool m_IsRunning = false;
+
+	class UBaseWeapon* m_CurrentWeapon;
 	
 };
