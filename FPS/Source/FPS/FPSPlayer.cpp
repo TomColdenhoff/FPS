@@ -36,7 +36,7 @@ void AFPSPlayer::BeginPlay()
 void AFPSPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	//UE_LOG(LogTemp, Warning, TEXT("%s"), (IsReloading ? TEXT("True") : TEXT("False")));
 }
 
 // Called to bind functionality to input
@@ -58,6 +58,7 @@ void AFPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 	//Weapon Actions
 	PlayerInputComponent->BindAction("Fire", EInputEvent::IE_Pressed, this, &AFPSPlayer::Fire);
+	PlayerInputComponent->BindAction("Fire", EInputEvent::IE_Released, this, &AFPSPlayer::StopFire);
 	PlayerInputComponent->BindAction("Reload", EInputEvent::IE_Pressed, this, &AFPSPlayer::Reload);
 	PlayerInputComponent->BindAction("ChangeWeaponMode", EInputEvent::IE_Pressed, this, &AFPSPlayer::ChangeWeaponMode);
 }
@@ -98,6 +99,9 @@ void AFPSPlayer::ToggleRun()
 
 void AFPSPlayer::Fire()
 {
+	if (IsReloading)
+		return;
+
 	if (m_CurrentWeapon == nullptr)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
@@ -105,6 +109,17 @@ void AFPSPlayer::Fire()
 	}
 
 	m_CurrentWeapon->Fire();
+}
+
+void AFPSPlayer::StopFire()
+{
+	if (m_CurrentWeapon == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
+		return;
+	}
+
+	m_CurrentWeapon->ReleaseFire();
 }
 
 void AFPSPlayer::Reload()
@@ -115,7 +130,7 @@ void AFPSPlayer::Reload()
 		return;
 	}
 
-	m_CurrentWeapon->Reload();
+	IsReloading = m_CurrentWeapon->Reload();
 }
 
 void AFPSPlayer::ChangeWeaponMode()

@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FPS-3387.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\BaseWeapon.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\FPS.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\FPSGameModeBase.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\FPSPlayer.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\SMG.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\WeaponBase.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\BaseWeapon.gen.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\FPS.init.gen.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\FPSGameModeBase.gen.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\FPSPlayer.gen.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\SMG.gen.cpp.obj"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\WeaponBase.gen.cpp.obj"
+"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\FPS\PCLaunch.rc.res"
+"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3387.lib"

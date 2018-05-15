@@ -44,6 +44,14 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsReloading_MetaData[] = {
+				{ "Category", "Player State" },
+				{ "ModuleRelativePath", "FPSPlayer.h" },
+			};
+#endif
+			auto NewProp_IsReloading_SetBit = [](void* Obj){ ((AFPSPlayer*)Obj)->IsReloading = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsReloading = { UE4CodeGen_Private::EPropertyClass::Bool, "IsReloading", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AFPSPlayer), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_IsReloading_SetBit)>::SetBit, METADATA_PARAMS(NewProp_IsReloading_MetaData, ARRAY_COUNT(NewProp_IsReloading_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentWeaponMesh_MetaData[] = {
 				{ "Category", "Mesh" },
 				{ "EditInline", "true" },
@@ -60,6 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "CameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFPSPlayer, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_CameraComponent_MetaData, ARRAY_COUNT(NewProp_CameraComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_IsReloading,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentWeaponMesh,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CameraComponent,
 			};
@@ -81,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSPlayer, 2777267180);
+	IMPLEMENT_CLASS(AFPSPlayer, 928030046);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSPlayer(Z_Construct_UClass_AFPSPlayer, &AFPSPlayer::StaticClass, TEXT("/Script/FPS"), TEXT("AFPSPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

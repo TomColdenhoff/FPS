@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\FPS.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{1C48FBE3-2130-4A0E-BF05-C6D59E7C8E12}</UniqueIdentifier>
+			<UniqueIdentifier>{3CE57700-55FD-4DA6-93D9-5F7C84DA6EE3}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FPS.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{21F50AB9-41AB-40E6-9361-80764EA681C8}</UniqueIdentifier>
+			<UniqueIdentifier>{72D326E1-5C78-42C4-A9C8-960C1A26CA45}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\FPS">
-			<UniqueIdentifier>{6A02C3B6-99EB-4F6D-B207-265820DFCFF2}</UniqueIdentifier>
+			<UniqueIdentifier>{E38CAD23-BDAB-4F28-B5DF-8643506EBD51}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
 			<Filter>Source\FPS</Filter>

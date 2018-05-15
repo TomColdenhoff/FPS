@@ -32,10 +32,13 @@ public:
 	void ToggleRun();
 
 	void Fire();
+	void StopFire();
 	void Reload();
 	void ChangeWeaponMode();
 
 	template<typename T> void AddMainWeapon();
+
+	bool GetIsRunning() { return m_IsRunning; }
 
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* CameraComponent;
@@ -43,7 +46,11 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
 	USkeletalMeshComponent* CurrentWeaponMesh;
 
-	bool GetIsRunning() { return m_IsRunning; }
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player State")
+	bool IsReloading = false;
+
+
+
 
 private:
 

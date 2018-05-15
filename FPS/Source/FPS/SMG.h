@@ -18,7 +18,8 @@ public:
 	USMG();
 
 	virtual void Fire() override;
-	virtual void Reload() override;
+	virtual void ReleaseFire() override;
+	virtual bool Reload() override;
 	virtual void ChangeWeaponMode() override;
 
 protected:
@@ -31,9 +32,9 @@ private:
 
 	const int32 MAX_CLIP_SIZE = 30;
 	const int32 MAX_OUT_OF_CLIP_AMMO = 210;
-	const float BURST_BULLET_INTERVAL = 0.1f;
+	const float BULLET_INTERVAL = 0.1f;
 
-	FTimerHandle m_BurstTimerHandle;
+	FTimerHandle m_BulletTimerHandle;
 
 	
 	

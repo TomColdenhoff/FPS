@@ -42,12 +42,10 @@ void USMG::Fire()
 		FireBullet();
 		break;
 	case EWeaponMode::Burst:
-		for (int32 shot = 0; shot != 3; shot++)
-		{
-			GetWorld()->GetTimerManager().SetTimer(m_BurstTimerHandle, this, &USMG::FireBullet, BURST_BULLET_INTERVAL * shot, false);
-		}
+		GetWorld()->GetTimerManager().SetTimer(m_BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
 		break;
 	case EWeaponMode::Auto:
+		GetWorld()->GetTimerManager().SetTimer(m_BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
 		break;
 	default:
 		break;
@@ -56,9 +54,32 @@ void USMG::Fire()
 	UE_LOG(LogTemp, Warning, TEXT("Fire"));
 }
 
-void USMG::Reload()
+void USMG::ReleaseFire()
 {
+	if (CurrentWeaponMode == EWeaponMode::Auto)
+		GetWorld()->GetTimerManager().ClearTimer(m_BulletTimerHandle);
+}
+
+bool USMG::Reload()
+{
+	int32 difference = MAX_CLIP_SIZE - AmmoInClip;
+
+	if (difference <= AmmoOutOfClip)
+	{
+		AmmoInClip += difference;
+		AmmoOutOfClip -= difference;
+		return true;
+	}
+	else
+	{
+		AmmoInClip += AmmoOutOfClip;
+		AmmoOutOfClip = 0;
+	}
+
+
 	UE_LOG(LogTemp, Warning, TEXT("Reload"));
+
+	return false;
 }
 
 void USMG::ChangeWeaponMode()
@@ -82,5 +103,25 @@ void USMG::SetDefaultValues()
 
 void USMG::FireBullet()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Fired Bullet"));
+	if (AmmoInClip > 0)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Fired Bullet"));
+		//TODO play sound
+		AmmoInClip--;
+	}
+	else
+	{
+		//TODO play empty sound
+		GetWorld()->GetTimerManager().ClearTimer(m_BulletTimerHandle);
+		ShotBulletsInBurst = 0;
+	}
+
+	if (CurrentWeaponMode == EWeaponMode::Burst)
+	{
+		if (++ShotBulletsInBurst == 3)
+		{
+			GetWorld()->GetTimerManager().ClearTimer(m_BulletTimerHandle);
+			ShotBulletsInBurst = 0;
+		}
+	}
 }
