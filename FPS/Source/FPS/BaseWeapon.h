@@ -25,6 +25,8 @@ class FPS_API UBaseWeapon : public USkeletalMeshComponent
 protected:
 	int AmmoInClip = 0;
 	int AmmoOutOfClip = 0;
+
+	EWeaponMode CurrentWeaponMode;
 	
 public:	
 

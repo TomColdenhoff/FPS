@@ -26,9 +26,14 @@ protected:
 
 private:
 	void SetDefaultValues();
+	UFUNCTION()
+	void FireBullet();
 
-	const int MAX_CLIP_SIZE = 30;
-	const int MAX_OUT_OF_CLIP_AMMO = 210;
+	const int32 MAX_CLIP_SIZE = 30;
+	const int32 MAX_OUT_OF_CLIP_AMMO = 210;
+	const float BURST_BULLET_INTERVAL = 0.1f;
+
+	FTimerHandle m_BurstTimerHandle;
 
 	
 	

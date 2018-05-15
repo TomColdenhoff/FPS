@@ -1,76 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\FPS.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{B5C0C307-1EB1-45F8-8D96-2914315D2C3C}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\FPS.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\FPSEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{7B2B950A-82CC-4A7F-9EA8-FCB07C9A78C2}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\FPS">
-      <UniqueIdentifier>{B3259850-176F-4F2E-8C89-5F75FC475CBF}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\FPS\FPS.Build.cs">
-      <Filter>Source\FPS</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\FPS\FPS.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPS.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\FPSGameModeBase.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPSPlayer.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\WeaponBase.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\WeaponBase.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FPS\BaseWeapon.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FPS\SMG.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FPS\SMG.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\FPS.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{1C48FBE3-2130-4A0E-BF05-C6D59E7C8E12}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FPS.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FPSEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{21F50AB9-41AB-40E6-9361-80764EA681C8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FPS">
+			<UniqueIdentifier>{6A02C3B6-99EB-4F6D-B207-265820DFCFF2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\BaseWeapon.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\FPS\FPS.Build.cs">
+			<Filter>Source\FPS</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FPS\FPS.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPS.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\FPSGameModeBase.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPSPlayer.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\SMG.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\SMG.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\WeaponBase.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\WeaponBase.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

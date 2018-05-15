@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPS_SMG_generated_h
 
-#define FPS_Source_FPS_SMG_h_15_RPC_WRAPPERS
-#define FPS_Source_FPS_SMG_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FPS_Source_FPS_SMG_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFireBullet) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FireBullet(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FPS_Source_FPS_SMG_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFireBullet) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FireBullet(); \
+		P_NATIVE_END; \
+	}
+
+
 #define FPS_Source_FPS_SMG_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSMG(); \
