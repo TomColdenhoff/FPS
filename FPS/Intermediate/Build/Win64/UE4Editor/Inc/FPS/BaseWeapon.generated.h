@@ -13,6 +13,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPS_BaseWeapon_generated_h
 
+#define FPS_Source_FPS_BaseWeapon_h_24_DELEGATE \
+struct BaseWeapon_eventAmmoChanged_Parms \
+{ \
+	int32 AmmoInClip; \
+	int32 AmmoOutOfClip; \
+}; \
+static inline void FAmmoChanged_DelegateWrapper(const FMulticastScriptDelegate& AmmoChanged, int32 AmmoInClip, int32 AmmoOutOfClip) \
+{ \
+	BaseWeapon_eventAmmoChanged_Parms Parms; \
+	Parms.AmmoInClip=AmmoInClip; \
+	Parms.AmmoOutOfClip=AmmoOutOfClip; \
+	AmmoChanged.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
 #define FPS_Source_FPS_BaseWeapon_h_22_RPC_WRAPPERS
 #define FPS_Source_FPS_BaseWeapon_h_22_RPC_WRAPPERS_NO_PURE_DECLS
 #define FPS_Source_FPS_BaseWeapon_h_22_INCLASS_NO_PURE_DECLS \
@@ -59,7 +74,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UBaseWeapon)
 
 
-#define FPS_Source_FPS_BaseWeapon_h_22_PRIVATE_PROPERTY_OFFSET
+#define FPS_Source_FPS_BaseWeapon_h_22_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__OnAmmoChange() { return STRUCT_OFFSET(UBaseWeapon, OnAmmoChange); }
+
+
 #define FPS_Source_FPS_BaseWeapon_h_19_PROLOG
 #define FPS_Source_FPS_BaseWeapon_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

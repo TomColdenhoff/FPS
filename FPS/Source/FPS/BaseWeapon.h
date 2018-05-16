@@ -21,6 +21,7 @@ class FPS_API UBaseWeapon : public USkeletalMeshComponent
 {
 	GENERATED_BODY()
 
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAmmoChanged, int32, AmmoInClip, int32, AmmoOutOfClip);
 
 protected:
 	int AmmoInClip = 0;
@@ -28,7 +29,9 @@ protected:
 	int32 ShotBulletsInBurst = 0;
 
 	EWeaponMode CurrentWeaponMode;
-	
+
+	UPROPERTY(BlueprintAssignable)
+	FAmmoChanged OnAmmoChange;
 public:	
 
 	UBaseWeapon();

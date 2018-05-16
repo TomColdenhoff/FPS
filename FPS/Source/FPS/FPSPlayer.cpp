@@ -8,6 +8,7 @@
 #include "BaseWeapon.h"
 #include "SMG.h"
 #include <typeinfo>
+#include "Runtime/UMG/Public/Blueprint/UserWidget.h"
 
 
 // Sets default values
@@ -29,7 +30,7 @@ AFPSPlayer::AFPSPlayer()
 void AFPSPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	ChangeWidget(m_DefaultPlayerHUD);
 }
 
 // Called every frame
@@ -102,46 +103,64 @@ void AFPSPlayer::Fire()
 	if (IsReloading)
 		return;
 
-	if (m_CurrentWeapon == nullptr)
+	if (CurrentWeapon == nullptr)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
 		return;
 	}
 
-	m_CurrentWeapon->Fire();
+	CurrentWeapon->Fire();
 }
 
 void AFPSPlayer::StopFire()
 {
-	if (m_CurrentWeapon == nullptr)
+	if (CurrentWeapon == nullptr)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
 		return;
 	}
 
-	m_CurrentWeapon->ReleaseFire();
+	CurrentWeapon->ReleaseFire();
 }
 
 void AFPSPlayer::Reload()
 {
-	if (m_CurrentWeapon == nullptr)
+	if (CurrentWeapon == nullptr)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
 		return;
 	}
 
-	IsReloading = m_CurrentWeapon->Reload();
+	IsReloading = CurrentWeapon->Reload();
 }
 
 void AFPSPlayer::ChangeWeaponMode()
 {
-	if (m_CurrentWeapon == nullptr)
+	if (CurrentWeapon == nullptr)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("There is no current weapon"));
 		return;
 	}
 
-	m_CurrentWeapon->ChangeWeaponMode();
+	CurrentWeapon->ChangeWeaponMode();
+}
+
+void AFPSPlayer::ChangeWidget(TSubclassOf<UUserWidget> NewWidget)
+{
+	if (m_CurrentHUD != nullptr)
+	{
+		m_CurrentHUD->RemoveFromViewport();
+		m_CurrentHUD = nullptr;
+	}
+
+	if (NewWidget != nullptr)
+	{
+		m_CurrentHUD = CreateWidget<UUserWidget>(GetWorld(), NewWidget);
+		if (m_CurrentHUD != nullptr)
+		{
+			m_CurrentHUD->AddToViewport();
+		}
+	}
 }
 
 template<typename T>
@@ -156,7 +175,7 @@ void AFPSPlayer::AddMainWeapon()
 	CurrentWeaponMesh->bCastDynamicShadow = false;
 	CurrentWeaponMesh->CastShadow = false;
 
-	m_CurrentWeapon = Cast<UBaseWeapon>(CurrentWeaponMesh);
+	CurrentWeapon = Cast<UBaseWeapon>(CurrentWeaponMesh);
 }
 
 

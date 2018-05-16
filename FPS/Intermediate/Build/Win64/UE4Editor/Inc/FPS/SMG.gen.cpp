@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeSMG() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USMG, 1997577910);
+	IMPLEMENT_CLASS(USMG, 2977430873);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USMG(Z_Construct_UClass_USMG, &USMG::StaticClass, TEXT("/Script/FPS"), TEXT("USMG"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USMG);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

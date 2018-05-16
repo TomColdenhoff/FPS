@@ -36,6 +36,8 @@ public:
 	void Reload();
 	void ChangeWeaponMode();
 
+	void ChangeWidget(TSubclassOf<class UUserWidget> NewWidget);
+
 	template<typename T> void AddMainWeapon();
 
 	bool GetIsRunning() { return m_IsRunning; }
@@ -49,13 +51,19 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player State")
 	bool IsReloading = false;
 
-
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player")
+	class UBaseWeapon* CurrentWeapon;
 
 private:
 
+	UPROPERTY(EditDefaultsOnly, Category = "HUD")
+	TSubclassOf<UUserWidget> m_DefaultPlayerHUD;
+
+	UPROPERTY()
+	UUserWidget* m_CurrentHUD;
+
 	bool m_IsRunning = false;
 
-	class UBaseWeapon* m_CurrentWeapon;
+
 	
 };

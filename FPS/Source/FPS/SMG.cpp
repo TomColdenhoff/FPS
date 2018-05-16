@@ -45,6 +45,7 @@ void USMG::Fire()
 		GetWorld()->GetTimerManager().SetTimer(m_BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
 		break;
 	case EWeaponMode::Auto:
+		FireBullet();
 		GetWorld()->GetTimerManager().SetTimer(m_BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
 		break;
 	default:
@@ -68,6 +69,7 @@ bool USMG::Reload()
 	{
 		AmmoInClip += difference;
 		AmmoOutOfClip -= difference;
+		OnAmmoChange.Broadcast(AmmoInClip, AmmoOutOfClip);
 		return true;
 	}
 	else
@@ -76,9 +78,7 @@ bool USMG::Reload()
 		AmmoOutOfClip = 0;
 	}
 
-
-	UE_LOG(LogTemp, Warning, TEXT("Reload"));
-
+	OnAmmoChange.Broadcast(AmmoInClip, AmmoOutOfClip);
 	return false;
 }
 
@@ -124,4 +124,6 @@ void USMG::FireBullet()
 			ShotBulletsInBurst = 0;
 		}
 	}
+
+	OnAmmoChange.Broadcast(AmmoInClip, AmmoOutOfClip);
 }
