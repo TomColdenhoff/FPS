@@ -9,3 +9,8 @@ UBaseWeapon::UBaseWeapon()
 {
 
 }
+
+void UBaseWeapon::GetAmmoUpdate()
+{
+	OnAmmoChange.Broadcast(AmmoInClip, AmmoOutOfClip);
+}

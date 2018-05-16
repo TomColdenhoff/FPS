@@ -7,6 +7,8 @@
 #include "Runtime/Engine/Classes/Animation/AnimInstance.h"
 #include "Runtime/Engine/Classes/Animation/AnimBlueprint.h"
 #include "Runtime/Engine/Public/TimerManager.h"
+#include "Runtime/Engine/Classes/Components/AudioComponent.h"
+#include "Runtime/Engine/Classes/Engine/SkeletalMeshSocket.h"
 
 USMG::USMG()
 {
@@ -26,6 +28,13 @@ USMG::USMG()
 
 	SetRelativeLocation(FVector(40, 10, -20));
 	SetRelativeRotation(FRotator(0, -90, 0));
+
+	m_AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio Component"));
+	if (m_AudioComponent != nullptr)
+	{
+		m_AudioComponent->AttachTo(this, FName("Weapon Front"));
+		//m_AudioComponent->Set
+	}
 }
 
 void USMG::BeginPlay()

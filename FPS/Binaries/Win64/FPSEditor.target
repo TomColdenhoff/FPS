@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPS-4113.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPS-5625.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPS-4113.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPS-5625.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-FPS-4113.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-FPS-5625.lib",
 			"Type": "ImportLibrary"
 		},
 		{

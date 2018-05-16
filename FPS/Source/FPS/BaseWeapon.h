@@ -41,6 +41,9 @@ public:
 	virtual bool Reload() { return false; }
 	virtual void ChangeWeaponMode() {}
 
+	UFUNCTION(BlueprintCallable, Category = "Weapon Info")
+	void GetAmmoUpdate();
+
 	int GetAmmoInClip() const { return AmmoInClip; }
 	int GetAmmoOutOfClip() const { return AmmoOutOfClip; }
 	EWeaponMode GetWeaponMode() const { return CurrentWeaponMode; }

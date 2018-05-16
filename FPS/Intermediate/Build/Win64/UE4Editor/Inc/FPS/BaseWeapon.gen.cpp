@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 	FPS_API UClass* Z_Construct_UClass_UBaseWeapon_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	FPS_API UFunction* Z_Construct_UFunction_UBaseWeapon_GetAmmoUpdate();
 // End Cross Module References
 	UFunction* Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature()
 	{
@@ -47,6 +48,27 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 	}
 	void UBaseWeapon::StaticRegisterNativesUBaseWeapon()
 	{
+		UClass* Class = UBaseWeapon::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetAmmoUpdate", &UBaseWeapon::execGetAmmoUpdate },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_UBaseWeapon_GetAmmoUpdate()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Weapon Info" },
+				{ "ModuleRelativePath", "BaseWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UBaseWeapon, "GetAmmoUpdate", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UBaseWeapon_NoRegister()
 	{
@@ -61,11 +83,10 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 				(UObject* (*)())Z_Construct_UClass_USkeletalMeshComponent,
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
-#if WITH_EDITOR
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature, "AmmoChanged__DelegateSignature" }, // 3244354047
+				{ &Z_Construct_UFunction_UBaseWeapon_GetAmmoUpdate, "GetAmmoUpdate" }, // 3155388035
 			};
-#endif //WITH_EDITOR
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "BlueprintSpawnableComponent", "" },
@@ -91,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 				&UBaseWeapon::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00B01080u,
-				IF_WITH_EDITOR(FuncInfo, nullptr), IF_WITH_EDITOR(ARRAY_COUNT(FuncInfo), 0),
+				FuncInfo, ARRAY_COUNT(FuncInfo),
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -102,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBaseWeapon, 1931612262);
+	IMPLEMENT_CLASS(UBaseWeapon, 2403678215);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBaseWeapon(Z_Construct_UClass_UBaseWeapon, &UBaseWeapon::StaticClass, TEXT("/Script/FPS"), TEXT("UBaseWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBaseWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

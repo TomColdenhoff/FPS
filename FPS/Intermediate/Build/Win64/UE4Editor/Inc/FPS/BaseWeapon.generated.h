@@ -28,8 +28,28 @@ static inline void FAmmoChanged_DelegateWrapper(const FMulticastScriptDelegate& 
 }
 
 
-#define FPS_Source_FPS_BaseWeapon_h_22_RPC_WRAPPERS
-#define FPS_Source_FPS_BaseWeapon_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define FPS_Source_FPS_BaseWeapon_h_22_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAmmoUpdate) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetAmmoUpdate(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FPS_Source_FPS_BaseWeapon_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAmmoUpdate) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetAmmoUpdate(); \
+		P_NATIVE_END; \
+	}
+
+
 #define FPS_Source_FPS_BaseWeapon_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBaseWeapon(); \

@@ -36,6 +36,8 @@ private:
 
 	FTimerHandle m_BulletTimerHandle;
 
+	UAudioComponent* m_AudioComponent;
+
 	
 	
 };

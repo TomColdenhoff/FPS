@@ -2,18 +2,18 @@
   Creating makefile for hot reloading FPSEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Parsing headers for FPSEditor
-    Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSEditor in 10.2346768 seconds
+    Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSEditor in 7.6383557 seconds
   Performing 8 actions (4 in parallel)
-  FPSPlayer.cpp
   BaseWeapon.gen.cpp
-  SMG.cpp
   BaseWeapon.cpp
+  FPSPlayer.cpp
+  SMG.cpp
   FPS.init.gen.cpp
   SMG.gen.cpp
-  [7/8] Link UE4Editor-FPS-4113.dll
-  [8/8] Link UE4Editor-FPS-4113.lib
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4113.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4113.exp
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4113.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4113.suppressed.exp
+  [7/8] Link UE4Editor-FPS-5625.dll
+  [8/8] Link UE4Editor-FPS-5625.lib
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-5625.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-5625.exp
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-5625.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-5625.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 23.43 seconds (Local executor: 7.65 seconds)
+  Total build time: 15.51 seconds (Local executor: 3.12 seconds)
