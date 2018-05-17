@@ -9,6 +9,13 @@
 #include "Runtime/Engine/Public/TimerManager.h"
 #include "Runtime/Engine/Classes/Components/AudioComponent.h"
 #include "Runtime/Engine/Classes/Engine/SkeletalMeshSocket.h"
+#include "Runtime/Engine/Classes/Engine/World.h"
+#include "Runtime/Engine/Public/DrawDebugHelpers.h"
+#include "Dummy.h"
+#include "Runtime/Engine/Classes/GameFramework/PlayerController.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+#include "Runtime/Engine/Classes/Camera/PlayerCameraManager.h"
+#include "Runtime/Engine/Classes/Camera/CameraComponent.h"
 
 USMG::USMG()
 {
@@ -33,7 +40,22 @@ USMG::USMG()
 	if (m_AudioComponent != nullptr)
 	{
 		m_AudioComponent->AttachTo(this, FName("Weapon Front"));
-		//m_AudioComponent->Set
+		
+		ConstructorHelpers::FObjectFinder<USoundBase> gunShot(TEXT("SoundBase'/Game/Sound/SFX/SMG/Silenced_SMG_Shot.Silenced_SMG_Shot'"));
+		ConstructorHelpers::FObjectFinder<USoundBase> emptyGunShot(TEXT("SoundBase'/Game/Sound/SFX/SMG/Empty_SMG_Shot.Empty_SMG_Shot'"));
+
+		if (gunShot.Object != nullptr)
+			m_GunShotSound = gunShot.Object;
+		else
+			UE_LOG(LogTemp, Warning, TEXT("nullptr"));
+
+		if (emptyGunShot.Object != nullptr)
+			m_GunEmptySound = emptyGunShot.Object;
+		else
+			UE_LOG(LogTemp, Warning, TEXT("nullptr"));
+
+		m_AudioComponent->SetSound(m_GunShotSound);
+		m_AudioComponent->bAutoActivate = false;
 	}
 }
 
@@ -101,6 +123,13 @@ void USMG::ChangeWeaponMode()
 	UE_LOG(LogTemp, Warning, TEXT("Change State"));
 }
 
+void USMG::SetValues(int32 ViewportSizeX, int32 ViewportSizeY, UCameraComponent* CameraComponent)
+{
+	m_ViewportSizeX = ViewportSizeX;
+	m_ViewportSizeY = ViewportSizeY;
+	m_CameraComponent = CameraComponent;
+}
+
 
 void USMG::SetDefaultValues()
 {
@@ -115,12 +144,37 @@ void USMG::FireBullet()
 	if (AmmoInClip > 0)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Fired Bullet"));
-		//TODO play sound
+
+		FHitResult hitResult;
+		FVector cameraPosition = m_CameraComponent->GetComponentLocation();
+		FVector CameraDirection = m_CameraComponent->GetForwardVector();
+		
+		if (GetWorld()->LineTraceSingleByChannel(hitResult, cameraPosition, (cameraPosition + (CameraDirection * 2000)), ECC_Visibility))
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Camera Hit"));
+			FVector weaponDirection = hitResult.Location - GetSocketLocation(FName("Weapon Front"));
+			if (GetWorld()->LineTraceSingleByChannel(hitResult, GetSocketLocation(FName("Weapon Front")), (weaponDirection * 2000.0f), ECC_Visibility))
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Weapon Hit"));
+				DrawDebugLine(GetWorld(), GetSocketLocation(FName("Weapon Front")), (weaponDirection * 2000.0f), FColor::Green, false, 5.0f);
+				ADummy* dummy = Cast<ADummy>(hitResult.Actor);
+
+				if (dummy != nullptr)
+					dummy->DamageTarget(50.0f);
+			}
+		}
+
+
+		m_AudioComponent->Stop();
+		m_AudioComponent->SetSound(m_GunShotSound);
+		m_AudioComponent->Play();
 		AmmoInClip--;
 	}
 	else
 	{
-		//TODO play empty sound
+		m_AudioComponent->Stop();
+		m_AudioComponent->SetSound(m_GunEmptySound);
+		m_AudioComponent->Play();
 		GetWorld()->GetTimerManager().ClearTimer(m_BulletTimerHandle);
 		ShotBulletsInBurst = 0;
 	}

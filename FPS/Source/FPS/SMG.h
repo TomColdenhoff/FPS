@@ -21,6 +21,8 @@ public:
 	virtual void ReleaseFire() override;
 	virtual bool Reload() override;
 	virtual void ChangeWeaponMode() override;
+	virtual void SetValues(int32 ViewportSizeX, int32 ViewportSizeY, UCameraComponent* CameraComponent) override;
+
 
 protected:
 	virtual void BeginPlay() override;
@@ -37,7 +39,11 @@ private:
 	FTimerHandle m_BulletTimerHandle;
 
 	UAudioComponent* m_AudioComponent;
+	USoundBase* m_GunShotSound;
+	USoundBase* m_GunEmptySound;
 
+	int32 m_ViewportSizeX, m_ViewportSizeY;
+	UCameraComponent* m_CameraComponent;
 	
 	
 };

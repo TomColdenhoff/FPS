@@ -40,6 +40,7 @@ public:
 	virtual void ReleaseFire() {}
 	virtual bool Reload() { return false; }
 	virtual void ChangeWeaponMode() {}
+	virtual void SetValues(int32 ViewportSizeX, int32 ViewportSizeY, class UCameraComponent* CameraComponent) {}
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon Info")
 	void GetAmmoUpdate();

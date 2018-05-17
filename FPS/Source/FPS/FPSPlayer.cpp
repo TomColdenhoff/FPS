@@ -9,6 +9,8 @@
 #include "SMG.h"
 #include <typeinfo>
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
+#include "Runtime/Engine/Classes/GameFramework/PlayerController.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 
 // Sets default values
@@ -31,6 +33,11 @@ void AFPSPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	ChangeWidget(m_DefaultPlayerHUD);
+
+	int32 screenX, screenY;
+	UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetViewportSize(screenX, screenY);
+
+	CurrentWeapon->SetValues(screenX, screenY, CameraComponent);
 }
 
 // Called every frame

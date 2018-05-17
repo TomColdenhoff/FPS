@@ -1,0 +1,1431 @@
+﻿Log file open, 05/17/18 19:37:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1552952568) SRandInit(1552952568).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.404393
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogConfig: Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.064s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Binaries/Win64/UE4Editor-FPS-8647.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Tom-Laptop (192.168.178.29:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.17-17.37.06:763][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.17-17.37.06:763][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.17-17.37.06:778][  0]LogInit: Computer: TOM-LAPTOP
+[2018.05.17-17.37.06:778][  0]LogInit: User: tomco
+[2018.05.17-17.37.06:778][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.17-17.37.06:778][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.05.17-17.37.06:779][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.17-17.37.06:779][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.17-17.37.06:779][  0]LogMemory: Process Physical Memory: 275.80 MB used, 275.80 MB peak
+[2018.05.17-17.37.06:779][  0]LogMemory: Process Virtual Memory: 266.12 MB used, 266.12 MB peak
+[2018.05.17-17.37.06:779][  0]LogMemory: Physical Memory: 6809.32 MB used,  1281.20 MB free, 8090.52 MB total
+[2018.05.17-17.37.06:779][  0]LogMemory: Virtual Memory: 689.55 MB used,  1281.20 MB free, 134217728.00 MB total
+[2018.05.17-17.37.06:992][  0]LogInit: Using OS detected language (en-US).
+[2018.05.17-17.37.06:992][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.17-17.37.07:010][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.17-17.37.07:635][  0]LogStreaming: Display: Took  0.644s to EndInitTextLocalization.
+[2018.05.17-17.37.07:637][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.17-17.37.07:726][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.17-17.37.07:726][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.17-17.37.08:196][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.17-17.37.08:266][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.05.17-17.37.08:266][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.17-17.37.08:277][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.05.17-17.37.08:277][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.17-17.37.08:282][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.17-17.37.08:282][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.17-17.37.08:282][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.17-17.37.08:299][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.17-17.37.08:299][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.05.17-17.37.08:299][  0]LogWindows: EnumDisplayDevices:
+[2018.05.17-17.37.08:299][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.05.17-17.37.08:299][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.05.17-17.37.08:299][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.05.17-17.37.08:300][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.17-17.37.08:300][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.05.17-17.37.08:300][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.17-17.37.08:300][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.17-17.37.08:300][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.05.17-17.37.08:337][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.05.17-17.37.08:337][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.17-17.37.08:337][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.17-17.37.08:390][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.17-17.37.08:404][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../SpareTime/Unreal/FPS/FPS/Intermediate/Shaders/WorkingDirectory/2068/).
+[2018.05.17-17.37.08:405][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomco/AppData/Local/Temp/UnrealShaderWorkingDir/E169F1D1492A307F45828081351C0C22/'.
+[2018.05.17-17.37.08:865][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.17-17.37.08:883][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.17-17.37.08:903][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.17-17.37.08:920][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.17-17.37.08:944][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.17-17.37.08:962][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.17-17.37.08:981][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.17-17.37.09:003][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.17-17.37.09:015][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.17-17.37.09:039][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.17-17.37.09:060][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.17-17.37.09:081][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.17-17.37.09:105][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.17-17.37.09:126][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.17-17.37.09:147][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.17-17.37.09:192][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.17-17.37.09:193][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.17-17.37.09:214][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.17-17.37.09:216][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.17-17.37.09:270][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.17-17.37.09:286][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.17-17.37.09:303][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.17-17.37.09:321][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.17-17.37.09:336][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.17-17.37.09:353][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.17-17.37.09:353][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.17-17.37.09:558][  0]LogXGEController: Cleaning working directory: C:/Users/tomco/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.17-17.37.09:558][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.17-17.37.09:559][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.17-17.37.09:559][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.17-17.37.10:738][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.17-17.37.11:208][  0]LogDerivedDataCache: Loaded boot cache 0.47s 75MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.17-17.37.11:208][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.17-17.37.11:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.17-17.37.11:209][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.17-17.37.11:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.17-17.37.11:209][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.17-17.37.11:240][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.17-17.37.11:254][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.17-17.37.11:254][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.17-17.37.11:254][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.17-17.37.11:279][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.17-17.37.11:288][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.17-17.37.11:295][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.17-17.37.11:295][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.17-17.37.12:030][  0]LogAssetRegistry: FAssetRegistry took 0.0378 seconds to start up
+[2018.05.17-17.37.12:705][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.17-17.37.13:098][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.17-17.37.13:111][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.17-17.37.13:113][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.17-17.37.13:113][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.17-17.37.13:113][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.17-17.37.13:113][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.17-17.37.13:216][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.05.17-17.37.14:309][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.105178 seconds
+[2018.05.17-17.37.14:318][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.17-17.37.14:318][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.17-17.37.14:318][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.17-17.37.18:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.17-17.37.18:330][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.17-17.37.18:684][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.700244ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.05.17-17.37.18:739][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020f33382660, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.05.17-17.37.18:842][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020f33382660, Size=80
+[2018.05.17-17.37.18:842][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020f33a47740, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.05.17-17.37.18:899][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020f33aadfd0, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.05.17-17.37.19:210][  0]SourceControl: Source control is disabled
+[2018.05.17-17.37.19:210][  0]SourceControl: Source control is disabled
+[2018.05.17-17.37.19:249][  0]SourceControl: Source control is disabled
+[2018.05.17-17.37.19:270][  0]SourceControl: Source control is disabled
+[2018.05.17-17.37.20:567][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.17-17.37.20:740][  0]LogOcInput: OculusInput pre-init called
+[2018.05.17-17.37.20:928][  0]LogEngine: Initializing Engine...
+[2018.05.17-17.37.20:991][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.05.17-17.37.20:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.17-17.37.21:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2018.05.17-17.37.21:403][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.17-17.37.21:448][  0]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-17.37.21:487][  0]LogInit: FAudioDevice initialized.
+[2018.05.17-17.37.21:589][  0]LogDerivedDataCache: Saved boot cache 0.10s 75MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.17-17.37.21:607][  0]LogInit: Texture streaming: Enabled
+[2018.05.17-17.37.21:639][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.17-17.37.21:676][  0]LogInit: Transaction tracking system initialized
+[2018.05.17-17.37.21:780][  0]BlueprintLog: New page: Editor Load
+[2018.05.17-17.37.22:105][  0]LocalizationService: Localization service is disabled
+[2018.05.17-17.37.22:358][  0]LogConsoleResponse: Display: 
+[2018.05.17-17.37.22:650][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/' took 0.01s
+[2018.05.17-17.37.22:650][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.17-17.37.22:650][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.17-17.37.22:650][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.17-17.37.22:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.17-17.37.22:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.17-17.37.23:233][  0]SourceControl: Source control is disabled
+[2018.05.17-17.37.23:237][  0]Cmd: MAP LOAD FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.17-17.37.23:240][  0]LightingResults: New page: Lighting Build
+[2018.05.17-17.37.23:259][  0]MapCheck: New page: Map Check
+[2018.05.17-17.37.23:259][  0]LightingResults: New page: Lighting Build
+[2018.05.17-17.37.23:288][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020f33a47740, Size=80
+[2018.05.17-17.37.23:602][  0]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-17.37.23:645][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.17-17.37.23:694][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.17-17.37.23:741][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.277ms to complete.
+[2018.05.17-17.37.23:741][  0]LogFileHelpers: Loading map 'TestMap' took 0.506
+[2018.05.17-17.37.24:060][  0]LogCollectionManager: Loaded 0 collections in 0.001534 seconds
+[2018.05.17-17.37.24:141][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.05.17-17.37.24:141][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Developers/tomco/Collections/' took 0.01s
+[2018.05.17-17.37.24:141][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Collections/' took 0.01s
+[2018.05.17-17.37.24:141][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.17-17.37.24:158][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-17.37.24:178][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.17-17.37.24:402][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.17-17.37.26:489][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.17-17.37.26:544][  0]LogSlate: Took 0.002498 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.17-17.37.26:554][  0]LogSlate: Took 0.002637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.17-17.37.26:573][  0]LogSlate: Took 0.002306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.17-17.37.26:759][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPS
+[2018.05.17-17.37.26:759][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.17-17.37.26:759][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2018.05.17-17.37.26:759][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.17-17.37.26:759][  0]LogTemp: BranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries
+[2018.05.17-17.37.26:759][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tomco\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.17-17.37.26:759][  0]LogRenderer: Reallocating scene render targets to support 908x580 Format 10 NumSamples 1 (Frame:1).
+[2018.05.17-17.37.27:046][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.17-17.37.27:047][  0]LogLoad: (Engine Initialization) Total time: 26.25 seconds
+[2018.05.17-17.37.27:047][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.17-17.37.27:455][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.17-17.37.27:527][  0]LogSlate: Took 0.003006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.17-17.37.28:082][  2]LogAssetRegistry: Asset discovery search completed in 16.0782 seconds
+[2018.05.17-17.37.28:093][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.17-17.37.28:093][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001113 seconds (updated 0 objects)
+[2018.05.17-17.37.28:399][  3]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.17-17.37.31:660][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.37.31:812][193]Candidate modules for hot reload:
+[2018.05.17-17.37.31:812][193]  FPS
+[2018.05.17-17.37.31:812][193]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,725 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-17.37.31:817][193]Warning: Starting HotReload took  0.1s.
+[2018.05.17-17.37.37:571][533]LogEditorViewport: Clicking on Actor (LMB): Dummy (Dummy1)
+[2018.05.17-17.38.00:097][876]CompilerResultsLog: New page: Compilation - May 17, 2018, 9:38:00 PM
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Creating makefile for hot reloading FPS (ini files are newer than UBTMakefile)
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: SMG.cpp
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(38) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(62) : error C2338: Invalid argument(s) passed to FMsg::Logf_Internal
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(143) : note: see reference to function template instantiation 'void FMsg::Logf_Internal<wchar_t[10],FString>(const ANSICHAR *,int32,const FName &,ELogVerbosity::Type,const FmtType (&),FString)' being compiled
+[2018.05.17-17.38.00:099][876]CompilerResultsLog:         with
+[2018.05.17-17.38.00:099][876]CompilerResultsLog:         [
+[2018.05.17-17.38.00:099][876]CompilerResultsLog:             FmtType=wchar_t [10]
+[2018.05.17-17.38.00:099][876]CompilerResultsLog:         ]
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(64) : error C4840: non-portable use of class 'FString' as an argument to a variadic function
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(64) : note: 'FString::FString' is non-trivial
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(73) : note: see declaration of 'FString::FString'
+[2018.05.17-17.38.00:099][876]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(64) : note: the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+[2018.05.17-17.38.00:100][876]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h(9) : note: see declaration of 'FString'
+[2018.05.17-17.38.00:100][876]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-725.dll
+[2018.05.17-17.38.00:100][876]CompilerResultsLog: Total build time: 27.89 seconds (Local executor: 0.00 seconds)
+[2018.05.17-17.38.00:100][876]LogMainFrame: MainFrame: Module compiling took 28.298 seconds
+[2018.05.17-17.38.00:100][876]Warning: HotReload failed, recompile failed
+[2018.05.17-17.38.01:122][931]Cmd: SELECT NONE
+[2018.05.17-17.38.02:218][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.38.36:865][885]Candidate modules for hot reload:
+[2018.05.17-17.38.36:865][885]  FPS
+[2018.05.17-17.38.36:865][885]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,4659 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-17.38.36:868][885]Warning: Starting HotReload took  0.0s.
+[2018.05.17-17.38.43:385][276]CompilerResultsLog: New page: Compilation - May 17, 2018, 9:38:43 PM
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: SMG.cpp
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(38) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: [2/3] Link UE4Editor-FPS-4659.dll
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: [3/3] Link UE4Editor-FPS-4659.lib
+[2018.05.17-17.38.43:386][276]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4659.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4659.exp
+[2018.05.17-17.38.43:386][276]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4659.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4659.suppressed.exp
+[2018.05.17-17.38.43:386][276]CompilerResultsLog: Total build time: 6.09 seconds (Local executor: 4.45 seconds)
+[2018.05.17-17.38.43:386][276]LogMainFrame: MainFrame: Module compiling took 6.525 seconds
+[2018.05.17-17.38.43:438][276]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0011 seconds. Added 6 classes and 2 folders.
+[2018.05.17-17.38.43:441][276]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-17.38.43:559][276]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-17.38.43:564][276]Display: HotReload took  6.7s.
+[2018.05.17-17.38.46:446][440]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-17.38.46:471][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-17.38.46:475][440]PIE: New page: PIE session: TestMap (May 17, 2018, 9:38:46 PM)
+[2018.05.17-17.38.46:477][440]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-17.38.46:484][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006885s)
+[2018.05.17-17.38.46:485][440]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-17.38.46:485][440]LogPlayLevel: PIE: World Init took: (0.001523s)
+[2018.05.17-17.38.46:486][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.008752s)
+[2018.05.17-17.38.46:507][440]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-17.38.46:539][440]LogInit: FAudioDevice initialized.
+[2018.05.17-17.38.46:607][440]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020f3d9dc950, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.05.17-17.38.46:627][440]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020f3d9dc950, Size=104
+[2018.05.17-17.38.46:627][440]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020f3d9dc950, Size=104, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_0:ExecuteUbergraph_BP_InGameGUI
+[2018.05.17-17.38.46:634][440]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020f2bca1c90, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.05.17-17.38.46:656][440]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-17.38.46:673][440]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-19.38.46
+[2018.05.17-17.38.46:679][440]LogWorld: Bringing up level for play took: 0.006001
+[2018.05.17-17.38.46:743][440]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.05.17-17.38.47:248][440]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.466 s
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: === Handled ensure: ===
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: 
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: Ensure condition failed: Component->HasBegunPlay() [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3129]
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: Failed to route BeginPlay (SMG /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_FPSPlayer_C_0.CurrentWeaponMesh)
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: Stack: 
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x000000004FE7B706 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x000000004FBDAE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x000000004FBEECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x0000000045F3A2D5 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x000000007BCF47DF UE4Editor-FPS-4659.dll!AFPSPlayer::BeginPlay() [d:\sparetime\unreal\fps\fps\source\fps\fpsplayer.cpp:33]
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x0000000045F472FB UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x00000000471FAE33 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x00000000466BF731 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x00000000471E414E UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.38.47:248][440]LogOutputDevice: Error: [Callstack] 0x00000000466E443E UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x0000000044FE27E0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x0000000045001246 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x000000004501BBEF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x0000000044A8C961 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x0000000045329626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x00000000DEFE5EAC UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x00000000DEFF6BD0 UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x00000000DEFF6C4A UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x00000000DF004177 UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x00000000DF005B87 UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x00000000A0301FE4 KERNEL32.DLL!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: [Callstack] 0x00000000A268F061 ntdll.dll!UnknownFunction []
+[2018.05.17-17.38.47:249][440]LogOutputDevice: Error: 
+[2018.05.17-17.38.47:252][440]LogStats:                SubmitErrorReport -  0.000 s
+[2018.05.17-17.38.48:392][440]LogStats:                    SendNewReport -  1.140 s
+[2018.05.17-17.38.48:392][440]LogStats:             FDebug::EnsureFailed -  1.612 s
+[2018.05.17-17.38.48:409][440]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 2.324
+[2018.05.17-17.38.48:579][441]LogSlate: Took 0.004651 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.05.17-17.38.55:402][845]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.38.55:402][845]LogTemp: Warning: start: X=95.239 Y=112.515 Z=115.218
+[2018.05.17-17.38.55:402][845]LogTemp: Warning: end: X=1614.599 Y=-1188.079 Z=115.218
+[2018.05.17-17.38.55:402][845]LogTemp: Warning: Fire
+[2018.05.17-17.39.02:545][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.39.20:380][283]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.016 s
+[2018.05.17-17.39.20:380][283]LogOutputDevice: Error: === Handled ensure: ===
+[2018.05.17-17.39.20:380][283]LogOutputDevice: Error: 
+[2018.05.17-17.39.20:380][283]LogOutputDevice: Error: Ensure condition failed: bHasBegunPlay [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 1004]
+[2018.05.17-17.39.20:380][283]LogOutputDevice: Error: Failed to route BeginPlay (SMG /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_FPSPlayer_C_0.CurrentWeaponMesh)
+[2018.05.17-17.39.20:380][283]LogOutputDevice: Error: Stack: 
+[2018.05.17-17.39.20:380][283]LogOutputDevice: Error: [Callstack] 0x000000004FE7B706 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-17.39.20:381][283]LogOutputDevice: Error: [Callstack] 0x000000004FBDAE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-17.39.20:381][283]LogOutputDevice: Error: [Callstack] 0x000000004FBEECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-17.39.20:381][283]LogOutputDevice: Error: [Callstack] 0x00000000463A1E2C UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.39.20:381][283]LogOutputDevice: Error: [Callstack] 0x0000000045F6EC9B UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.39.20:381][283]LogOutputDevice: Error: [Callstack] 0x0000000045F7E840 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.39.20:381][283]LogOutputDevice: Error: [Callstack] 0x0000000045F794A7 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.39.20:381][283]LogOutputDevice: Error: [Callstack] 0x0000000046C2F676 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-17.39.20:382][283]LogOutputDevice: Error: [Callstack] 0x000000004F687192 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.05.17-17.39.20:382][283]LogOutputDevice: Error: [Callstack] 0x0000000042F03485 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.05.17-17.39.20:382][283]LogOutputDevice: Error: [Callstack] 0x0000000042F039C5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.05.17-17.39.20:382][283]LogOutputDevice: Error: [Callstack] 0x0000000042EB5030 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.05.17-17.39.20:382][283]LogOutputDevice: Error: [Callstack] 0x0000000042EB9C67 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.05.17-17.39.20:382][283]LogOutputDevice: Error: [Callstack] 0x000000004F0A3B20 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:382][283]LogOutputDevice: Error: [Callstack] 0x000000004F099031 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:383][283]LogOutputDevice: Error: [Callstack] 0x000000004F06D797 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:383][283]LogOutputDevice: Error: [Callstack] 0x000000004F06F9F7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:383][283]LogOutputDevice: Error: [Callstack] 0x000000004F1050C9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:383][283]LogOutputDevice: Error: [Callstack] 0x000000004F106319 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:383][283]LogOutputDevice: Error: [Callstack] 0x000000004F08CB6B UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:383][283]LogOutputDevice: Error: [Callstack] 0x000000004EEB4D61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:383][283]LogOutputDevice: Error: [Callstack] 0x000000004EE86D2D UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:384][283]LogOutputDevice: Error: [Callstack] 0x000000004EE888F6 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:384][283]LogOutputDevice: Error: [Callstack] 0x000000004EF063CA UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:384][283]LogOutputDevice: Error: [Callstack] 0x000000004EEF99C8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.17-17.39.20:384][283]LogOutputDevice: Error: [Callstack] 0x000000007844E3DA UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.17-17.39.20:384][283]LogOutputDevice: Error: [Callstack] 0x0000000078441B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.17-17.39.20:384][283]LogOutputDevice: Error: [Callstack] 0x000000007845052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.17-17.39.20:385][283]LogOutputDevice: Error: [Callstack] 0x000000007843D679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.17-17.39.20:385][283]LogOutputDevice: Error: [Callstack] 0x00000000A063B85D USER32.dll!UnknownFunction []
+[2018.05.17-17.39.20:385][283]LogOutputDevice: Error: [Callstack] 0x00000000A063B1EF USER32.dll!UnknownFunction []
+[2018.05.17-17.39.20:385][283]LogOutputDevice: Error: [Callstack] 0x0000000078451666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.17-17.39.20:385][283]LogOutputDevice: Error: [Callstack] 0x00000000DEFE5475 UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.39.20:385][283]LogOutputDevice: Error: [Callstack] 0x00000000DEFF6BD0 UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.39.20:385][283]LogOutputDevice: Error: [Callstack] 0x00000000DEFF6C4A UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.39.20:386][283]LogOutputDevice: Error: [Callstack] 0x00000000DF004177 UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.39.20:386][283]LogOutputDevice: Error: [Callstack] 0x00000000DF005B87 UE4Editor.exe!UnknownFunction []
+[2018.05.17-17.39.20:386][283]LogOutputDevice: Error: [Callstack] 0x00000000A0301FE4 KERNEL32.DLL!UnknownFunction []
+[2018.05.17-17.39.20:386][283]LogOutputDevice: Error: [Callstack] 0x00000000A268F061 ntdll.dll!UnknownFunction []
+[2018.05.17-17.39.20:386][283]LogOutputDevice: Error: 
+[2018.05.17-17.39.20:389][283]LogStats:                SubmitErrorReport -  0.000 s
+[2018.05.17-17.39.20:898][283]LogStats:                    SendNewReport -  0.509 s
+[2018.05.17-17.39.20:898][283]LogStats:             FDebug::EnsureFailed -  0.535 s
+[2018.05.17-17.39.45:133][703]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.39.45:133][703]LogTemp: Warning: start: X=143.257 Y=42.242 Z=112.329
+[2018.05.17-17.39.45:133][703]LogTemp: Warning: end: X=-1624.182 Y=-893.791 Z=112.329
+[2018.05.17-17.39.45:133][703]LogTemp: Warning: Fire
+[2018.05.17-17.39.48:203][885]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020f3d9dc950, Size=104
+[2018.05.17-17.40.55:221][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.40.55:335][881]Candidate modules for hot reload:
+[2018.05.17-17.40.55:335][881]  FPS
+[2018.05.17-17.40.55:335][881]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,4698 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-17.40.55:340][881]Warning: Starting HotReload took  0.0s.
+[2018.05.17-17.40.58:439][ 66]LogEditorViewport: Clicking on Actor (LMB): Dummy (Dummy1)
+[2018.05.17-17.40.59:739][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.41.13:082][936]CompilerResultsLog: New page: Compilation - May 17, 2018, 9:41:13 PM
+[2018.05.17-17.41.13:082][936]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-17.41.13:082][936]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-17.41.13:082][936]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-17.41.13:082][936]CompilerResultsLog: SMG.cpp
+[2018.05.17-17.41.13:082][936]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(38) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-17.41.13:083][936]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-17.41.13:083][936]CompilerResultsLog: [2/3] Link UE4Editor-FPS-4698.dll
+[2018.05.17-17.41.13:083][936]CompilerResultsLog: [3/3] Link UE4Editor-FPS-4698.lib
+[2018.05.17-17.41.13:083][936]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4698.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4698.exp
+[2018.05.17-17.41.13:084][936]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4698.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4698.suppressed.exp
+[2018.05.17-17.41.13:084][936]CompilerResultsLog: Total build time: 17.35 seconds (Local executor: 15.49 seconds)
+[2018.05.17-17.41.13:084][936]LogMainFrame: MainFrame: Module compiling took 17.754 seconds
+[2018.05.17-17.41.13:125][936]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2018.05.17-17.41.13:128][936]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-17.41.13:176][936]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-17.41.13:176][936]Display: HotReload took 17.9s.
+[2018.05.17-17.41.15:730][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.41.15:780][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-17.41.15:798][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-17.41.15:799][ 79]PIE: New page: PIE session: TestMap (May 17, 2018, 9:41:15 PM)
+[2018.05.17-17.41.15:799][ 79]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-17.41.15:802][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003124s)
+[2018.05.17-17.41.15:803][ 79]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-17.41.15:804][ 79]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2018.05.17-17.41.15:804][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.005281s)
+[2018.05.17-17.41.15:833][ 79]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-17.41.15:864][ 79]LogInit: FAudioDevice initialized.
+[2018.05.17-17.41.15:898][ 79]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-17.41.15:900][ 79]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-19.41.15
+[2018.05.17-17.41.15:900][ 79]LogWorld: Bringing up level for play took: 0.001068
+[2018.05.17-17.41.15:902][ 79]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.183
+[2018.05.17-17.41.17:362][164]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.41.17:362][164]LogTemp: Warning: start: X=53.177 Y=78.666 Z=138.572
+[2018.05.17-17.41.17:362][164]LogTemp: Warning: end: X=1582.980 Y=-1209.628 Z=138.572
+[2018.05.17-17.41.17:362][164]LogTemp: Warning: Fire
+[2018.05.17-17.41.23:962][560]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.41.23:962][560]LogTemp: Warning: start: X=-108.103 Y=210.103 Z=132.026
+[2018.05.17-17.41.23:962][560]LogTemp: Warning: end: X=1691.743 Y=1082.201 Z=132.026
+[2018.05.17-17.41.23:962][560]LogTemp: Warning: Fire
+[2018.05.17-17.41.29:238][874]LogEditorViewport: Clicking on Actor (LMB): BP_FPSPlayer_C (BP_FPSPlayer)
+[2018.05.17-17.41.34:483][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.41.41:587][528]LogEditorViewport: Clicking on Actor (LMB): Dummy (Dummy1)
+[2018.05.17-17.41.43:856][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.42.13:418][409]LogEditorViewport: Clicking on Actor (LMB): BP_FPSPlayer_C (BP_FPSPlayer)
+[2018.05.17-17.42.16:426][545]LogSlate: Took 0.002362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.17-17.42.18:013][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.42.39:018][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.42.40:147][929]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.40:147][929]LogTemp: Warning: start: X=-134.845 Y=137.299 Z=128.501
+[2018.05.17-17.42.40:147][929]LogTemp: Warning: end: X=1162.519 Y=1659.418 Z=128.501
+[2018.05.17-17.42.40:148][929]LogTemp: Warning: Fire
+[2018.05.17-17.42.40:480][949]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.40:480][949]LogTemp: Warning: start: X=-112.485 Y=133.993 Z=143.507
+[2018.05.17-17.42.40:480][949]LogTemp: Warning: end: X=1194.152 Y=1648.159 Z=143.507
+[2018.05.17-17.42.40:480][949]LogTemp: Warning: Fire
+[2018.05.17-17.42.43:982][159]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.43:982][159]LogTemp: Warning: start: X=-245.497 Y=8.279 Z=138.962
+[2018.05.17-17.42.43:982][159]LogTemp: Warning: end: X=1591.513 Y=799.096 Z=138.962
+[2018.05.17-17.42.43:983][159]LogTemp: Warning: Fire
+[2018.05.17-17.42.45:647][259]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.45:647][259]LogTemp: Warning: start: X=-253.802 Y=204.693 Z=92.103
+[2018.05.17-17.42.45:647][259]LogTemp: Warning: end: X=-894.219 Y=-1690.001 Z=92.103
+[2018.05.17-17.42.45:647][259]LogTemp: Warning: Fire
+[2018.05.17-17.42.46:114][287]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.46:114][287]LogTemp: Warning: start: X=-212.190 Y=228.194 Z=141.771
+[2018.05.17-17.42.46:114][287]LogTemp: Warning: end: X=-20.452 Y=-1762.593 Z=141.771
+[2018.05.17-17.42.46:114][287]LogTemp: Warning: Fire
+[2018.05.17-17.42.46:500][310]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.46:501][310]LogTemp: Warning: start: X=-136.076 Y=238.272 Z=175.511
+[2018.05.17-17.42.46:501][310]LogTemp: Warning: end: X=1779.498 Y=-336.685 Z=175.511
+[2018.05.17-17.42.46:501][310]LogTemp: Warning: Fire
+[2018.05.17-17.42.47:148][349]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.47:148][349]LogTemp: Warning: start: X=2.405 Y=169.980 Z=65.525
+[2018.05.17-17.42.47:148][349]LogTemp: Warning: end: X=-325.198 Y=2142.966 Z=65.525
+[2018.05.17-17.42.47:149][349]LogTemp: Warning: Fire
+[2018.05.17-17.42.47:581][375]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.47:581][375]LogTemp: Warning: start: X=82.642 Y=127.423 Z=65.171
+[2018.05.17-17.42.47:581][375]LogTemp: Warning: end: X=-239.197 Y=2101.357 Z=65.171
+[2018.05.17-17.42.47:581][375]LogTemp: Warning: Fire
+[2018.05.17-17.42.52:199][652]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.52:199][652]LogTemp: Warning: start: X=-3.459 Y=-68.472 Z=88.627
+[2018.05.17-17.42.52:199][652]LogTemp: Warning: end: X=881.561 Y=1725.055 Z=88.627
+[2018.05.17-17.42.52:199][652]LogTemp: Warning: Fire
+[2018.05.17-17.42.55:472][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-17.42.55:522][848]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-17.42.55:539][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-17.42.55:540][848]PIE: New page: PIE session: TestMap (May 17, 2018, 9:42:55 PM)
+[2018.05.17-17.42.55:540][848]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-17.42.55:542][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002322s)
+[2018.05.17-17.42.55:544][848]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-17.42.55:544][848]LogPlayLevel: PIE: World Init took: (0.001638s)
+[2018.05.17-17.42.55:545][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004857s)
+[2018.05.17-17.42.55:562][848]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-17.42.55:596][848]LogInit: FAudioDevice initialized.
+[2018.05.17-17.42.55:630][848]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-17.42.55:632][848]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-19.42.55
+[2018.05.17-17.42.55:632][848]LogWorld: Bringing up level for play took: 0.001080
+[2018.05.17-17.42.55:635][848]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.451
+[2018.05.17-17.42.58:491][ 17]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.42.58:491][ 17]LogTemp: Warning: start: X=-80.002 Y=-81.958 Z=142.001
+[2018.05.17-17.42.58:492][ 17]LogTemp: Warning: end: X=1524.197 Y=-1276.338 Z=142.001
+[2018.05.17-17.42.58:492][ 17]LogTemp: Warning: Fire
+[2018.05.17-17.43.00:459][135]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.00:459][135]LogTemp: Warning: start: X=-163.566 Y=159.365 Z=153.869
+[2018.05.17-17.43.00:460][135]LogTemp: Warning: end: X=162.859 Y=-1813.816 Z=153.869
+[2018.05.17-17.43.00:460][135]LogTemp: Warning: Fire
+[2018.05.17-17.43.01:210][180]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.01:210][180]LogTemp: Warning: start: X=-142.607 Y=93.762 Z=129.212
+[2018.05.17-17.43.01:211][180]LogTemp: Warning: end: X=1287.884 Y=-1303.984 Z=129.212
+[2018.05.17-17.43.01:211][180]LogTemp: Warning: Fire
+[2018.05.17-17.43.01:693][209]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.01:694][209]LogTemp: Warning: start: X=-58.392 Y=20.075 Z=103.197
+[2018.05.17-17.43.01:694][209]LogTemp: Warning: end: X=1767.238 Y=-796.672 Z=103.197
+[2018.05.17-17.43.01:694][209]LogTemp: Warning: Fire
+[2018.05.17-17.43.02:129][235]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.02:129][235]LogTemp: Warning: start: X=41.096 Y=-12.054 Z=100.745
+[2018.05.17-17.43.02:129][235]LogTemp: Warning: end: X=2027.003 Y=-249.067 Z=100.745
+[2018.05.17-17.43.02:129][235]LogTemp: Warning: Fire
+[2018.05.17-17.43.02:477][256]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.02:477][256]LogTemp: Warning: start: X=130.128 Y=-20.014 Z=97.868
+[2018.05.17-17.43.02:477][256]LogTemp: Warning: end: X=2124.448 Y=130.600 Z=97.868
+[2018.05.17-17.43.02:478][256]LogTemp: Warning: Fire
+[2018.05.17-17.43.02:761][273]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.02:761][273]LogTemp: Warning: start: X=198.208 Y=-9.763 Z=96.380
+[2018.05.17-17.43.02:761][273]LogTemp: Warning: end: X=2121.620 Y=538.405 Z=96.380
+[2018.05.17-17.43.02:761][273]LogTemp: Warning: Fire
+[2018.05.17-17.43.03:095][293]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.03:095][293]LogTemp: Warning: start: X=241.848 Y=24.019 Z=91.065
+[2018.05.17-17.43.03:095][293]LogTemp: Warning: end: X=1550.006 Y=1536.872 Z=91.065
+[2018.05.17-17.43.03:095][293]LogTemp: Warning: Fire
+[2018.05.17-17.43.03:331][307]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.03:331][307]LogTemp: Warning: start: X=279.668 Y=69.575 Z=89.361
+[2018.05.17-17.43.03:331][307]LogTemp: Warning: end: X=1350.408 Y=1758.811 Z=89.361
+[2018.05.17-17.43.03:331][307]LogTemp: Warning: Fire
+[2018.05.17-17.43.03:761][333]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.03:761][333]LogTemp: Warning: start: X=311.465 Y=126.051 Z=78.034
+[2018.05.17-17.43.03:761][333]LogTemp: Warning: end: X=1480.501 Y=1748.813 Z=78.034
+[2018.05.17-17.43.03:761][333]LogTemp: Warning: Fire
+[2018.05.17-17.43.04:144][356]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.04:144][356]LogTemp: Warning: start: X=289.262 Y=137.192 Z=113.104
+[2018.05.17-17.43.04:144][356]LogTemp: Warning: end: X=1860.366 Y=1374.782 Z=113.104
+[2018.05.17-17.43.04:145][356]LogTemp: Warning: Fire
+[2018.05.17-17.43.04:494][377]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.04:494][377]LogTemp: Warning: start: X=261.290 Y=129.609 Z=141.871
+[2018.05.17-17.43.04:494][377]LogTemp: Warning: end: X=1556.198 Y=1653.817 Z=141.871
+[2018.05.17-17.43.04:494][377]LogTemp: Warning: Fire
+[2018.05.17-17.43.04:810][396]LogTemp: Warning: Fired Bullet
+[2018.05.17-17.43.04:811][396]LogTemp: Warning: start: X=245.019 Y=93.078 Z=149.756
+[2018.05.17-17.43.04:811][396]LogTemp: Warning: end: X=806.411 Y=2012.671 Z=149.756
+[2018.05.17-17.43.04:811][396]LogTemp: Warning: Fire
+[2018.05.17-17.50.35:261][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Maps/TestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.17-17.50.35:325][105]LogSavePackage: Save=37.33ms
+[2018.05.17-17.50.35:325][105]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/TestMap_Auto12A19869E4524F02463AE45BF3FD87BB1.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Maps/TestMap_Auto1.umap'
+[2018.05.17-17.50.35:328][105]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Maps/TestMap_Auto1.umap
+[2018.05.17-17.50.35:335][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.098
+[2018.05.17-17.50.35:336][105]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.098
+[2018.05.17-18.20.15:228][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.20.15:336][480]Candidate modules for hot reload:
+[2018.05.17-18.20.15:336][480]  FPS
+[2018.05.17-18.20.15:336][480]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,8372 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.20.15:347][480]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.20.41:458][ 47]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:20:41 PM
+[2018.05.17-18.20.41:461][ 47]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.20.41:461][ 47]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.20.41:461][ 47]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.05.17-18.20.41:462][ 47]CompilerResultsLog:   Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.17-18.20.41:463][ 47]CompilerResultsLog: Reflection code generated for FPSEditor in 15.5535712 seconds
+[2018.05.17-18.20.41:463][ 47]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.05.17-18.20.41:463][ 47]CompilerResultsLog: FPSPlayer.cpp
+[2018.05.17-18.20.41:463][ 47]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.20.41:463][ 47]CompilerResultsLog: BaseWeapon.gen.cpp
+[2018.05.17-18.20.41:464][ 47]CompilerResultsLog: BaseWeapon.cpp
+[2018.05.17-18.20.41:464][ 47]CompilerResultsLog: SMG.gen.cpp
+[2018.05.17-18.20.41:464][ 47]CompilerResultsLog: [6/7] Link UE4Editor-FPS-8372.dll
+[2018.05.17-18.20.41:465][ 47]CompilerResultsLog: [7/7] Link UE4Editor-FPS-8372.lib
+[2018.05.17-18.20.41:465][ 47]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8372.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8372.exp
+[2018.05.17-18.20.41:466][ 47]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8372.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8372.suppressed.exp
+[2018.05.17-18.20.41:467][ 47]CompilerResultsLog: Total build time: 25.70 seconds (Local executor: 7.95 seconds)
+[2018.05.17-18.20.41:469][ 47]LogMainFrame: MainFrame: Module compiling took 26.141 seconds
+[2018.05.17-18.20.41:600][ 47]LogClass: Could not find existing class SMG in package /Script/FPS for HotReload, assuming new class
+[2018.05.17-18.20.41:601][ 47]LogClass: Function FireBullet is new.
+[2018.05.17-18.20.41:617][ 47]LogHotReload: Re-instancing FPSPlayer after hot-reload.
+[2018.05.17-18.20.41:859][ 47]LogHotReload: Re-instancing SMG after hot-reload.
+[2018.05.17-18.20.41:915][ 47]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0035 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.20.41:918][ 47]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.20.41:999][ 47]LogContentBrowser: Native class hierarchy populated in 0.0261 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.20.41:999][ 47]Display: HotReload took 26.7s.
+[2018.05.17-18.20.44:353][183]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.20.44:381][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.20.44:384][183]PIE: New page: PIE session: TestMap (May 17, 2018, 10:20:44 PM)
+[2018.05.17-18.20.44:384][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.20.44:393][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008892s)
+[2018.05.17-18.20.44:439][183]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.20.44:439][183]LogPlayLevel: PIE: World Init took: (0.045626s)
+[2018.05.17-18.20.44:439][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.055358s)
+[2018.05.17-18.20.44:461][183]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.20.44:501][183]LogInit: FAudioDevice initialized.
+[2018.05.17-18.20.44:544][183]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.20.44:563][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.20.44
+[2018.05.17-18.20.44:564][183]LogWorld: Bringing up level for play took: 0.012546
+[2018.05.17-18.20.44:578][183]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.493
+[2018.05.17-18.20.46:556][297]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.20.46:556][297]LogTemp: Warning: start: X=36.072 Y=66.588 Z=98.940
+[2018.05.17-18.20.46:556][297]LogTemp: Warning: end: X=2036.072 Y=2066.588 Z=2098.940
+[2018.05.17-18.20.46:570][297]LogTemp: Warning: Fire
+[2018.05.17-18.20.52:581][658]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.20.52:581][658]LogTemp: Warning: start: X=6.375 Y=246.708 Z=103.757
+[2018.05.17-18.20.52:581][658]LogTemp: Warning: end: X=2006.375 Y=2246.708 Z=2103.757
+[2018.05.17-18.20.52:582][658]LogTemp: Warning: Fire
+[2018.05.17-18.20.54:502][773]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.20.54:502][773]LogTemp: Warning: start: X=-3.893 Y=89.180 Z=122.642
+[2018.05.17-18.20.54:502][773]LogTemp: Warning: end: X=1996.107 Y=2089.180 Z=2122.642
+[2018.05.17-18.20.54:503][773]LogTemp: Warning: Fire
+[2018.05.17-18.20.56:069][867]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.20.56:069][867]LogTemp: Warning: start: X=47.668 Y=45.121 Z=121.957
+[2018.05.17-18.20.56:069][867]LogTemp: Warning: end: X=2047.668 Y=2045.121 Z=2121.957
+[2018.05.17-18.20.56:070][867]LogTemp: Warning: Fire
+[2018.05.17-18.20.58:069][987]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.20.58:069][987]LogTemp: Warning: start: X=289.925 Y=84.900 Z=92.840
+[2018.05.17-18.20.58:069][987]LogTemp: Warning: end: X=2289.925 Y=2084.900 Z=2092.840
+[2018.05.17-18.20.58:070][987]LogTemp: Warning: Fire
+[2018.05.17-18.20.59:687][ 84]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.20.59:687][ 84]LogTemp: Warning: start: X=101.376 Y=60.686 Z=119.823
+[2018.05.17-18.20.59:688][ 84]LogTemp: Warning: end: X=2101.376 Y=2060.686 Z=2119.823
+[2018.05.17-18.20.59:688][ 84]LogTemp: Warning: Fire
+[2018.05.17-18.23.54:471][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.23.54:572][140]Candidate modules for hot reload:
+[2018.05.17-18.23.54:572][140]  FPS
+[2018.05.17-18.23.54:572][140]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,4526 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.23.54:577][140]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.23.58:417][371]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:23:58 PM
+[2018.05.17-18.23.58:417][371]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.23.58:418][371]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.23.58:418][371]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-18.23.58:418][371]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.23.58:418][371]CompilerResultsLog: [2/3] Link UE4Editor-FPS-4526.dll
+[2018.05.17-18.23.58:418][371]CompilerResultsLog: [3/3] Link UE4Editor-FPS-4526.lib
+[2018.05.17-18.23.58:418][371]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4526.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4526.exp
+[2018.05.17-18.23.58:418][371]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4526.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-4526.suppressed.exp
+[2018.05.17-18.23.58:419][371]CompilerResultsLog: Total build time: 3.48 seconds (Local executor: 2.63 seconds)
+[2018.05.17-18.23.58:419][371]LogMainFrame: MainFrame: Module compiling took 3.852 seconds
+[2018.05.17-18.23.58:462][371]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0016 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.23.58:464][371]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.23.58:513][371]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.23.58:513][371]Display: HotReload took  4.0s.
+[2018.05.17-18.24.00:763][500]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.24.00:780][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.24.00:780][500]PIE: New page: PIE session: TestMap (May 17, 2018, 10:24:00 PM)
+[2018.05.17-18.24.00:780][500]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.24.00:797][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016645s)
+[2018.05.17-18.24.00:799][500]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.24.00:799][500]LogPlayLevel: PIE: World Init took: (0.001514s)
+[2018.05.17-18.24.00:799][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.018970s)
+[2018.05.17-18.24.00:815][500]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.24.00:846][500]LogInit: FAudioDevice initialized.
+[2018.05.17-18.24.00:878][500]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.24.00:880][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.24.00
+[2018.05.17-18.24.00:880][500]LogWorld: Bringing up level for play took: 0.000843
+[2018.05.17-18.24.00:883][500]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.798
+[2018.05.17-18.24.01:915][559]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.01:915][559]LogTemp: Warning: start: X=42.818 Y=83.007 Z=132.613
+[2018.05.17-18.24.01:915][559]LogTemp: Warning: end: X=2042.818 Y=2083.007 Z=2132.613
+[2018.05.17-18.24.01:915][559]LogTemp: Warning: Fire
+[2018.05.17-18.24.03:515][655]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.03:515][655]LogTemp: Warning: start: X=53.223 Y=74.989 Z=128.124
+[2018.05.17-18.24.03:516][655]LogTemp: Warning: end: X=2053.223 Y=2074.990 Z=2128.124
+[2018.05.17-18.24.03:516][655]LogTemp: Warning: Fire
+[2018.05.17-18.24.12:900][218]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.12:900][218]LogTemp: Warning: start: X=110.746 Y=-96.084 Z=84.344
+[2018.05.17-18.24.12:900][218]LogTemp: Warning: end: X=2110.746 Y=1903.917 Z=2084.344
+[2018.05.17-18.24.12:900][218]LogTemp: Warning: Fire
+[2018.05.17-18.24.14:316][303]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.14:317][303]LogTemp: Warning: start: X=46.866 Y=-134.268 Z=127.267
+[2018.05.17-18.24.14:317][303]LogTemp: Warning: end: X=2046.866 Y=1865.732 Z=2127.267
+[2018.05.17-18.24.14:317][303]LogTemp: Warning: Fire
+[2018.05.17-18.24.14:816][333]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.14:816][333]LogTemp: Warning: start: X=122.888 Y=-134.884 Z=140.353
+[2018.05.17-18.24.14:816][333]LogTemp: Warning: end: X=2122.887 Y=1865.116 Z=2140.353
+[2018.05.17-18.24.14:816][333]LogTemp: Warning: Fire
+[2018.05.17-18.24.15:233][358]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.15:233][358]LogTemp: Warning: start: X=54.165 Y=-158.805 Z=91.116
+[2018.05.17-18.24.15:233][358]LogTemp: Warning: end: X=2054.165 Y=1841.194 Z=2091.116
+[2018.05.17-18.24.15:233][358]LogTemp: Warning: Fire
+[2018.05.17-18.24.15:533][376]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.15:533][376]LogTemp: Warning: start: X=-1.351 Y=-137.032 Z=88.125
+[2018.05.17-18.24.15:533][376]LogTemp: Warning: end: X=1998.649 Y=1862.968 Z=2088.125
+[2018.05.17-18.24.15:534][376]LogTemp: Warning: Fire
+[2018.05.17-18.24.15:783][391]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.15:784][391]LogTemp: Warning: start: X=-24.673 Y=-79.139 Z=82.431
+[2018.05.17-18.24.15:784][391]LogTemp: Warning: end: X=1975.327 Y=1920.861 Z=2082.431
+[2018.05.17-18.24.15:784][391]LogTemp: Warning: Fire
+[2018.05.17-18.24.16:400][428]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.16:400][428]LogTemp: Warning: start: X=-34.112 Y=-75.104 Z=99.284
+[2018.05.17-18.24.16:400][428]LogTemp: Warning: end: X=1965.888 Y=1924.896 Z=2099.284
+[2018.05.17-18.24.16:401][428]LogTemp: Warning: Fire
+[2018.05.17-18.24.17:017][465]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.24.17:017][465]LogTemp: Warning: start: X=-44.842 Y=-25.237 Z=95.316
+[2018.05.17-18.24.17:017][465]LogTemp: Warning: end: X=1955.158 Y=1974.763 Z=2095.316
+[2018.05.17-18.24.17:017][465]LogTemp: Warning: Fire
+[2018.05.17-18.25.03:724][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.25.03:832][693]Candidate modules for hot reload:
+[2018.05.17-18.25.03:833][693]  FPS
+[2018.05.17-18.25.03:833][693]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,6798 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.25.03:837][693]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.25.07:622][921]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:25:07 PM
+[2018.05.17-18.25.07:622][921]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.25.07:622][921]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.25.07:622][921]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-18.25.07:623][921]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.25.07:623][921]CompilerResultsLog: [2/3] Link UE4Editor-FPS-6798.dll
+[2018.05.17-18.25.07:623][921]CompilerResultsLog: [3/3] Link UE4Editor-FPS-6798.lib
+[2018.05.17-18.25.07:623][921]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6798.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6798.exp
+[2018.05.17-18.25.07:623][921]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6798.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6798.suppressed.exp
+[2018.05.17-18.25.07:624][921]CompilerResultsLog: Total build time: 3.46 seconds (Local executor: 2.63 seconds)
+[2018.05.17-18.25.07:624][921]LogMainFrame: MainFrame: Module compiling took 3.796 seconds
+[2018.05.17-18.25.07:675][921]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.25.07:677][921]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.25.07:721][921]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.25.07:721][921]Display: HotReload took  3.9s.
+[2018.05.17-18.25.17:948][525]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.25.17:965][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.25.17:965][525]PIE: New page: PIE session: TestMap (May 17, 2018, 10:25:17 PM)
+[2018.05.17-18.25.17:966][525]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.25.17:970][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003604s)
+[2018.05.17-18.25.17:971][525]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.25.17:972][525]LogPlayLevel: PIE: World Init took: (0.001527s)
+[2018.05.17-18.25.17:972][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.006580s)
+[2018.05.17-18.25.17:990][525]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.25.18:022][525]LogInit: FAudioDevice initialized.
+[2018.05.17-18.25.18:058][525]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.25.18:059][525]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.25.18
+[2018.05.17-18.25.18:061][525]LogWorld: Bringing up level for play took: 0.001803
+[2018.05.17-18.25.18:063][525]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.022
+[2018.05.17-18.25.19:020][580]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.25.19:021][580]LogTemp: Warning: start: X=68.478 Y=-27.675 Z=96.695
+[2018.05.17-18.25.19:021][580]LogTemp: Warning: end: X=7.339 Y=-4.201 Z=154.813
+[2018.05.17-18.25.19:021][580]LogTemp: Warning: Fire
+[2018.05.17-18.25.20:454][666]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.25.20:454][666]LogTemp: Warning: start: X=43.567 Y=77.199 Z=119.851
+[2018.05.17-18.25.20:454][666]LogTemp: Warning: end: X=5.641 Y=7.789 Z=157.408
+[2018.05.17-18.25.20:454][666]LogTemp: Warning: Fire
+[2018.05.17-18.25.24:339][899]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.25.24:339][899]LogTemp: Warning: start: X=-90.548 Y=148.986 Z=118.629
+[2018.05.17-18.25.24:340][899]LogTemp: Warning: end: X=-65.110 Y=223.324 Z=157.274
+[2018.05.17-18.25.24:340][899]LogTemp: Warning: Fire
+[2018.05.17-18.25.30:712][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.25.46:344][178]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.17-18.25.46:503][185]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.17-18.26.10:758][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.26.14:768][615]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.26.14:768][615]LogTemp: Warning: start: X=-59.049 Y=297.687 Z=135.188
+[2018.05.17-18.26.14:768][615]LogTemp: Warning: end: X=-70.871 Y=381.096 Z=159.059
+[2018.05.17-18.26.14:768][615]LogTemp: Warning: Fire
+[2018.05.17-18.26.18:901][863]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.26.18:901][863]LogTemp: Warning: start: X=-80.912 Y=210.124 Z=129.172
+[2018.05.17-18.26.18:901][863]LogTemp: Warning: end: X=-57.071 Y=131.111 Z=158.417
+[2018.05.17-18.26.18:901][863]LogTemp: Warning: Fire
+[2018.05.17-18.26.20:766][975]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.26.20:766][975]LogTemp: Warning: start: X=-74.145 Y=43.273 Z=134.443
+[2018.05.17-18.26.20:766][975]LogTemp: Warning: end: X=-33.237 Y=-30.152 Z=158.980
+[2018.05.17-18.26.20:767][975]LogTemp: Warning: Fire
+[2018.05.17-18.26.21:633][ 27]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.26.21:633][ 27]LogTemp: Warning: start: X=-20.817 Y=55.475 Z=139.731
+[2018.05.17-18.26.21:633][ 27]LogTemp: Warning: end: X=-27.524 Y=-29.551 Z=159.540
+[2018.05.17-18.26.21:633][ 27]LogTemp: Warning: Fire
+[2018.05.17-18.26.27:816][398]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.26.27:816][398]LogTemp: Warning: start: X=-272.936 Y=119.537 Z=130.533
+[2018.05.17-18.26.27:817][398]LogTemp: Warning: end: X=-344.101 Y=76.916 Z=158.563
+[2018.05.17-18.26.27:817][398]LogTemp: Warning: Fire
+[2018.05.17-18.26.28:250][424]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.26.28:250][424]LogTemp: Warning: start: X=-284.398 Y=133.487 Z=127.163
+[2018.05.17-18.26.28:250][424]LogTemp: Warning: end: X=-345.100 Y=78.545 Z=158.201
+[2018.05.17-18.26.28:250][424]LogTemp: Warning: Fire
+[2018.05.17-18.26.29:002][469]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.26.29:002][469]LogTemp: Warning: start: X=-196.479 Y=161.148 Z=141.879
+[2018.05.17-18.26.29:003][469]LogTemp: Warning: end: X=-277.017 Y=134.663 Z=160.243
+[2018.05.17-18.26.29:003][469]LogTemp: Warning: Fire
+[2018.05.17-18.46.40:588][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.46.41:126][320]Candidate modules for hot reload:
+[2018.05.17-18.46.41:126][320]  FPS
+[2018.05.17-18.46.41:126][320]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,7621 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.46.41:130][320]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.47.01:441][539]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:47:01 PM
+[2018.05.17-18.47.01:441][539]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.47.01:441][539]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.47.01:442][539]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.05.17-18.47.01:442][539]CompilerResultsLog:   Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.17-18.47.01:442][539]CompilerResultsLog: Reflection code generated for FPSEditor in 15.2176345 seconds
+[2018.05.17-18.47.01:443][539]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.05.17-18.47.01:443][539]CompilerResultsLog: FPSPlayer.cpp
+[2018.05.17-18.47.01:443][539]CompilerResultsLog: BaseWeapon.cpp
+[2018.05.17-18.47.01:443][539]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.47.01:443][539]CompilerResultsLog: BaseWeapon.gen.cpp
+[2018.05.17-18.47.01:443][539]CompilerResultsLog: SMG.gen.cpp
+[2018.05.17-18.47.01:443][539]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(42) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-18.47.01:444][539]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-18.47.01:444][539]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(127) : error C2511: 'void USMG::SetValues(int32,int32)': overloaded member function not found in 'USMG'
+[2018.05.17-18.47.01:444][539]CompilerResultsLog: Error: d:\sparetime\unreal\fps\fps\source\fps\SMG.h(13) : note: see declaration of 'USMG'
+[2018.05.17-18.47.01:445][539]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(128) : error C2597: illegal reference to non-static member 'USMG::m_ViewportSizeX'
+[2018.05.17-18.47.01:445][539]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(129) : error C2597: illegal reference to non-static member 'USMG::m_ViewportSizeY'
+[2018.05.17-18.47.01:445][539]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\FPSPlayer.cpp(40) : error C2660: 'UBaseWeapon::SetValues': function does not take 2 arguments
+[2018.05.17-18.47.01:445][539]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-7621.dll
+[2018.05.17-18.47.01:446][539]CompilerResultsLog: Total build time: 19.96 seconds (Local executor: 0.00 seconds)
+[2018.05.17-18.47.01:446][539]LogMainFrame: MainFrame: Module compiling took 20.326 seconds
+[2018.05.17-18.47.01:446][539]Warning: HotReload failed, recompile failed
+[2018.05.17-18.48.03:275][524]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.48.03:833][556]Candidate modules for hot reload:
+[2018.05.17-18.48.03:833][556]  FPS
+[2018.05.17-18.48.03:833][556]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,7582 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.48.03:839][556]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.48.19:993][526]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:48:19 PM
+[2018.05.17-18.48.19:994][526]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.48.19:994][526]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.48.19:994][526]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.05.17-18.48.19:994][526]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.48.19:995][526]CompilerResultsLog: FPSPlayer.cpp
+[2018.05.17-18.48.19:995][526]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(42) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-18.48.19:995][526]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-18.48.19:996][526]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(127) : error C2511: 'void USMG::SetValues(int32,int32)': overloaded member function not found in 'USMG'
+[2018.05.17-18.48.19:997][526]CompilerResultsLog: Error: d:\sparetime\unreal\fps\fps\source\fps\SMG.h(13) : note: see declaration of 'USMG'
+[2018.05.17-18.48.19:998][526]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(128) : error C2597: illegal reference to non-static member 'USMG::m_ViewportSizeX'
+[2018.05.17-18.48.19:998][526]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(129) : error C2597: illegal reference to non-static member 'USMG::m_ViewportSizeY'
+[2018.05.17-18.48.19:998][526]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-7582.dll
+[2018.05.17-18.48.19:998][526]CompilerResultsLog: Total build time: 15.74 seconds (Local executor: 0.00 seconds)
+[2018.05.17-18.48.19:999][526]LogMainFrame: MainFrame: Module compiling took 16.172 seconds
+[2018.05.17-18.48.19:999][526]Warning: HotReload failed, recompile failed
+[2018.05.17-18.49.11:059][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.49.11:137][967]Candidate modules for hot reload:
+[2018.05.17-18.49.11:137][967]  FPS
+[2018.05.17-18.49.11:137][967]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,853 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.49.11:143][967]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.49.15:229][213]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:49:15 PM
+[2018.05.17-18.49.15:230][213]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.49.15:230][213]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.49.15:230][213]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-18.49.15:230][213]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.49.15:230][213]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(42) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-18.49.15:231][213]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-18.49.15:231][213]CompilerResultsLog: [2/3] Link UE4Editor-FPS-853.dll
+[2018.05.17-18.49.15:231][213]CompilerResultsLog: [3/3] Link UE4Editor-FPS-853.lib
+[2018.05.17-18.49.15:232][213]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-853.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-853.exp
+[2018.05.17-18.49.15:232][213]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-853.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-853.suppressed.exp
+[2018.05.17-18.49.15:232][213]CompilerResultsLog: Total build time: 3.75 seconds (Local executor: 2.83 seconds)
+[2018.05.17-18.49.15:232][213]LogMainFrame: MainFrame: Module compiling took 4.100 seconds
+[2018.05.17-18.49.15:276][213]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.49.15:279][213]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.49.15:330][213]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.49.15:330][213]Display: HotReload took  4.2s.
+[2018.05.17-18.49.17:428][329]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.49.17:445][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.49.17:445][329]PIE: New page: PIE session: TestMap (May 17, 2018, 10:49:17 PM)
+[2018.05.17-18.49.17:445][329]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.49.17:452][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005996s)
+[2018.05.17-18.49.17:453][329]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.49.17:454][329]LogPlayLevel: PIE: World Init took: (0.001820s)
+[2018.05.17-18.49.17:454][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.008695s)
+[2018.05.17-18.49.17:469][329]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.49.17:501][329]LogInit: FAudioDevice initialized.
+[2018.05.17-18.49.17:537][329]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.49.17:539][329]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.49.17
+[2018.05.17-18.49.17:540][329]LogWorld: Bringing up level for play took: 0.000850
+[2018.05.17-18.49.17:542][329]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.543
+[2018.05.17-18.49.18:435][380]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.18:435][380]LogTemp: Warning: Fire
+[2018.05.17-18.49.19:334][434]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.19:335][434]LogTemp: Warning: Fire
+[2018.05.17-18.49.24:069][718]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.24:069][718]LogTemp: Warning: Fire
+[2018.05.17-18.49.26:769][880]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.26:769][880]LogTemp: Warning: Fire
+[2018.05.17-18.49.28:486][983]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.28:486][983]LogTemp: Warning: Fire
+[2018.05.17-18.49.30:141][ 82]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.30:141][ 82]LogTemp: Warning: Fire
+[2018.05.17-18.49.30:893][127]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.30:893][127]LogTemp: Warning: Fire
+[2018.05.17-18.49.31:457][161]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.31:457][161]LogTemp: Warning: Fire
+[2018.05.17-18.49.31:924][189]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.49.31:924][189]LogTemp: Warning: Fire
+[2018.05.17-18.51.13:350][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.51.16:040][654]Candidate modules for hot reload:
+[2018.05.17-18.51.16:040][654]  FPS
+[2018.05.17-18.51.16:040][654]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,6530 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.51.16:044][654]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.51.24:005][132]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:51:24 PM
+[2018.05.17-18.51.24:006][132]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.51.24:006][132]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.51.24:006][132]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-18.51.24:006][132]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.51.24:006][132]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(42) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-18.51.24:007][132]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-18.51.24:007][132]CompilerResultsLog: [2/3] Link UE4Editor-FPS-6530.dll
+[2018.05.17-18.51.24:007][132]CompilerResultsLog: [3/3] Link UE4Editor-FPS-6530.lib
+[2018.05.17-18.51.24:007][132]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6530.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6530.exp
+[2018.05.17-18.51.24:008][132]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6530.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6530.suppressed.exp
+[2018.05.17-18.51.24:008][132]CompilerResultsLog: Total build time: 7.56 seconds (Local executor: 6.55 seconds)
+[2018.05.17-18.51.24:009][132]LogMainFrame: MainFrame: Module compiling took 7.973 seconds
+[2018.05.17-18.51.24:056][132]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.51.24:059][132]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.51.24:108][132]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.51.24:108][132]Display: HotReload took  8.1s.
+[2018.05.17-18.51.26:242][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.51.26:308][255]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.51.26:328][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.51.26:328][255]PIE: New page: PIE session: TestMap (May 17, 2018, 10:51:26 PM)
+[2018.05.17-18.51.26:328][255]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.51.26:333][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004960s)
+[2018.05.17-18.51.26:335][255]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.51.26:336][255]LogPlayLevel: PIE: World Init took: (0.001893s)
+[2018.05.17-18.51.26:336][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.007833s)
+[2018.05.17-18.51.26:353][255]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.51.26:392][255]LogInit: FAudioDevice initialized.
+[2018.05.17-18.51.26:432][255]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.51.26:433][255]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.51.26
+[2018.05.17-18.51.26:434][255]LogWorld: Bringing up level for play took: 0.001001
+[2018.05.17-18.51.26:437][255]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.352
+[2018.05.17-18.51.27:338][306]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.27:338][306]LogTemp: Warning: Camera Hit
+[2018.05.17-18.51.27:338][306]LogTemp: Warning: Fire
+[2018.05.17-18.51.29:471][434]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.29:471][434]LogTemp: Warning: Camera Hit
+[2018.05.17-18.51.29:471][434]LogTemp: Warning: Fire
+[2018.05.17-18.51.30:921][521]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.30:922][521]LogTemp: Warning: Fire
+[2018.05.17-18.51.31:524][557]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.31:524][557]LogTemp: Warning: Fire
+[2018.05.17-18.51.33:293][663]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.33:293][663]LogTemp: Warning: Camera Hit
+[2018.05.17-18.51.33:293][663]LogTemp: Warning: Fire
+[2018.05.17-18.51.34:907][760]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.34:908][760]LogTemp: Warning: Fire
+[2018.05.17-18.51.35:559][799]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.35:559][799]LogTemp: Warning: Fire
+[2018.05.17-18.51.36:226][839]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.51.36:227][839]LogTemp: Warning: Camera Hit
+[2018.05.17-18.51.36:227][839]LogTemp: Warning: Fire
+[2018.05.17-18.51.38:875][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.51.53:990][108]Candidate modules for hot reload:
+[2018.05.17-18.51.53:990][108]  FPS
+[2018.05.17-18.51.53:990][108]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,7790 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.51.54:017][108]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.51.58:273][364]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:51:58 PM
+[2018.05.17-18.51.58:273][364]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.51.58:273][364]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.51.58:273][364]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-18.51.58:273][364]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.51.58:274][364]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(42) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-18.51.58:274][364]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-18.51.58:274][364]CompilerResultsLog: [2/3] Link UE4Editor-FPS-7790.dll
+[2018.05.17-18.51.58:274][364]CompilerResultsLog: [3/3] Link UE4Editor-FPS-7790.lib
+[2018.05.17-18.51.58:275][364]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-7790.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-7790.exp
+[2018.05.17-18.51.58:275][364]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-7790.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-7790.suppressed.exp
+[2018.05.17-18.51.58:275][364]CompilerResultsLog: Total build time: 3.92 seconds (Local executor: 2.93 seconds)
+[2018.05.17-18.51.58:275][364]LogMainFrame: MainFrame: Module compiling took 4.289 seconds
+[2018.05.17-18.51.58:315][364]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.51.58:318][364]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.51.58:361][364]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.51.58:361][364]Display: HotReload took  4.4s.
+[2018.05.17-18.52.31:946][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.52.32:029][373]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.52.32:048][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.52.32:049][373]PIE: New page: PIE session: TestMap (May 17, 2018, 10:52:32 PM)
+[2018.05.17-18.52.32:050][373]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.52.32:054][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003840s)
+[2018.05.17-18.52.32:055][373]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.52.32:056][373]LogPlayLevel: PIE: World Init took: (0.001865s)
+[2018.05.17-18.52.32:056][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.006723s)
+[2018.05.17-18.52.32:074][373]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.52.32:108][373]LogInit: FAudioDevice initialized.
+[2018.05.17-18.52.32:155][373]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.52.32:156][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.52.32
+[2018.05.17-18.52.32:157][373]LogWorld: Bringing up level for play took: 0.000962
+[2018.05.17-18.52.32:160][373]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.075
+[2018.05.17-18.52.33:950][478]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.52.33:951][478]LogTemp: Warning: Camera Hit
+[2018.05.17-18.52.33:951][478]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.52.33:951][478]LogTemp: Warning: Fire
+[2018.05.17-18.52.35:235][555]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.52.35:235][555]LogTemp: Warning: Camera Hit
+[2018.05.17-18.52.35:235][555]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.52.35:235][555]LogTemp: Warning: Fire
+[2018.05.17-18.52.37:834][711]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.52.37:834][711]LogTemp: Warning: Fire
+[2018.05.17-18.52.38:417][746]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.52.38:418][746]LogTemp: Warning: Fire
+[2018.05.17-18.52.40:451][868]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.52.40:451][868]LogTemp: Warning: Camera Hit
+[2018.05.17-18.52.40:451][868]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.52.40:451][868]LogTemp: Warning: Fire
+[2018.05.17-18.52.41:701][943]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.52.41:701][943]LogTemp: Warning: Camera Hit
+[2018.05.17-18.52.41:702][943]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.52.41:702][943]LogTemp: Warning: Fire
+[2018.05.17-18.52.43:186][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.53.27:432][217]Candidate modules for hot reload:
+[2018.05.17-18.53.27:432][217]  FPS
+[2018.05.17-18.53.27:432][217]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,2742 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.53.27:437][217]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.53.31:610][467]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:53:31 PM
+[2018.05.17-18.53.31:611][467]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.53.31:611][467]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.53.31:611][467]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-18.53.31:611][467]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.53.31:612][467]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(42) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-18.53.31:612][467]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-18.53.31:612][467]CompilerResultsLog: [2/3] Link UE4Editor-FPS-2742.dll
+[2018.05.17-18.53.31:613][467]CompilerResultsLog: [3/3] Link UE4Editor-FPS-2742.lib
+[2018.05.17-18.53.31:613][467]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2742.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2742.exp
+[2018.05.17-18.53.31:613][467]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2742.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2742.suppressed.exp
+[2018.05.17-18.53.31:614][467]CompilerResultsLog: Total build time: 3.82 seconds (Local executor: 2.83 seconds)
+[2018.05.17-18.53.31:614][467]LogMainFrame: MainFrame: Module compiling took 4.187 seconds
+[2018.05.17-18.53.31:655][467]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.53.31:657][467]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.53.31:705][467]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.53.31:707][467]Display: HotReload took  4.3s.
+[2018.05.17-18.53.34:081][601]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.17-18.53.34:226][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.53.34:740][616]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.53.34:759][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.53.34:759][616]PIE: New page: PIE session: TestMap (May 17, 2018, 10:53:34 PM)
+[2018.05.17-18.53.34:759][616]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.53.34:763][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003455s)
+[2018.05.17-18.53.34:764][616]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.53.34:765][616]LogPlayLevel: PIE: World Init took: (0.001662s)
+[2018.05.17-18.53.34:765][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.005865s)
+[2018.05.17-18.53.34:782][616]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.53.34:814][616]LogInit: FAudioDevice initialized.
+[2018.05.17-18.53.34:859][616]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.53.34:861][616]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.53.34
+[2018.05.17-18.53.34:861][616]LogWorld: Bringing up level for play took: 0.000889
+[2018.05.17-18.53.34:864][616]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.779
+[2018.05.17-18.53.36:156][691]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.36:156][691]LogTemp: Warning: Camera Hit
+[2018.05.17-18.53.36:156][691]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.53.36:156][691]LogTemp: Warning: Fire
+[2018.05.17-18.53.36:689][723]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.36:689][723]LogTemp: Warning: Camera Hit
+[2018.05.17-18.53.36:689][723]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.53.36:690][723]LogTemp: Warning: Fire
+[2018.05.17-18.53.38:537][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.53.40:170][921]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.53.40:188][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.53.40:188][921]PIE: New page: PIE session: TestMap (May 17, 2018, 10:53:40 PM)
+[2018.05.17-18.53.40:189][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.53.40:191][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002072s)
+[2018.05.17-18.53.40:192][921]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.53.40:193][921]LogPlayLevel: PIE: World Init took: (0.001512s)
+[2018.05.17-18.53.40:193][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004270s)
+[2018.05.17-18.53.40:210][921]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.53.40:243][921]LogInit: FAudioDevice initialized.
+[2018.05.17-18.53.40:278][921]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.53.40:280][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.53.40
+[2018.05.17-18.53.40:281][921]LogWorld: Bringing up level for play took: 0.001218
+[2018.05.17-18.53.40:283][921]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.198
+[2018.05.17-18.53.41:857][ 13]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.41:857][ 13]LogTemp: Warning: Fire
+[2018.05.17-18.53.42:157][ 31]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.42:158][ 31]LogTemp: Warning: Fire
+[2018.05.17-18.53.43:106][ 88]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.43:107][ 88]LogTemp: Warning: Fire
+[2018.05.17-18.53.43:273][ 98]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.43:273][ 98]LogTemp: Warning: Fire
+[2018.05.17-18.53.44:423][167]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.44:424][167]LogTemp: Warning: Fire
+[2018.05.17-18.53.44:590][177]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.44:591][177]LogTemp: Warning: Fire
+[2018.05.17-18.53.45:823][251]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.45:823][251]LogTemp: Warning: Fire
+[2018.05.17-18.53.45:974][260]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.45:974][260]LogTemp: Warning: Fire
+[2018.05.17-18.53.47:973][380]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.47:973][380]LogTemp: Warning: Camera Hit
+[2018.05.17-18.53.47:973][380]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.53.47:973][380]LogTemp: Warning: Fire
+[2018.05.17-18.53.48:656][421]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.53.48:657][421]LogTemp: Warning: Camera Hit
+[2018.05.17-18.53.48:657][421]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.53.48:657][421]LogTemp: Warning: Fire
+[2018.05.17-18.53.50:266][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.53.50:278][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-18.53.50:349][511]LogSavePackage: Save=38.46ms
+[2018.05.17-18.53.50:350][511]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/TestMap4915A54542E6A0CC4C465485534568EB.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap'
+[2018.05.17-18.53.50:355][511]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap
+[2018.05.17-18.53.51:050][523]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.54.34:467][702]Candidate modules for hot reload:
+[2018.05.17-18.54.34:467][702]  FPS
+[2018.05.17-18.54.34:468][702]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,2870 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.17-18.54.34:500][702]Warning: Starting HotReload took  0.0s.
+[2018.05.17-18.54.38:536][945]CompilerResultsLog: New page: Compilation - May 17, 2018, 10:54:38 PM
+[2018.05.17-18.54.38:536][945]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.17-18.54.38:537][945]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.17-18.54.38:537][945]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.17-18.54.38:537][945]CompilerResultsLog: SMG.cpp
+[2018.05.17-18.54.38:537][945]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(42) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.17-18.54.38:538][945]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.17-18.54.38:538][945]CompilerResultsLog: [2/3] Link UE4Editor-FPS-2870.dll
+[2018.05.17-18.54.38:538][945]CompilerResultsLog: [3/3] Link UE4Editor-FPS-2870.lib
+[2018.05.17-18.54.38:539][945]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2870.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2870.exp
+[2018.05.17-18.54.38:539][945]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2870.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2870.suppressed.exp
+[2018.05.17-18.54.38:539][945]CompilerResultsLog: Total build time: 3.69 seconds (Local executor: 2.73 seconds)
+[2018.05.17-18.54.38:540][945]LogMainFrame: MainFrame: Module compiling took 4.077 seconds
+[2018.05.17-18.54.38:588][945]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0006 seconds. Added 6 classes and 2 folders.
+[2018.05.17-18.54.38:590][945]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.17-18.54.38:637][945]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2459 classes and 562 folders.
+[2018.05.17-18.54.38:639][945]Display: HotReload took  4.2s.
+[2018.05.17-18.54.40:491][ 56]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.54.40:510][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.54.40:510][ 56]PIE: New page: PIE session: TestMap (May 17, 2018, 10:54:40 PM)
+[2018.05.17-18.54.40:510][ 56]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.54.40:513][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2018.05.17-18.54.40:514][ 56]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.54.40:515][ 56]LogPlayLevel: PIE: World Init took: (0.001677s)
+[2018.05.17-18.54.40:515][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004355s)
+[2018.05.17-18.54.40:532][ 56]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.54.40:562][ 56]LogInit: FAudioDevice initialized.
+[2018.05.17-18.54.40:599][ 56]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.54.40:602][ 56]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.54.40
+[2018.05.17-18.54.40:602][ 56]LogWorld: Bringing up level for play took: 0.000789
+[2018.05.17-18.54.40:604][ 56]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.519
+[2018.05.17-18.54.42:902][191]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.54.42:902][191]LogTemp: Warning: Camera Hit
+[2018.05.17-18.54.42:902][191]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.54.42:902][191]LogTemp: Warning: Fire
+[2018.05.17-18.54.44:236][271]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.54.44:236][271]LogTemp: Warning: Camera Hit
+[2018.05.17-18.54.44:236][271]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.54.44:236][271]LogTemp: Warning: Fire
+[2018.05.17-18.56.19:764][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.56.19:847][  2]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.56.19:865][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.56.19:866][  2]PIE: New page: PIE session: TestMap (May 17, 2018, 10:56:19 PM)
+[2018.05.17-18.56.19:866][  2]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.56.19:869][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002453s)
+[2018.05.17-18.56.19:870][  2]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.56.19:871][  2]LogPlayLevel: PIE: World Init took: (0.001579s)
+[2018.05.17-18.56.19:871][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004884s)
+[2018.05.17-18.56.19:900][  2]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.56.19:931][  2]LogInit: FAudioDevice initialized.
+[2018.05.17-18.56.19:964][  2]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.56.19:966][  2]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.56.19
+[2018.05.17-18.56.19:967][  2]LogWorld: Bringing up level for play took: 0.001227
+[2018.05.17-18.56.19:969][  2]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.116
+[2018.05.17-18.56.21:553][ 95]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.56.21:554][ 95]LogTemp: Warning: Camera Hit
+[2018.05.17-18.56.21:554][ 95]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.56.21:554][ 95]LogTemp: Warning: Fire
+[2018.05.17-18.56.23:337][202]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.56.23:337][202]LogTemp: Warning: Camera Hit
+[2018.05.17-18.56.23:337][202]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.56.23:337][202]LogTemp: Warning: Fire
+[2018.05.17-18.56.27:343][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.56.27:409][442]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.56.27:428][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.56.27:428][442]PIE: New page: PIE session: TestMap (May 17, 2018, 10:56:27 PM)
+[2018.05.17-18.56.27:428][442]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.56.27:430][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001905s)
+[2018.05.17-18.56.27:431][442]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.56.27:432][442]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2018.05.17-18.56.27:432][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003859s)
+[2018.05.17-18.56.27:449][442]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.56.27:481][442]LogInit: FAudioDevice initialized.
+[2018.05.17-18.56.27:520][442]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.56.27:522][442]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.56.27
+[2018.05.17-18.56.27:522][442]LogWorld: Bringing up level for play took: 0.000970
+[2018.05.17-18.56.27:524][442]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.561
+[2018.05.17-18.56.34:718][871]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.56.34:718][871]LogTemp: Warning: Camera Hit
+[2018.05.17-18.56.34:718][871]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.56.34:718][871]LogTemp: Warning: Fire
+[2018.05.17-18.56.52:009][908]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.56.52:009][908]LogTemp: Warning: Camera Hit
+[2018.05.17-18.56.52:009][908]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.56.52:010][908]LogTemp: Warning: Fire
+[2018.05.17-18.56.54:117][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.56.54:167][ 33]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.56.54:187][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.56.54:187][ 33]PIE: New page: PIE session: TestMap (May 17, 2018, 10:56:54 PM)
+[2018.05.17-18.56.54:187][ 33]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.56.54:190][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002340s)
+[2018.05.17-18.56.54:191][ 33]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.56.54:192][ 33]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2018.05.17-18.56.54:192][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004324s)
+[2018.05.17-18.56.54:208][ 33]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.56.54:239][ 33]LogInit: FAudioDevice initialized.
+[2018.05.17-18.56.54:277][ 33]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.56.54:279][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.56.54
+[2018.05.17-18.56.54:279][ 33]LogWorld: Bringing up level for play took: 0.001102
+[2018.05.17-18.56.54:282][ 33]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.197
+[2018.05.17-18.57.02:659][533]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.57.02:659][533]LogTemp: Warning: Camera Hit
+[2018.05.17-18.57.02:659][533]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.57.02:659][533]LogTemp: Warning: Fire
+[2018.05.17-18.57.04:963][671]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.57.04:963][671]LogTemp: Warning: Camera Hit
+[2018.05.17-18.57.04:963][671]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.57.04:964][671]LogTemp: Warning: Fire
+[2018.05.17-18.57.10:150][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.57.10:200][981]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-18.57.10:217][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-18.57.10:217][981]PIE: New page: PIE session: TestMap (May 17, 2018, 10:57:10 PM)
+[2018.05.17-18.57.10:218][981]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.17-18.57.10:221][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002455s)
+[2018.05.17-18.57.10:222][981]LogAIModule: Creating AISystem for world TestMap
+[2018.05.17-18.57.10:223][981]LogPlayLevel: PIE: World Init took: (0.001984s)
+[2018.05.17-18.57.10:223][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.005344s)
+[2018.05.17-18.57.10:240][981]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.57.10:272][981]LogInit: FAudioDevice initialized.
+[2018.05.17-18.57.10:307][981]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.17-18.57.10:309][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.17-20.57.10
+[2018.05.17-18.57.10:309][981]LogWorld: Bringing up level for play took: 0.000982
+[2018.05.17-18.57.10:313][981]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.227
+[2018.05.17-18.57.12:635][118]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.57.12:635][118]LogTemp: Warning: Camera Hit
+[2018.05.17-18.57.12:635][118]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.57.12:635][118]LogTemp: Warning: Fire
+[2018.05.17-18.57.15:425][285]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.57.15:425][285]LogTemp: Warning: Camera Hit
+[2018.05.17-18.57.15:425][285]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.57.15:425][285]LogTemp: Warning: Fire
+[2018.05.17-18.57.17:909][434]LogTemp: Warning: Fired Bullet
+[2018.05.17-18.57.17:909][434]LogTemp: Warning: Camera Hit
+[2018.05.17-18.57.17:909][434]LogTemp: Warning: Weapon Hit
+[2018.05.17-18.57.19:615][434]LogWindows: Error: === Critical error: ===
+[2018.05.17-18.57.19:615][434]LogWindows: Error: 
+[2018.05.17-18.57.19:615][434]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000003e0
+[2018.05.17-18.57.19:615][434]LogWindows: Error: 
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000076FE2B40 UE4Editor-FPS-2870.dll!ADummy::DamageTarget() [d:\sparetime\unreal\fps\fps\source\fps\dummy.cpp:38]
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000076FE7D39 UE4Editor-FPS-2870.dll!USMG::FireBullet() [d:\sparetime\unreal\fps\fps\source\fps\smg.cpp:160]
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000076FE78F1 UE4Editor-FPS-2870.dll!USMG::Fire() [d:\sparetime\unreal\fps\fps\source\fps\smg.cpp:86]
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000047181166 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000471B30DB UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000046CEA6A9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000046CFEF05 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000046CE816B UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000046CFE0AC UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000045F500E4 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000470570BB UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x000000004705C793 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x000000004FAAB713 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x000000004FAABD3A UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x000000004FACECFE UE4Editor-Core.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x000000004707D771 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000047083292 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000468DC304 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000468E756B UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000044A8D781 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x0000000045329626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000DEFE5EAC UE4Editor.exe!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000DEFF6BD0 UE4Editor.exe!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000DEFF6C4A UE4Editor.exe!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000DF004177 UE4Editor.exe!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000DF005B87 UE4Editor.exe!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000A0301FE4 KERNEL32.DLL!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000A268F061 ntdll.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: [Callstack] 0x00000000A268F061 ntdll.dll!UnknownFunction []
+[2018.05.17-18.57.19:615][434]LogWindows: Error: 
+[2018.05.17-18.57.19:649][434]LogExit: Executing StaticShutdownAfterError
+[2018.05.17-18.57.19:820][434]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.05.17-18.57.19:821][434]Log file closed, 05/17/18 20:57:19
