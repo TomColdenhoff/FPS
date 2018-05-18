@@ -20,105 +20,161 @@
 
 USMG::USMG()
 {
-	ConstructorHelpers::FObjectFinder<USkeletalMesh> skeletalMesh(TEXT("SkeletalMesh'/Game/Models/Player/Arms/Arms_SMG.Arms_SMG'"));
+	SetWeaponMesh();
+	SetWeaponAnimation();
+	SetWeaponAudio();
+	SetWeaponParticle();
+}
 
-	if (skeletalMesh.Object != nullptr)
-		SetSkeletalMesh(skeletalMesh.Object);
-	else
-		UE_LOG(LogTemp, Warning, TEXT("nullptr"));
+void USMG::SetWeaponMesh()
+{
+	ConstructorHelpers::FObjectFinder<USkeletalMesh> skeletalWeaponMesh(TEXT("SkeletalMesh'/Game/Models/Player/Arms/Arms_SMG.Arms_SMG'"));
 
-	ConstructorHelpers::FObjectFinder<UAnimBlueprint> animationInstance(TEXT("AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim'"));
+	if (skeletalWeaponMesh.Object == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Skeletal Weapon Mesh is nullptr"));
+		return;
+	}
 
-	if (animationInstance.Object != nullptr)
-		SetAnimInstanceClass(animationInstance.Object->GeneratedClass);
-	else
-		UE_LOG(LogTemp, Warning, TEXT("nullptr"));
+	SetSkeletalMesh(skeletalWeaponMesh.Object);
 
 	SetRelativeLocation(FVector(40, 10, -20));
 	SetRelativeRotation(FRotator(0, -90, 0));
+}
 
-	m_AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio Component"));
-	if (m_AudioComponent != nullptr)
+void USMG::SetWeaponAnimation()
+{
+	ConstructorHelpers::FObjectFinder<UAnimBlueprint> animationInstance(TEXT("AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim'"));
+
+	if (animationInstance.Object == nullptr)
 	{
-		m_AudioComponent->AttachTo(this, FName("Weapon Front"));
-		
-		ConstructorHelpers::FObjectFinder<USoundBase> gunShot(TEXT("SoundBase'/Game/Sound/SFX/SMG/Silenced_SMG_Shot.Silenced_SMG_Shot'"));
-		ConstructorHelpers::FObjectFinder<USoundBase> emptyGunShot(TEXT("SoundBase'/Game/Sound/SFX/SMG/Empty_SMG_Shot.Empty_SMG_Shot'"));
-
-		if (gunShot.Object != nullptr)
-			m_GunShotSound = gunShot.Object;
-		else
-			UE_LOG(LogTemp, Warning, TEXT("nullptr"));
-
-		if (emptyGunShot.Object != nullptr)
-			m_GunEmptySound = emptyGunShot.Object;
-		else
-			UE_LOG(LogTemp, Warning, TEXT("nullptr"));
-
-		m_AudioComponent->SetSound(m_GunShotSound);
-		m_AudioComponent->bAutoActivate = false;
+		UE_LOG(LogTemp, Error, TEXT("Animation Instance is nullptr"));
+		return;
 	}
 
-	ConstructorHelpers::FObjectFinder<UParticleSystem> fireParticle(TEXT("Particle Component'/Game/Particles/Muzzle_Flash/P_Muzzle_Flash.P_Muzzle_Flash'"));
-	if (fireParticle.Object != nullptr)
-		m_FireParticle = fireParticle.Object;
-	else
-		UE_LOG(LogTemp, Warning, TEXT("nullptr"));
+	SetAnimInstanceClass(animationInstance.Object->GeneratedClass);
+}
 
-	m_ParticleComponent = CreateDefaultSubobject<UParticleSystemComponent>(FName("Fire Particle Component"));
+void USMG::SetWeaponAudio()
+{
+	AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio Component"));
 
-	if (m_ParticleComponent != nullptr)
+	if (AudioComponent == nullptr)
 	{
-		m_ParticleComponent->SetTemplate(m_FireParticle);
-		m_ParticleComponent->AttachTo(this, FName("Weapon Front"));
+		UE_LOG(LogTemp, Error, TEXT("AudioComponent is nullptr"));
+		return;
 	}
 
+	//Attach Audio Component to socket in front of weapon
+	AudioComponent->AttachTo(this, FName("Weapon Front"));
 
+	ConstructorHelpers::FObjectFinder<USoundBase> gunShot(TEXT("SoundBase'/Game/Sound/SFX/SMG/Silenced_SMG_Shot.Silenced_SMG_Shot'"));
+	ConstructorHelpers::FObjectFinder<USoundBase> emptyGunShot(TEXT("SoundBase'/Game/Sound/SFX/SMG/Empty_SMG_Shot.Empty_SMG_Shot'"));
 
+	if (gunShot.Object == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("gunShot sound file is nullptr"));
+		return;
+	}
+
+	GunShotSound = gunShot.Object;
+
+	if (emptyGunShot.Object == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("emptyGunSHot sound file is nullptr"));
+		return;
+	}
+
+	GunEmptySound = emptyGunShot.Object;
+
+	//Set default Audio Component sound to gun shot
+	AudioComponent->SetSound(GunShotSound);
+	//Make sure the Audio Component does not play on activation
+	AudioComponent->bAutoActivate = false;
+}
+
+void USMG::SetWeaponParticle()
+{
+	ParticleComponent = CreateDefaultSubobject<UParticleSystemComponent>(FName("Fire Particle Component"));
+
+	if (ParticleComponent == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Particle Component is a nullptr"));
+		return;
+	}
+
+	//Attach Particle Component to socket in front of weapon
+	ParticleComponent->AttachTo(this, FName("Weapon Front"));
+
+	ConstructorHelpers::FObjectFinder<UParticleSystem> muzzleFireParticle(TEXT("Particle Component'/Game/Particles/Muzzle_Flash/P_Muzzle_Flash.P_Muzzle_Flash'"));
+
+	if (muzzleFireParticle.Object == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("fireParticle file is a nullptr"));
+		return;
+	}
+	
+	MuzzleFlashPartical = muzzleFireParticle.Object;
+	ParticleComponent->SetTemplate(MuzzleFlashPartical);
 }
 
 void USMG::BeginPlay()
 {
-	SetDefaultValues();
+	InitializeValues();
+}
+
+void USMG::InitializeValues()
+{
+	AmmoInClip = MAX_CLIP_SIZE;
+	AmmoOutOfClip = MAX_OUT_OF_CLIP_AMMO;
+
+	CurrentWeaponMode = EWeaponMode::Single;
 }
 
 void USMG::Fire()
 {
-
 	switch (CurrentWeaponMode)
 	{
-	case EWeaponMode::Single:
-		FireBullet();
-		break;
-	case EWeaponMode::Burst:
-		GetWorld()->GetTimerManager().SetTimer(m_BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
-		break;
-	case EWeaponMode::Auto:
-		FireBullet();
-		GetWorld()->GetTimerManager().SetTimer(m_BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
-		break;
-	default:
-		break;
+		case EWeaponMode::Single:
+			FireBullet();
+			break;
+		case EWeaponMode::Burst:
+			GetWorld()->GetTimerManager().SetTimer(BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
+			break;
+		case EWeaponMode::Auto:
+			FireBullet();
+			GetWorld()->GetTimerManager().SetTimer(BulletTimerHandle, this, &USMG::FireBullet, BULLET_INTERVAL, true);
+			break;
+		default:
+			break;
 	}
-
-	UE_LOG(LogTemp, Warning, TEXT("Fire"));
 }
 
 void USMG::ReleaseFire()
 {
-	if (CurrentWeaponMode == EWeaponMode::Auto)
-		GetWorld()->GetTimerManager().ClearTimer(m_BulletTimerHandle);
+	switch (CurrentWeaponMode)
+	{
+		case EWeaponMode::Auto:
+			//Stop loop of firing bullets
+			GetWorld()->GetTimerManager().ClearTimer(BulletTimerHandle);
+			break;
+		default:
+			break;
+	}
 }
 
 bool USMG::Reload()
 {
-	int32 difference = MAX_CLIP_SIZE - AmmoInClip;
+	int32 neededBulletAmount = MAX_CLIP_SIZE - AmmoInClip;
 
-	if (difference <= AmmoOutOfClip)
+	if (neededBulletAmount <= AmmoOutOfClip)
 	{
-		AmmoInClip += difference;
-		AmmoOutOfClip -= difference;
-		OnAmmoChange.Broadcast(AmmoInClip, AmmoOutOfClip);
+		AmmoInClip += neededBulletAmount;
+		AmmoOutOfClip -= neededBulletAmount;
+
+		//Update Ammo info
+		GetAmmoUpdate();
+		//Return true because player and animator need to know we are reloading 
 		return true;
 	}
 	else
@@ -127,7 +183,9 @@ bool USMG::Reload()
 		AmmoOutOfClip = 0;
 	}
 
-	OnAmmoChange.Broadcast(AmmoInClip, AmmoOutOfClip);
+	//Update Ammo info
+	GetAmmoUpdate();
+	//Return true because player and animator need to know we are not reloading 
 	return false;
 }
 
@@ -137,25 +195,15 @@ void USMG::ChangeWeaponMode()
 		CurrentWeaponMode = (EWeaponMode)((int)(CurrentWeaponMode)+1);
 	else
 		CurrentWeaponMode = (EWeaponMode)(0);
-		
-	UE_LOG(LogTemp, Warning, TEXT("Change State"));
 }
 
-void USMG::SetValues(int32 ViewportSizeX, int32 ViewportSizeY, UCameraComponent* CameraComponent)
+void USMG::SetValues(UCameraComponent* CameraComponentPointer)
 {
-	m_ViewportSizeX = ViewportSizeX;
-	m_ViewportSizeY = ViewportSizeY;
-	m_CameraComponent = CameraComponent;
+	PlayerCameraComponent = CameraComponentPointer;
 }
 
 
-void USMG::SetDefaultValues()
-{
-	AmmoInClip = MAX_CLIP_SIZE;
-	AmmoOutOfClip = MAX_OUT_OF_CLIP_AMMO;
 
-	CurrentWeaponMode = EWeaponMode::Single;
-}
 
 void USMG::FireBullet()
 {
@@ -164,8 +212,8 @@ void USMG::FireBullet()
 		UE_LOG(LogTemp, Warning, TEXT("Fired Bullet"));
 
 		FHitResult hitResult;
-		FVector cameraPosition = m_CameraComponent->GetComponentLocation();
-		FVector CameraDirection = m_CameraComponent->GetForwardVector();
+		FVector cameraPosition = PlayerCameraComponent->GetComponentLocation();
+		FVector CameraDirection = PlayerCameraComponent->GetForwardVector();
 		
 		if (GetWorld()->LineTraceSingleByChannel(hitResult, cameraPosition, (cameraPosition + (CameraDirection * 2000)), ECC_Visibility))
 		{
@@ -183,28 +231,28 @@ void USMG::FireBullet()
 		}
 
 
-		m_AudioComponent->Stop();
-		m_AudioComponent->SetSound(m_GunShotSound);
-		m_AudioComponent->Play();
+		AudioComponent->Stop();
+		AudioComponent->SetSound(GunShotSound);
+		AudioComponent->Play();
 		AmmoInClip--;
-		m_ParticleComponent->Deactivate();
-		m_ParticleComponent->Activate();
+		ParticleComponent->Deactivate();
+		ParticleComponent->Activate();
 	}
 	else
 	{
-		m_AudioComponent->Stop();
-		m_AudioComponent->SetSound(m_GunEmptySound);
-		m_AudioComponent->Play();
-		GetWorld()->GetTimerManager().ClearTimer(m_BulletTimerHandle);
-		ShotBulletsInBurst = 0;
+		AudioComponent->Stop();
+		AudioComponent->SetSound(GunEmptySound);
+		AudioComponent->Play();
+		GetWorld()->GetTimerManager().ClearTimer(BulletTimerHandle);
+		BulletsShotInBurstAmount = 0;
 	}
 
 	if (CurrentWeaponMode == EWeaponMode::Burst)
 	{
-		if (++ShotBulletsInBurst == 3)
+		if (++BulletsShotInBurstAmount == 3)
 		{
-			GetWorld()->GetTimerManager().ClearTimer(m_BulletTimerHandle);
-			ShotBulletsInBurst = 0;
+			GetWorld()->GetTimerManager().ClearTimer(BulletTimerHandle);
+			BulletsShotInBurstAmount = 0;
 		}
 	}
 

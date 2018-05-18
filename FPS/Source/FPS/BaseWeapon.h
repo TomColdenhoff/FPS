@@ -24,31 +24,47 @@ class FPS_API UBaseWeapon : public USkeletalMeshComponent
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAmmoChanged, int32, AmmoInClip, int32, AmmoOutOfClip);
 
 protected:
-	int AmmoInClip = 0;
-	int AmmoOutOfClip = 0;
-	int32 ShotBulletsInBurst = 0;
+	//Weapon Ammo variables
+	int32 AmmoInClip = 0;
+	int32 AmmoOutOfClip = 0;
 
+	//Weapon Fire variables
+	int32 BulletsShotInBurstAmount = 0;
+	FTimerHandle BulletTimerHandle;
 	EWeaponMode CurrentWeaponMode;
 
+	//Weapon events
 	UPROPERTY(BlueprintAssignable)
 	FAmmoChanged OnAmmoChange;
-public:	
 
+	//Weapon Audio
+	UAudioComponent* AudioComponent;
+	USoundBase* GunShotSound;
+	USoundBase* GunEmptySound;
+
+	//Weapon Particle
+	UParticleSystemComponent* ParticleComponent;
+	UParticleSystem* MuzzleFlashPartical;
+
+	//Weapon Aiming
+	class UCameraComponent* PlayerCameraComponent;
+
+public:	
+	//Default Base Constructor
 	UBaseWeapon();
 
+	/*Calls fire behaviour of weapon */
 	virtual void Fire() {}
+	/*Calls Release Fire behaviour of weapon */
 	virtual void ReleaseFire() {}
+	/*Calls Reload behaviour of weapon */
 	virtual bool Reload() { return false; }
+	/*Calls Weapon Mode Change Behaviour of weapon */
 	virtual void ChangeWeaponMode() {}
-	virtual void SetValues(int32 ViewportSizeX, int32 ViewportSizeY, class UCameraComponent* CameraComponent) {}
 
+	virtual void SetValues(class UCameraComponent* CameraComponentPointer) {}
+
+	/*Requests an ammo info update*/
 	UFUNCTION(BlueprintCallable, Category = "Weapon Info")
 	void GetAmmoUpdate();
-
-	int GetAmmoInClip() const { return AmmoInClip; }
-	int GetAmmoOutOfClip() const { return AmmoOutOfClip; }
-	EWeaponMode GetWeaponMode() const { return CurrentWeaponMode; }
-
-
-
 };

@@ -63,6 +63,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "Category", "Weapon Info" },
 				{ "ModuleRelativePath", "BaseWeapon.h" },
+				{ "ToolTip", "Requests an ammo info update" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UBaseWeapon, "GetAmmoUpdate", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -85,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature, "AmmoChanged__DelegateSignature" }, // 3244354047
-				{ &Z_Construct_UFunction_UBaseWeapon_GetAmmoUpdate, "GetAmmoUpdate" }, // 3155388035
+				{ &Z_Construct_UFunction_UBaseWeapon_GetAmmoUpdate, "GetAmmoUpdate" }, // 472208576
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -99,6 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnAmmoChange_MetaData[] = {
 				{ "ModuleRelativePath", "BaseWeapon.h" },
+				{ "ToolTip", "Weapon events" },
 			};
 #endif
 			static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAmmoChange = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnAmmoChange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080010080000, 1, nullptr, STRUCT_OFFSET(UBaseWeapon, OnAmmoChange), Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature, METADATA_PARAMS(NewProp_OnAmmoChange_MetaData, ARRAY_COUNT(NewProp_OnAmmoChange_MetaData)) };
@@ -123,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBaseWeapon, 2403678215);
+	IMPLEMENT_CLASS(UBaseWeapon, 1974602023);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBaseWeapon(Z_Construct_UClass_UBaseWeapon, &UBaseWeapon::StaticClass, TEXT("/Script/FPS"), TEXT("UBaseWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBaseWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

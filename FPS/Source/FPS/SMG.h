@@ -15,38 +15,35 @@ class FPS_API USMG : public UBaseWeapon
 	GENERATED_BODY()
 	
 public:
+	//SMG constructor
 	USMG();
 
 	virtual void Fire() override;
 	virtual void ReleaseFire() override;
 	virtual bool Reload() override;
 	virtual void ChangeWeaponMode() override;
-	virtual void SetValues(int32 ViewportSizeX, int32 ViewportSizeY, UCameraComponent* CameraComponent) override;
+	virtual void SetValues(class UCameraComponent* CameraComponentPointer) override;
 
 
 protected:
 	virtual void BeginPlay() override;
 
 private:
-	void SetDefaultValues();
-	UFUNCTION()
-	void FireBullet();
-
+	//SMG behaviour variables
 	const int32 MAX_CLIP_SIZE = 30;
 	const int32 MAX_OUT_OF_CLIP_AMMO = 210;
 	const float BULLET_INTERVAL = 0.1f;
 
-	FTimerHandle m_BulletTimerHandle;
-
-	UAudioComponent* m_AudioComponent;
-	USoundBase* m_GunShotSound;
-	USoundBase* m_GunEmptySound;
-
-	UParticleSystem* m_FireParticle;
-	UParticleSystemComponent* m_ParticleComponent;
-
-	int32 m_ViewportSizeX, m_ViewportSizeY;
-	UCameraComponent* m_CameraComponent;
-	
-	
+	/*Sets all default behaviour values*/
+	void InitializeValues();
+	/*Loads and sets the mesh of the weapon*/
+	void SetWeaponMesh();
+	/*Loads and sets the animation of the weapon*/
+	void SetWeaponAnimation();
+	/*Loads and sets the audio of the weapon*/
+	void SetWeaponAudio();
+	/*Loads and sets the particle of the weapon*/
+	void SetWeaponParticle();
+	/*Fires "bullet" linetrace*/
+	void FireBullet();
 };

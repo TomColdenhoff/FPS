@@ -37,7 +37,7 @@ void AFPSPlayer::BeginPlay()
 	int32 screenX, screenY;
 	UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetViewportSize(screenX, screenY);
 
-	CurrentWeapon->SetValues(screenX, screenY, CameraComponent);
+	CurrentWeapon->SetValues(CameraComponent);
 }
 
 // Called every frame
