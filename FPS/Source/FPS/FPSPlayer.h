@@ -26,20 +26,33 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//Movement Functions
+	/*Moves the player forward*/
 	void MoveForward(float Value);
+	/*Moved the player to the right*/
 	void MoveRight(float Value);
+	/*Toggles player jumping*/
 	void ToggleJump();
+	/*Toggles player running*/
 	void ToggleRun();
 
+	//Weapon Control Functions
+	/*Calls fire function of current weapon*/
 	void Fire();
+	/*Calls stop fire function of current weapon*/
 	void StopFire();
+	/*Calls the reload function of the current weapon*/
 	void Reload();
+	/*Calls the weapon mode change function of the current weapon*/
 	void ChangeWeaponMode();
 
+	
 	void ChangeWidget(TSubclassOf<class UUserWidget> NewWidget);
 
+	/*Creates a weapon based on its class*/
 	template<typename T> void AddMainWeapon();
 
+	/*Returns the running state of the player*/
 	bool GetIsRunning() { return m_IsRunning; }
 
 	UPROPERTY(VisibleAnywhere)
@@ -63,6 +76,9 @@ private:
 	UUserWidget* m_CurrentHUD;
 
 	bool m_IsRunning = false;
+
+	/*Creates and attachs a camera to the player*/
+	void CreateCamera();
 
 
 	

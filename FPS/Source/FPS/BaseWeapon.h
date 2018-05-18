@@ -6,9 +6,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "BaseWeapon.generated.h"
 
-/**
- * 
- */
+
 enum class EWeaponMode : uint8
 {
 	Single = 0,
@@ -49,6 +47,16 @@ protected:
 	//Weapon Aiming
 	class UCameraComponent* PlayerCameraComponent;
 
+	/*Loads and sets the audio of the weapon*/
+	virtual void SetWeaponAudio() {}
+
+	/*Loads and sets the mesh of the weapon*/
+	void SetWeaponMesh(FString FilePath);
+	/*Loads and sets the animation of the weapon*/
+	void SetWeaponAnimation(FString FilePath);
+	/*Loads and sets the particle of the weapon*/
+	void SetWeaponParticle(FString FilePath);
+
 public:	
 	//Default Base Constructor
 	UBaseWeapon();
@@ -61,7 +69,7 @@ public:
 	virtual bool Reload() { return false; }
 	/*Calls Weapon Mode Change Behaviour of weapon */
 	virtual void ChangeWeaponMode() {}
-
+	/*Sets pointers comming from Player class*/
 	virtual void SetValues(class UCameraComponent* CameraComponentPointer) {}
 
 	/*Requests an ammo info update*/

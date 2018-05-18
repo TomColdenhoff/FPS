@@ -9,8 +9,6 @@
 #include "SMG.h"
 #include <typeinfo>
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
-#include "Runtime/Engine/Classes/GameFramework/PlayerController.h"
-#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 
 // Sets default values
@@ -19,24 +17,28 @@ AFPSPlayer::AFPSPlayer()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	CreateCamera();
+
+	AddMainWeapon<USMG>();
+	
+}
+
+void AFPSPlayer::CreateCamera()
+{
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FPPCamera"));
 	CameraComponent->SetupAttachment((USceneComponent*)GetCapsuleComponent());
 	CameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0f));
 	CameraComponent->bUsePawnControlRotation = true;
-
-	AddMainWeapon<USMG>();
-	
 }
 
 // Called when the game starts or when spawned
 void AFPSPlayer::BeginPlay()
 {
 	Super::BeginPlay();
+	//Show the default HUD to the player
 	ChangeWidget(m_DefaultPlayerHUD);
 
-	int32 screenX, screenY;
-	UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetViewportSize(screenX, screenY);
-
+	//Set values current weapon depends on
 	CurrentWeapon->SetValues(CameraComponent);
 }
 

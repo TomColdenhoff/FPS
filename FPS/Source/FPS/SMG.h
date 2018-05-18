@@ -28,22 +28,17 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+	virtual void SetWeaponAudio() override;
+
 private:
 	//SMG behaviour variables
 	const int32 MAX_CLIP_SIZE = 30;
 	const int32 MAX_OUT_OF_CLIP_AMMO = 210;
 	const float BULLET_INTERVAL = 0.1f;
+	const float AIM_DISTANCE = 2000.0f;
 
 	/*Sets all default behaviour values*/
 	void InitializeValues();
-	/*Loads and sets the mesh of the weapon*/
-	void SetWeaponMesh();
-	/*Loads and sets the animation of the weapon*/
-	void SetWeaponAnimation();
-	/*Loads and sets the audio of the weapon*/
-	void SetWeaponAudio();
-	/*Loads and sets the particle of the weapon*/
-	void SetWeaponParticle();
 	/*Fires "bullet" linetrace*/
 	void FireBullet();
 };
