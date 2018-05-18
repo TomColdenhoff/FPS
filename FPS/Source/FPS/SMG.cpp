@@ -16,6 +16,7 @@
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Runtime/Engine/Classes/Camera/PlayerCameraManager.h"
 #include "Runtime/Engine/Classes/Camera/CameraComponent.h"
+#include "Runtime/Engine/Classes/Particles/ParticleSystemComponent.h"
 
 USMG::USMG()
 {
@@ -57,6 +58,23 @@ USMG::USMG()
 		m_AudioComponent->SetSound(m_GunShotSound);
 		m_AudioComponent->bAutoActivate = false;
 	}
+
+	ConstructorHelpers::FObjectFinder<UParticleSystem> fireParticle(TEXT("Particle Component'/Game/Particles/Muzzle_Flash/P_Muzzle_Flash.P_Muzzle_Flash'"));
+	if (fireParticle.Object != nullptr)
+		m_FireParticle = fireParticle.Object;
+	else
+		UE_LOG(LogTemp, Warning, TEXT("nullptr"));
+
+	m_ParticleComponent = CreateDefaultSubobject<UParticleSystemComponent>(FName("Fire Particle Component"));
+
+	if (m_ParticleComponent != nullptr)
+	{
+		m_ParticleComponent->SetTemplate(m_FireParticle);
+		m_ParticleComponent->AttachTo(this, FName("Weapon Front"));
+	}
+
+
+
 }
 
 void USMG::BeginPlay()
@@ -169,6 +187,8 @@ void USMG::FireBullet()
 		m_AudioComponent->SetSound(m_GunShotSound);
 		m_AudioComponent->Play();
 		AmmoInClip--;
+		m_ParticleComponent->Deactivate();
+		m_ParticleComponent->Activate();
 	}
 	else
 	{

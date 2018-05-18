@@ -1,0 +1,788 @@
+﻿Log file open, 05/18/18 11:10:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-722375714) SRandInit(-722375714).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.289969
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.079s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Tom-Laptop (10.52.88.121:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.18-09.10.13:281][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.18-09.10.13:281][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.18-09.10.13:293][  0]LogInit: Computer: TOM-LAPTOP
+[2018.05.18-09.10.13:293][  0]LogInit: User: tomco
+[2018.05.18-09.10.13:293][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.18-09.10.13:293][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2018.05.18-09.10.13:293][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.18-09.10.13:293][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.18-09.10.13:293][  0]LogMemory: Process Physical Memory: 275.27 MB used, 275.27 MB peak
+[2018.05.18-09.10.13:293][  0]LogMemory: Process Virtual Memory: 266.13 MB used, 266.13 MB peak
+[2018.05.18-09.10.13:293][  0]LogMemory: Physical Memory: 6167.83 MB used,  1922.70 MB free, 8090.52 MB total
+[2018.05.18-09.10.13:293][  0]LogMemory: Virtual Memory: 4786.08 MB used,  1922.70 MB free, 134217728.00 MB total
+[2018.05.18-09.10.13:341][  0]LogInit: Using OS detected language (en-US).
+[2018.05.18-09.10.13:341][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.18-09.10.13:356][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.18-09.10.13:861][  0]LogStreaming: Display: Took  0.520s to EndInitTextLocalization.
+[2018.05.18-09.10.13:861][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.18-09.10.13:932][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.18-09.10.13:932][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.18-09.10.14:394][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.18-09.10.14:450][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.05.18-09.10.14:450][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.18-09.10.14:457][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.05.18-09.10.14:457][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.18-09.10.14:461][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.18-09.10.14:461][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.18-09.10.14:461][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.18-09.10.14:479][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.18-09.10.14:479][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.05.18-09.10.14:479][  0]LogWindows: EnumDisplayDevices:
+[2018.05.18-09.10.14:479][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.05.18-09.10.14:479][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.05.18-09.10.14:479][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.05.18-09.10.14:479][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.18-09.10.14:479][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.05.18-09.10.14:479][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.18-09.10.14:479][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.18-09.10.14:479][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.05.18-09.10.14:505][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.05.18-09.10.14:505][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.18-09.10.14:505][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.18-09.10.14:518][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.18-09.10.14:519][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../SpareTime/Unreal/FPS/FPS/Intermediate/Shaders/WorkingDirectory/9716/).
+[2018.05.18-09.10.14:519][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomco/AppData/Local/Temp/UnrealShaderWorkingDir/B1B89E7A4DB98704156CBD9FA63C71B8/'.
+[2018.05.18-09.10.15:142][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.18-09.10.15:156][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.18-09.10.15:169][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.18-09.10.15:183][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.18-09.10.15:197][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.18-09.10.15:211][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.18-09.10.15:224][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.18-09.10.15:239][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.18-09.10.15:246][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.18-09.10.15:258][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.18-09.10.15:272][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.18-09.10.15:285][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.18-09.10.15:298][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.18-09.10.15:312][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.18-09.10.15:325][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.18-09.10.15:350][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.18-09.10.15:351][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.18-09.10.15:365][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.18-09.10.15:367][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.18-09.10.15:407][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.18-09.10.15:421][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.18-09.10.15:435][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.18-09.10.15:447][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.18-09.10.15:460][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.18-09.10.15:475][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.18-09.10.15:475][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.18-09.10.15:596][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.18-09.10.15:596][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.18-09.10.15:596][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.18-09.10.16:409][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.18-09.10.16:765][  0]LogDerivedDataCache: Loaded boot cache 0.36s 75MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.18-09.10.16:765][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.18-09.10.16:765][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.18-09.10.16:765][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.18-09.10.16:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.18-09.10.16:766][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.18-09.10.16:783][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.18-09.10.16:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.18-09.10.16:796][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.18-09.10.16:796][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.18-09.10.16:809][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.18-09.10.16:809][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.18-09.10.16:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.18-09.10.16:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.18-09.10.17:130][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2018.05.18-09.10.17:470][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.18-09.10.17:632][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.18-09.10.17:635][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.18-09.10.17:636][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.18-09.10.17:636][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.18-09.10.17:636][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.18-09.10.17:636][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.18-09.10.17:669][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.05.18-09.10.18:189][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.085970 seconds
+[2018.05.18-09.10.18:194][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.18-09.10.18:194][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.18-09.10.18:194][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.18-09.10.21:439][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.18-09.10.21:468][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.18-09.10.21:747][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.206913ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.05.18-09.10.21:769][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f225a6e660, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.05.18-09.10.21:779][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f225a6e660, Size=80
+[2018.05.18-09.10.21:779][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f22529b740, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.05.18-09.10.21:789][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f225239fd0, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.05.18-09.10.21:949][  0]SourceControl: Source control is disabled
+[2018.05.18-09.10.21:949][  0]SourceControl: Source control is disabled
+[2018.05.18-09.10.21:967][  0]SourceControl: Source control is disabled
+[2018.05.18-09.10.21:983][  0]SourceControl: Source control is disabled
+[2018.05.18-09.10.22:461][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.18-09.10.22:610][  0]LogOcInput: OculusInput pre-init called
+[2018.05.18-09.10.22:719][  0]LogEngine: Initializing Engine...
+[2018.05.18-09.10.22:756][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.05.18-09.10.22:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.18-09.10.22:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.18-09.10.23:015][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.18-09.10.23:040][  0]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.18-09.10.23:079][  0]LogInit: FAudioDevice initialized.
+[2018.05.18-09.10.23:176][  0]LogDerivedDataCache: Saved boot cache 0.10s 75MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.18-09.10.23:192][  0]LogInit: Texture streaming: Enabled
+[2018.05.18-09.10.23:213][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.18-09.10.23:213][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DDAF7C9A-421D-AFA6-538E-83AD9B66EA96}
+[2018.05.18-09.10.23:228][  0]LogInit: Transaction tracking system initialized
+[2018.05.18-09.10.23:260][  0]BlueprintLog: New page: Editor Load
+[2018.05.18-09.10.23:354][  0]LocalizationService: Localization service is disabled
+[2018.05.18-09.10.23:464][  0]LogConsoleResponse: Display: 
+[2018.05.18-09.10.23:644][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.18-09.10.23:644][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.18-09.10.23:644][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.18-09.10.23:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.18-09.10.23:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.18-09.10.24:054][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/' took 0.01s
+[2018.05.18-09.10.24:054][  0]SourceControl: Source control is disabled
+[2018.05.18-09.10.24:186][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.18-09.10.24:198][  0]LogSlate: Took 0.000442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.18-09.10.49:162][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.05.18-09.10.49:164][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.18-09.10.49:168][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.18-09.10.49:174][  0]Cmd: MAP LOAD FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.18-09.10.49:175][  0]LightingResults: New page: Lighting Build
+[2018.05.18-09.10.49:190][  0]MapCheck: New page: Map Check
+[2018.05.18-09.10.49:190][  0]LightingResults: New page: Lighting Build
+[2018.05.18-09.10.49:207][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f22529b740, Size=80
+[2018.05.18-09.10.49:495][  0]LogAIModule: Creating AISystem for world TestMap
+[2018.05.18-09.10.49:504][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.18-09.10.49:528][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.18-09.10.49:595][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.514ms to complete.
+[2018.05.18-09.10.49:595][  0]LogFileHelpers: Loading map 'TestMap' took 0.421
+[2018.05.18-09.10.49:698][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_33d8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_32f4_0///####STATCAT_Advanced####
+[2018.05.18-09.10.49:698][  0]LogCollectionManager: Loaded 0 collections in 0.001131 seconds
+[2018.05.18-09.10.49:745][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.05.18-09.10.49:745][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Developers/tomco/Collections/' took 0.01s
+[2018.05.18-09.10.49:745][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Collections/' took 0.01s
+[2018.05.18-09.10.49:746][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.18-09.10.49:760][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2459 classes and 562 folders.
+[2018.05.18-09.10.49:768][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.18-09.10.49:973][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.18-09.10.51:288][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.18-09.10.51:312][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.18-09.10.51:324][  0]LogSlate: Took 0.002353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.18-09.10.51:496][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPS
+[2018.05.18-09.10.51:496][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.18-09.10.51:496][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2018.05.18-09.10.51:496][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.18-09.10.51:496][  0]LogTemp: BranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries
+[2018.05.18-09.10.51:496][  0]LogRenderer: Reallocating scene render targets to support 908x580 Format 10 NumSamples 1 (Frame:1).
+[2018.05.18-09.10.51:638][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tomco\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.18-09.10.51:660][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.18-09.10.51:660][  0]LogLoad: (Engine Initialization) Total time: 42.15 seconds
+[2018.05.18-09.10.51:660][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.18-09.10.51:703][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.18-09.10.51:737][  0]LogSlate: Took 0.002190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.18-09.10.51:782][  1]LogAssetRegistry: Asset discovery search completed in 34.6760 seconds
+[2018.05.18-09.10.51:786][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.18-09.10.51:786][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000275 seconds (updated 0 objects)
+[2018.05.18-09.10.52:712][ 52]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.18-09.10.58:768][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.10.59:830][474]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f23b6f8db0, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.05.18-09.10.59:844][474]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f23b6f8db0, Size=104
+[2018.05.18-09.10.59:844][474]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f23b6f8db0, Size=104, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_0:ExecuteUbergraph_BP_InGameGUI
+[2018.05.18-09.10.59:849][474]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f238ba3970, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.05.18-09.11.00:164][474]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2018.05.18-09.11.00:478][474]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f283d45ef0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.18-09.11.00:479][474]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f283d45ee8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.18-09.11.02:937][559]LogSlate: Took 0.013777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.18-09.11.03:738][604]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.18-09.11.04:434][643]LogRenderer: Reallocating scene render targets to support 1144x712 Format 10 NumSamples 1 (Frame:1).
+[2018.05.18-09.11.25:321][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.18-09.11.25:351][866]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f23b6f8db0, Size=104
+[2018.05.18-09.11.25:387][866]LogSavePackage: Save=24.34ms
+[2018.05.18-09.11.25:387][866]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/TestMap8EB1E03945AAF93C034A8780EB7B7E07.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap'
+[2018.05.18-09.11.25:388][866]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/TestMap.umap
+[2018.05.18-09.11.30:424][152]LogMaterial: Warning: Material /Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material.Muzzle_FLesh_Material needed to have new flag set bUsedWithParticleSprites !
+[2018.05.18-09.11.30:427][152]LogMaterial: Missing cached shader map for material Muzzle_FLesh_Material, compiling. 
+[2018.05.18-09.11.30:582][153]LogShaderCompilers: Display: Shaders left to compile 125
+[2018.05.18-09.11.30:582][153]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.05.18-09.11.30:582][153]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.05.18-09.11.30:582][153]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.05.18-09.11.34:392][336]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.05.18-09.11.35:695][402]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.05.18-09.11.36:083][424]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.05.18-09.11.37:446][501]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.05.18-09.11.37:763][513]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.05.18-09.11.40:598][652]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.05.18-09.11.40:824][663]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.05.18-09.11.41:145][680]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.18-09.11.44:097][836]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.18-09.11.47:240][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.11.47:336][  3]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.12.04:062][461]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.12.08:264][703]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2018.05.18-09.12.15:972][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.12.52:445][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.13.40:600][175]LogEditorTransaction: Undo Set Vector Property
+[2018.05.18-09.13.40:898][192]LogEditorTransaction: Undo Set Vector Property
+[2018.05.18-09.13.41:214][210]LogEditorTransaction: Undo Set Vector Property
+[2018.05.18-09.13.41:587][232]LogEditorTransaction: Undo Set Vector Property
+[2018.05.18-09.13.42:094][262]LogEditorTransaction: Undo Edit Y
+[2018.05.18-09.14.17:822][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.14.17:938][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.14.17:979][404]LogSavePackage: Save=34.52ms
+[2018.05.18-09.14.17:979][404]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash6B6DDA5448A7AB58F064939EA17EC105.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.14.17:982][404]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.14.20:875][577]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.14.53:704][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.14.53:736][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.14.53:774][503]LogSavePackage: Save=20.37ms
+[2018.05.18-09.14.53:774][503]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayer8E5D50BD414E23649D9BC6A67F62481A.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.14.53:777][503]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.15.01:832][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.15.17:094][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.15.45:569][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.15.59:973][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.16.00:089][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.16.00:140][954]LogSavePackage: Save=34.07ms
+[2018.05.18-09.16.00:140][954]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashE1F1355E46C294E4FD92C6A1A6DE18D2.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.16.00:142][954]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.16.20:679][177]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.16.20:709][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.16.20:733][177]LogSavePackage: Save=20.31ms
+[2018.05.18-09.16.20:734][177]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayerBF48F9AB4E2827E9491345A7E5D34651.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.16.20:736][177]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.16.36:639][722]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.16.45:473][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.16.57:958][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.16.57:993][982]LogSavePackage: Save=31.25ms
+[2018.05.18-09.16.57:993][982]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash81F036FF45EEFE76D5E7F595861E4C01.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.16.57:996][982]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.17.06:380][311]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.17.12:982][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.17.13:022][701]LogSavePackage: Save=35.08ms
+[2018.05.18-09.17.13:023][701]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashC62E1DF442849752A8FB49A548EC3AA4.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.17.13:025][701]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.17.29:419][619]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.17.46:638][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.17.48:885][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.17.48:920][766]LogSavePackage: Save=30.48ms
+[2018.05.18-09.17.48:920][766]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashD21AB8044141BCB17A0CABBC9D4EBA7C.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.17.48:923][766]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.17.49:345][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.17.49:376][790]LogSavePackage: Save=23.64ms
+[2018.05.18-09.17.49:376][790]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash64C9BEB54664E4CFDCFC609FB16F5F0B.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.17.49:377][790]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.18.19:731][333]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.18.31:962][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.18.47:530][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.18.47:566][980]LogSavePackage: Save=32.07ms
+[2018.05.18-09.18.47:566][980]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashD7A5DFFC446404F68A92E19DB978BF50.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.18.47:569][980]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.18.53:409][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.19.09:394][192]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.19.18:548][732]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.19.18:570][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.19.18:619][732]LogSavePackage: Save=43.81ms
+[2018.05.18-09.19.18:619][732]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash06D89A784535AEF8937008A76FF97A6A.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.19.18:622][732]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.19.21:688][916]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.19.33:899][527]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.19.50:834][538]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.19.53:429][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.20.07:118][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.20.07:153][507]LogSavePackage: Save=30.64ms
+[2018.05.18-09.20.07:153][507]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashF418AB61416CC51DF8D097A49B971C27.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.20.07:156][507]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.20.13:140][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.20.13:176][864]LogSavePackage: Save=31.81ms
+[2018.05.18-09.20.13:176][864]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash4F34884945899AF227AF5D986A357072.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.20.13:178][864]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.20.24:491][367]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.20.27:623][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.20.32:780][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.20.32:827][852]LogSavePackage: Save=42.78ms
+[2018.05.18-09.20.32:827][852]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash1948B61549831DAC4D70E6A310B04EF7.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.20.32:830][852]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.20.46:693][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.20.46:723][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.20.46:756][678]LogSavePackage: Save=19.20ms
+[2018.05.18-09.20.46:756][678]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayer9BD696BA46FD41D7D499E29C838E578F.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.20.46:758][678]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.20.59:268][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.21.12:680][221]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.21.12:704][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.21.12:752][221]LogSavePackage: Save=43.44ms
+[2018.05.18-09.21.12:752][221]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashA0AF5F864295742B974EB7A789DD7CEA.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.21.12:754][221]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.21.16:305][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.21.40:455][867]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.21.40:479][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.21.40:515][867]LogSavePackage: Save=31.86ms
+[2018.05.18-09.21.40:515][867]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashDE8B5F99449F87E729FE2AA14ACCE2EC.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.21.40:517][867]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.21.45:617][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.21.51:065][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.21.51:095][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.21.51:130][483]LogSavePackage: Save=31.72ms
+[2018.05.18-09.21.51:130][483]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayer4354624C443A84620BD31AA705F331E0.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.21.51:132][483]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.21.52:604][570]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.21.53:734][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.21.53:757][612]LogSavePackage: Save=18.58ms
+[2018.05.18-09.21.53:758][612]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayer4982859440F264B71028B9AFF097B672.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.21.53:759][612]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.22.13:649][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.22.27:342][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.22.36:231][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.22.36:270][133]LogSavePackage: Save=34.50ms
+[2018.05.18-09.22.36:271][133]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash209CEE174B7B574B489A538E318B9E64.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.22.36:273][133]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.22.39:272][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.22.39:353][317]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.22.43:996][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.22.56:669][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.22.59:873][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.23.01:027][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.23.09:119][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.23.09:155][862]LogSavePackage: Save=31.24ms
+[2018.05.18-09.23.09:155][862]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashC62AAAA240EF10CA05373DAC7D68BE2D.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.23.09:157][862]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.23.12:361][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.23.12:390][ 53]LogSavePackage: Save=24.00ms
+[2018.05.18-09.23.12:390][ 53]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash225E7803419C3B1B1B0D8EB0B1D7CCAB.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.23.12:390][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.23.22:873][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.23.22:905][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.23.22:930][674]LogSavePackage: Save=21.92ms
+[2018.05.18-09.23.22:931][674]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayer84506DCD4617A7E214658494CFBA31E0.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.23.22:933][674]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.23.29:959][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.23.43:962][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.23.43:997][927]LogSavePackage: Save=31.82ms
+[2018.05.18-09.23.43:997][927]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash2EC5200547BCEDF6218AA5A58C0557E4.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.23.44:000][927]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.24.33:523][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.24.52:466][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.24.54:668][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.24.54:707][882]LogSavePackage: Save=31.45ms
+[2018.05.18-09.24.54:707][882]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash95DF560540A504D4CD9F378D5C63254D.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.24.54:710][882]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.25.12:999][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.25.20:120][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.25.20:156][318]LogSavePackage: Save=32.35ms
+[2018.05.18-09.25.20:156][318]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash006396D34C1C6E4F54208382B08EAFCB.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.25.20:158][318]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.25.30:495][877]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.25.30:523][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.25.30:547][877]LogSavePackage: Save=19.67ms
+[2018.05.18-09.25.30:548][877]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayerEEF1EE3F49982E035F1D0FA3E3AEC6EA.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.25.30:550][877]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.25.35:781][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.25.39:716][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.25.39:752][336]LogSavePackage: Save=31.06ms
+[2018.05.18-09.25.39:752][336]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash2179E0CB4E4C3C8E58182E9A57A5D6C6.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.25.39:754][336]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.25.52:012][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.25.56:491][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.25.56:528][117]LogSavePackage: Save=32.10ms
+[2018.05.18-09.25.56:528][117]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash489AF56545836751CA153AA6855ABA1D.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.25.56:530][117]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.26.09:927][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.26.14:405][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.26.14:440][ 10]LogSavePackage: Save=31.70ms
+[2018.05.18-09.26.14:440][ 10]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash626CA04E4DF61D96039B319B48940AEA.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.26.14:442][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.26.26:592][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.26.26:630][737]LogSavePackage: Save=33.66ms
+[2018.05.18-09.26.26:630][737]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash45754281404750CEB7A99899F2048267.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.26.26:632][737]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.26.33:356][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.26.36:574][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.26.36:609][264]LogSavePackage: Save=31.32ms
+[2018.05.18-09.26.36:609][264]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashC68371644D3EA4A1B574FBB6B2AF48A6.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.26.36:611][264]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.26.47:527][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.26.49:928][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.26.49:961][856]LogSavePackage: Save=30.51ms
+[2018.05.18-09.26.49:961][856]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashAF4090D94ADC777FBB35FC805A1BFDA2.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.26.49:965][856]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.27.00:825][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.27.03:227][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.27.03:263][523]LogSavePackage: Save=31.61ms
+[2018.05.18-09.27.03:263][523]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashED0F42E54911269294BCEB872553B96A.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.27.03:266][523]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.27.13:180][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.27.13:229][116]LogSavePackage: Save=44.51ms
+[2018.05.18-09.27.13:229][116]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_FlashD58DB09C44D1332608402C9B617CB30E.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.27.13:232][116]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.27.17:283][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.27.17:330][357]LogSavePackage: Save=43.27ms
+[2018.05.18-09.27.17:330][357]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash295A506C41C5F42955F70A9978B79831.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.27.17:332][357]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.27.24:874][750]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.27.24:904][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.27.24:929][750]LogSavePackage: Save=19.47ms
+[2018.05.18-09.27.24:930][750]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayerB3A402EA42663DAD65E8F0B50D9C1EE0.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.27.24:933][750]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.27.30:020][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.27.30:055][993]LogSavePackage: Save=30.45ms
+[2018.05.18-09.27.30:055][993]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash2ED24A8E4046B83D0DE7A780A79C384C.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.27.30:058][993]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.27.48:229][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.27.48:264][751]LogSavePackage: Save=30.90ms
+[2018.05.18-09.27.48:264][751]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash7D2C547C4F9E4E9C4684419FA6EABC41.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.27.48:266][751]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.27.51:667][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.27.51:702][953]LogSavePackage: Save=31.61ms
+[2018.05.18-09.27.51:702][953]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash4E0447804CB24D9FD1A6639BB4ECFB4B.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.27.51:705][953]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.28.13:169][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.28.13:204][177]LogSavePackage: Save=31.30ms
+[2018.05.18-09.28.13:204][177]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash15B1C2094C47ADAD4EEBFA8AFBD7E196.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.28.13:207][177]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.28.25:496][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.28.35:148][260]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.28.47:534][918]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.29.00:620][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.29.00:650][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.29.00:673][689]LogSavePackage: Save=18.97ms
+[2018.05.18-09.29.00:673][689]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayerF6ECCD0F416E9B0307B13EAAD0554E8E.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.29.00:675][689]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.29.01:852][759]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.29.05:754][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-09.29.10:760][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/P_Muzzle_Flash" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset" SILENT=true
+[2018.05.18-09.29.10:794][258]LogSavePackage: Save=30.86ms
+[2018.05.18-09.29.10:794][258]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/P_Muzzle_Flash3898A7D34BA3EA5DD0AED6B8BEFF0F81.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+[2018.05.18-09.29.10:796][258]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+[2018.05.18-09.29.20:561][839]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-09.29.20:592][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.29.20:614][839]LogSavePackage: Save=19.67ms
+[2018.05.18-09.29.20:614][839]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayerF2EAD1894C6C53CA1FF80182F18F28E2.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.29.20:617][839]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.29.21:913][916]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.29.26:627][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.29.26:663][165]LogSavePackage: Save=32.16ms
+[2018.05.18-09.29.26:663][165]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayerA19DF8464EC3850796D604A88B0F05C0.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.29.26:665][165]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.29.31:355][370]LogCascade: Quitting Cascade. FXSystem=0x000001F286EAA980
+[2018.05.18-09.30.23:423][480]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.031
+[2018.05.18-09.30.23:426][480]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material] ([1] browsable assets)...
+[2018.05.18-09.30.23:474][480]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material.Muzzle_FLesh_Material]
+[2018.05.18-09.30.23:474][480]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material]
+[2018.05.18-09.30.23:494][480]LogSavePackage: Save=13.21ms
+[2018.05.18-09.30.23:494][480]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Muzzle_FLesh_Material_Auto178CDF97240C06F01DBD1F79E46505A8B.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material_Auto1.uasset'
+[2018.05.18-09.30.23:495][480]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material_Auto1.uasset
+[2018.05.18-09.30.23:495][480]LogFileHelpers: Auto-saving content packages took 0.071
+[2018.05.18-09.40.38:119][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.026
+[2018.05.18-09.40.38:121][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_FPSPlayer] ([1] browsable assets)...
+[2018.05.18-09.40.38:169][271]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_FPSPlayer.BP_FPSPlayer]
+[2018.05.18-09.40.38:169][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_FPSPlayer]
+[2018.05.18-09.40.38:169][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Blueprints/BP_FPSPlayer_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.05.18-09.40.38:210][271]LogSavePackage: Save=22.07ms
+[2018.05.18-09.40.38:210][271]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayer_Auto23E048A1E4BEED258AB17A3B62340E59E.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Blueprints/BP_FPSPlayer_Auto2.uasset'
+[2018.05.18-09.40.38:211][271]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Saved/Autosaves/Game/Blueprints/BP_FPSPlayer_Auto2.uasset
+[2018.05.18-09.40.38:211][271]LogFileHelpers: Auto-saving content packages took 0.091
+[2018.05.18-09.42.24:612][802]Candidate modules for hot reload:
+[2018.05.18-09.42.24:612][802]  FPS
+[2018.05.18-09.42.24:612][802]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,3399 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.05.18-09.42.24:619][802]Warning: Starting HotReload took  0.1s.
+[2018.05.18-09.42.25:582][851]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.42.28:640][  6]BlueprintLog: New page: Compile BP_FPSPlayer
+[2018.05.18-09.42.32:019][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSPlayer" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset" SILENT=true
+[2018.05.18-09.42.32:048][182]LogSavePackage: Save=23.00ms
+[2018.05.18-09.42.32:048][182]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/BP_FPSPlayerD881446C4EFD7F784F70808DD53DEDD5.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset'
+[2018.05.18-09.42.32:050][182]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Blueprints/BP_FPSPlayer.uasset
+[2018.05.18-09.42.32:061][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLesh_Material.uasset" SILENT=true
+[2018.05.18-09.42.32:075][182]LogSavePackage: Save=6.81ms
+[2018.05.18-09.42.32:075][182]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Muzzle_FLesh_Material84B61CA143E76D6369E463B56BBFE703.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLesh_Material.uasset'
+[2018.05.18-09.42.32:080][182]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLesh_Material.uasset
+[2018.05.18-09.43.08:119][342]CompilerResultsLog: New page: Compilation - May 18, 2018, 1:43:08 PM
+[2018.05.18-09.43.08:120][342]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Creating makefile for hot reloading FPS (ini files are newer than UBTMakefile)
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.05.18-09.43.08:121][342]CompilerResultsLog:   Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Reflection code generated for FPSEditor in 16.783483 seconds
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: SMG.cpp
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: FPSPlayer.cpp
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: SMG.gen.cpp
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(43) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(73) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: [4/5] Link UE4Editor-FPS-3399.dll
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: [5/5] Link UE4Editor-FPS-3399.lib
+[2018.05.18-09.43.08:121][342]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3399.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3399.exp
+[2018.05.18-09.43.08:121][342]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3399.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3399.suppressed.exp
+[2018.05.18-09.43.08:121][342]CompilerResultsLog: Total build time: 42.67 seconds (Local executor: 12.43 seconds)
+[2018.05.18-09.43.08:121][342]LogMainFrame: MainFrame: Module compiling took 43.518 seconds
+[2018.05.18-09.43.08:176][342]LogClass: Could not find existing class SMG in package /Script/FPS for HotReload, assuming new class
+[2018.05.18-09.43.08:176][342]LogClass: Function FireBullet is new.
+[2018.05.18-09.43.08:183][342]LogHotReload: Re-instancing FPSPlayer after hot-reload.
+[2018.05.18-09.43.08:759][342]LogHotReload: Re-instancing SMG after hot-reload.
+[2018.05.18-09.43.08:849][342]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2018.05.18-09.43.08:852][342]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.05.18-09.43.09:312][342]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2461 classes and 564 folders.
+[2018.05.18-09.43.09:320][342]Display: HotReload took 44.8s.
+[2018.05.18-09.43.13:342][575]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.18-09.43.13:370][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.18-09.43.13:375][575]PIE: New page: PIE session: TestMap (May 18, 2018, 1:43:13 PM)
+[2018.05.18-09.43.13:376][575]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.05.18-09.43.13:381][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004586s)
+[2018.05.18-09.43.13:382][575]LogAIModule: Creating AISystem for world TestMap
+[2018.05.18-09.43.13:383][575]LogPlayLevel: PIE: World Init took: (0.002048s)
+[2018.05.18-09.43.13:383][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.007025s)
+[2018.05.18-09.43.13:463][575]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.18-09.43.13:499][575]LogInit: FAudioDevice initialized.
+[2018.05.18-09.43.13:561][575]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.05.18-09.43.13:563][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.05.18-11.43.13
+[2018.05.18-09.43.13:566][575]LogWorld: Bringing up level for play took: 0.003312
+[2018.05.18-09.43.13:624][575]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.05.18-09.43.14:089][575]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.452 s
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: === Handled ensure: ===
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: 
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: Ensure condition failed: Component->HasBegunPlay() [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3129]
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: Failed to route BeginPlay (SMG /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_FPSPlayer_C_0.CurrentWeaponMesh)
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: Stack: 
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x0000000002C7B706 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x00000000029DAE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x00000000029EECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x00000000ED24A2D5 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x0000000029B3483F UE4Editor-FPS-3399.dll!AFPSPlayer::BeginPlay() [d:\sparetime\unreal\fps\fps\source\fps\fpsplayer.cpp:35]
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x00000000ED2572FB UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x00000000EE50AE33 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x00000000ED9CF731 UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.18-09.43.14:089][575]LogOutputDevice: Error: [Callstack] 0x00000000EE4F414E UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000ED9F443E UE4Editor-Engine.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000FBC927E0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000FBCB1246 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000FBCCBBEF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000FB73C961 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000FBFD9626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000E5F75EAC UE4Editor.exe!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000E5F86BD0 UE4Editor.exe!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000E5F86C4A UE4Editor.exe!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000E5F94177 UE4Editor.exe!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000E5F95B87 UE4Editor.exe!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x000000003E033034 KERNEL32.DLL!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: [Callstack] 0x00000000408F1551 ntdll.dll!UnknownFunction []
+[2018.05.18-09.43.14:090][575]LogOutputDevice: Error: 
+[2018.05.18-09.43.14:100][575]LogStats:                SubmitErrorReport -  0.000 s

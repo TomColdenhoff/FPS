@@ -42,6 +42,9 @@ private:
 	USoundBase* m_GunShotSound;
 	USoundBase* m_GunEmptySound;
 
+	UParticleSystem* m_FireParticle;
+	UParticleSystemComponent* m_ParticleComponent;
+
 	int32 m_ViewportSizeX, m_ViewportSizeY;
 	UCameraComponent* m_CameraComponent;
 	
