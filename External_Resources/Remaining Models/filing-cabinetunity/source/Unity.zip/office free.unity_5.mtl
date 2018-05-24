@@ -1,0 +1,13 @@
+
+newmtl filing-cabinet
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Kd filing-cabinet-albedo.tga
+map_Bump filing-cabinet-normal.tga
+
+
+
