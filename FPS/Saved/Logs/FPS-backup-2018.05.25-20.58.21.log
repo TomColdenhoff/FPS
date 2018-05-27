@@ -1,0 +1,1829 @@
+﻿Log file open, 05/25/18 17:53:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(501892867) SRandInit(501892867).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.376101
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.206s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../../Projects/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-27ERO04 (192.168.178.101:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.25-15.53.47:999][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.25-15.53.47:999][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.25-15.53.48:055][  0]LogInit: Computer: DESKTOP-27ERO04
+[2018.05.25-15.53.48:055][  0]LogInit: User: TomColdenhoff
+[2018.05.25-15.53.48:055][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.25-15.53.48:055][  0]LogInit: High frequency timer resolution =3.319347 MHz
+[2018.05.25-15.53.48:055][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.05.25-15.53.48:055][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.25-15.53.48:055][  0]LogMemory: Process Physical Memory: 274.17 MB used, 274.17 MB peak
+[2018.05.25-15.53.48:055][  0]LogMemory: Process Virtual Memory: 264.63 MB used, 264.63 MB peak
+[2018.05.25-15.53.48:055][  0]LogMemory: Physical Memory: 2877.69 MB used,  9329.75 MB free, 12207.44 MB total
+[2018.05.25-15.53.48:055][  0]LogMemory: Virtual Memory: 659.34 MB used,  9329.75 MB free, 134217728.00 MB total
+[2018.05.25-15.53.48:638][  0]LogInit: Using OS detected language (en-US).
+[2018.05.25-15.53.48:638][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.25-15.53.48:817][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.25-15.53.49:498][  0]LogStreaming: Display: Took  0.860s to EndInitTextLocalization.
+[2018.05.25-15.53.49:498][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.25-15.53.49:863][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.25-15.53.49:863][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.25-15.53.51:735][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.25-15.53.51:802][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.05.25-15.53.51:802][  0]LogD3D11RHI:       4043/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.25-15.53.51:803][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.25-15.53.51:803][  0]LogD3D11RHI:       0/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.25-15.53.51:803][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.25-15.53.51:809][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.25-15.53.51:809][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.25-15.53.51:809][  0]LogWindows: EnumDisplayDevices:
+[2018.05.25-15.53.51:809][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.05.25-15.53.51:809][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.05.25-15.53.51:809][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.25-15.53.51:809][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.25-15.53.51:809][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.05.25-15.53.51:809][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.05.25-15.53.51:809][  0]LogD3D11RHI:   Driver Version: 397.31 (internal:24.21.13.9731, unified:397.31)
+[2018.05.25-15.53.51:809][  0]LogD3D11RHI:      Driver Date: 4-22-2018
+[2018.05.25-15.53.51:809][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.05.25-15.53.51:854][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.25-15.53.51:854][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.25-15.53.51:854][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.25-15.53.51:922][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.25-15.53.51:973][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../../../Projects/FPS/FPS/Intermediate/Shaders/WorkingDirectory/5004/).
+[2018.05.25-15.53.51:974][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TomColdenhoff/AppData/Local/Temp/UnrealShaderWorkingDir/A6E1E43E48D45130342AF3961453A970/'.
+[2018.05.25-15.53.53:526][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.25-15.53.53:551][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.25-15.53.53:564][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.25-15.53.53:577][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.25-15.53.53:603][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.25-15.53.53:614][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.25-15.53.53:625][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.25-15.53.53:635][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.25-15.53.53:640][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.25-15.53.53:650][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.25-15.53.53:659][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.25-15.53.53:669][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.25-15.53.53:679][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.25-15.53.53:688][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.25-15.53.53:698][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.25-15.53.53:717][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.25-15.53.53:717][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.25-15.53.53:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.25-15.53.53:748][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.25-15.53.53:919][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.25-15.53.53:967][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.25-15.53.53:985][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.25-15.53.54:017][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.25-15.53.54:059][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.25-15.53.54:090][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.25-15.53.54:090][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.25-15.53.54:952][  0]LogXGEController: Cleaning working directory: C:/Users/TomColdenhoff/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.25-15.53.54:952][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.25-15.53.54:952][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.25-15.53.54:952][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.25-15.53.57:411][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.25-15.53.58:077][  0]LogDerivedDataCache: Loaded boot cache 0.66s 76MB C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.25-15.53.58:077][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.25-15.53.58:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Projects/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.25-15.53.58:077][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.25-15.53.58:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Projects/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.25-15.53.58:077][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.25-15.53.58:210][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.25-15.53.58:223][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.25-15.53.58:223][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.25-15.53.58:223][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.25-15.53.58:234][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.25-15.53.58:234][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.25-15.53.58:290][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.25-15.53.58:290][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.25-15.54.02:598][  0]LogAssetRegistry: FAssetRegistry took 0.0324 seconds to start up
+[2018.05.25-15.54.03:188][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.25-15.54.04:759][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.25-15.54.04:808][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.25-15.54.04:844][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.25-15.54.04:860][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.25-15.54.04:860][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.25-15.54.04:860][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.25-15.54.05:136][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.05.25-15.54.07:343][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.145406 seconds
+[2018.05.25-15.54.07:348][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.25-15.54.07:348][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.25-15.54.07:348][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.25-15.54.21:877][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.25-15.54.21:902][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.25-15.54.23:194][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.383706ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.05.25-15.54.23:366][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002331cc45cb0, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.05.25-15.54.23:376][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002331cc45cb0, Size=80
+[2018.05.25-15.54.23:376][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002331e0eddf0, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.05.25-15.54.23:386][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002331e03e110, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.05.25-15.54.24:113][  0]SourceControl: Source control is disabled
+[2018.05.25-15.54.24:113][  0]SourceControl: Source control is disabled
+[2018.05.25-15.54.24:125][  0]SourceControl: Source control is disabled
+[2018.05.25-15.54.24:136][  0]SourceControl: Source control is disabled
+[2018.05.25-15.54.24:745][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.25-15.54.24:857][  0]LogOcInput: OculusInput pre-init called
+[2018.05.25-15.54.25:052][  0]LogEngine: Initializing Engine...
+[2018.05.25-15.54.25:053][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.25-15.54.25:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.25-15.54.25:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.25-15.54.25:330][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.25-15.54.25:340][  0]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.25-15.54.25:387][  0]LogInit: FAudioDevice initialized.
+[2018.05.25-15.54.25:536][  0]LogDerivedDataCache: Saved boot cache 0.15s 76MB C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.25-15.54.25:546][  0]LogInit: Texture streaming: Enabled
+[2018.05.25-15.54.25:560][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.25-15.54.25:724][  0]LogInit: Transaction tracking system initialized
+[2018.05.25-15.54.25:880][  0]BlueprintLog: New page: Editor Load
+[2018.05.25-15.54.27:257][  0]LocalizationService: Localization service is disabled
+[2018.05.25-15.54.28:127][  0]LogConsoleResponse: Display: 
+[2018.05.25-15.54.29:453][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.25-15.54.29:454][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.25-15.54.29:454][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.25-15.54.29:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.25-15.54.29:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.25-15.54.30:265][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/' took 0.04s
+[2018.05.25-15.54.31:511][  0]SourceControl: Source control is disabled
+[2018.05.25-15.54.31:511][  0]Cmd: MAP LOAD FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.25-15.54.31:512][  0]LightingResults: New page: Lighting Build
+[2018.05.25-15.54.31:519][  0]MapCheck: New page: Map Check
+[2018.05.25-15.54.31:519][  0]LightingResults: New page: Lighting Build
+[2018.05.25-15.54.31:549][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002331e0eddf0, Size=80
+[2018.05.25-15.54.32:641][  0]LogMaterial: Missing cached shader map for material M_WallTV, compiling. 
+[2018.05.25-15.54.32:697][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.05.25-15.54.32:697][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.25-15.54.32:697][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-15.54.32:697][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-15.54.32:697][  0]LogTexture: Display: Building textures: T_RetroVending_N (BC5, 2048X2048)
+[2018.05.25-15.54.32:697][  0]LogStaticMesh: Building static mesh SM_PhotocopierSmall...
+[2018.05.25-15.54.32:743][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Electronics/SM_PhotocopierSmall.SM_PhotocopierSmall
+[2018.05.25-15.54.32:776][  0]LogMaterial: Missing cached shader map for material M_PhotoCopier, compiling. 
+[2018.05.25-15.54.32:786][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.05.25-15.54.32:786][  0]LogStaticMesh: Building static mesh SM_PhotocopierBig...
+[2018.05.25-15.54.32:861][  0]LogTexture: Display: Building textures: T_RetroVending_D (AutoDXT, 2048X2048)
+[2018.05.25-15.54.32:861][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Models/Electronics/SM_PhotocopierBig.SM_PhotocopierBig
+[2018.05.25-15.54.32:977][  0]LogStaticMesh: Building static mesh SM_VendingSnacks...
+[2018.05.25-15.54.32:995][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Models/GenericProps/SM_VendingSnacks.SM_VendingSnacks
+[2018.05.25-15.54.32:998][  0]LogStaticMesh: Building static mesh SM_VendingDrinks...
+[2018.05.25-15.54.33:016][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Models/GenericProps/SM_VendingDrinks.SM_VendingDrinks
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_VendingMachines_N (BC5, 4096X2048)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_RetroVending_RMA (AutoDXT, 2048X2048)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_VendingMachines_RMA (AutoDXT, 4096X2048)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_VendingMachines_D (AutoDXT, 4096X2048)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_MetalBins_RMA (AutoDXT, 4096X4096)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_MetalBins_N (BC5, 4096X4096)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_MetalBins_D (AutoDXT, 4096X4096)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_skin_box_norm (BC5, 1024X1024)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_skin_box (AutoDXT, 1024X1024)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_ThinChair_N (BC5, 1024X2048)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_LCD (AutoDXT, 256X128)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_RadioNew_RMA (AutoDXT, 2048X2048)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_RadioNew_D (AutoDXT, 2048X2048)
+[2018.05.25-15.54.42:623][  0]LogTexture: Display: Building textures: T_RadioNew_N (BC5, 2048X2048)
+[2018.05.25-15.54.42:626][  0]LogMaterial: Missing cached shader map for material M_VendingMachines, compiling. 
+[2018.05.25-15.54.42:649][  0]LogStaticMesh: Building static mesh SM_VendingCoffee...
+[2018.05.25-15.54.42:664][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Models/GenericProps/SM_VendingCoffee.SM_VendingCoffee
+[2018.05.25-15.54.42:668][  0]LogMaterial: Missing cached shader map for material M_RetroVending, compiling. 
+[2018.05.25-15.54.42:706][  0]LogStaticMesh: Building static mesh SM_RetroVending...
+[2018.05.25-15.54.42:759][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Models/GenericProps/SM_RetroVending.SM_RetroVending
+[2018.05.25-15.54.51:200][  0]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.05.25-15.54.51:200][  0]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.05.25-15.54.51:200][  0]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.05.25-15.54.51:200][  0]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.05.25-15.54.51:200][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.05.25-15.54.51:200][  0]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.05.25-15.54.56:604][  0]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.05.25-15.54.56:604][  0]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-15.54.56:604][  0]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-15.54.56:618][  0]LogMaterial: Missing cached shader map for material M_MetalBins, compiling. 
+[2018.05.25-15.54.56:631][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.05.25-15.54.56:631][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.25-15.54.56:631][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-15.54.56:631][  0]LogStaticMesh: Building static mesh SM_MetalBinDouble...
+[2018.05.25-15.54.56:645][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Models/GenericProps/SM_MetalBinDouble.SM_MetalBinDouble
+[2018.05.25-15.54.56:782][  0]LogMaterial: Missing cached shader map for material M_FileCabinet, compiling. 
+[2018.05.25-15.54.56:947][  0]LogMaterial: Missing cached shader map for material M_Box, compiling. 
+[2018.05.25-15.54.56:964][  0]LogStaticMesh: Building static mesh box...
+[2018.05.25-15.54.56:968][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Models/GenericProps/box.box
+[2018.05.25-15.54.56:969][  0]LogStaticMesh: Building static mesh SM_ThinChairNoArms...
+[2018.05.25-15.54.56:992][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Furniture/SM_ThinChairNoArms.SM_ThinChairNoArms
+[2018.05.25-15.54.56:998][  0]LogMaterial: Missing cached shader map for material M_ThinChair, compiling. 
+[2018.05.25-15.54.57:042][  0]LogStaticMesh: Building static mesh SM_ThinChair...
+[2018.05.25-15.54.57:073][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Models/Furniture/SM_ThinChair.SM_ThinChair
+[2018.05.25-15.54.57:644][  0]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.05.25-15.54.57:645][  0]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.05.25-15.54.57:645][  0]LogMaterial: Missing cached shader map for material M_CircularTable, compiling. 
+[2018.05.25-15.54.58:286][  0]LogStaticMesh: Building static mesh SM_DoorPlain...
+[2018.05.25-15.54.58:290][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Doors/SM_DoorPlain.SM_DoorPlain
+[2018.05.25-15.54.58:319][  0]LogStaticMesh: Building static mesh SM_DoorWindow...
+[2018.05.25-15.54.58:329][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Doors/SM_DoorWindow.SM_DoorWindow
+[2018.05.25-15.54.58:330][  0]LogStaticMesh: Building static mesh SM_LockBar...
+[2018.05.25-15.54.58:344][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Doors/SM_LockBar.SM_LockBar
+[2018.05.25-15.54.58:358][  0]LogStaticMesh: Building static mesh SM_LockFireEsc...
+[2018.05.25-15.54.58:374][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Doors/SM_LockFireEsc.SM_LockFireEsc
+[2018.05.25-15.54.58:375][  0]LogStaticMesh: Building static mesh SM_LockKeypad...
+[2018.05.25-15.54.58:394][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Doors/SM_LockKeypad.SM_LockKeypad
+[2018.05.25-15.54.58:407][  0]LogStaticMesh: Building static mesh SM_RadioNew...
+[2018.05.25-15.54.58:535][  0]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.05.25-15.54.58:535][  0]LogStaticMesh: Built static mesh [0.13s] /Game/Models/CommunicationsEquip/SM_RadioNew.SM_RadioNew
+[2018.05.25-15.54.58:798][  0]LogMaterial: Missing cached shader map for material M_DoorGlass, compiling. 
+[2018.05.25-15.54.58:902][  0]LogMaterial: Missing cached shader map for material M_RadioNewLCD, compiling. 
+[2018.05.25-15.54.58:909][  0]LogMaterial: Missing cached shader map for material M_RadioNew, compiling. 
+[2018.05.25-15.54.59:064][  0]LogShaderCompilers: Display: Shaders left to compile 174
+[2018.05.25-15.54.59:064][  0]LogAIModule: Creating AISystem for world Level1
+[2018.05.25-15.55.00:076][  0]LogShaderCompilers: Display: Shaders left to compile 164
+[2018.05.25-15.55.00:076][  0]LogShaderCompilers: Display: Shaders left to compile 154
+[2018.05.25-15.55.00:356][  0]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.05.25-15.55.00:356][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.25-15.55.00:915][  0]LogShaderCompilers: Display: Shaders left to compile 134
+[2018.05.25-15.55.00:915][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.25-15.55.01:131][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 207.514ms to complete.
+[2018.05.25-15.55.01:136][  0]LogFileHelpers: Loading map 'Level1' took 29.625
+[2018.05.25-15.55.02:639][  0]LogShaderCompilers: Display: Shaders left to compile 124
+[2018.05.25-15.55.02:640][  0]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.05.25-15.55.02:640][  0]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.05.25-15.55.02:640][  0]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.05.25-15.55.05:068][  0]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.05.25-15.55.05:068][  0]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.05.25-15.55.05:068][  0]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.05.25-15.55.05:068][  0]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.05.25-15.55.05:068][  0]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.05.25-15.55.05:068][  0]LogCollectionManager: Loaded 0 collections in 0.000950 seconds
+[2018.05.25-15.55.05:276][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.05.25-15.55.05:276][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/Developers/TomColdenhoff/Collections/' took 0.01s
+[2018.05.25-15.55.05:276][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/Collections/' took 0.01s
+[2018.05.25-15.55.05:276][  0]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.05.25-15.55.05:277][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.25-15.55.05:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0221 seconds. Added 2458 classes and 560 folders.
+[2018.05.25-15.55.05:505][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.25-15.55.07:031][  0]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.05.25-15.55.07:031][  0]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-15.55.07:031][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.25-15.55.07:208][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.25-15.55.08:176][  0]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-15.55.08:176][  0]LogSlate: Took 0.021794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.25-15.55.08:221][  0]LogSlate: Took 0.027174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.25-15.55.08:331][  0]LogSlate: Took 0.017437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.25-15.55.09:030][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.25-15.55.09:782][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.25-15.55.09:782][  0]LogLoad: (Engine Initialization) Total time: 98.03 seconds
+[2018.05.25-15.55.09:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.25-15.55.10:151][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.25-15.55.10:583][  1]LogSlate: Took 0.011181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.25-15.55.10:655][  3]LogAssetRegistry: Asset discovery search completed in 68.0792 seconds
+[2018.05.25-15.55.10:669][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.25-15.55.10:669][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.05.25-16.05.17:659][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.05.52:931][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.06.15:744][ 37]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.25-16.06.15:802][ 37]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Projects/FPS/External_Resources/Enemy/Soldier.fbx)
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: Model, ItemCount : 64
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: Material, ItemCount : 3
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: Video, ItemCount : 2
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: SubDeformer, ItemCount : 62
+[2018.05.25-16.06.15:964][ 37]LogFbx: ItemName: Deformer, ItemCount : 1
+[2018.05.25-16.06.15:978][ 37]LogFbx: Loading FBX Scene from ../../../../../../../Projects/FPS/External_Resources/Enemy/Soldier.fbx
+[2018.05.25-16.06.16:066][ 37]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.25-16.06.25:453][ 37]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.25-16.06.25:544][ 37]LogFbx: Loading FBX Scene from ../../../../../../../Projects/FPS/External_Resources/Enemy/Soldier.fbx
+[2018.05.25-16.06.25:708][ 37]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.25-16.06.25:718][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:718][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:718][ 37]LogFbx: 	Total Deformer Count 65057744.
+[2018.05.25-16.06.25:718][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:718][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:718][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:718][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:718][ 37]LogFbx: Dumping Node START [Soldier] 
+[2018.05.25-16.06.25:718][ 37]LogFbx: 	Total Deformer Count 154078248.
+[2018.05.25-16.06.25:718][ 37]LogFbx: 		[Node 1] Skin Soldier (Type Skin).
+[2018.05.25-16.06.25:718][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:718][ 37]LogFbx: 	Attribute (Soldier) Type (4).
+[2018.05.25-16.06.25:718][ 37]LogFbx: 		[Node Attribute Child 1] Soldier (Type Mesh).
+[2018.05.25-16.06.25:718][ 37]LogFbx: Dumping Node END [Soldier]
+[2018.05.25-16.06.25:718][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:718][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:718][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:718][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:718][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:718][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:719][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:719][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:719][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:719][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:719][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:719][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:719][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:719][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:719][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:719][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:719][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:719][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:719][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:719][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:719][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:719][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:719][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:719][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:720][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:720][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:720][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:720][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:720][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:720][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:720][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:720][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:720][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:720][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:721][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:721][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:721][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:721][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:721][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:721][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:721][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:721][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:721][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:721][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:721][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:721][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:721][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:721][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.25:721][ 37]LogFbx: 	Total Deformer Count 65056592.
+[2018.05.25-16.06.25:721][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.25:721][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.25:721][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.25:722][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:722][ 37]LogFbx: Dumping Node START [Soldier] 
+[2018.05.25-16.06.25:722][ 37]LogFbx: 	Total Deformer Count 154078136.
+[2018.05.25-16.06.25:722][ 37]LogFbx: 		[Node 1] Skin Soldier (Type Skin).
+[2018.05.25-16.06.25:722][ 37]LogFbx: =================================================
+[2018.05.25-16.06.25:722][ 37]LogFbx: 	Attribute (Soldier) Type (4).
+[2018.05.25-16.06.25:722][ 37]LogFbx: 		[Node Attribute Child 1] Soldier (Type Mesh).
+[2018.05.25-16.06.25:722][ 37]LogFbx: Dumping Node END [Soldier]
+[2018.05.25-16.06.25:724][ 37]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Soldier : The relative matrices do not match
+[2018.05.25-16.06.25:724][ 37]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node M4MB : The relative matrices do not match
+[2018.05.25-16.06.25:725][ 37]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.05.25-16.06.25:726][ 37]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Soldier
+[2018.05.25-16.06.25:726][ 37]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.05.25-16.06.25:777][ 37]LogMaterial: Warning: Material /Game/Models/Enemy/polySurface1SG.polySurface1SG needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.25-16.06.25:784][ 37]LogMaterial: Missing cached shader map for material polySurface1SG, compiling. 
+[2018.05.25-16.06.25:844][ 37]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.25-16.06.25:844][ 37]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.25-16.06.25:844][ 37]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.25-16.06.25:844][ 37]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.25-16.06.25:846][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Unity_soldier_Head_DIF_01'
+[2018.05.25-16.06.25:846][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Unity_soldier_Head_DIF_01'
+[2018.05.25-16.06.25:846][ 37]LogFbxMaterialImport: Warning: Unable to find Texture file /Users/PB G4/Desktop/Soldier/SoldierPackage/Assets/Textures/Unity_soldier_Head_DIF_01.tga
+[2018.05.25-16.06.25:852][ 37]LogMaterial: Missing cached shader map for material polySurface1SG, compiling. 
+[2018.05.25-16.06.25:892][ 37]LogMaterial: Warning: Material /Game/Models/Enemy/polySurface1SG1.polySurface1SG1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.25-16.06.25:926][ 37]LogMaterial: Missing cached shader map for material polySurface1SG1, compiling. 
+[2018.05.25-16.06.25:942][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Unity_soldier_Body_DIF_wip'
+[2018.05.25-16.06.25:942][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Unity_soldier_Body_DIF_wip'
+[2018.05.25-16.06.25:942][ 37]LogFbxMaterialImport: Warning: Unable to find Texture file /Users/PB G4/Desktop/Soldier/SoldierPackage/Assets/Textures/Unity_soldier_Body_DIF_wip.tga
+[2018.05.25-16.06.25:944][ 37]LogMaterial: Missing cached shader map for material polySurface1SG1, compiling. 
+[2018.05.25-16.06.25:974][ 37]LogMaterial: Warning: Material /Game/Models/Enemy/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.25-16.06.25:976][ 37]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.05.25-16.06.25:993][ 37]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.05.25-16.06.26:044][ 37]LogFbx: Warning: Bones digested - 63  Depth of hierarchy - 13
+[2018.05.25-16.06.26:561][ 37]LogSkeletalMesh: Section 0: 3665 vertices, 11 active bones
+[2018.05.25-16.06.26:562][ 37]LogSkeletalMesh: Section 1: 6808 vertices, 56 active bones
+[2018.05.25-16.06.26:562][ 37]LogSkeletalMesh: Section 2: 2571 vertices, 1 active bones
+[2018.05.25-16.06.26:653][ 37]LogSkeletalMesh: Section 0: Material=0, 5672 triangles
+[2018.05.25-16.06.26:654][ 37]LogSkeletalMesh: Section 1: Material=1, 10004 triangles
+[2018.05.25-16.06.26:654][ 37]LogSkeletalMesh: Section 2: Material=2, 2548 triangles
+[2018.05.25-16.06.26:665][ 37]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.06.26:708][ 37]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.06.26:716][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Soldier_Skeleton'
+[2018.05.25-16.06.26:716][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Soldier_Skeleton'
+[2018.05.25-16.06.26:729][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Soldier_PhysicsAsset'
+[2018.05.25-16.06.26:729][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Soldier_PhysicsAsset'
+[2018.05.25-16.06.26:942][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:942][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:942][ 37]LogFbx: 	Total Deformer Count 961897008.
+[2018.05.25-16.06.26:942][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:942][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:942][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:942][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:942][ 37]LogFbx: Dumping Node START [Soldier] 
+[2018.05.25-16.06.26:942][ 37]LogFbx: 	Total Deformer Count 258656928.
+[2018.05.25-16.06.26:942][ 37]LogFbx: 		[Node 1] Skin Soldier (Type Skin).
+[2018.05.25-16.06.26:942][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:942][ 37]LogFbx: 	Attribute (Soldier) Type (4).
+[2018.05.25-16.06.26:942][ 37]LogFbx: 		[Node Attribute Child 1] Soldier (Type Mesh).
+[2018.05.25-16.06.26:942][ 37]LogFbx: Dumping Node END [Soldier]
+[2018.05.25-16.06.26:943][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:943][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:943][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:943][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:943][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:943][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:943][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:943][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:943][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:943][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:943][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:944][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:944][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:944][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:944][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:944][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:944][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:944][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:944][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:944][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:944][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:944][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:944][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:944][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:945][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:945][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:945][ 37]LogFbx: Dumping Node START [M4MB] 
+[2018.05.25-16.06.26:945][ 37]LogFbx: 	Total Deformer Count 961891632.
+[2018.05.25-16.06.26:945][ 37]LogFbx: 	Attribute (M4MB) Type (4).
+[2018.05.25-16.06.26:945][ 37]LogFbx: 		[Node Attribute Child 1] M4MB (Type Mesh).
+[2018.05.25-16.06.26:945][ 37]LogFbx: Dumping Node END [M4MB]
+[2018.05.25-16.06.26:946][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:946][ 37]LogFbx: Dumping Node START [Soldier] 
+[2018.05.25-16.06.26:946][ 37]LogFbx: 	Total Deformer Count 258656760.
+[2018.05.25-16.06.26:946][ 37]LogFbx: 		[Node 1] Skin Soldier (Type Skin).
+[2018.05.25-16.06.26:946][ 37]LogFbx: =================================================
+[2018.05.25-16.06.26:946][ 37]LogFbx: 	Attribute (Soldier) Type (4).
+[2018.05.25-16.06.26:946][ 37]LogFbx: 		[Node Attribute Child 1] Soldier (Type Mesh).
+[2018.05.25-16.06.26:946][ 37]LogFbx: Dumping Node END [Soldier]
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(0) Pelvis
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(1) LLegUpper
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(2) LLegCalf
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(3) LLegAnkle
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(4) LLegToe1
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(5) Spine1
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(6) Spine2
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(7) Spine3
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(8) Neck1
+[2018.05.25-16.06.26:946][ 37]LogFbx: SortedLinks :(9) NeckHead
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(10) Reyelid
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(11) Leyelid
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(12) Rbrow
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(13) Lbrow
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(14) Rmouth
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(15) Lmouth
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(16) RArmCollarbone
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(17) RArmUpper1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(18) RArmUpper2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(19) RArmForearm1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(20) RArmForearm2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(21) RArmHand
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(22) RArmPinky1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(23) RArmPinky2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(24) RArmPinky3
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(25) RArmRing1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(26) RArmRing2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(27) RArmRing3
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(28) RArmMid1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(29) RArmMid2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(30) RArmMid3
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(31) RArmIndex1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(32) RArmIndex2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(33) RArmIndex3
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(34) RArmThumb1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(35) RArmThumb2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(36) RArmThumb3
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(37) M4MB
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(38) LArmCollarbone
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(39) LArmUpper1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(40) LArmUpper2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(41) LArmForearm1
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(42) LArmForearm2
+[2018.05.25-16.06.26:947][ 37]LogFbx: SortedLinks :(43) LArmHand
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(44) LArmPinky1
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(45) LArmPinky2
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(46) LArmPinky3
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(47) LArmRing1
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(48) LArmRing2
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(49) LArmRing3
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(50) LArmMid1
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(51) LArmMid2
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(52) LArmMid3
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(53) LArmIndex1
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(54) LArmIndex2
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(55) LArmIndex3
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(56) LArmThumb1
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(57) LArmThumb2
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(58) LArmThumb3
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(59) RLegUpper
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(60) RLegCalf
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(61) RLegAnkle
+[2018.05.25-16.06.26:948][ 37]LogFbx: SortedLinks :(62) RLegToe1
+[2018.05.25-16.06.26:964][ 37]LogFbx: Parsing AnimStack Take 001
+[2018.05.25-16.06.26:976][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Soldier_Anim'
+[2018.05.25-16.06.26:976][ 37]LogLinker: Can't find file '/Game/Models/Enemy/Soldier_Anim'
+[2018.05.25-16.06.27:819][ 37]LogShaderCompilers: Display: Shaders left to compile 180
+[2018.05.25-16.06.28:230][ 37]LogShaderCompilers: Display: Shaders left to compile 170
+[2018.05.25-16.06.28:801][ 37]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.05.25-16.06.28:802][ 37]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.05.25-16.06.28:899][ 37]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Enemy/Soldier_Anim.Soldier_Anim
+[2018.05.25-16.06.28:921][ 37]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Soldier_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.25-16.06.28:976][ 37]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.25-16.06.28:977][ 37]FBXImport: Warning: The following bones are missing from the bind pose:
+M4MB  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.05.25-16.06.29:012][ 37]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.06.29:052][ 37]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.06.29:344][ 39]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.05.25-16.06.30:922][127]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.05.25-16.06.30:947][129]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.05.25-16.06.31:503][180]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.05.25-16.06.31:655][195]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.05.25-16.06.32:813][303]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.05.25-16.06.33:675][385]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.05.25-16.06.33:948][410]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.05.25-16.06.34:443][457]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.25-16.06.35:745][580]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.25-16.06.35:875][593]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.25-16.06.36:297][632]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.25-16.06.36:799][679]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.25-16.06.38:120][805]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.06.40:331][ 44]LogSlate: Window 'Message Log' being destroyed
+[2018.05.25-16.06.40:334][ 44]LogSlate: Window 'Message Log' being destroyed
+[2018.05.25-16.06.41:344][140]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.047
+[2018.05.25-16.06.41:385][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Enemy/Soldier] ([1] browsable assets)...
+[2018.05.25-16.06.41:431][140]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Models/Enemy/Soldier.Soldier]
+[2018.05.25-16.06.41:432][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy/Soldier]
+[2018.05.25-16.06.41:432][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.06.41:546][140]LogSavePackage: Save=89.92ms
+[2018.05.25-16.06.41:547][140]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier_Auto1E876A6D24DFDB33BD6F61B8C0216CFD5.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Auto1.uasset'
+[2018.05.25-16.06.41:548][140]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Auto1.uasset
+[2018.05.25-16.06.41:549][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Enemy/polySurface1SG] ([1] browsable assets)...
+[2018.05.25-16.06.41:603][140]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Enemy/polySurface1SG.polySurface1SG]
+[2018.05.25-16.06.41:603][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy/polySurface1SG]
+[2018.05.25-16.06.41:603][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/polySurface1SG" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/polySurface1SG_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.06.41:628][140]LogSavePackage: Save=22.21ms
+[2018.05.25-16.06.41:629][140]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/polySurface1SG_Auto1AB7101714C5060E547EA9CB4990145A3.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/polySurface1SG_Auto1.uasset'
+[2018.05.25-16.06.41:629][140]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/polySurface1SG_Auto1.uasset
+[2018.05.25-16.06.41:630][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Enemy/polySurface1SG1] ([1] browsable assets)...
+[2018.05.25-16.06.41:671][140]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Enemy/polySurface1SG1.polySurface1SG1]
+[2018.05.25-16.06.41:671][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy/polySurface1SG1]
+[2018.05.25-16.06.41:671][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/polySurface1SG1" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/polySurface1SG1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.06.41:708][140]LogSavePackage: Save=21.69ms
+[2018.05.25-16.06.41:708][140]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/polySurface1SG1_Auto1D6AA08544D5BBD99FFC5C09FB7F39061.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/polySurface1SG1_Auto1.uasset'
+[2018.05.25-16.06.41:709][140]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/polySurface1SG1_Auto1.uasset
+[2018.05.25-16.06.41:710][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Enemy/lambert2] ([1] browsable assets)...
+[2018.05.25-16.06.41:758][140]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Enemy/lambert2.lambert2]
+[2018.05.25-16.06.41:758][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy/lambert2]
+[2018.05.25-16.06.41:759][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/lambert2" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/lambert2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.06.41:806][140]LogSavePackage: Save=43.23ms
+[2018.05.25-16.06.41:806][140]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/lambert2_Auto1F8CC0700493DD53F7BB60B97C3F61B21.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/lambert2_Auto1.uasset'
+[2018.05.25-16.06.41:808][140]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/lambert2_Auto1.uasset
+[2018.05.25-16.06.41:810][140]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Enemy/Soldier_Skeleton] ([1] browsable assets)...
+[2018.05.25-16.06.41:810][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy/Soldier_Skeleton]
+[2018.05.25-16.06.41:810][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier_Skeleton" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Skeleton_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.06.41:832][140]LogSavePackage: Save=17.21ms
+[2018.05.25-16.06.41:832][140]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier_Skeleton_Auto1126C744D4A1ACFE146DD4E865CF1CA7A.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Skeleton_Auto1.uasset'
+[2018.05.25-16.06.41:834][140]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Skeleton_Auto1.uasset
+[2018.05.25-16.06.41:835][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Enemy/Soldier_PhysicsAsset] ([1] browsable assets)...
+[2018.05.25-16.06.41:890][140]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Models/Enemy/Soldier_PhysicsAsset.Soldier_PhysicsAsset]
+[2018.05.25-16.06.41:890][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy/Soldier_PhysicsAsset]
+[2018.05.25-16.06.41:939][140]LogSavePackage: Save=43.74ms
+[2018.05.25-16.06.41:939][140]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier_PhysicsAsset_Auto18C22D74A40240DEB0B8BA4A32A79E264.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_PhysicsAsset_Auto1.uasset'
+[2018.05.25-16.06.41:940][140]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_PhysicsAsset_Auto1.uasset
+[2018.05.25-16.06.41:940][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Enemy/Soldier_Anim] ([1] browsable assets)...
+[2018.05.25-16.06.41:973][140]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Models/Enemy/Soldier_Anim.Soldier_Anim]
+[2018.05.25-16.06.41:973][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Enemy/Soldier_Anim]
+[2018.05.25-16.06.41:975][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier_Anim" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Anim_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.06.42:008][140]LogSavePackage: Save=29.92ms
+[2018.05.25-16.06.42:008][140]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier_Anim_Auto1E3071076479DB65C606F7680109324B5.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Anim_Auto1.uasset'
+[2018.05.25-16.06.42:008][140]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Models/Enemy/Soldier_Anim_Auto1.uasset
+[2018.05.25-16.06.42:008][140]LogFileHelpers: Auto-saving content packages took 0.662
+[2018.05.25-16.06.53:146][831]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.25-16.06.55:596][831]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.06.55:625][831]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.06.55:628][831]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.06.55:651][831]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.06.55:656][831]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.06.55:677][831]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.07.20:596][ 68]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Projects/FPS/External_Resources/Enemy/Textures/Tex_Solider_Body_Normal.jpg)
+[2018.05.25-16.07.20:666][ 68]LogTexture: Display: Building textures: Tex_Solider_Body_Normal (BC5, 1024X1024)
+[2018.05.25-16.07.20:774][ 68]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Projects/FPS/External_Resources/Enemy/Textures/Tex_Solider_Head_Normal.jpg)
+[2018.05.25-16.07.20:798][ 68]LogTexture: Display: Building textures: Tex_Solider_Head_Normal (BC5, 512X512)
+[2018.05.25-16.07.20:849][ 68]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Projects/FPS/External_Resources/Enemy/Textures/Tex_Solider_White_Body_Diffuse.tga)
+[2018.05.25-16.07.20:884][ 68]LogTexture: Display: Building textures: Tex_Solider_White_Body_Diffuse (AutoDXT, 1024X1024)
+[2018.05.25-16.07.21:186][ 68]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Projects/FPS/External_Resources/Enemy/Textures/Tex_Solider_White_Head_Diffuse.tga)
+[2018.05.25-16.07.21:196][ 68]LogTexture: Display: Building textures: Tex_Solider_White_Head_Diffuse (AutoDXT, 512X512)
+[2018.05.25-16.07.23:676][308]LogSavePackage: Save=73.92ms
+[2018.05.25-16.07.23:676][308]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Tex_Solider_White_Head_Diffuse9C831F104DE37F044840FA8E26785FA4.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_White_Head_Diffuse.uasset'
+[2018.05.25-16.07.23:682][308]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_White_Head_Diffuse.uasset
+[2018.05.25-16.07.23:839][308]LogSavePackage: Save=131.39ms
+[2018.05.25-16.07.23:839][308]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Tex_Solider_White_Body_Diffuse2A66785B4C737F7B3F9F6FA10DD6E47A.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_White_Body_Diffuse.uasset'
+[2018.05.25-16.07.23:841][308]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_White_Body_Diffuse.uasset
+[2018.05.25-16.07.23:862][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Textures/Tex_Solider_Head_Normal" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_Head_Normal.uasset" SILENT=true
+[2018.05.25-16.07.23:961][308]LogSavePackage: Save=97.15ms
+[2018.05.25-16.07.23:961][308]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Tex_Solider_Head_Normal2B569D1F46494BD6AC6DC58EE60178D3.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_Head_Normal.uasset'
+[2018.05.25-16.07.23:963][308]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_Head_Normal.uasset
+[2018.05.25-16.07.23:974][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Textures/Tex_Solider_Body_Normal" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_Body_Normal.uasset" SILENT=true
+[2018.05.25-16.07.24:199][308]LogSavePackage: Save=223.40ms
+[2018.05.25-16.07.24:199][308]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Tex_Solider_Body_Normal8DEA5D3D4E842EC9617B4585B1028E87.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_Body_Normal.uasset'
+[2018.05.25-16.07.24:202][308]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Textures/Tex_Solider_Body_Normal.uasset
+[2018.05.25-16.07.26:976][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset" SILENT=true
+[2018.05.25-16.07.27:003][588]LogSavePackage: Save=26.11ms
+[2018.05.25-16.07.27:004][588]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier5458B7D2459100CD90C9FE8A3B4F650B.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset'
+[2018.05.25-16.07.27:010][588]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset
+[2018.05.25-16.07.27:013][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier_Skeleton" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_Skeleton.uasset" SILENT=true
+[2018.05.25-16.07.27:019][588]LogSavePackage: Save=4.25ms
+[2018.05.25-16.07.27:019][588]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier_Skeleton18B94E624F5AB150FC114788A3B96625.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_Skeleton.uasset'
+[2018.05.25-16.07.27:023][588]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_Skeleton.uasset
+[2018.05.25-16.07.27:040][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier_PhysicsAsset" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_PhysicsAsset.uasset" SILENT=true
+[2018.05.25-16.07.27:059][588]LogSavePackage: Save=17.38ms
+[2018.05.25-16.07.27:059][588]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier_PhysicsAsset4BE31C0C4F742087AAAA8292ED6791C7.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_PhysicsAsset.uasset'
+[2018.05.25-16.07.27:063][588]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_PhysicsAsset.uasset
+[2018.05.25-16.07.27:078][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier_Anim" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_Anim.uasset" SILENT=true
+[2018.05.25-16.07.27:092][588]LogSavePackage: Save=12.75ms
+[2018.05.25-16.07.27:093][588]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier_AnimF2AF82A049A86DC8CCC6FBBEC61B5B17.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_Anim.uasset'
+[2018.05.25-16.07.27:096][588]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier_Anim.uasset
+[2018.05.25-16.07.48:484][952]LogAIModule: Creating AISystem for world AITestMap
+[2018.05.25-16.07.50:940][952]LogSlate: Window 'Save Content' being destroyed
+[2018.05.25-16.07.50:971][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Materials/M_EnemyBody" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset" SILENT=true
+[2018.05.25-16.07.50:986][952]LogSavePackage: Save=13.66ms
+[2018.05.25-16.07.50:987][952]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/M_EnemyBody6BC69D484956147D333164B1E4DEC7DE.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset'
+[2018.05.25-16.07.50:988][952]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset
+[2018.05.25-16.07.51:026][952]Cmd: MAP LOAD FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/AITestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.25-16.07.51:026][952]LightingResults: New page: Lighting Build
+[2018.05.25-16.07.51:029][952]LoadErrors: New page: Loading map: AITestMap.umap
+[2018.05.25-16.07.51:037][952]MapCheck: New page: Map Check
+[2018.05.25-16.07.51:038][952]LightingResults: New page: Lighting Build
+[2018.05.25-16.07.51:112][952]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.25-16.07.51:180][952]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.25-16.07.51:233][952]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.401ms to complete.
+[2018.05.25-16.07.51:233][952]LogFileHelpers: Loading map 'AITestMap' took 0.245
+[2018.05.25-16.07.57:949][677]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.25-16.07.58:256][677]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.07.58:490][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.25-16.08.01:194][963]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.05.25-16.08.01:619][  2]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.08.05:942][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.08.19:439][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Materials/M_EnemyHead" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset" SILENT=true
+[2018.05.25-16.08.19:454][ 24]LogSavePackage: Save=12.80ms
+[2018.05.25-16.08.19:454][ 24]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/M_EnemyHeadF74F81CD4545BA414CC7F6886DBC056F.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset'
+[2018.05.25-16.08.19:455][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset
+[2018.05.25-16.08.20:137][ 98]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.20:980][ 98]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.20:995][ 98]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.20:995][ 98]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.20:995][ 98]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.20:995][ 98]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.20:997][ 98]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.21:057][ 98]LogSlate: Took 0.016162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.25-16.08.21:510][111]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.21:527][113]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.21:532][114]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.21:543][115]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.21:716][135]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.08.21:725][136]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.08.21:733][137]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.08.21:740][138]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.08.21:885][155]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.08.21:897][156]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.08.21:905][157]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.08.22:095][179]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.08.22:120][182]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.08.22:280][201]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.08.22:313][205]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.08.22:346][209]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.08.22:658][237]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.25-16.08.22:658][237]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.25-16.08.22:658][237]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.05.25-16.08.22:658][237]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.25-16.08.28:954][936]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.28:962][936]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.25-16.08.28:967][936]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.25-16.08.28:967][936]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.25-16.08.28:967][936]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.28:967][936]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.28:991][936]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.25-16.08.29:009][936]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.29:018][936]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.05.25-16.08.29:050][936]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.25-16.08.29:054][936]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.05.25-16.08.29:168][938]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.25-16.08.29:168][938]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.25-16.08.29:178][938]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.25-16.08.29:178][938]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.25-16.08.29:357][958]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.29:373][960]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.29:390][962]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.29:398][963]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.29:529][978]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.08.29:538][979]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.08.29:565][982]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.08.29:740][  1]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.08.29:798][  8]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.08.29:895][ 19]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.08.29:949][ 25]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.08.29:999][ 31]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.08.30:151][ 46]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.08.30:211][ 53]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.08.30:218][ 54]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.08.30:304][ 63]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.08.30:305][ 63]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.25-16.08.30:305][ 63]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.25-16.08.30:305][ 63]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.05.25-16.08.30:305][ 63]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.25-16.08.34:414][539]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.34:428][539]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.34:428][539]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.34:428][539]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.34:428][539]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.34:430][539]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.25-16.08.34:630][557]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.34:648][559]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.34:655][560]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.08.34:663][561]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.08.34:799][576]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.08.34:827][579]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.08.34:844][581]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.08.35:023][600]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.08.35:040][602]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.08.35:198][619]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.08.35:227][622]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.08.35:251][625]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.08.35:417][641]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.08.35:458][646]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.08.36:759][801]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.05.25-16.08.36:759][801]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.05.25-16.08.36:759][801]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.05.25-16.08.36:760][801]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.25-16.08.36:760][801]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.25-16.08.39:163][ 88]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.39:176][ 88]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.39:176][ 88]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.39:176][ 88]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.39:176][ 88]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.39:178][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.05.25-16.08.39:376][107]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.39:402][110]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.39:409][111]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.08.39:409][111]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.08.39:538][126]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.08.39:572][130]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.08.39:581][131]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.08.39:759][151]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.08.39:768][152]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.08.39:913][169]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.08.39:954][174]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.08.39:972][176]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.08.40:147][195]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.08.40:182][199]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.08.40:298][212]MaterialEditorStats: Base pass shader: 108 instructions
+[2018.05.25-16.08.40:298][212]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2018.05.25-16.08.40:298][212]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.05.25-16.08.40:298][212]MaterialEditorStats: Texture samplers: 4/16
+[2018.05.25-16.08.40:298][212]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.25-16.08.41:588][366]LogMaterialEditor: Saving and Compiling material M_EnemyBody
+[2018.05.25-16.08.42:207][366]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.42:249][366]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.42:249][366]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.42:249][366]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.42:249][366]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.42:266][366]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.42:284][366]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.08.42:338][366]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_EnemyBody, compiling. 
+[2018.05.25-16.08.43:254][366]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.05.25-16.08.43:254][366]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.08.43:255][366]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.08.43:257][366]TextureStreamingBuild: Display: Compiling optional shaders took 0.928 seconds.
+[2018.05.25-16.08.45:004][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Materials/M_EnemyBody" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset" SILENT=true
+[2018.05.25-16.08.45:090][366]LogSavePackage: Save=39.57ms
+[2018.05.25-16.08.45:090][366]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/M_EnemyBody9AF81F5940A30980F82D4A9ABADAA19D.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset'
+[2018.05.25-16.08.45:095][366]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset
+[2018.05.25-16.08.45:109][366]MaterialEditorStats: Base pass shader: 108 instructions
+[2018.05.25-16.08.45:109][366]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2018.05.25-16.08.45:109][366]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.05.25-16.08.45:109][366]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.25-16.08.45:109][366]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.25-16.08.55:258][524]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.08.55:328][524]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.08.55:336][524]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.08.55:348][524]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.08.55:348][524]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.08.55:349][524]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.08.55:349][524]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.08.55:530][531]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.08.55:537][532]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.08.55:546][533]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.08.55:554][534]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.08.55:682][549]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.08.55:699][551]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.08.55:709][552]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.08.55:916][575]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.08.55:924][576]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.08.56:061][592]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.08.56:094][596]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.08.56:112][598]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.08.56:398][631]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.25-16.08.56:398][631]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.25-16.08.56:398][631]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.05.25-16.08.56:398][631]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.25-16.09.01:993][265]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.09.02:000][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.05.25-16.09.02:006][265]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.25-16.09.02:006][265]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.25-16.09.02:006][265]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.09.02:006][265]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.09.02:030][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.05.25-16.09.02:048][265]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.09.02:058][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.05.25-16.09.02:088][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.05.25-16.09.02:097][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.05.25-16.09.02:195][270]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.25-16.09.02:202][271]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.25-16.09.02:202][271]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.25-16.09.02:202][271]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.25-16.09.02:395][292]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.09.02:405][293]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.09.02:416][294]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.09.02:416][294]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.09.02:558][310]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.09.02:569][311]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.09.02:586][313]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.09.02:751][329]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.09.02:762][330]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.09.02:911][346]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.09.02:948][350]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.09.02:958][351]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.09.03:137][368]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.09.03:163][371]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.09.03:203][376]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.09.03:254][382]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.09.03:276][383]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.25-16.09.03:276][383]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.25-16.09.03:276][383]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.05.25-16.09.03:276][383]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.25-16.09.08:093][955]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.09.08:103][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.05.25-16.09.08:116][955]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.25-16.09.08:116][955]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.25-16.09.08:116][955]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.09.08:116][955]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.09.08:325][976]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.09.08:350][979]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.09.08:357][980]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.09.08:367][981]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.09.08:498][996]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.09.08:519][998]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.09.08:528][999]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.09.08:699][ 16]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.09.08:732][ 20]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.09.08:855][ 34]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.09.08:886][ 37]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.09.08:927][ 42]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.09.09:085][ 60]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.09.09:142][ 67]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.09.09:180][ 71]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.09.09:186][ 71]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.09.09:196][ 71]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.09.09:196][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.05.25-16.09.09:332][ 82]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.09.09:340][ 83]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.09.09:405][ 90]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.09.09:413][ 91]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.09.09:517][102]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.09.09:544][105]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.25-16.09.09:580][109]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.09.09:589][110]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.25-16.09.09:689][121]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.25-16.09.09:808][133]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.25-16.09.09:887][142]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.25-16.09.09:947][149]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.25-16.09.10:077][163]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.25-16.09.10:097][165]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.25-16.09.10:140][170]LogMaterialEditor: Saving and Compiling material M_EnemyHead
+[2018.05.25-16.09.10:684][170]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.09.10:684][170]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.25-16.09.10:713][170]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.09.10:748][170]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.25-16.09.10:748][170]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.25-16.09.10:748][170]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.25-16.09.10:748][170]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.25-16.09.10:755][170]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.09.10:772][170]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.09.10:800][170]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_EnemyHead, compiling. 
+[2018.05.25-16.09.11:749][170]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.05.25-16.09.11:749][170]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.25-16.09.11:750][170]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.25-16.09.11:752][170]TextureStreamingBuild: Display: Compiling optional shaders took 0.958 seconds.
+[2018.05.25-16.09.13:537][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Materials/M_EnemyHead" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset" SILENT=true
+[2018.05.25-16.09.13:563][170]LogSavePackage: Save=13.53ms
+[2018.05.25-16.09.13:563][170]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/M_EnemyHeadF1F9AC914E86E9B371531B89D0C3BDE0.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset'
+[2018.05.25-16.09.13:564][170]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset
+[2018.05.25-16.09.13:570][170]MaterialEditorStats: Base pass shader: 108 instructions
+[2018.05.25-16.09.13:570][170]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2018.05.25-16.09.13:570][170]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.05.25-16.09.13:570][170]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.25-16.09.13:570][170]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.25-16.09.20:968][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.09.22:951][231]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.25-16.09.22:987][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.05.25-16.09.23:013][231]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0023 seconds. Added 1 classes and 0 folders.
+[2018.05.25-16.09.23:424][231]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.05.25-16.09.24:428][231]LogSlate: Took 0.016482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.25-16.09.24:505][231]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0021 seconds. Added 1 classes and 0 folders.
+[2018.05.25-16.09.24:590][232]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2018.05.25-16.09.59:190][254]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.10.05:409][967]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.10.05:434][967]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.10.05:434][967]LogMaterial: Warning: Material /Game/Models/Enemy/Materials/M_EnemyBody.M_EnemyBody needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.25-16.10.05:436][967]LogMaterial: Warning: Material /Engine/Transient.M_EnemyBody needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.25-16.10.05:440][967]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.10.05:455][967]LogMaterial: Missing cached shader map for material M_EnemyBody, compiling. 
+[2018.05.25-16.10.05:470][967]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.05.25-16.10.05:470][967]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.05.25-16.10.05:470][967]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.05.25-16.10.05:470][967]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.05.25-16.10.05:980][ 18]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.05.25-16.10.06:006][ 21]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.05.25-16.10.06:015][ 22]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.05.25-16.10.06:022][ 23]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.05.25-16.10.06:161][ 37]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.05.25-16.10.06:197][ 39]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.05.25-16.10.06:205][ 39]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.05.25-16.10.06:390][ 48]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.05.25-16.10.06:408][ 49]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.05.25-16.10.06:538][ 60]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.05.25-16.10.06:605][ 63]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.05.25-16.10.06:639][ 64]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.05.25-16.10.06:815][ 71]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.05.25-16.10.06:866][ 74]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.05.25-16.10.06:875][ 74]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.05.25-16.10.06:972][ 78]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.05.25-16.10.07:049][ 82]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.05.25-16.10.07:107][ 88]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.05.25-16.10.07:125][ 90]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.05.25-16.10.07:197][ 98]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.05.25-16.10.07:288][108]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.05.25-16.10.07:331][113]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.05.25-16.10.07:341][114]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.05.25-16.10.07:571][138]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.05.25-16.10.07:598][141]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.05.25-16.10.07:682][151]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.05.25-16.10.07:740][157]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.05.25-16.10.07:837][167]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.05.25-16.10.08:001][179]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.05.25-16.10.08:008][180]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.05.25-16.10.08:076][188]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.05.25-16.10.08:084][189]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.05.25-16.10.08:220][199]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.05.25-16.10.08:226][200]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.05.25-16.10.08:286][203]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.05.25-16.10.08:292][203]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.05.25-16.10.08:400][210]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.05.25-16.10.08:410][211]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.05.25-16.10.08:460][214]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.05.25-16.10.08:650][233]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.05.25-16.10.08:668][235]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.05.25-16.10.08:794][249]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.05.25-16.10.08:847][255]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.05.25-16.10.08:880][259]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.05.25-16.10.09:049][277]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.25-16.10.09:107][284]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.25-16.10.09:124][286]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.25-16.10.09:195][294]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.25-16.10.10:909][477]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.25-16.10.11:327][523]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.10.13:535][780]MaterialEditorStats: Base pass shader: 108 instructions
+[2018.05.25-16.10.13:535][780]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2018.05.25-16.10.13:535][780]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.05.25-16.10.13:535][780]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.25-16.10.13:535][780]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.25-16.10.15:798][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.10.19:139][409]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.10.19:164][409]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.10.19:164][409]LogMaterial: Warning: Material /Game/Models/Enemy/Materials/M_EnemyHead.M_EnemyHead needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.25-16.10.19:167][409]LogMaterial: Warning: Material /Engine/Transient.M_EnemyHead needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.25-16.10.19:169][409]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.10.19:184][409]LogMaterial: Missing cached shader map for material M_EnemyHead, compiling. 
+[2018.05.25-16.10.19:199][409]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.05.25-16.10.19:199][409]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.05.25-16.10.19:199][409]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.05.25-16.10.19:199][409]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.05.25-16.10.19:404][419]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.05.25-16.10.19:408][419]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.05.25-16.10.19:415][419]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.05.25-16.10.19:430][420]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.05.25-16.10.19:571][432]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.05.25-16.10.19:592][434]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.05.25-16.10.19:600][435]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.05.25-16.10.19:790][444]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.05.25-16.10.19:798][444]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.05.25-16.10.19:932][458]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.05.25-16.10.19:968][459]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.05.25-16.10.20:011][463]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.05.25-16.10.20:185][476]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.05.25-16.10.20:225][480]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.05.25-16.10.20:230][480]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.05.25-16.10.20:291][483]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.05.25-16.10.20:395][488]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.05.25-16.10.20:438][489]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.05.25-16.10.20:443][490]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.05.25-16.10.20:491][492]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.05.25-16.10.20:590][496]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.05.25-16.10.20:634][498]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.05.25-16.10.20:635][498]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.05.25-16.10.20:832][511]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.05.25-16.10.20:872][513]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.05.25-16.10.20:945][517]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.05.25-16.10.21:039][525]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.05.25-16.10.21:128][534]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.05.25-16.10.21:251][546]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.05.25-16.10.21:264][547]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.05.25-16.10.21:378][559]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.05.25-16.10.21:388][560]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.05.25-16.10.21:439][564]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.10.21:494][566]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.05.25-16.10.21:494][566]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.05.25-16.10.21:573][570]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.05.25-16.10.21:604][571]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.05.25-16.10.21:691][578]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.05.25-16.10.21:701][579]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.05.25-16.10.21:756][585]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.05.25-16.10.21:930][601]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.05.25-16.10.21:977][606]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.05.25-16.10.22:066][616]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.05.25-16.10.22:152][624]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.05.25-16.10.22:199][629]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.05.25-16.10.22:360][644]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.25-16.10.22:372][645]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.25-16.10.22:425][651]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.25-16.10.22:501][659]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.25-16.10.24:237][814]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.25-16.10.24:714][862]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.25-16.10.26:255][ 29]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.10.26:279][ 29]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.10.26:909][ 87]MaterialEditorStats: Base pass shader: 108 instructions
+[2018.05.25-16.10.26:909][ 87]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2018.05.25-16.10.26:909][ 87]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.05.25-16.10.26:909][ 87]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.25-16.10.26:909][ 87]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.25-16.10.34:976][956]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.10.34:979][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Materials/M_EnemyHead" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset" SILENT=true
+[2018.05.25-16.10.34:994][956]LogSavePackage: Save=5.30ms
+[2018.05.25-16.10.34:994][956]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/M_EnemyHeadC77E15FC45F87458DACABCA602766507.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset'
+[2018.05.25-16.10.34:995][956]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyHead.uasset
+[2018.05.25-16.10.35:009][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset" SILENT=true
+[2018.05.25-16.10.35:057][956]LogSavePackage: Save=35.78ms
+[2018.05.25-16.10.35:057][956]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier3E811AA5401452B1C7CA05B7B5EBE47F.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset'
+[2018.05.25-16.10.35:058][956]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset
+[2018.05.25-16.10.35:061][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Materials/M_EnemyBody" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset" SILENT=true
+[2018.05.25-16.10.35:073][956]LogSavePackage: Save=5.14ms
+[2018.05.25-16.10.35:073][956]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/M_EnemyBodyCBE7686740450AD83FA914912004DC8C.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset'
+[2018.05.25-16.10.35:075][956]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Materials/M_EnemyBody.uasset
+[2018.05.25-16.10.44:183][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.10.46:238][154]LogSlate: Window 'Clothing' being destroyed
+[2018.05.25-16.10.46:241][154]LogSlate: Window 'Clothing' being destroyed
+[2018.05.25-16.10.46:246][154]LogSkeletalMesh: Building Skeletal Mesh Soldier...
+[2018.05.25-16.10.46:267][154]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Models/Enemy/Soldier.Soldier
+[2018.05.25-16.12.06:834][640]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.25-16.12.06:834][640]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.25-16.12.07:223][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.12.07:238][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enemy/Soldier" FILE="../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset" SILENT=true
+[2018.05.25-16.12.07:272][685]LogSavePackage: Save=25.61ms
+[2018.05.25-16.12.07:272][685]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Soldier7957F84B4DAFE1E8D933E1BB21FFA70E.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset'
+[2018.05.25-16.12.07:274][685]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Models/Enemy/Soldier.uasset
+[2018.05.25-16.12.08:888][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.12.13:971][401]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.25-16.12.20:646][182]Cmd: DELETE
+[2018.05.25-16.12.20:646][182]Cmd: ACTOR DELETE
+[2018.05.25-16.12.20:860][182]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.05.25-16.12.20:888][182]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2018.05.25-16.12.22:070][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.12.22:145][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AITestMap" FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/AITestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.25-16.12.22:195][309]LogSavePackage: Save=29.70ms
+[2018.05.25-16.12.22:195][309]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/AITestMap61FABE274B78A649F37896B7161AB57D.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Maps/AITestMap.umap'
+[2018.05.25-16.12.22:198][309]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Maps/AITestMap.umap
+[2018.05.25-16.12.22:269][309]LogFileHelpers: Saving map 'AITestMap' took 0.188
+[2018.05.25-16.19.44:896][608]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.05.25-16.20.05:438][761]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.05.25-16.21.22:018][807]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0037 seconds. Added 116 classes and 0 folders.
+[2018.05.25-16.21.22:519][807]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023404c19238, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.25-16.21.22:532][807]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023404c19230, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.25-16.21.24:489][808]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2018.05.25-16.22.12:202][196]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.25-16.22.12:213][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/BP_AIController" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset" SILENT=true
+[2018.05.25-16.22.12:250][196]LogSavePackage: Save=34.56ms
+[2018.05.25-16.22.12:251][196]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_AIController8A722D9547924980EC84C8BEEF8A3006.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset'
+[2018.05.25-16.22.12:253][196]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset
+[2018.05.25-16.22.12:277][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/BP_AICharacter" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset" SILENT=true
+[2018.05.25-16.22.12:339][196]LogSavePackage: Save=59.56ms
+[2018.05.25-16.22.12:339][196]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_AICharacterEC6E9A8D438D3A789BB0DBBC2BBA4F77.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset'
+[2018.05.25-16.22.12:345][196]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset
+[2018.05.25-16.22.12:353][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/FollowerBT" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBT.uasset" SILENT=true
+[2018.05.25-16.22.12:379][196]LogSavePackage: Save=13.70ms
+[2018.05.25-16.22.12:379][196]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/FollowerBT02363FC1471F84F0F2C606BB8AF394DB.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBT.uasset'
+[2018.05.25-16.22.12:385][196]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBT.uasset
+[2018.05.25-16.22.12:393][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/FollowerBlackboard" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBlackboard.uasset" SILENT=true
+[2018.05.25-16.22.12:413][196]LogSavePackage: Save=14.95ms
+[2018.05.25-16.22.12:413][196]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/FollowerBlackboard050751CA419B6B56451E069783F5203A.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBlackboard.uasset'
+[2018.05.25-16.22.12:419][196]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBlackboard.uasset
+[2018.05.25-16.22.38:493][289]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AITestMap' took 0.017
+[2018.05.25-16.22.44:746][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.23.15:240][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.25.49:375][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/BP_AICharacter" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset" SILENT=true
+[2018.05.25-16.25.49:406][ 75]LogSavePackage: Save=18.01ms
+[2018.05.25-16.25.49:407][ 75]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_AICharacterFE3178CC42F24C4C6F4881A9BC307555.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset'
+[2018.05.25-16.25.49:408][ 75]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset
+[2018.05.25-16.27.18:021][669]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.25-16.27.24:422][195]BlueprintLog: New page: Compile BP_AICharacter
+[2018.05.25-16.27.25:712][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/BP_AICharacter" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset" SILENT=true
+[2018.05.25-16.27.25:740][281]LogSavePackage: Save=20.05ms
+[2018.05.25-16.27.25:740][281]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_AICharacter875FA829448B8BD566DE3FABFFDE3820.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset'
+[2018.05.25-16.27.25:741][281]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AICharacter.uasset
+[2018.05.25-16.28.32:148][153]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.25-16.29.32:377][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/FollowerBlackboard" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBlackboard.uasset" SILENT=true
+[2018.05.25-16.29.32:434][357]LogSavePackage: Save=46.74ms
+[2018.05.25-16.29.32:434][357]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/FollowerBlackboard043A8EC74665A3F9F8D7ADB059D61BB3.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBlackboard.uasset'
+[2018.05.25-16.29.32:440][357]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBlackboard.uasset
+[2018.05.25-16.32.43:266][441]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AITestMap' took 0.076
+[2018.05.25-16.32.43:270][441]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TEMP/BP_AIController] ([1] browsable assets)...
+[2018.05.25-16.32.43:271][441]OBJ SavePackage: Finished generating thumbnails for package [/Game/TEMP/BP_AIController]
+[2018.05.25-16.32.43:271][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/BP_AIController" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/TEMP/BP_AIController_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.32.43:337][441]LogSavePackage: Save=28.03ms
+[2018.05.25-16.32.43:337][441]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_AIController_Auto2272BDF24424A1275E2370D848C31E20B.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/TEMP/BP_AIController_Auto2.uasset'
+[2018.05.25-16.32.43:339][441]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/TEMP/BP_AIController_Auto2.uasset
+[2018.05.25-16.32.43:339][441]LogFileHelpers: Auto-saving content packages took 0.071
+[2018.05.25-16.35.34:053][786]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb4d48, Size=4, Default__SKEL_BP_AIController_C Function /Game/TEMP/BP_AIController.SKEL_BP_AIController_C:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.36.07:956][762]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb4d48, Size=4
+[2018.05.25-16.36.07:956][762]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb4d48, Size=4, Default__SKEL_BP_AIController_C Function /Engine/Transient.REINST_SKEL_BP_AIController_C_28:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.36.07:957][762]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb4710, Size=4, Default__SKEL_BP_AIController_C Function /Game/TEMP/BP_AIController.SKEL_BP_AIController_C:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.36.48:360][506]BlueprintLog: New page: Compile BP_AIController
+[2018.05.25-16.36.48:363][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb4710, Size=4
+[2018.05.25-16.36.48:363][506]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb4710, Size=4, Default__SKEL_BP_AIController_C Function /Engine/Transient.REINST_SKEL_BP_AIController_C_30:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.36.48:366][506]LogUObjectGlobals: Created PersistentFrame Addr=0x000002341e248550, Size=48, Default__BP_AIController_C Function /Game/TEMP/BP_AIController.BP_AIController_C:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.36.48:703][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb4710, Size=4
+[2018.05.25-16.36.49:101][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/BP_AIController" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset" SILENT=true
+[2018.05.25-16.36.49:136][548]LogSavePackage: Save=27.19ms
+[2018.05.25-16.36.49:136][548]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_AIControllerB6743B964F6ADD6949AA0E973C63B54E.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset'
+[2018.05.25-16.36.49:138][548]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset
+[2018.05.25-16.36.59:559][780]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb5248, Size=4, Default__SKEL_BP_AIController_C Function /Game/TEMP/BP_AIController.SKEL_BP_AIController_C:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.37.00:449][883]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb5248, Size=4
+[2018.05.25-16.37.00:449][883]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb5248, Size=4, Default__SKEL_BP_AIController_C Function /Engine/Transient.REINST_SKEL_BP_AIController_C_36:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.37.00:451][883]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb57c0, Size=4, Default__SKEL_BP_AIController_C Function /Game/TEMP/BP_AIController.SKEL_BP_AIController_C:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.37.00:456][883]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb57c0, Size=4
+[2018.05.25-16.37.00:456][883]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb57c0, Size=4, Default__SKEL_BP_AIController_C Function /Engine/Transient.REINST_SKEL_BP_AIController_C_38:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.37.00:457][883]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023339fb5bb8, Size=4, Default__SKEL_BP_AIController_C Function /Game/TEMP/BP_AIController.SKEL_BP_AIController_C:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.38.49:696][377]BlueprintLog: New page: Compile BP_AIController
+[2018.05.25-16.38.49:699][377]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb5bb8, Size=4
+[2018.05.25-16.38.49:699][377]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023349ace900, Size=4, Default__SKEL_BP_AIController_C Function /Engine/Transient.REINST_SKEL_BP_AIController_C_40:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.38.49:702][377]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002341e248550, Size=48
+[2018.05.25-16.38.49:702][377]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023306247970, Size=48, BP_AIController_C_1 Function /Engine/Transient.REINST_BP_AIController_C_42:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.38.49:703][377]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023306247df0, Size=48, Default__BP_AIController_C Function /Game/TEMP/BP_AIController.BP_AIController_C:ExecuteUbergraph_BP_AIController
+[2018.05.25-16.38.49:889][377]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb5248, Size=4
+[2018.05.25-16.38.49:889][377]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023349ace900, Size=4
+[2018.05.25-16.38.49:889][377]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb57c0, Size=4
+[2018.05.25-16.38.50:284][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/BP_AIController" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset" SILENT=true
+[2018.05.25-16.38.50:368][420]LogSavePackage: Save=71.83ms
+[2018.05.25-16.38.50:368][420]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_AIController558B0E2E4FA1A7309D3E96A4FC966F7F.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset'
+[2018.05.25-16.38.50:374][420]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/BP_AIController.uasset
+[2018.05.25-16.39.00:186][541]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.25-16.39.31:527][790]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.05.25-16.40.58:218][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.25-16.42.43:404][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AITestMap" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Maps/AITestMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.25-16.42.43:437][143]LogSavePackage: Save=19.98ms
+[2018.05.25-16.42.43:437][143]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/AITestMap_Auto3E3E233C14BB87ABBCFD4A2B8025DB2B6.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Maps/AITestMap_Auto3.umap'
+[2018.05.25-16.42.43:438][143]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Maps/AITestMap_Auto3.umap
+[2018.05.25-16.42.43:440][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AITestMap' took 0.072
+[2018.05.25-16.42.43:440][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.072
+[2018.05.25-16.42.43:443][143]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TEMP/FollowerBT] ([1] browsable assets)...
+[2018.05.25-16.42.43:443][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/TEMP/FollowerBT]
+[2018.05.25-16.42.43:443][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/FollowerBT" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/TEMP/FollowerBT_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.25-16.42.43:468][143]LogSavePackage: Save=8.46ms
+[2018.05.25-16.42.43:468][143]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/FollowerBT_Auto3C4B8F2AA48CE976881CC3DBC0A4788E0.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/TEMP/FollowerBT_Auto3.uasset'
+[2018.05.25-16.42.43:469][143]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/TEMP/FollowerBT_Auto3.uasset
+[2018.05.25-16.42.43:469][143]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.05.25-16.42.58:349][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AITestMap" FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/AITestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.25-16.42.58:394][331]LogSavePackage: Save=19.64ms
+[2018.05.25-16.42.58:394][331]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/AITestMapA8E9D24A4312D4EA576CC8A1E01CF09C.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Maps/AITestMap.umap'
+[2018.05.25-16.42.58:398][331]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Maps/AITestMap.umap
+[2018.05.25-16.42.58:430][331]LogFileHelpers: Saving map 'AITestMap' took 0.141
+[2018.05.25-16.42.58:433][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TEMP/FollowerBT" FILE="../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBT.uasset" SILENT=true
+[2018.05.25-16.42.58:446][331]LogSavePackage: Save=5.36ms
+[2018.05.25-16.42.58:446][331]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/FollowerBTBCFA65154FB6D7E2C0740ABC5EF9C408.tmp' to '../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBT.uasset'
+[2018.05.25-16.42.58:447][331]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/TEMP/FollowerBT.uasset
+[2018.05.25-16.42.59:849][493]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023339fb4d48, Size=4
+[2018.05.25-16.42.59:850][493]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023306247970, Size=48
+[2018.05.25-16.43.00:646][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.25-16.43.00:764][493]LogSlate: Window 'FPS - Unreal Editor' being destroyed
+[2018.05.25-16.43.01:140][494]Cmd: QUIT_EDITOR
+[2018.05.25-16.43.01:316][494]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.25-16.43.01:381][494]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.05.25-16.43.01:392][494]LogExit: Preparing to exit.
+[2018.05.25-16.43.02:067][494]LogDirectoryWatcher: A directory notification for 'E:/Projects/FPS/FPS/Content/' was aborted.
+[2018.05.25-16.43.02:276][494]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002331e03e110, Size=80
+[2018.05.25-16.43.02:302][494]LogExit: Editor shut down
+[2018.05.25-16.43.02:312][494]LogExit: Transaction tracking system shut down
+[2018.05.25-16.43.02:375][494]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023404c19238, Size=4
+[2018.05.25-16.43.02:375][494]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023404c19230, Size=4
+[2018.05.25-16.43.02:378][494]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023306247df0, Size=48
+[2018.05.25-16.43.02:580][494]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.25-16.43.02:580][494]LogDirectoryWatcher: A directory notification for '../../../../../../../Projects/FPS/FPS/Content/' was aborted.
+[2018.05.25-16.43.02:581][494]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.25-16.43.02:581][494]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.05.25-16.43.02:581][494]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.25-16.43.02:581][494]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.25-16.43.02:581][494]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.25-16.43.02:581][494]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.25-16.43.03:850][494]LogExit: Object subsystem successfully closed.
+[2018.05.25-16.43.04:024][494]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.05.25-16.43.04:067][494]LogD3D11RHI: Shutdown
+[2018.05.25-16.43.04:067][494]LogD3D11RHI: CleanupD3DDevice
+[2018.05.25-16.43.04:087][494]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.25-16.43.04:775][494]LogModuleManager: Shutting down and abandoning module BlueprintGraph (584)
+[2018.05.25-16.43.04:775][494]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (582)
+[2018.05.25-16.43.04:775][494]LogModuleManager: Shutting down and abandoning module PinnedCommandList (580)
+[2018.05.25-16.43.04:775][494]LogModuleManager: Shutting down and abandoning module SkeletonEditor (578)
+[2018.05.25-16.43.04:775][494]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.05.25-16.43.04:775][494]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.05.25-16.43.04:780][494]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.05.25-16.43.04:780][494]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.05.25-16.43.04:784][494]LogDirectoryWatcher: A directory notification for 'E:/Game Engines/Epic Games/4.19/UE_4.19/FeaturePacks/' was aborted.
+[2018.05.25-16.43.04:798][494]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.05.25-16.43.04:798][494]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.05.25-16.43.04:798][494]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.05.25-16.43.04:806][494]LogDirectoryWatcher: A directory notification for 'E:/Projects/FPS/FPS/Content/Collections/' was aborted.
+[2018.05.25-16.43.04:806][494]LogDirectoryWatcher: A directory notification for 'E:/Projects/FPS/FPS/Content/Developers/TomColdenhoff/Collections/' was aborted.
+[2018.05.25-16.43.04:806][494]LogDirectoryWatcher: A directory notification for 'E:/Projects/FPS/FPS/Saved/Collections/' was aborted.
+[2018.05.25-16.43.04:807][494]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.05.25-16.43.04:812][494]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.05.25-16.43.04:812][494]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.05.25-16.43.04:816][494]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.05.25-16.43.04:827][494]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.05.25-16.43.04:827][494]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.05.25-16.43.04:827][494]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.05.25-16.43.04:836][494]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.05.25-16.43.04:836][494]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.05.25-16.43.04:836][494]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.05.25-16.43.04:837][494]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.05.25-16.43.04:837][494]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.05.25-16.43.04:837][494]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.05.25-16.43.04:837][494]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.05.25-16.43.04:837][494]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.05.25-16.43.04:851][494]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.05.25-16.43.04:851][494]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.05.25-16.43.04:867][494]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.05.25-16.43.04:867][494]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.05.25-16.43.04:875][494]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.05.25-16.43.04:875][494]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.05.25-16.43.04:875][494]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.05.25-16.43.04:890][494]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.05.25-16.43.04:891][494]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.05.25-16.43.04:891][494]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.05.25-16.43.04:891][494]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.05.25-16.43.04:906][494]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.05.25-16.43.04:906][494]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.05.25-16.43.04:919][494]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.05.25-16.43.04:938][494]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.05.25-16.43.04:948][494]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.05.25-16.43.04:957][494]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.05.25-16.43.04:957][494]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.05.25-16.43.04:957][494]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.05.25-16.43.05:493][494]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.05.25-16.43.05:494][494]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.05.25-16.43.05:494][494]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.05.25-16.43.05:494][494]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.05.25-16.43.05:552][494]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.05.25-16.43.05:571][494]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.05.25-16.43.05:576][494]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.05.25-16.43.05:580][494]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.05.25-16.43.05:580][494]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.05.25-16.43.05:583][494]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.05.25-16.43.05:583][494]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.05.25-16.43.05:583][494]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.05.25-16.43.05:584][494]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.05.25-16.43.05:584][494]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.05.25-16.43.05:585][494]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.05.25-16.43.05:585][494]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.05.25-16.43.05:597][494]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.05.25-16.43.05:600][494]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.05.25-16.43.05:603][494]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.05.25-16.43.05:610][494]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.05.25-16.43.05:617][494]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.05.25-16.43.05:672][494]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.05.25-16.43.05:680][494]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.05.25-16.43.05:693][494]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.05.25-16.43.05:704][494]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.05.25-16.43.05:704][494]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.05.25-16.43.05:718][494]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.05.25-16.43.05:718][494]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.05.25-16.43.05:718][494]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.05.25-16.43.05:718][494]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.05.25-16.43.05:719][494]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.05.25-16.43.05:745][494]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.05.25-16.43.05:745][494]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.05.25-16.43.05:750][494]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.05.25-16.43.05:750][494]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.05.25-16.43.05:760][494]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.05.25-16.43.05:776][494]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.05.25-16.43.05:776][494]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.05.25-16.43.05:782][494]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.05.25-16.43.05:782][494]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.05.25-16.43.05:782][494]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.05.25-16.43.05:782][494]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.05.25-16.43.05:782][494]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.05.25-16.43.05:782][494]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.05.25-16.43.05:783][494]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.05.25-16.43.05:783][494]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.05.25-16.43.05:783][494]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.05.25-16.43.05:783][494]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.05.25-16.43.05:783][494]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.05.25-16.43.05:792][494]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.05.25-16.43.05:797][494]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.05.25-16.43.06:033][494]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.05.25-16.43.06:050][494]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.05.25-16.43.06:050][494]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.05.25-16.43.06:050][494]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.05.25-16.43.06:060][494]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.05.25-16.43.06:061][494]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.05.25-16.43.06:079][494]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.05.25-16.43.06:079][494]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.05.25-16.43.06:079][494]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.05.25-16.43.06:079][494]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.05.25-16.43.06:098][494]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.05.25-16.43.06:098][494]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.05.25-16.43.06:105][494]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.05.25-16.43.06:105][494]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.05.25-16.43.06:105][494]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.05.25-16.43.06:105][494]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.05.25-16.43.06:105][494]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.05.25-16.43.06:105][494]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.05.25-16.43.06:114][494]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.05.25-16.43.06:120][494]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.05.25-16.43.06:129][494]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.05.25-16.43.06:129][494]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.05.25-16.43.06:129][494]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.05.25-16.43.06:129][494]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.05.25-16.43.06:130][494]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.05.25-16.43.06:138][494]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.05.25-16.43.06:147][494]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.05.25-16.43.06:160][494]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.05.25-16.43.06:170][494]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.05.25-16.43.06:170][494]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.05.25-16.43.06:170][494]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.05.25-16.43.06:170][494]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.05.25-16.43.06:170][494]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.05.25-16.43.06:186][494]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module FPS (290)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.05.25-16.43.06:196][494]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.05.25-16.43.06:207][494]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.05.25-16.43.06:207][494]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.05.25-16.43.06:316][494]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.05.25-16.43.06:422][494]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.05.25-16.43.06:435][494]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.05.25-16.43.06:435][494]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.05.25-16.43.06:435][494]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.05.25-16.43.06:447][494]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.05.25-16.43.06:458][494]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.05.25-16.43.06:474][494]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.05.25-16.43.06:480][494]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.05.25-16.43.06:480][494]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.05.25-16.43.06:480][494]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.05.25-16.43.06:485][494]LogDirectoryWatcher: A directory notification for 'E:/Projects/FPS/FPS/Binaries/Win64' was aborted.
+[2018.05.25-16.43.06:485][494]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.05.25-16.43.06:487][494]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.05.25-16.43.06:495][494]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.05.25-16.43.06:495][494]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.05.25-16.43.06:501][494]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.05.25-16.43.07:188][494]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.05.25-16.43.07:211][494]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.05.25-16.43.07:212][494]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.05.25-16.43.07:222][494]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.05.25-16.43.07:230][494]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.05.25-16.43.07:230][494]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.05.25-16.43.07:230][494]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.05.25-16.43.07:256][494]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.05.25-16.43.07:256][494]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.05.25-16.43.07:256][494]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.05.25-16.43.07:256][494]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.05.25-16.43.07:268][494]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.05.25-16.43.07:268][494]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.05.25-16.43.07:268][494]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.05.25-16.43.07:268][494]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.05.25-16.43.07:275][494]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.05.25-16.43.07:284][494]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.05.25-16.43.07:284][494]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.05.25-16.43.07:289][494]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.05.25-16.43.07:324][494]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.05.25-16.43.07:333][494]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.05.25-16.43.07:333][494]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.05.25-16.43.07:358][494]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.05.25-16.43.07:358][494]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.05.25-16.43.07:365][494]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.05.25-16.43.07:365][494]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.05.25-16.43.07:365][494]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.05.25-16.43.07:365][494]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.05.25-16.43.07:365][494]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.05.25-16.43.07:365][494]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.05.25-16.43.07:365][494]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.05.25-16.43.07:391][494]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.05.25-16.43.07:391][494]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.05.25-16.43.07:391][494]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.05.25-16.43.07:391][494]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.05.25-16.43.07:391][494]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.05.25-16.43.07:401][494]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.05.25-16.43.07:401][494]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.05.25-16.43.07:401][494]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.05.25-16.43.07:404][494]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.05.25-16.43.07:433][494]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.05.25-16.43.07:499][494]LogDerivedDataCache: Shutdown
+[2018.05.25-16.43.07:499][494]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.05.25-16.43.07:499][494]LogXGEController: Cleaning working directory: C:/Users/TomColdenhoff/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.25-16.43.07:499][494]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.05.25-16.43.07:500][494]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.05.25-16.43.07:507][494]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.05.25-16.43.07:512][494]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.05.25-16.43.07:519][494]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.05.25-16.43.07:519][494]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.05.25-16.43.07:528][494]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.05.25-16.43.07:529][494]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.05.25-16.43.07:539][494]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.05.25-16.43.07:539][494]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.05.25-16.43.07:540][494]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.25-16.43.07:540][494]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.25-16.43.07:540][494]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.25-16.43.07:553][494]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.25-16.43.07:564][494]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.25-16.43.07:579][494]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.25-16.43.07:579][494]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1439BD42-48CC-FE49-0BA5-368B96FF4150%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=531ab3bb46dc6d570e8919a9b159b127%7C5ab92ee991c446c5b0f18c9a8a0db87d%7C75b9ec88-24f5-49ea-b159-dfbc7c28fd38&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.25-16.43.07:607][494]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.25-16.43.07:619][494]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.25-16.43.07:629][494]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.25-16.43.07:630][494]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.25-16.43.07:645][494]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.25-16.43.07:645][494]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.25-16.43.07:645][494]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.25-16.43.07:645][494]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.25-16.43.07:656][494]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.25-16.43.07:669][494]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.25-16.43.07:669][494]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.25-16.43.07:679][494]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.25-16.43.07:714][494]LogExit: Exiting.
+[2018.05.25-16.43.07:786][494]Log file closed, 05/25/18 18:43:07
