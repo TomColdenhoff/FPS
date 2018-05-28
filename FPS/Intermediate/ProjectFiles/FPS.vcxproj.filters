@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPS.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5BC583C0-890F-431B-9944-D9BCB2395C98}</UniqueIdentifier>
+      <UniqueIdentifier>{1EEA6234-409B-4D62-9E4C-EEAE92E7D89E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPS.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3E02304A-0AC0-4E17-A26F-29C2A401F073}</UniqueIdentifier>
+      <UniqueIdentifier>{97D612E7-45D4-428D-88FF-D43D666974AA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,30 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FPS">
-      <UniqueIdentifier>{3D646241-FD51-4A22-9424-74555115F20F}</UniqueIdentifier>
+      <UniqueIdentifier>{3260057B-4443-4BF4-8DDB-0D06247AE47A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FPS\ArgoCheck.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\ArgoCheck.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\AssualtCharacter.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\AssualtCharacter.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
       <Filter>Source\FPS</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FPS\BaseWeapon.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\CloseEnough.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\CloseEnough.h">
       <Filter>Source\FPS</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FPS\Dummy.cpp">
@@ -62,6 +80,12 @@
     <ClInclude Include="..\..\Source\FPS\FPSPlayer.h">
       <Filter>Source\FPS</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\RapidMoveTo.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\RapidMoveTo.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FPS\SMG.cpp">
       <Filter>Source\FPS</Filter>
     </ClCompile>
@@ -80,33 +104,24 @@
     <ClInclude Include="..\..\Source\FPS\WeaponBase.h">
       <Filter>Source\FPS</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FPS\AssualtCharacter.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FPS\ArgoCheck.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FPS\RapidMoveTo.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FPS\CloseEnough.h">
-      <Filter>Source\FPS</Filter>
+    <Filter Include="Source\FPS\AI">
+      <UniqueIdentifier>{92C584E8-999E-4CDC-A12A-797183F3BC11}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\AI\AssaultIdle.cpp">
+      <Filter>Source\FPS\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\AI\AssaultIdle.h">
+      <Filter>Source\FPS\AI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\FPS\AssualtCharacter.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FPS\ArgoCheck.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FPS\RapidMoveTo.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FPS\CloseEnough.cpp">
-      <Filter>Source\FPS</Filter>
+    <ClInclude Include="..\..\Source\FPS\AI\AssaultIdleUpdate.h">
+      <Filter>Source\FPS\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FPS\AI\AssaultIdleUpdate.cpp">
+      <Filter>Source\FPS\AI</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

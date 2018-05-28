@@ -1,8 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "AssualtCharacter.h"
+#include "UnitAIController.h"
 #include "Runtime/AIModule/Classes/Perception/PawnSensingComponent.h"
 #include "Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeComponent.h"
+#include "Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h"
 
 
 // Sets default values
@@ -26,7 +28,12 @@ void AAssualtCharacter::BeginPlay()
 
 	PawnSensingComponent->OnSeePawn.AddDynamic(this, &AAssualtCharacter::OnSeePlayer);
 	PawnSensingComponent->OnHearNoise.AddDynamic(this, &AAssualtCharacter::OnHearNoise);
-	
+
+	if (Controller != nullptr)
+	{
+		AUnitAIController* controller = Cast<AUnitAIController>(Controller);
+		m_BlackboardComponent = controller->GetBlackboardComponent();
+	}
 }
 
 // Called every frame
@@ -45,6 +52,8 @@ void AAssualtCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 void AAssualtCharacter::OnSeePlayer(APawn * Pawn)
 {
+	m_BlackboardComponent->SetValueAsObject(FName("PlayerObject"), Pawn);
+	m_BlackboardComponent->SetValueAsVector(FName("TargetLocation"), Pawn->GetActorLocation());
 }
 
 void AAssualtCharacter::OnHearNoise(APawn * Pawn, const FVector & Location, float Volume)

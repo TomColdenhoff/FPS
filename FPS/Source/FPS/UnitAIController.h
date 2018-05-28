@@ -16,6 +16,8 @@ class FPS_API AUnitAIController : public AAIController
 
 public:
 	AUnitAIController();
+
+	class UBlackboardComponent* GetBlackboardComponent() { return BlackboardComponent; };
 	
 protected:
 	virtual void BeginPlay() override;

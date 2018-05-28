@@ -31,15 +31,25 @@ public:
 	UFUNCTION()
 	void OnHearNoise(APawn* Pawn, const FVector& Location, float Volume);
 
+	bool GetFollowPath() { return m_FollowPath; }
+
 	UPROPERTY(EditDefaultsOnly, Category = "AI")
 	class UBehaviorTree* BehaviourTree;
 
 	UPROPERTY(EditDefaultsOnly, Category = "AI")
 	class UBlackboardData* Blackboard;
 
-private:
-	class UPawnSensingComponent* PawnSensingComponent;
+	UPROPERTY(EditAnywhere, Category = "AI")
+	TArray<AActor*> Waypoints;
 
+private:
+	UPROPERTY(EditDefaultsOnly)
+	class UPawnSensingComponent* PawnSensingComponent;
+	class UBlackboardComponent* m_BlackboardComponent;
+
+	UPROPERTY(EditAnywhere, Category = "AI")
+	bool m_FollowPath = false;
+	
 	
 	
 };
