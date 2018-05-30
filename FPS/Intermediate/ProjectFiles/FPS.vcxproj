@@ -414,8 +414,10 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <ClCompile Include="..\..\Source\FPS\AI\AssaultIdleUpdate.cpp" />
+    <ClCompile Include="..\..\Source\FPS\AI\ChooseNextWaypoint.cpp" />
     <ClCompile Include="..\..\Source\FPS\ArgoCheck.cpp" />
     <ClInclude Include="..\..\Source\FPS\AI\AssaultIdleUpdate.h" />
+    <ClInclude Include="..\..\Source\FPS\AI\ChooseNextWaypoint.h" />
     <ClInclude Include="..\..\Source\FPS\ArgoCheck.h" />
     <ClCompile Include="..\..\Source\FPS\AssualtCharacter.cpp" />
     <ClInclude Include="..\..\Source\FPS\AssualtCharacter.h" />

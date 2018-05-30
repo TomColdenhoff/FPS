@@ -118,9 +118,15 @@
     <ClInclude Include="..\..\Source\FPS\AI\AssaultIdleUpdate.h">
       <Filter>Source\FPS\AI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\AI\ChooseNextWaypoint.h">
+      <Filter>Source\FPS\AI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPS\AI\AssaultIdleUpdate.cpp">
+      <Filter>Source\FPS\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\AI\ChooseNextWaypoint.cpp">
       <Filter>Source\FPS\AI</Filter>
     </ClCompile>
   </ItemGroup>

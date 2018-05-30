@@ -5,6 +5,7 @@
 #include "Runtime/AIModule/Classes/Perception/PawnSensingComponent.h"
 #include "Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeComponent.h"
 #include "Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h"
+#include "Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h"
 
 
 // Sets default values

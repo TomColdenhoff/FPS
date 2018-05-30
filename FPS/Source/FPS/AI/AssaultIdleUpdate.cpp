@@ -48,6 +48,7 @@ bool UAssaultIdleUpdate::IsCloseEnough()
 	if (p_AICharacter->GetCharacterMovement()->PathFollowingComp->GetStatus() != EPathFollowingStatus::Idle)
 	{
 		bHasMoved = true;
+		p_AICharacter->GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_NavWalking);
 	}
 
 	if (p_AICharacter->GetCharacterMovement()->PathFollowingComp->GetStatus() == EPathFollowingStatus::Idle && bHasMoved)
