@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 	FPS_API UClass* Z_Construct_UClass_AAssualtCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	FPS_API UFunction* Z_Construct_UFunction_AAssualtCharacter_GetIsAiming();
 	FPS_API UFunction* Z_Construct_UFunction_AAssualtCharacter_OnHearNoise();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
@@ -30,10 +31,36 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 	{
 		UClass* Class = AAssualtCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetIsAiming", &AAssualtCharacter::execGetIsAiming },
 			{ "OnHearNoise", &AAssualtCharacter::execOnHearNoise },
 			{ "OnSeePlayer", &AAssualtCharacter::execOnSeePlayer },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_AAssualtCharacter_GetIsAiming()
+	{
+		struct AssualtCharacter_eventGetIsAiming_Parms
+		{
+			bool ReturnValue;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			auto NewProp_ReturnValue_SetBit = [](void* Obj){ ((AssualtCharacter_eventGetIsAiming_Parms*)Obj)->ReturnValue = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AssualtCharacter_eventGetIsAiming_Parms), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_ReturnValue_SetBit)>::SetBit, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "AI" },
+				{ "ModuleRelativePath", "AssualtCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssualtCharacter, "GetIsAiming", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(AssualtCharacter_eventGetIsAiming_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_AAssualtCharacter_OnHearNoise()
 	{
@@ -106,6 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_AAssualtCharacter_GetIsAiming, "GetIsAiming" }, // 1527717276
 				{ &Z_Construct_UFunction_AAssualtCharacter_OnHearNoise, "OnHearNoise" }, // 1541885905
 				{ &Z_Construct_UFunction_AAssualtCharacter_OnSeePlayer, "OnSeePlayer" }, // 2473920101
 			};
@@ -180,7 +208,7 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssualtCharacter, 1960807290);
+	IMPLEMENT_CLASS(AAssualtCharacter, 2198074455);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssualtCharacter(Z_Construct_UClass_AAssualtCharacter, &AAssualtCharacter::StaticClass, TEXT("/Script/FPS"), TEXT("AAssualtCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssualtCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

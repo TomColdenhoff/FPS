@@ -1,133 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\FPS.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{1EEA6234-409B-4D62-9E4C-EEAE92E7D89E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\FPS.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\FPSEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{97D612E7-45D4-428D-88FF-D43D666974AA}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\FPS">
-      <UniqueIdentifier>{3260057B-4443-4BF4-8DDB-0D06247AE47A}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\FPS\ArgoCheck.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\ArgoCheck.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\AssualtCharacter.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\AssualtCharacter.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\BaseWeapon.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\CloseEnough.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\CloseEnough.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\Dummy.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\Dummy.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\FPS\FPS.Build.cs">
-      <Filter>Source\FPS</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\FPS\FPS.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPS.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\FPSGameModeBase.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPSPlayer.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\RapidMoveTo.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\RapidMoveTo.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\SMG.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\SMG.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\UnitAIController.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\UnitAIController.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\WeaponBase.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\WeaponBase.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <Filter Include="Source\FPS\AI">
-      <UniqueIdentifier>{92C584E8-999E-4CDC-A12A-797183F3BC11}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\FPS\AI\AssaultIdle.cpp">
-      <Filter>Source\FPS\AI</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\AI\AssaultIdle.h">
-      <Filter>Source\FPS\AI</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FPS\AI\AssaultIdleUpdate.h">
-      <Filter>Source\FPS\AI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FPS\AI\ChooseNextWaypoint.h">
-      <Filter>Source\FPS\AI</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\FPS\AI\AssaultIdleUpdate.cpp">
-      <Filter>Source\FPS\AI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FPS\AI\ChooseNextWaypoint.cpp">
-      <Filter>Source\FPS\AI</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\FPS.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{18E45484-87D1-485B-BA5A-273A48E5BEB2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FPS.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FPSEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8997D262-BF9C-4B27-9329-1DD59A0D6197}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FPS">
+			<UniqueIdentifier>{A1F0AC00-A816-4896-9CF3-F8CFBF81033A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FPS\AssualtCharacter.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\AssualtCharacter.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\BaseWeapon.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\CloseEnough.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\CloseEnough.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\Dummy.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\Dummy.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\FPS\FPS.Build.cs">
+			<Filter>Source\FPS</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FPS\FPS.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPS.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\FPSGameModeBase.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPSPlayer.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\SMG.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\SMG.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\UnitAIController.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\UnitAIController.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\WeaponBase.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\WeaponBase.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<Filter Include="Source\FPS\AI">
+			<UniqueIdentifier>{CD459E41-1029-4825-99C7-A224A1AD73E0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FPS\AI\AimTowardsTarget.cpp">
+			<Filter>Source\FPS\AI</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\AI\AimTowardsTarget.h">
+			<Filter>Source\FPS\AI</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\AI\ChooseNextWaypoint.cpp">
+			<Filter>Source\FPS\AI</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\AI\ChooseNextWaypoint.h">
+			<Filter>Source\FPS\AI</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

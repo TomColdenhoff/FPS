@@ -33,6 +33,9 @@ public:
 
 	bool GetFollowPath() { return m_FollowPath; }
 
+	UFUNCTION(BlueprintCallable, Category = "AI")
+	bool GetIsAiming() { return m_IsAiming; }
+
 	UPROPERTY(EditDefaultsOnly, Category = "AI")
 	class UBehaviorTree* BehaviourTree;
 
@@ -49,6 +52,8 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = "AI")
 	bool m_FollowPath = false;
+	
+	bool m_IsAiming = false;
 	
 	
 	

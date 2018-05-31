@@ -17,6 +17,14 @@ struct FVector;
 
 #define FPS_Source_FPS_AssualtCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetIsAiming) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsAiming(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnHearNoise) \
 	{ \
 		P_GET_OBJECT(APawn,Z_Param_Pawn); \
@@ -39,6 +47,14 @@ struct FVector;
 
 
 #define FPS_Source_FPS_AssualtCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetIsAiming) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsAiming(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnHearNoise) \
 	{ \

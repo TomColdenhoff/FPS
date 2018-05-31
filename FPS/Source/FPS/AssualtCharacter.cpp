@@ -53,8 +53,8 @@ void AAssualtCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 void AAssualtCharacter::OnSeePlayer(APawn * Pawn)
 {
-	m_BlackboardComponent->SetValueAsObject(FName("PlayerObject"), Pawn);
-	m_BlackboardComponent->SetValueAsVector(FName("TargetLocation"), Pawn->GetActorLocation());
+	m_BlackboardComponent->SetValueAsObject(FName("Target"), Pawn);
+	m_IsAiming = true;
 }
 
 void AAssualtCharacter::OnHearNoise(APawn * Pawn, const FVector & Location, float Volume)
