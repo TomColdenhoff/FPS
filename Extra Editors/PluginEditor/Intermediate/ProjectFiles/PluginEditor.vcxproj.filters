@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PluginEditor.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{993977FE-0E7C-4561-8E57-A1792A460E60}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PluginEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PluginEditorEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B66084CE-DA6F-48A0-94C8-33DD70485F1C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CSWUtilities">
+			<UniqueIdentifier>{4DCC4E71-9CE5-463D-9FD0-9699DC90CC6C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CSWUtilities\CSWUtilities.Build.cs">
+			<Filter>Source\CSWUtilities</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CSWUtilities\CSWUtilities.cpp">
+			<Filter>Source\CSWUtilities</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CSWUtilities\CSWUtilities.h">
+			<Filter>Source\CSWUtilities</Filter>
+		</ClInclude >
+		<Filter Include="Source\CSWUtilities\Private">
+			<UniqueIdentifier>{75F5F568-F9DE-4B51-BE0B-562C250FF53F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\CSWUtilities\Private\CSWBlueprintUtilities.cpp">
+			<Filter>Source\CSWUtilities\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\CSWUtilities\Private\Test.cpp">
+			<Filter>Source\CSWUtilities\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\CSWUtilities\Public">
+			<UniqueIdentifier>{0A9D75DE-6F49-455B-930A-5F6948507DFD}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\CSWUtilities\Public\CSWBlueprintUtilities.h">
+			<Filter>Source\CSWUtilities\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\CSWUtilities\Public\Test.h">
+			<Filter>Source\CSWUtilities\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\PluginEditor">
+			<UniqueIdentifier>{B1A3FF21-7774-4960-9ECB-019C129D60E5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PluginEditor\PluginEditor.Build.cs">
+			<Filter>Source\PluginEditor</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PluginEditor\PluginEditor.cpp">
+			<Filter>Source\PluginEditor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PluginEditor\PluginEditor.h">
+			<Filter>Source\PluginEditor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PluginEditor\PluginEditorGameModeBase.cpp">
+			<Filter>Source\PluginEditor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PluginEditor\PluginEditorGameModeBase.h">
+			<Filter>Source\PluginEditor</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

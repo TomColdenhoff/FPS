@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PluginExporter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\SpareTime\Unreal\FPS\Extra Editors\PluginExporter\Intermediate\Build\Win64\UE4Editor\Development\PluginExporter\PluginExporter.cpp.obj"
+"D:\SpareTime\Unreal\FPS\Extra Editors\PluginExporter\Intermediate\Build\Win64\UE4Editor\Development\PluginExporter\PluginExporterGameModeBase.cpp.obj"
+"D:\SpareTime\Unreal\FPS\Extra Editors\PluginExporter\Intermediate\Build\Win64\UE4Editor\Development\PluginExporter\PluginExporter.init.gen.cpp.obj"
+"D:\SpareTime\Unreal\FPS\Extra Editors\PluginExporter\Intermediate\Build\Win64\UE4Editor\Development\PluginExporter\PluginExporterGameModeBase.gen.cpp.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\PluginExporter\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\SpareTime\Unreal\FPS\Extra Editors\PluginExporter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PluginExporter.lib"

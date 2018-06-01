@@ -1,0 +1,4 @@
+D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Source\CSWUtilities\CSWUtilities.Build.cs
+D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Source\PluginEditor\PluginEditor.Build.cs
+D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Source\PluginEditor.Target.cs
+D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Source\PluginEditorEditor.Target.cs

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CSWUtilities.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Plugins\CSWUtilities\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\Module.CSWUtilities.cpp.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Plugins\CSWUtilities\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CSWUtilities.lib"
