@@ -1,21 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Compiling game modules for hot reload
-  Parsing headers for FPSEditor
-    Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSEditor in 8.4705793 seconds
-  Performing 7 actions (4 in parallel)
-  BaseWeapon.gen.cpp
-  SMG.cpp
-  BaseWeapon.cpp
-  FPSPlayer.cpp
-  SMG.gen.cpp
-D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(43): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
-D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(73): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
-  [6/7] Link UE4Editor-FPS-1.dll
-  [7/7] Link UE4Editor-FPS-1.lib
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-1.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-1.exp
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-1.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-1.suppressed.exp
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-3108.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-3108.pdb".
+  Performing 5 actions (4 in parallel)
+  [3/5] Link UE4Editor-FPS.dll
+  [2/5] Link UE4Editor-FPS.lib
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
+  Module.CoverPointGenerator.cpp
+  [4/5] Link UE4Editor-CoverPointGenerator.dll
+  [5/5] Link UE4Editor-CoverPointGenerator.lib
+     Creating library E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.lib and object E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.exp
+     Creating library E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.suppressed.lib and object E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 12.53 seconds (Local executor: 3.03 seconds)
+  Total build time: 114.42 seconds (Local executor: 113.45 seconds)

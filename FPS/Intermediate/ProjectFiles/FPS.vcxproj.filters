@@ -1,82 +1,142 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\FPS.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{F190B514-F123-4F5D-9038-E05AFCC109B8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\FPS.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\FPSEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{A8BEF2D5-B8E9-4713-9F11-06E19A54CDE2}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\FPS">
-      <UniqueIdentifier>{A410913E-667B-4432-8BF4-DDF696FE60BB}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\BaseWeapon.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\FPS\FPS.Build.cs">
-      <Filter>Source\FPS</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\FPS\FPS.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPS.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\FPSGameModeBase.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\FPSPlayer.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\SMG.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\SMG.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPS\WeaponBase.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPS\WeaponBase.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FPS\Dummy.h">
-      <Filter>Source\FPS</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\FPS\Dummy.cpp">
-      <Filter>Source\FPS</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\FPS.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2169E7EF-DBD3-46CB-BF57-871514EA1A52}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FPS.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FPSEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{08880E53-BDF4-4445-9945-4EEB190C33FE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{2FA64269-9C29-4647-9197-759D6BA9A439}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\CoverPointGenerator">
+			<UniqueIdentifier>{8969555F-4A99-49A6-96CB-0C52DB761C04}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\CoverPointGenerator\Source">
+			<UniqueIdentifier>{CA018737-4880-4A7A-A85B-753F3D2C8F81}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\CoverPointGenerator\Source\CoverPointGenerator">
+			<UniqueIdentifier>{EEB63F90-4721-4293-8D2A-952F05A050DF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\CoverPointGenerator.Build.cs">
+			<Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator</Filter>
+		</None >
+		<Filter Include="Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private">
+			<UniqueIdentifier>{F7FAF3C4-B6EB-4C1F-9276-6F97AB359E35}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private\CoverPointGenerator.cpp">
+			<Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private\CoverPointGeneratorCommands.cpp">
+			<Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private\CoverPointGeneratorStyle.cpp">
+			<Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public">
+			<UniqueIdentifier>{6FB6D159-326E-4963-94B6-20DAA3F3BCFD}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public\CoverPointGenerator.h">
+			<Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public\CoverPointGeneratorCommands.h">
+			<Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public\CoverPointGeneratorStyle.h">
+			<Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\CoverPointGenerator\CoverPointGenerator.uplugin">
+			<Filter>Plugins\CoverPointGenerator</Filter>
+		</None >
+		<Filter Include="Plugins\CoverPointGenerator\Resources">
+			<UniqueIdentifier>{EBC1A0F1-0138-4118-8070-3D1CA504E028}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\CoverPointGenerator\Resources\ButtonIcon_40x.png">
+			<Filter>Plugins\CoverPointGenerator\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\CoverPointGenerator\Resources\Icon128.png">
+			<Filter>Plugins\CoverPointGenerator\Resources</Filter>
+		</None >
+		<Filter Include="Source\FPS">
+			<UniqueIdentifier>{281DA9B8-BB75-40BC-AF72-D3904CDDE25C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\BaseWeapon.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\Dummy.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\Dummy.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\FPS\FPS.Build.cs">
+			<Filter>Source\FPS</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FPS\FPS.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPS.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\FPSGameModeBase.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\FPSPlayer.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\SMG.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\SMG.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FPS\WeaponBase.cpp">
+			<Filter>Source\FPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FPS\WeaponBase.h">
+			<Filter>Source\FPS</Filter>
+		</ClInclude >
+		<Filter Include="Source\FPS\Private">
+			<UniqueIdentifier>{0A828D89-A071-4CF5-8C6B-428C3A22BB2F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FPS\Private\CoverPoint.cpp">
+			<Filter>Source\FPS\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\FPS\Public">
+			<UniqueIdentifier>{FDDDFECD-BEB1-4207-85C6-DF38121BA2E7}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\FPS\Public\CoverPoint.h">
+			<Filter>Source\FPS\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

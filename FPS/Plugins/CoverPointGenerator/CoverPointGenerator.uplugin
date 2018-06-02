@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "CoverPointGenerator",
+	"Description": "Tool that generates points where an AI agent can take cover",
+	"Category": "Other",
+	"CreatedBy": "Tom Coldenhoff",
+	"CreatedByURL": "https://www.tomcoldenhoff.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CoverPointGenerator",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

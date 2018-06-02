@@ -36,6 +36,18 @@
 			"IsPrecompiled": true
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CoverPointGenerator/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-CoverPointGenerator.lib",
+			"Type": "ImportLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary",
 			"IsPrecompiled": true
@@ -5917,6 +5929,10 @@
 			"Type": "BuildResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		}
@@ -5924,6 +5940,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/FPS.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CoverPointGenerator/CoverPointGenerator.uplugin",
 			"Type": "UFS"
 		},
 		{

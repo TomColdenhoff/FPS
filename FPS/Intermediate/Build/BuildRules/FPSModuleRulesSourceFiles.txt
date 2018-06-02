@@ -1,3 +1,4 @@
 E:\Projects\FPS\FPS\Source\FPS\FPS.Build.cs
+E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Source\CoverPointGenerator\CoverPointGenerator.Build.cs
 E:\Projects\FPS\FPS\Source\FPS.Target.cs
 E:\Projects\FPS\FPS\Source\FPSEditor.Target.cs
