@@ -1,16 +1,7 @@
-﻿  Performing full C++ include scan (hot reloading a new target)
-  Creating makefile for hot reloading PluginEditorEditor (modules to compile have changed)
-  Compiling game modules for hot reload
-  Parsing headers for PluginEditorEditor
-    Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\PluginEditor.uproject" "D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\PluginEditorEditor\Development\PluginEditorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PluginEditorEditor in 10.3985677 seconds
-  Performing 5 actions (4 in parallel)
-  CSWBlueprintUtilities.cpp
-  CSWUtilities.init.gen.cpp
-  CSWBlueprintUtilities.gen.cpp
-  [4/5] Link UE4Editor-CSWUtilities-4672.dll
-  [5/5] Link UE4Editor-CSWUtilities-4672.lib
-     Creating library D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CSWUtilities-4672.lib and object D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CSWUtilities-4672.exp
-     Creating library D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CSWUtilities-4672.suppressed.lib and object D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CSWUtilities-4672.suppressed.exp
-  Deploying PluginEditorEditor Win64 Development...
-  Total build time: 25.88 seconds (Local executor: 8.88 seconds)
+﻿  Performing 3 actions (4 in parallel)
+  Module.ToolWindow.cpp
+  [2/3] Link UE4Editor-ToolWindow.dll
+  [3/3] Link UE4Editor-ToolWindow.lib
+     Creating library E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.lib and object E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.exp
+     Creating library E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.suppressed.lib and object E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.suppressed.exp
+  Total build time: 4.50 seconds (Local executor: 3.62 seconds)

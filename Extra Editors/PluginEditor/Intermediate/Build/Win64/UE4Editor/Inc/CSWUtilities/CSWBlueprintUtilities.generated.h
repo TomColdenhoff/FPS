@@ -10,6 +10,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UObject;
 class UActorComponent;
+class AActor;
 #ifdef CSWUTILITIES_CSWBlueprintUtilities_generated_h
 #error "CSWBlueprintUtilities.generated.h already included, missing '#pragma once' in CSWBlueprintUtilities.h"
 #endif
@@ -19,12 +20,13 @@ class UActorComponent;
  \
 	DECLARE_FUNCTION(execGetAllActorsWithComponent) \
 	{ \
-		P_GET_OBJECT(UObject,Z_Param_World); \
+		P_GET_OBJECT(UObject,Z_Param_WorldContextObject); \
 		P_GET_OBJECT(UClass,Z_Param_Component); \
+		P_GET_TARRAY_REF(AActor*,Z_Param_Out_OutActors); \
 		P_GET_TARRAY_REF(UActorComponent*,Z_Param_Out_OutActorComponents); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		UCSWBlueprintUtilities::GetAllActorsWithComponent(Z_Param_World,Z_Param_Component,Z_Param_Out_OutActorComponents); \
+		UCSWBlueprintUtilities::GetAllActorsWithComponent(Z_Param_WorldContextObject,Z_Param_Component,Z_Param_Out_OutActors,Z_Param_Out_OutActorComponents); \
 		P_NATIVE_END; \
 	}
 
@@ -33,12 +35,13 @@ class UActorComponent;
  \
 	DECLARE_FUNCTION(execGetAllActorsWithComponent) \
 	{ \
-		P_GET_OBJECT(UObject,Z_Param_World); \
+		P_GET_OBJECT(UObject,Z_Param_WorldContextObject); \
 		P_GET_OBJECT(UClass,Z_Param_Component); \
+		P_GET_TARRAY_REF(AActor*,Z_Param_Out_OutActors); \
 		P_GET_TARRAY_REF(UActorComponent*,Z_Param_Out_OutActorComponents); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		UCSWBlueprintUtilities::GetAllActorsWithComponent(Z_Param_World,Z_Param_Component,Z_Param_Out_OutActorComponents); \
+		UCSWBlueprintUtilities::GetAllActorsWithComponent(Z_Param_WorldContextObject,Z_Param_Component,Z_Param_Out_OutActors,Z_Param_Out_OutActorComponents); \
 		P_NATIVE_END; \
 	}
 

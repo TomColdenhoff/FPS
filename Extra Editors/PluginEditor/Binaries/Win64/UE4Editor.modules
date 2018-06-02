@@ -2,7 +2,7 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
-		"CSWUtilities": "UE4Editor-CSWUtilities-4672.dll",
-		"PluginEditor": "UE4Editor-PluginEditor-6443.dll"
+		"CSWUtilities": "UE4Editor-CSWUtilities.dll",
+		"PluginEditor": "UE4Editor-PluginEditor.dll"
 	}
 }

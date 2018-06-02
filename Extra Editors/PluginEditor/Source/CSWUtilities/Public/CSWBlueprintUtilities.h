@@ -15,8 +15,12 @@ class CSWUTILITIES_API UCSWBlueprintUtilities : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 	
 public:
-	UFUNCTION(BlueprintPure, Category = "CSW|Utilities::BlueprintLibary", meta = (DisplayName = "CSW::Get All Actors With Component", WorldContext = "WorldContextObject", ))
-	static void GetAllActorsWithComponent(const UObject* World, const TSubclassOf<UActorComponent> Component, TArray<UActorComponent*>& OutActorComponents);
+	/*
+	* Find all Actors in the world with the specified component
+	* This is a slow operation, use with caution e.g. do not use every frame
+	*/
+	UFUNCTION(BlueprintPure, Category = "CSW|Utilities::BlueprintLibary", meta = (DisplayName = "CSW::Get All Actors With Component", WorldContext = "WorldContextObject", DeterminesOutputType = "Component", DynamicOutputParam = "OutActorComponents"))
+	static void GetAllActorsWithComponent(const UObject* WorldContextObject, const TSubclassOf<UActorComponent> Component, TArray<AActor*>& OutActors, TArray<UActorComponent*>& OutActorComponents);
 
 	
 	

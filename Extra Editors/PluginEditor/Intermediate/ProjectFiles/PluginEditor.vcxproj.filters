@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PluginEditor.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{993977FE-0E7C-4561-8E57-A1792A460E60}</UniqueIdentifier>
+			<UniqueIdentifier>{9D46A0ED-8242-47AF-B044-D58A576410C7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PluginEditor.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{B66084CE-DA6F-48A0-94C8-33DD70485F1C}</UniqueIdentifier>
+			<UniqueIdentifier>{42030786-EE0D-41AD-AD57-0A1B230B78BB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -24,8 +24,59 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{67102C40-0197-4140-9FA8-08F29C8242B8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ToolWindow">
+			<UniqueIdentifier>{6982C689-3E87-45ED-B279-6251A80EF055}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ToolWindow\Source">
+			<UniqueIdentifier>{31F4E4F0-CFC8-406F-B6ED-3C001361699B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ToolWindow\Source\ToolWindow">
+			<UniqueIdentifier>{7C590377-48AD-42F1-B691-27791AE570A5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\ToolWindow\Source\ToolWindow\ToolWindow.Build.cs">
+			<Filter>Plugins\ToolWindow\Source\ToolWindow</Filter>
+		</None >
+		<Filter Include="Plugins\ToolWindow\Source\ToolWindow\Private">
+			<UniqueIdentifier>{FC69250E-2761-44D1-BEE2-0A1BE9592376}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\ToolWindow\Source\ToolWindow\Private\ToolWindow.cpp">
+			<Filter>Plugins\ToolWindow\Source\ToolWindow\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\ToolWindow\Source\ToolWindow\Private\ToolWindowCommands.cpp">
+			<Filter>Plugins\ToolWindow\Source\ToolWindow\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\ToolWindow\Source\ToolWindow\Private\ToolWindowStyle.cpp">
+			<Filter>Plugins\ToolWindow\Source\ToolWindow\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\ToolWindow\Source\ToolWindow\Public">
+			<UniqueIdentifier>{275E8513-59FC-44D9-8708-AD4993EFB0D0}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\ToolWindow\Source\ToolWindow\Public\ToolWindow.h">
+			<Filter>Plugins\ToolWindow\Source\ToolWindow\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\ToolWindow\Source\ToolWindow\Public\ToolWindowCommands.h">
+			<Filter>Plugins\ToolWindow\Source\ToolWindow\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\ToolWindow\Source\ToolWindow\Public\ToolWindowStyle.h">
+			<Filter>Plugins\ToolWindow\Source\ToolWindow\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\ToolWindow\ToolWindow.uplugin">
+			<Filter>Plugins\ToolWindow</Filter>
+		</None >
+		<Filter Include="Plugins\ToolWindow\Resources">
+			<UniqueIdentifier>{41B3DB85-E8A6-464B-B5E6-90D18B33219B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\ToolWindow\Resources\ButtonIcon_40x.png">
+			<Filter>Plugins\ToolWindow\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\ToolWindow\Resources\Icon128.png">
+			<Filter>Plugins\ToolWindow\Resources</Filter>
+		</None >
 		<Filter Include="Source\CSWUtilities">
-			<UniqueIdentifier>{4DCC4E71-9CE5-463D-9FD0-9699DC90CC6C}</UniqueIdentifier>
+			<UniqueIdentifier>{27130288-B466-4C22-B18F-7B9D50557995}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\CSWUtilities\CSWUtilities.Build.cs">
 			<Filter>Source\CSWUtilities</Filter>
@@ -37,7 +88,7 @@
 			<Filter>Source\CSWUtilities</Filter>
 		</ClInclude >
 		<Filter Include="Source\CSWUtilities\Private">
-			<UniqueIdentifier>{75F5F568-F9DE-4B51-BE0B-562C250FF53F}</UniqueIdentifier>
+			<UniqueIdentifier>{17688425-FE84-47F6-8B99-455CDA069053}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\CSWUtilities\Private\CSWBlueprintUtilities.cpp">
 			<Filter>Source\CSWUtilities\Private</Filter>
@@ -46,7 +97,7 @@
 			<Filter>Source\CSWUtilities\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\CSWUtilities\Public">
-			<UniqueIdentifier>{0A9D75DE-6F49-455B-930A-5F6948507DFD}</UniqueIdentifier>
+			<UniqueIdentifier>{47F39389-0944-4FAE-A32E-677C0B832AAF}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\CSWUtilities\Public\CSWBlueprintUtilities.h">
 			<Filter>Source\CSWUtilities\Public</Filter>
@@ -55,7 +106,7 @@
 			<Filter>Source\CSWUtilities\Public</Filter>
 		</ClInclude >
 		<Filter Include="Source\PluginEditor">
-			<UniqueIdentifier>{B1A3FF21-7774-4960-9ECB-019C129D60E5}</UniqueIdentifier>
+			<UniqueIdentifier>{E2E290EC-FA6A-4A23-8A70-738554085E1D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PluginEditor\PluginEditor.Build.cs">
 			<Filter>Source\PluginEditor</Filter>

@@ -6,9 +6,12 @@
 /NAME:"UE4Editor-CSWUtilities.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
-"D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\CSWUtilities.cpp.obj"
-"D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\Test.cpp.obj"
-"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\PCLaunch.rc.res"
-"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-/OUT:"D:\SpareTime\Unreal\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CSWUtilities.lib"
+"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Projects\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\CSWUtilities.cpp.obj"
+"E:\Projects\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\CSWBlueprintUtilities.cpp.obj"
+"E:\Projects\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\Test.cpp.obj"
+"E:\Projects\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\CSWBlueprintUtilities.gen.cpp.obj"
+"E:\Projects\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\CSWUtilities.init.gen.cpp.obj"
+"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\CSWUtilities\PCLaunch.rc.res"
+"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\Projects\FPS\Extra Editors\PluginEditor\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CSWUtilities.lib"

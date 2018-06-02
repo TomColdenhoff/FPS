@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeCSWUtilities_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/CSWUtilities",
 				PKG_CompiledIn | 0x00000000,
-				0x8670D638,
+				0x1882F1D4,
 				0xE4F7A953,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
