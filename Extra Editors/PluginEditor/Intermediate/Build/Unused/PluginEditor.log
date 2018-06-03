@@ -1,0 +1,7 @@
+﻿  Performing 3 actions (4 in parallel)
+  Module.ToolWindow.cpp
+  [2/3] Link UE4Editor-ToolWindow.dll
+  [3/3] Link UE4Editor-ToolWindow.lib
+     Creating library E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.lib and object E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.exp
+     Creating library E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.suppressed.lib and object E:\Projects\FPS\Extra Editors\PluginEditor\Plugins\ToolWindow\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ToolWindow.suppressed.exp
+  Total build time: 4.50 seconds (Local executor: 3.62 seconds)

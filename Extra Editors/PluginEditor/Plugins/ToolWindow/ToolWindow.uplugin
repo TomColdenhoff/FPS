@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ToolWindow",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Tom Coldenhoff",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ToolWindow",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

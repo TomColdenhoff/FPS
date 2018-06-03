@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "CSWUtilities",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Tom Coldenhoff",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CSWUtilities",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
