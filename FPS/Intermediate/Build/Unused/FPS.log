@@ -1,21 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FPSEditor (no existing makefile)
-  Parsing headers for FPSEditor
-    Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSEditor in 8.6040641 seconds
-  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2582.dll".
-  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2582.pdb".
-  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2700.dll".
-  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2700.pdb".
-  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5318.dll".
-  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5318.pdb".
-  Performing 5 actions (4 in parallel)
-  MoveTowardsTarget.gen.cpp
-  MoveTowardsTarget.cpp
-  AimTowardsTarget.cpp
-  [4/5] Link UE4Editor-FPS.dll
-  [5/5] Link UE4Editor-FPS.lib
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
-  Deploying FPSEditor Win64 Development...
-  Total build time: 16.82 seconds (Local executor: 3.35 seconds)
+  Performing 3 actions (4 in parallel)
+  SMG.cpp
+E:\Projects\FPS\FPS\Source\FPS\SMG.cpp(35): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
+  [2/3] Link UE4Editor-FPS.dll
+  [3/3] Link UE4Editor-FPS.lib
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
+  Total build time: 8.40 seconds (Local executor: 7.62 seconds)

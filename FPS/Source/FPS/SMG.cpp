@@ -11,6 +11,7 @@
 #include "Runtime/Engine/Classes/Camera/CameraComponent.h"
 #include "Runtime/Engine/Classes/Particles/ParticleSystemComponent.h"
 #include "Dummy.h"
+#include "Runtime/Engine/Classes/Sound/SoundBase.h"
 
 USMG::USMG()
 {
