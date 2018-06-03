@@ -40,11 +40,16 @@ private:
 	//Functions needed for generating the Cover Points
 	bool SettingsValid();
 	bool StartGeneration();
-	void GenerateCoverPoints(AActor* Actor);
+	void GenerateRectangleCoverPoints(AActor* Actor);
+	void GenerateCircularCoverPoints(AActor* Actor);
 	void CreateAndPlacePoint(FVector Location, AActor* Parent);
 
 	bool bIsRectangle = false;
 	bool bIsCircular = false;
 
 	const int32 POINT_DISTANCE_CM = 50;
+	const float HORIZONTAL_OFFSET = 10.0f;
+	const float VERTICAL_OFFSET = 10.0f;
+
+	const float ANGLE_DISTANCE = 60.0f;
 };

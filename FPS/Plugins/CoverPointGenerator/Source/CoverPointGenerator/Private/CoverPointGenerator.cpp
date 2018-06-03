@@ -14,6 +14,7 @@
 #include "Editor.h"
 #include "CoverPoint.h"
 #include "Engine/EngineTypes.h"
+#include "UnrealMathUtility.h"
 
 static const FName CoverPointGeneratorTabName("CoverPointGenerator");
 
@@ -141,6 +142,7 @@ void FCoverPointGeneratorModule::HandleCheckBoxStateChange(ECheckBoxState NewSta
 }
 #pragma endregion
 
+#pragma region GeneratePoints
 FReply FCoverPointGeneratorModule::OnGenerateButtonClick()
 {
 	if (!SettingsValid())
@@ -149,6 +151,7 @@ FReply FCoverPointGeneratorModule::OnGenerateButtonClick()
 	if (!StartGeneration())
 		return FReply::Unhandled();
 
+	UE_LOG(LogTemp, Warning, TEXT("Cover Point Generator Tool: Succesfuly created cover points!"))
 	return FReply::Handled();
 }
 
@@ -169,14 +172,18 @@ bool FCoverPointGeneratorModule::StartGeneration()
 	{
 		if (AActor* actor = Cast<AActor>(*i))
 		{
-			GenerateCoverPoints(actor);
+			if (bIsRectangle)
+				GenerateRectangleCoverPoints(actor);
+			else if (bIsCircular)
+				GenerateCircularCoverPoints(actor);
+
 		}
 	}
 
 	return true;
 }
 
-void FCoverPointGeneratorModule::GenerateCoverPoints(AActor* Actor)
+void FCoverPointGeneratorModule::GenerateRectangleCoverPoints(AActor* Actor)
 {
 	//Save original rotation and set it to zero
 	FRotator defaultActorRotation = Actor->GetActorRotation();
@@ -191,34 +198,75 @@ void FCoverPointGeneratorModule::GenerateCoverPoints(AActor* Actor)
 	int32 horizontalPointAmount = 0, verticalPointAmount = 0;
 
 	int32 horizontalDistance = rightTop.X - leftBottom.X;
-	int32 verticalDistance = leftBottom.Y - rightTop.Y;
+	int32 verticalDistance = rightTop.Y - leftBottom.Y;
 
 	if (horizontalDistance >= 100)
-		horizontalPointAmount = (horizontalDistance / POINT_DISTANCE_CM) - 1; // substract 1 because we don't want to place a object on the corner of the actor
-	//else if (horizontalDistance >= 50)
-		//TODO Place Point
+	{
+		horizontalPointAmount = (horizontalDistance / POINT_DISTANCE_CM) - 1; // subtract 1 because we don't want to place a object on the corner of the actor
+	}
+	else if (horizontalDistance >= POINT_DISTANCE_CM) // If the actor is to small for multiple point we place the point instant without looping
+	{
+		CreateAndPlacePoint(FVector(leftBottom.X + (horizontalDistance * 0.5), leftBottom.Y - HORIZONTAL_OFFSET, leftBottom.Z = VERTICAL_OFFSET), Actor);
+		CreateAndPlacePoint(FVector(rightTop.X - (horizontalDistance * 0.5), rightTop.Y + HORIZONTAL_OFFSET, rightTop.Z + VERTICAL_OFFSET), Actor);
+	}
+		
 
 	if (verticalDistance >= 100)
-		verticalPointAmount = (verticalDistance / POINT_DISTANCE_CM) - 1; // substract 1 because we don't want to place a object on the corner of the actor
+	{
+		verticalPointAmount = (verticalDistance / POINT_DISTANCE_CM) - 1; // subtract 1 because we don't want to place a object on the corner of the actor
+	}
+	else if (verticalDistance >= POINT_DISTANCE_CM) // If the actor is to small for multiple point we place the point instant without looping
+	{
+		CreateAndPlacePoint(FVector(leftBottom.X - HORIZONTAL_OFFSET, leftBottom.Y + (verticalDistance * 0.5), leftBottom.Z + VERTICAL_OFFSET), Actor);
+		CreateAndPlacePoint(FVector(rightTop.X + HORIZONTAL_OFFSET, rightTop.Y - (verticalDistance * 0.5), rightTop.Z + VERTICAL_OFFSET), Actor);
+	}
 
 	//Calculate horizontal positions
 	for (int32 i = 0; i != horizontalPointAmount; ++i)
 	{
-		FVector placeLocation = FVector(((leftBottom.X + POINT_DISTANCE_CM) + (POINT_DISTANCE_CM * i)), leftBottom.Y, leftBottom.Z);
+		FVector placeLocation = FVector(((leftBottom.X + POINT_DISTANCE_CM) + (POINT_DISTANCE_CM * i)), leftBottom.Y - HORIZONTAL_OFFSET, leftBottom.Z + VERTICAL_OFFSET);
 		CreateAndPlacePoint(placeLocation, Actor);
 
-		placeLocation = FVector(((rightTop.X - POINT_DISTANCE_CM) - (POINT_DISTANCE_CM * i)), rightTop.Y, rightTop.Z);
+		placeLocation = FVector(((rightTop.X - POINT_DISTANCE_CM) - (POINT_DISTANCE_CM * i)), rightTop.Y + HORIZONTAL_OFFSET, rightTop.Z + VERTICAL_OFFSET);
 		CreateAndPlacePoint(placeLocation, Actor);
 	}
 
-	//Calcualte Vertical positions
+	//Calculate Vertical positions
 	for (int32 i = 0; i != verticalPointAmount; ++i)
 	{
-		FVector placeLocation = FVector(leftBottom.X, ((leftBottom.Y + POINT_DISTANCE_CM) + (POINT_DISTANCE_CM * i)), leftBottom.Z);
+		FVector placeLocation = FVector(leftBottom.X - HORIZONTAL_OFFSET, ((leftBottom.Y + POINT_DISTANCE_CM) + (POINT_DISTANCE_CM * i)), leftBottom.Z + VERTICAL_OFFSET);
 		CreateAndPlacePoint(placeLocation, Actor);
 
-		placeLocation = FVector(leftBottom.X, ((leftBottom.Y - POINT_DISTANCE_CM) - (POINT_DISTANCE_CM * i)), leftBottom.Z);
+		placeLocation = FVector(rightTop.X + HORIZONTAL_OFFSET, ((rightTop.Y - POINT_DISTANCE_CM) - (POINT_DISTANCE_CM * i)), rightTop.Z + VERTICAL_OFFSET);
 		CreateAndPlacePoint(placeLocation, Actor);
+	}
+
+	//Reset the rotation as it was before
+	Actor->SetActorRotation(defaultActorRotation);
+}
+
+void FCoverPointGeneratorModule::GenerateCircularCoverPoints(AActor* Actor)
+{
+	//Save original rotation and set it to zero
+	FRotator defaultActorRotation = Actor->GetActorRotation();
+	Actor->SetActorRotation(FRotator(0.0f, 0.0f, 0.0f));
+
+	//Get needed information about the cylinder
+	float radius;
+	float halfHeight;
+	FVector centerPosition;
+
+	Actor->GetComponentsBoundingCylinder(radius, halfHeight);
+	centerPosition = Actor->GetComponentsBoundingBox().GetCenter();
+
+	int32 amountOfPoints = 360 / ANGLE_DISTANCE;
+
+	//Place all the points one for one
+	for (int i = 0; i != amountOfPoints; ++i)
+	{
+		//Calculates position where point has to be placed
+		FVector pointPosition = FVector(centerPosition.X + radius * FMath::Cos(FMath::DegreesToRadians((ANGLE_DISTANCE * i))), centerPosition.Y + radius * FMath::Sin(FMath::DegreesToRadians((ANGLE_DISTANCE * i))), (centerPosition.Z - halfHeight) + VERTICAL_OFFSET);
+		CreateAndPlacePoint(pointPosition, Actor);
 	}
 
 	//Reset the rotation as it was before
@@ -231,6 +279,7 @@ void FCoverPointGeneratorModule::CreateAndPlacePoint(FVector Location, AActor* P
 	CoverPoint->SetActorLocation(Location);
 	CoverPoint->AttachToActor(Parent, FAttachmentTransformRules(EAttachmentRule::KeepWorld, false));
 }
+#pragma endregion
 
 void FCoverPointGeneratorModule::PluginButtonClicked()
 {
