@@ -168,6 +168,7 @@ bool FCoverPointGeneratorModule::SettingsValid()
 
 bool FCoverPointGeneratorModule::StartGeneration()
 {
+	//Loop through all selected actors
 	for (FSelectionIterator i(GEditor->GetSelectedActorIterator()); i; ++i)
 	{
 		if (AActor* actor = Cast<AActor>(*i))
@@ -200,14 +201,16 @@ void FCoverPointGeneratorModule::GenerateRectangleCoverPoints(AActor* Actor)
 	int32 horizontalDistance = rightTop.X - leftBottom.X;
 	int32 verticalDistance = rightTop.Y - leftBottom.Y;
 
+	TArray<ACoverPoint*> coverPoints; // Store the points for later checks
+
 	if (horizontalDistance >= 100)
 	{
 		horizontalPointAmount = (horizontalDistance / POINT_DISTANCE_CM) - 1; // subtract 1 because we don't want to place a object on the corner of the actor
 	}
 	else if (horizontalDistance >= POINT_DISTANCE_CM) // If the actor is to small for multiple point we place the point instant without looping
 	{
-		CreateAndPlacePoint(FVector(leftBottom.X + (horizontalDistance * 0.5), leftBottom.Y - HORIZONTAL_OFFSET, leftBottom.Z = VERTICAL_OFFSET), Actor);
-		CreateAndPlacePoint(FVector(rightTop.X - (horizontalDistance * 0.5), rightTop.Y + HORIZONTAL_OFFSET, rightTop.Z + VERTICAL_OFFSET), Actor);
+		CreateAndPlacePoint(FVector(leftBottom.X + (horizontalDistance * 0.5), leftBottom.Y - HORIZONTAL_OFFSET, leftBottom.Z = VERTICAL_OFFSET), Actor, coverPoints);
+		CreateAndPlacePoint(FVector(rightTop.X - (horizontalDistance * 0.5), rightTop.Y + HORIZONTAL_OFFSET, rightTop.Z + VERTICAL_OFFSET), Actor, coverPoints);
 	}
 		
 
@@ -217,32 +220,35 @@ void FCoverPointGeneratorModule::GenerateRectangleCoverPoints(AActor* Actor)
 	}
 	else if (verticalDistance >= POINT_DISTANCE_CM) // If the actor is to small for multiple point we place the point instant without looping
 	{
-		CreateAndPlacePoint(FVector(leftBottom.X - HORIZONTAL_OFFSET, leftBottom.Y + (verticalDistance * 0.5), leftBottom.Z + VERTICAL_OFFSET), Actor);
-		CreateAndPlacePoint(FVector(rightTop.X + HORIZONTAL_OFFSET, rightTop.Y - (verticalDistance * 0.5), rightTop.Z + VERTICAL_OFFSET), Actor);
+		CreateAndPlacePoint(FVector(leftBottom.X - HORIZONTAL_OFFSET, leftBottom.Y + (verticalDistance * 0.5), leftBottom.Z + VERTICAL_OFFSET), Actor, coverPoints);
+		CreateAndPlacePoint(FVector(rightTop.X + HORIZONTAL_OFFSET, rightTop.Y - (verticalDistance * 0.5), rightTop.Z + VERTICAL_OFFSET), Actor, coverPoints);
 	}
 
 	//Calculate horizontal positions
 	for (int32 i = 0; i != horizontalPointAmount; ++i)
 	{
 		FVector placeLocation = FVector(((leftBottom.X + POINT_DISTANCE_CM) + (POINT_DISTANCE_CM * i)), leftBottom.Y - HORIZONTAL_OFFSET, leftBottom.Z + VERTICAL_OFFSET);
-		CreateAndPlacePoint(placeLocation, Actor);
+		CreateAndPlacePoint(placeLocation, Actor, coverPoints);
 
 		placeLocation = FVector(((rightTop.X - POINT_DISTANCE_CM) - (POINT_DISTANCE_CM * i)), rightTop.Y + HORIZONTAL_OFFSET, rightTop.Z + VERTICAL_OFFSET);
-		CreateAndPlacePoint(placeLocation, Actor);
+		CreateAndPlacePoint(placeLocation, Actor, coverPoints);
 	}
 
 	//Calculate Vertical positions
 	for (int32 i = 0; i != verticalPointAmount; ++i)
 	{
 		FVector placeLocation = FVector(leftBottom.X - HORIZONTAL_OFFSET, ((leftBottom.Y + POINT_DISTANCE_CM) + (POINT_DISTANCE_CM * i)), leftBottom.Z + VERTICAL_OFFSET);
-		CreateAndPlacePoint(placeLocation, Actor);
+		CreateAndPlacePoint(placeLocation, Actor, coverPoints);
 
 		placeLocation = FVector(rightTop.X + HORIZONTAL_OFFSET, ((rightTop.Y - POINT_DISTANCE_CM) - (POINT_DISTANCE_CM * i)), rightTop.Z + VERTICAL_OFFSET);
-		CreateAndPlacePoint(placeLocation, Actor);
+		CreateAndPlacePoint(placeLocation, Actor, coverPoints);
 	}
 
 	//Reset the rotation as it was before
 	Actor->SetActorRotation(defaultActorRotation);
+
+	//Check if points are reachable in world if not destroy them
+	CheckPointsValid(coverPoints);
 }
 
 void FCoverPointGeneratorModule::GenerateCircularCoverPoints(AActor* Actor)
@@ -261,24 +267,43 @@ void FCoverPointGeneratorModule::GenerateCircularCoverPoints(AActor* Actor)
 
 	int32 amountOfPoints = 360 / ANGLE_DISTANCE;
 
+	TArray<ACoverPoint*> coverPoints; // Store the points for later checks
+
 	//Place all the points one for one
 	for (int i = 0; i != amountOfPoints; ++i)
 	{
 		//Calculates position where point has to be placed
 		FVector pointPosition = FVector(centerPosition.X + radius * FMath::Cos(FMath::DegreesToRadians((ANGLE_DISTANCE * i))), centerPosition.Y + radius * FMath::Sin(FMath::DegreesToRadians((ANGLE_DISTANCE * i))), (centerPosition.Z - halfHeight) + VERTICAL_OFFSET);
-		CreateAndPlacePoint(pointPosition, Actor);
+		CreateAndPlacePoint(pointPosition, Actor, coverPoints);
 	}
 
 	//Reset the rotation as it was before
 	Actor->SetActorRotation(defaultActorRotation);
+
+	//Check if points are reachable in world if not destroy them
+	CheckPointsValid(coverPoints);
 }
 
-void FCoverPointGeneratorModule::CreateAndPlacePoint(FVector Location, AActor* Parent)
+void FCoverPointGeneratorModule::CreateAndPlacePoint(FVector Location, AActor* Parent, TArray<ACoverPoint*>& OutPoints)
 {
-	AActor* CoverPoint = GEditor->GetEditorWorldContext().World()->SpawnActor(ACoverPoint::StaticClass(), &Location);
-	CoverPoint->SetActorLocation(Location);
-	CoverPoint->AttachToActor(Parent, FAttachmentTransformRules(EAttachmentRule::KeepWorld, false));
+	//Spawn Cover point as actor
+	AActor* coverPoint = GEditor->GetEditorWorldContext().World()->SpawnActor(ACoverPoint::StaticClass(), &Location);
+	coverPoint->SetActorLocation(Location);
+	coverPoint->AttachToActor(Parent, FAttachmentTransformRules(EAttachmentRule::KeepWorld, false));
+	
+	//Add Cover point to array for processing later
+	OutPoints.Add(Cast<ACoverPoint>(coverPoint));
 }
+
+void FCoverPointGeneratorModule::CheckPointsValid(TArray<ACoverPoint*>& CoverPoints)
+{
+	//Loop through all places coverpoints and check if they need to be removed because of overlapping
+	for (int32 i = 0; i != CoverPoints.Num(); ++i)
+	{
+		CoverPoints[i]->CheckSpawnCollision();
+	}
+}
+
 #pragma endregion
 
 void FCoverPointGeneratorModule::PluginButtonClicked()

@@ -42,7 +42,8 @@ private:
 	bool StartGeneration();
 	void GenerateRectangleCoverPoints(AActor* Actor);
 	void GenerateCircularCoverPoints(AActor* Actor);
-	void CreateAndPlacePoint(FVector Location, AActor* Parent);
+	void CreateAndPlacePoint(FVector Location, AActor* Parent, TArray<class ACoverPoint*>& OutPoints);
+	void CheckPointsValid(TArray<class ACoverPoint*>& CoverPoints);
 
 	bool bIsRectangle = false;
 	bool bIsCircular = false;

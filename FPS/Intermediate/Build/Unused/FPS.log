@@ -1,9 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Performing 3 actions (4 in parallel)
+  Performing 6 actions (4 in parallel)
+  CoverPoint.cpp
   Module.CoverPointGenerator.cpp
-  [2/3] Link UE4Editor-CoverPointGenerator.dll
-  [3/3] Link UE4Editor-CoverPointGenerator.lib
+  [3/6] Link UE4Editor-FPS.lib
+  [4/6] Link UE4Editor-FPS.dll
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
+  [5/6] Link UE4Editor-CoverPointGenerator.dll
+  [6/6] Link UE4Editor-CoverPointGenerator.lib
      Creating library E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.lib and object E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.exp
      Creating library E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.suppressed.lib and object E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 4.51 seconds (Local executor: 3.72 seconds)
+  Total build time: 4.05 seconds (Local executor: 3.32 seconds)

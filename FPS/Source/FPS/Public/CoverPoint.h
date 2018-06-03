@@ -22,10 +22,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void CheckSpawnCollision();
 
 private:
-	USceneComponent * p_SceneComponent;
-
-	
-	
+	USceneComponent * p_SceneComponent;	
 };
