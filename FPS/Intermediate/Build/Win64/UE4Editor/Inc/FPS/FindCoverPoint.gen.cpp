@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeFindCoverPoint() {}
 	FPS_API UClass* Z_Construct_UClass_UFindCoverPoint();
 	AIMODULE_API UClass* Z_Construct_UClass_UBTTaskNode();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	AIMODULE_API UScriptStruct* Z_Construct_UScriptStruct_FBlackboardKeySelector();
 // End Cross Module References
 	void UFindCoverPoint::StaticRegisterNativesUFindCoverPoint()
 	{
@@ -55,9 +56,25 @@ void EmptyLinkFunctionForGeneratedCodeFindCoverPoint() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_SearchRadius = { UE4CodeGen_Private::EPropertyClass::Float, "m_SearchRadius", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UFindCoverPoint, m_SearchRadius), METADATA_PARAMS(NewProp_m_SearchRadius_MetaData, ARRAY_COUNT(NewProp_m_SearchRadius_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_CoverPointKey_MetaData[] = {
+				{ "Category", "AI Cover" },
+				{ "ModuleRelativePath", "AI/FindCoverPoint.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_CoverPointKey = { UE4CodeGen_Private::EPropertyClass::Struct, "m_CoverPointKey", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UFindCoverPoint, m_CoverPointKey), Z_Construct_UScriptStruct_FBlackboardKeySelector, METADATA_PARAMS(NewProp_m_CoverPointKey_MetaData, ARRAY_COUNT(NewProp_m_CoverPointKey_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_TargetKey_MetaData[] = {
+				{ "Category", "AI Cover" },
+				{ "ModuleRelativePath", "AI/FindCoverPoint.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_TargetKey = { UE4CodeGen_Private::EPropertyClass::Struct, "m_TargetKey", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UFindCoverPoint, m_TargetKey), Z_Construct_UScriptStruct_FBlackboardKeySelector, METADATA_PARAMS(NewProp_m_TargetKey_MetaData, ARRAY_COUNT(NewProp_m_TargetKey_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_DrawDebug,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_SearchRadius,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_CoverPointKey,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_TargetKey,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<UFindCoverPoint>::IsAbstract,
@@ -77,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeFindCoverPoint() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UFindCoverPoint, 1206166652);
+	IMPLEMENT_CLASS(UFindCoverPoint, 1573665008);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UFindCoverPoint(Z_Construct_UClass_UFindCoverPoint, &UFindCoverPoint::StaticClass, TEXT("/Script/FPS"), TEXT("UFindCoverPoint"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFindCoverPoint);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

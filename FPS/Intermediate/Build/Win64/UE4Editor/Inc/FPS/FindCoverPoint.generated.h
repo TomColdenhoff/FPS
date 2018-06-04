@@ -62,6 +62,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFindCoverPoint); \
 
 
 #define FPS_Source_FPS_AI_FindCoverPoint_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_TargetKey() { return STRUCT_OFFSET(UFindCoverPoint, m_TargetKey); } \
+	FORCEINLINE static uint32 __PPO__m_CoverPointKey() { return STRUCT_OFFSET(UFindCoverPoint, m_CoverPointKey); } \
 	FORCEINLINE static uint32 __PPO__m_SearchRadius() { return STRUCT_OFFSET(UFindCoverPoint, m_SearchRadius); } \
 	FORCEINLINE static uint32 __PPO__m_DrawDebug() { return STRUCT_OFFSET(UFindCoverPoint, m_DrawDebug); }
 

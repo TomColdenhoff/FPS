@@ -25,5 +25,6 @@ public:
 	void CheckSpawnCollision();
 
 private:
-	USceneComponent * p_SceneComponent;	
+	UPROPERTY(EditAnywhere)
+	class USphereComponent* p_Collider;
 };

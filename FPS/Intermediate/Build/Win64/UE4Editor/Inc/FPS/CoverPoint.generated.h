@@ -59,7 +59,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACoverPoint); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACoverPoint)
 
 
-#define FPS_Source_FPS_Public_CoverPoint_h_12_PRIVATE_PROPERTY_OFFSET
+#define FPS_Source_FPS_Public_CoverPoint_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__p_Collider() { return STRUCT_OFFSET(ACoverPoint, p_Collider); }
+
+
 #define FPS_Source_FPS_Public_CoverPoint_h_9_PROLOG
 #define FPS_Source_FPS_Public_CoverPoint_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

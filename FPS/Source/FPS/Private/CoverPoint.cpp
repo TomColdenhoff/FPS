@@ -4,6 +4,8 @@
 #include "CollisionQueryParams.h"
 #include "WorldCollision.h"
 #include "Engine/World.h"
+#include "Components/StaticMeshComponent.h"
+#include "Runtime/Engine/Classes/Components/SphereComponent.h" 
 
 
 // Sets default values
@@ -11,7 +13,13 @@ ACoverPoint::ACoverPoint()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	p_SceneComponent = CreateDefaultSubobject<USceneComponent>(FName("Scene Component"));
+	p_Collider = CreateDefaultSubobject<USphereComponent>(FName("Capsule Component"));
+	RootComponent = p_Collider;
+
+	p_Collider->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Block);
+	Tags.Add(FName("Cover"));
+
+	
 }
 
 // Called when the game starts or when spawned

@@ -21,9 +21,14 @@ private:
 	/*Finds all nearby Cover Points*/
 	TArray<class ACoverPoint*> GetCoverPoints(AActor* Owner);
 	/*Finds the usable cover point from all found cover points*/
-	bool FindUsablePoint(TArray<class ACoverPoint*> CoverPoints, ACoverPoint& OutCoverPoint);
+	bool FindUsablePoint(TArray<class ACoverPoint*>& CoverPoints, ACoverPoint*& OutCoverPoint, FVector BlackboardTargetPosition);
 	/*Set cover point for AI*/
-	void SetCoverPoint(ACoverPoint CoverPoint);
+	void SetCoverPoint(ACoverPoint* CoverPoint, UBlackboardComponent* Blackboard);
+
+	UPROPERTY(EditAnywhere, Category = "AI Cover")
+	FBlackboardKeySelector m_TargetKey;
+	UPROPERTY(EditAnywhere, Category = "AI Cover")
+	FBlackboardKeySelector m_CoverPointKey;
 
 	UPROPERTY(EditAnywhere, Category = "AI Cover")
 	float m_SearchRadius;
