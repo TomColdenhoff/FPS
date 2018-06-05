@@ -21,7 +21,7 @@ private:
 	/*Finds all nearby Cover Points*/
 	TArray<class ACoverPoint*> GetCoverPoints(AActor* Owner);
 	/*Finds the usable cover point from all found cover points*/
-	bool FindUsablePoint(TArray<class ACoverPoint*>& CoverPoints, ACoverPoint*& OutCoverPoint, FVector BlackboardTargetPosition);
+	bool FindUsablePoint(TArray<class ACoverPoint*>& CoverPoints, ACoverPoint*& OutCoverPoint, AActor* BlackboardTargetPosition);
 	/*Set cover point for AI*/
 	void SetCoverPoint(ACoverPoint* CoverPoint, UBlackboardComponent* Blackboard);
 
@@ -35,5 +35,7 @@ private:
 	
 	UPROPERTY(EditAnywhere, Category = "AI Cover")
 	bool m_DrawDebug;
+
+	const float VERTICAL_CAST_OFFSET = 80.0f;
 
 };

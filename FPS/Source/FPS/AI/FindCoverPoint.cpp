@@ -14,7 +14,7 @@ EBTNodeResult::Type UFindCoverPoint::ExecuteTask(UBehaviorTreeComponent & OwnerC
 
 	AActor* target = Cast<AActor>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(m_TargetKey.SelectedKeyName));
 	ACoverPoint* coverPoint = nullptr;
-	if (FindUsablePoint(coverPoints, coverPoint, target->GetActorLocation()))
+	if (FindUsablePoint(coverPoints, coverPoint, target))
 	{
 		SetCoverPoint(coverPoint, OwnerComp.GetBlackboardComponent());
 	}
@@ -54,20 +54,33 @@ TArray<ACoverPoint*> UFindCoverPoint::GetCoverPoints(AActor* Owner)
 
 }
 
-bool UFindCoverPoint::FindUsablePoint(TArray<class ACoverPoint*>& CoverPoints, ACoverPoint*& OutCoverPoint, FVector BlackboardTargetPosition)
+bool UFindCoverPoint::FindUsablePoint(TArray<class ACoverPoint*>& CoverPoints, ACoverPoint*& OutCoverPoint, AActor* BlackboardTargetPosition)
 {
 	FHitResult outHit;
 
 	//Check each point for safety and return if found one
 	for (int i = 0; i != CoverPoints.Num(); ++i)
 	{
-		bool gotHit = GetWorld()->LineTraceSingleByChannel(outHit, CoverPoints[i]->GetActorLocation(), BlackboardTargetPosition, ECC_MAX);
+		FVector castPosition = FVector(CoverPoints[i]->GetActorLocation().X, CoverPoints[i]->GetActorLocation().Y, CoverPoints[i]->GetActorLocation().Z + VERTICAL_CAST_OFFSET);
+
+		if (m_DrawDebug)
+			DrawDebugLine(GetWorld(), castPosition, BlackboardTargetPosition->GetActorLocation(), FColor::Purple, true, 5.0f);
+
+		bool gotHit = GetWorld()->LineTraceSingleByChannel(outHit, castPosition, BlackboardTargetPosition->GetActorLocation(), ECC_MAX);
 		if (gotHit)
 		{
-			if (!outHit.Actor->Tags.Contains(FName("Player")))
+			FVector dirNomral = BlackboardTargetPosition->GetActorLocation() - CoverPoints[i]->GetActorLocation();
+			dirNomral.Normalize();
+
+			//Check if the Cover point is in front of the target
+			float dotProduct = FVector::DotProduct(BlackboardTargetPosition->GetActorForwardVector(), dirNomral);
+			if (dotProduct < 0)
 			{
-				OutCoverPoint = CoverPoints[i];
-				return true;
+				if (!outHit.Actor->Tags.Contains(FName("Player")))
+				{
+					OutCoverPoint = CoverPoints[i];
+					return true;
+				}
 			}
 		}
 	}
