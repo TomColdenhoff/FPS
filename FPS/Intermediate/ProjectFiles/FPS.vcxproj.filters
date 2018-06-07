@@ -175,9 +175,21 @@
     <ClInclude Include="..\..\Source\FPS\AI\FindCoverPoint.h">
       <Filter>Source\FPS\AI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\AI\ChangeSpeed.h">
+      <Filter>Source\FPS\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\AI\CheckDistance.h">
+      <Filter>Source\FPS\AI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPS\AI\FindCoverPoint.cpp">
+      <Filter>Source\FPS\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\AI\ChangeSpeed.cpp">
+      <Filter>Source\FPS\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\AI\CheckDistance.cpp">
       <Filter>Source\FPS\AI</Filter>
     </ClCompile>
   </ItemGroup>

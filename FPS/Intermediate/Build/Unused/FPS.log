@@ -1,10 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
   Performing 3 actions (4 in parallel)
-  FindCoverPoint.cpp
+  ClearKey.cpp
   [2/3] Link UE4Editor-FPS.lib
   [3/3] Link UE4Editor-FPS.dll
      Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
      Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 7.57 seconds (Local executor: 3.32 seconds)
+  Total build time: 5.53 seconds (Local executor: 4.55 seconds)

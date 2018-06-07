@@ -423,8 +423,14 @@
     <None Include="..\..\Plugins\CoverPointGenerator\CoverPointGenerator.uplugin" />
     <None Include="..\..\Plugins\CoverPointGenerator\Resources\ButtonIcon_40x.png" />
     <None Include="..\..\Plugins\CoverPointGenerator\Resources\Icon128.png" />
+    <ClCompile Include="..\..\Source\FPS\AI\ChangeSpeed.cpp" />
+    <ClCompile Include="..\..\Source\FPS\AI\CheckDistance.cpp" />
+    <ClCompile Include="..\..\Source\FPS\AI\ClearKey.cpp" />
     <ClCompile Include="..\..\Source\FPS\AI\FindCoverPoint.cpp" />
     <ClCompile Include="..\..\Source\FPS\AssualtCharacter.cpp" />
+    <ClInclude Include="..\..\Source\FPS\AI\ChangeSpeed.h" />
+    <ClInclude Include="..\..\Source\FPS\AI\CheckDistance.h" />
+    <ClInclude Include="..\..\Source\FPS\AI\ClearKey.h" />
     <ClInclude Include="..\..\Source\FPS\AI\FindCoverPoint.h" />
     <ClInclude Include="..\..\Source\FPS\AssualtCharacter.h" />
     <ClCompile Include="..\..\Source\FPS\BaseWeapon.cpp" />
