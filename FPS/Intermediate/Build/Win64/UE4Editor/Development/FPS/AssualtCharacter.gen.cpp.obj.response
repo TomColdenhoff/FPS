@@ -25,6 +25,7 @@
 /I "E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source"
 /I E:\Projects\FPS\FPS\Source
 /I E:\Projects\FPS\FPS\Source\FPS\Public
+/I E:\Projects\FPS\FPS\Source\FPS\Public\AI
 /I E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS
 /I E:\Projects\FPS\FPS\Source\FPS
 /I "E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source\Runtime\Core\Public"

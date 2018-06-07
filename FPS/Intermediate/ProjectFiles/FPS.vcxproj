@@ -446,7 +446,9 @@
     <ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h" />
     <ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp" />
     <ClInclude Include="..\..\Source\FPS\FPSPlayer.h" />
+    <ClCompile Include="..\..\Source\FPS\Private\AI\FireAtTarget.cpp" />
     <ClCompile Include="..\..\Source\FPS\SMG.cpp" />
+    <ClInclude Include="..\..\Source\FPS\Public\AI\FireAtTarget.h" />
     <ClInclude Include="..\..\Source\FPS\SMG.h" />
     <ClCompile Include="..\..\Source\FPS\UnitAIController.cpp" />
     <ClInclude Include="..\..\Source\FPS\UnitAIController.h" />

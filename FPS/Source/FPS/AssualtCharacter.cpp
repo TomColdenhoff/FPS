@@ -61,3 +61,11 @@ void AAssualtCharacter::OnHearNoise(APawn * Pawn, const FVector & Location, floa
 {
 }
 
+void AAssualtCharacter::FireWeapon()
+{
+	if (OnFire.IsBound())
+	{
+		OnFire.Broadcast();
+	}
+}
+

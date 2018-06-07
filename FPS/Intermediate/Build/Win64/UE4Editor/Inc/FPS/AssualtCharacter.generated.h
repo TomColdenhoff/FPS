@@ -15,6 +15,13 @@ struct FVector;
 #endif
 #define FPS_AssualtCharacter_generated_h
 
+#define FPS_Source_FPS_AssualtCharacter_h_14_DELEGATE \
+static inline void FFireDelegate_DelegateWrapper(const FMulticastScriptDelegate& FireDelegate) \
+{ \
+	FireDelegate.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
 #define FPS_Source_FPS_AssualtCharacter_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetIsAiming) \
@@ -123,7 +130,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssualtCharacter); \
 
 #define FPS_Source_FPS_AssualtCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PawnSensingComponent() { return STRUCT_OFFSET(AAssualtCharacter, PawnSensingComponent); } \
-	FORCEINLINE static uint32 __PPO__m_FollowPath() { return STRUCT_OFFSET(AAssualtCharacter, m_FollowPath); }
+	FORCEINLINE static uint32 __PPO__m_FollowPath() { return STRUCT_OFFSET(AAssualtCharacter, m_FollowPath); } \
+	FORCEINLINE static uint32 __PPO__m_FireRate() { return STRUCT_OFFSET(AAssualtCharacter, m_FireRate); }
 
 
 #define FPS_Source_FPS_AssualtCharacter_h_9_PROLOG

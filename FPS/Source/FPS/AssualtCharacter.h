@@ -11,6 +11,8 @@ class FPS_API AAssualtCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FFireDelegate);
+
 public:
 	// Sets default values for this character's properties
 	AAssualtCharacter();
@@ -31,8 +33,6 @@ public:
 	UFUNCTION()
 	void OnHearNoise(APawn* Pawn, const FVector& Location, float Volume);
 
-	bool GetFollowPath() { return m_FollowPath; }
-
 	UFUNCTION(BlueprintCallable, Category = "AI")
 	bool GetIsAiming() { return m_IsAiming; }
 
@@ -45,6 +45,14 @@ public:
 	UPROPERTY(EditAnywhere, Category = "AI")
 	TArray<AActor*> Waypoints;
 
+	UPROPERTY(BlueprintAssignable, Category = "Shooting")
+	FFireDelegate OnFire;
+
+	bool GetFollowPath() { return m_FollowPath; }
+	float GetFireRate() { return m_FireRate; }
+
+	void FireWeapon();
+
 private:
 	UPROPERTY(EditDefaultsOnly)
 	class UPawnSensingComponent* PawnSensingComponent;
@@ -52,8 +60,13 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = "AI")
 	bool m_FollowPath = false;
+
+	UPROPERTY(EditAnywhere, Category = "Shooting")
+    float m_FireRate;
 	
 	bool m_IsAiming = false;
+
+
 	
 	
 	

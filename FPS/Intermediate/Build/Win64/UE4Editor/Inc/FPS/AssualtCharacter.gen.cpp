@@ -13,8 +13,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 // Cross Module References
-	FPS_API UClass* Z_Construct_UClass_AAssualtCharacter_NoRegister();
+	FPS_API UFunction* Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature();
 	FPS_API UClass* Z_Construct_UClass_AAssualtCharacter();
+	FPS_API UClass* Z_Construct_UClass_AAssualtCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_FPS();
 	FPS_API UFunction* Z_Construct_UFunction_AAssualtCharacter_GetIsAiming();
@@ -27,6 +28,21 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 	AIMODULE_API UClass* Z_Construct_UClass_UBlackboardData_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 // End Cross Module References
+	UFunction* Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "AssualtCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AAssualtCharacter, "FireDelegate__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	void AAssualtCharacter::StaticRegisterNativesAAssualtCharacter()
 	{
 		UClass* Class = AAssualtCharacter::StaticClass();
@@ -133,6 +149,7 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature, "FireDelegate__DelegateSignature" }, // 910191884
 				{ &Z_Construct_UFunction_AAssualtCharacter_GetIsAiming, "GetIsAiming" }, // 1527717276
 				{ &Z_Construct_UFunction_AAssualtCharacter_OnHearNoise, "OnHearNoise" }, // 1541885905
 				{ &Z_Construct_UFunction_AAssualtCharacter_OnSeePlayer, "OnSeePlayer" }, // 2473920101
@@ -144,6 +161,13 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 				{ "ModuleRelativePath", "AssualtCharacter.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_FireRate_MetaData[] = {
+				{ "Category", "Shooting" },
+				{ "ModuleRelativePath", "AssualtCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_FireRate = { UE4CodeGen_Private::EPropertyClass::Float, "m_FireRate", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAssualtCharacter, m_FireRate), METADATA_PARAMS(NewProp_m_FireRate_MetaData, ARRAY_COUNT(NewProp_m_FireRate_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_FollowPath_MetaData[] = {
 				{ "Category", "AI" },
@@ -160,6 +184,13 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PawnSensingComponent = { UE4CodeGen_Private::EPropertyClass::Object, "PawnSensingComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000090009, 1, nullptr, STRUCT_OFFSET(AAssualtCharacter, PawnSensingComponent), Z_Construct_UClass_UPawnSensingComponent_NoRegister, METADATA_PARAMS(NewProp_PawnSensingComponent_MetaData, ARRAY_COUNT(NewProp_PawnSensingComponent_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnFire_MetaData[] = {
+				{ "Category", "Shooting" },
+				{ "ModuleRelativePath", "AssualtCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnFire = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnFire", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000010080000, 1, nullptr, STRUCT_OFFSET(AAssualtCharacter, OnFire), Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature, METADATA_PARAMS(NewProp_OnFire_MetaData, ARRAY_COUNT(NewProp_OnFire_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Waypoints_MetaData[] = {
 				{ "Category", "AI" },
@@ -183,8 +214,10 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BehaviourTree = { UE4CodeGen_Private::EPropertyClass::Object, "BehaviourTree", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000010001, 1, nullptr, STRUCT_OFFSET(AAssualtCharacter, BehaviourTree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(NewProp_BehaviourTree_MetaData, ARRAY_COUNT(NewProp_BehaviourTree_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_FireRate,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_FollowPath,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PawnSensingComponent,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OnFire,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Waypoints,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Waypoints_Inner,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Blackboard,
@@ -208,7 +241,7 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssualtCharacter, 2198074455);
+	IMPLEMENT_CLASS(AAssualtCharacter, 375270177);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssualtCharacter(Z_Construct_UClass_AAssualtCharacter, &AAssualtCharacter::StaticClass, TEXT("/Script/FPS"), TEXT("AAssualtCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssualtCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

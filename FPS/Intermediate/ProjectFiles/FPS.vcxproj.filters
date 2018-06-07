@@ -181,6 +181,10 @@
     <ClInclude Include="..\..\Source\FPS\AI\CheckDistance.h">
       <Filter>Source\FPS\AI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\AI\ClearKey.h" />
+    <ClInclude Include="..\..\Source\FPS\Public\AI\FireAtTarget.h">
+      <Filter>Source\FPS\Public\AI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPS\AI\FindCoverPoint.cpp">
@@ -192,5 +196,17 @@
     <ClCompile Include="..\..\Source\FPS\AI\CheckDistance.cpp">
       <Filter>Source\FPS\AI</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\AI\ClearKey.cpp" />
+    <ClCompile Include="..\..\Source\FPS\Private\AI\FireAtTarget.cpp">
+      <Filter>Source\FPS\Private\AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\FPS\Public\AI">
+      <UniqueIdentifier>{1067636a-bf1d-49d8-9cbf-68ced52f3af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FPS\Private\AI">
+      <UniqueIdentifier>{50d244b7-ae7b-4d8b-8c0e-7ebe9f94286c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
