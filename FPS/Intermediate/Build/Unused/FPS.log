@@ -1,9 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Performing 3 actions (4 in parallel)
-  ChooseNextWaypoint.cpp
-  [2/3] Link UE4Editor-FPS.lib
-  [3/3] Link UE4Editor-FPS.dll
+  Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-7734.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-7734.pdb".
+  Performing 2 actions (4 in parallel)
+  [1/2] Link UE4Editor-FPS.lib
+  [2/2] Link UE4Editor-FPS.dll
      Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
      Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 5.47 seconds (Local executor: 4.35 seconds)
+  Total build time: 9.35 seconds (Local executor: 1.12 seconds)

@@ -439,8 +439,14 @@
     <ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h" />
     <ClCompile Include="..\..\Source\FPS\FPSPlayer.cpp" />
     <ClInclude Include="..\..\Source\FPS\FPSPlayer.h" />
+    <ClCompile Include="..\..\Source\FPS\Private\AI\AssaultEnemy.cpp" />
+    <ClCompile Include="..\..\Source\FPS\Private\AI\BaseEnemy.cpp" />
+    <ClCompile Include="..\..\Source\FPS\Private\AI\HitAble.cpp" />
     <ClCompile Include="..\..\Source\FPS\Private\IDamageAble.cpp" />
     <ClCompile Include="..\..\Source\FPS\SMG.cpp" />
+    <ClInclude Include="..\..\Source\FPS\Public\AI\AssaultEnemy.h" />
+    <ClInclude Include="..\..\Source\FPS\Public\AI\BaseEnemy.h" />
+    <ClInclude Include="..\..\Source\FPS\Public\AI\HitAble.h" />
     <ClInclude Include="..\..\Source\FPS\Public\IDamageAble.h" />
     <ClInclude Include="..\..\Source\FPS\SMG.h" />
     <ClCompile Include="..\..\Source\FPS\UnitAIController.cpp" />

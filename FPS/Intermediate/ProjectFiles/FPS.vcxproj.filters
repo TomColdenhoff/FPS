@@ -214,9 +214,27 @@
     <ClCompile Include="..\..\Source\FPS\Private\IDamageAble.cpp">
       <Filter>Source\FPS\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AI\HitAble.cpp">
+      <Filter>Source\FPS\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AI\BaseEnemy.cpp">
+      <Filter>Source\FPS\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AI\AssaultEnemy.cpp">
+      <Filter>Source\FPS\Private\AI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\FPS\Public\IDamageAble.h">
+      <Filter>Source\FPS\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AI\HitAble.h">
+      <Filter>Source\FPS\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AI\BaseEnemy.h">
+      <Filter>Source\FPS\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AI\AssaultEnemy.h">
       <Filter>Source\FPS\Public\AI</Filter>
     </ClInclude>
   </ItemGroup>
