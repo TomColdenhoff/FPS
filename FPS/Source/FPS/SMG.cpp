@@ -10,8 +10,8 @@
 #include "Runtime/Engine/Public/DrawDebugHelpers.h"
 #include "Runtime/Engine/Classes/Camera/CameraComponent.h"
 #include "Runtime/Engine/Classes/Particles/ParticleSystemComponent.h"
-#include "Dummy.h"
 #include "Runtime/Engine/Classes/Sound/SoundBase.h"
+#include "IDamageAble.h"
 
 USMG::USMG()
 {
@@ -70,6 +70,8 @@ void USMG::InitializeValues()
 	AmmoOutOfClip = MAX_OUT_OF_CLIP_AMMO;
 
 	CurrentWeaponMode = EWeaponMode::Single;
+
+	BulletDamage = 33;
 }
 
 void USMG::Fire()
@@ -173,10 +175,10 @@ void USMG::FireBullet()
 
 			DrawDebugLine(GetWorld(), GetSocketLocation(FName("Weapon Front")), (weaponAimDirection * AIM_DISTANCE), FColor::Green, false, 5.0f);
 
-			ADummy* dummy = Cast<ADummy>(hitResult.Actor); //TODO replace for a IHittable
+			IIDamageAble* damageAbleObject = Cast<IIDamageAble>(hitResult.Actor);
 
-			if (dummy != nullptr)
-				dummy->DamageTarget(50.0f);
+			if (damageAbleObject != nullptr)
+				damageAbleObject->GiveDamage(BulletDamage);
 		}
 	}
 

@@ -23,10 +23,12 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	FPS_API UFunction* Z_Construct_UFunction_AAssualtCharacter_OnSeePlayer();
+	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UPawnSensingComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBlackboardData_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
+	FPS_API UClass* Z_Construct_UClass_UIDamageAble_NoRegister();
 // End Cross Module References
 	UFunction* Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature()
 	{
@@ -162,6 +164,15 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_p_AudioComponent_MetaData[] = {
+				{ "Category", "AssualtCharacter" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "AssualtCharacter.h" },
+				{ "ToolTip", "Weapon Audio" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_p_AudioComponent = { UE4CodeGen_Private::EPropertyClass::Object, "p_AudioComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000090009, 1, nullptr, STRUCT_OFFSET(AAssualtCharacter, p_AudioComponent), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(NewProp_p_AudioComponent_MetaData, ARRAY_COUNT(NewProp_p_AudioComponent_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_FireRate_MetaData[] = {
 				{ "Category", "Shooting" },
 				{ "ModuleRelativePath", "AssualtCharacter.h" },
@@ -214,6 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BehaviourTree = { UE4CodeGen_Private::EPropertyClass::Object, "BehaviourTree", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000010001, 1, nullptr, STRUCT_OFFSET(AAssualtCharacter, BehaviourTree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(NewProp_BehaviourTree_MetaData, ARRAY_COUNT(NewProp_BehaviourTree_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_p_AudioComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_FireRate,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_FollowPath,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PawnSensingComponent,
@@ -222,6 +234,9 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Waypoints_Inner,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Blackboard,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BehaviourTree,
+			};
+			static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[] = {
+				{ Z_Construct_UClass_UIDamageAble_NoRegister, (int32)VTABLE_OFFSET(AAssualtCharacter, IIDamageAble), false },
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AAssualtCharacter>::IsAbstract,
@@ -234,14 +249,14 @@ void EmptyLinkFunctionForGeneratedCodeAssualtCharacter() {}
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
-				nullptr, 0,
+				InterfaceParams, ARRAY_COUNT(InterfaceParams),
 				METADATA_PARAMS(Class_MetaDataParams, ARRAY_COUNT(Class_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUClass(OuterClass, ClassParams);
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssualtCharacter, 375270177);
+	IMPLEMENT_CLASS(AAssualtCharacter, 124064854);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssualtCharacter(Z_Construct_UClass_AAssualtCharacter, &AAssualtCharacter::StaticClass, TEXT("/Script/FPS"), TEXT("AAssualtCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssualtCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

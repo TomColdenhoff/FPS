@@ -31,6 +31,9 @@ protected:
 	FTimerHandle BulletTimerHandle;
 	EWeaponMode CurrentWeaponMode;
 
+	//Weapon damage variables
+	float BulletDamage;
+
 	//Weapon events
 	UPROPERTY(BlueprintAssignable)
 	FAmmoChanged OnAmmoChange;

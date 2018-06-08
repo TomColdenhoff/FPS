@@ -9,6 +9,9 @@ EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & Ow
 {
 	AAssualtCharacter* AICharacter = Cast<AAssualtCharacter>(OwnerComp.GetAIOwner()->GetPawn());
 	
+	if (!AICharacter->GetFollowPath())
+		return EBTNodeResult::Succeeded;
+
 	GetWaypoints(AICharacter);
 	int32 currentWaypointIndex = SetNextWaypoint(OwnerComp);
 	CycleIndex(OwnerComp, currentWaypointIndex);

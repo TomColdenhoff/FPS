@@ -1,20 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
-  Parsing headers for FPSEditor
-    Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSEditor in 8.3343176 seconds
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-809.dll".
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-809.pdb".
-  Performing 8 actions (4 in parallel)
-  AssualtCharacter.cpp
-  AssualtCharacter.gen.cpp
-  ChangeSpeed.cpp
-  FireAtTarget.cpp
+  Performing 3 actions (4 in parallel)
   ChooseNextWaypoint.cpp
-  UnitAIController.cpp
-  [7/8] Link UE4Editor-FPS.lib
-  [8/8] Link UE4Editor-FPS.dll
-     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
-     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
+  [2/3] Link UE4Editor-FPS.lib
+  [3/3] Link UE4Editor-FPS.dll
+     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
+     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 19.33 seconds (Local executor: 5.77 seconds)
+  Total build time: 5.47 seconds (Local executor: 4.35 seconds)

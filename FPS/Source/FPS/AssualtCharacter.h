@@ -3,11 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "IDamageAble.h"
 #include "GameFramework/Character.h"
 #include "AssualtCharacter.generated.h"
 
 UCLASS()
-class FPS_API AAssualtCharacter : public ACharacter
+class FPS_API AAssualtCharacter : public ACharacter, public IIDamageAble
 {
 	GENERATED_BODY()
 
@@ -66,8 +67,18 @@ private:
 	
 	bool m_IsAiming = false;
 
+	class UParticleSystemComponent* p_ParticleComponent;
+	class UParticleSystem* p_MuzzleFlashPartical;
 
+	//Weapon Audio
+	UPROPERTY(EditDefaultsOnly)
+	class UAudioComponent* p_AudioComponent;
+	class USoundBase* p_GunShotSound;
+
+	void SetMuzzleParticle();
+	void SetWeaponAudio();
 	
-	
-	
+	// Inherited via IIDamageAble
+	virtual void GiveDamage(float DamageAmount);
+
 };
