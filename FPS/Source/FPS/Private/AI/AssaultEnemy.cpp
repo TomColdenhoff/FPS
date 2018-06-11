@@ -6,6 +6,13 @@
 #include "Runtime/Engine/Classes/Components/AudioComponent.h"
 #include "Runtime/AIModule/Classes/Perception/PawnSensingComponent.h"
 #include "UnitAIController.h"
+#include "Runtime/Engine/Classes/Sound/SoundBase.h"
+#include "Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h"
+#include "Runtime/Engine/Classes/Components/CapsuleComponent.h"
+#include "Runtime/Engine/Classes/Components/SkeletalMeshComponent.h" 
+#include "Engine/SkeletalMeshSocket.h"
+#include "Runtime/Core/Public/Math/UnrealMathUtility.h" 
+
 
 AAssaultEnemy::AAssaultEnemy()
 {
@@ -25,7 +32,7 @@ void AAssaultEnemy::SetMuzzleParticle()
 		return;
 	}
 
-	ParticleComponent->AttachTo(Cast<USceneComponent>(GetMesh()), FrontWeaponSocketName);
+	ParticleComponent->AttachToComponent(Cast<USceneComponent>(GetMesh()), FAttachmentTransformRules(EAttachmentRule::KeepRelative, false), "WeaponFront");
 
 	FString filePath = "Particle Component'/Game/Particles/Muzzle_Flash/P_Muzzle_Flash.P_Muzzle_Flash'";
 
@@ -53,7 +60,7 @@ void AAssaultEnemy::SetWeaponAudio()
 	}
 
 	//Attach Audio Component to socket in front of weapon
-	AudioComponent->AttachTo(Cast<USceneComponent>(GetMesh()), FrontWeaponSocketName);
+	AudioComponent->AttachToComponent(Cast<USceneComponent>(GetMesh()), FAttachmentTransformRules(EAttachmentRule::KeepRelative, false), "WeaponFront");
 
 	ConstructorHelpers::FObjectFinder<USoundBase> gunShot(TEXT("SoundBase'/Game/Sound/SFX/SMG/Silenced_SMG_Shot.Silenced_SMG_Shot'"));
 
@@ -93,12 +100,68 @@ void AAssaultEnemy::BeginPlay()
 		AUnitAIController* controller = Cast<AUnitAIController>(Controller);
 		BlackboardComponent = controller->GetBlackboardComponent();
 	}
+
+	//Get all colliders
+	TArray<UCapsuleComponent*> colliderComponents;
+	this->GetComponents<UCapsuleComponent>(colliderComponents);
+
+	StandCapsuleComponent = Cast<UCapsuleComponent>(colliderComponents[0]);
+	CrouchCapsuleComponent = Cast<UCapsuleComponent>(colliderComponents[1]);
 }
 
 void AAssaultEnemy::OnSeePlayer(APawn * Pawn)
 {
+	//On See Player Aim direct at player
+	BlackboardComponent->SetValueAsObject(FName("Target"), Pawn);
+	bIsAiming = true;
 }
 
 void AAssaultEnemy::OnHearNoise(APawn * Pawn, const FVector & Location, float Volume)
 {
+}
+
+void AAssaultEnemy::FireWeapon(AActor* Target)
+{
+
+	if (OnFire.IsBound())
+	{
+		OnFire.Broadcast();
+	}
+
+	//Fire the "bullet"
+	TArray<FHitResult> outHits;
+	//FVector endPosition = (GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketTransform(GetMesh()).GetRotation().GetForwardVector() + BulletDistance);
+	// + FVector(FMath::RandRange(-BulletSpread.X, BulletSpread.X), 0, FMath::RandRange(-BulletSpread.Y, BulletSpread.Y));
+	bool bHit = GetWorld()->LineTraceMultiByChannel(outHits, GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketLocation(GetMesh()), endPosition, ECC_Visibility);
+
+	if (bHit)
+	{
+		for (int32 i = 0; i != outHits.Num(); ++i)
+		{
+			if (IHitAble* hitObject = Cast<IHitAble>(outHits[i].Actor))
+			{
+				hitObject->GiveDamage(BulletDamage);
+			}
+
+		}
+
+	}
+
+	// Play Muzzle Flash
+	ParticleComponent->Deactivate();
+	ParticleComponent->Activate();
+
+	//Play Gun Shot
+	AudioComponent->Stop();
+	AudioComponent->Play();
+}
+
+void AAssaultEnemy::GiveDamage(float DamagaAmount)
+{
+	Health -= DamagaAmount;
+
+	if (Health <= 0)
+	{
+		Die();
+	}
 }

@@ -1,13 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ChooseNextWaypoint.h"
-#include "AssualtCharacter.h"
+#include "BaseEnemy.h"
 #include "Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h"
 #include "Runtime/AIModule/Classes/AIController.h"
 
 EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {
-	AAssualtCharacter* AICharacter = Cast<AAssualtCharacter>(OwnerComp.GetAIOwner()->GetPawn());
+	ABaseEnemy* AICharacter = Cast<ABaseEnemy>(OwnerComp.GetAIOwner()->GetPawn());
 	
 	if (!AICharacter->GetFollowPath())
 		return EBTNodeResult::Succeeded;
@@ -19,7 +19,7 @@ EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & Ow
 	return EBTNodeResult::Succeeded;
 }
 
-void UChooseNextWaypoint::GetWaypoints(const AAssualtCharacter * OwnerCharacter)
+void UChooseNextWaypoint::GetWaypoints(ABaseEnemy * OwnerCharacter)
 {
 	if (OwnerCharacter == nullptr)
 	{
@@ -27,7 +27,7 @@ void UChooseNextWaypoint::GetWaypoints(const AAssualtCharacter * OwnerCharacter)
 		return;
 	}
 	
-	m_Waypoints = OwnerCharacter->Waypoints;
+	m_Waypoints = OwnerCharacter->GetWaypoints();
 }
 
 int UChooseNextWaypoint::SetNextWaypoint(UBehaviorTreeComponent & OwnerComp)

@@ -93,7 +93,7 @@ void AAssualtCharacter::SetMuzzleParticle()
 
 	p_ParticleComponent->AttachTo(Cast<USceneComponent>(GetMesh()), FName("WeaponFront"));
 
-	FString filePath = "Particle Component'/Game/Particles/Muzzle_Flash/P_Muzzle_Flash.P_Muzzle_Flash'";
+	FString filePath = "Particle Component'/Game/Particles/MuzzleFlash/MuzzleFlash_PS.MuzzleFlash_PS'";
 
 	ConstructorHelpers::FObjectFinder<UParticleSystem> muzzleParticle (*filePath);
 

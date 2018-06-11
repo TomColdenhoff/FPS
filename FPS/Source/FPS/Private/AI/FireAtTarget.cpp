@@ -4,7 +4,7 @@
 #include "AIController.h"
 #include "BehaviorTree/BehaviorTreeComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
-#include "../FPS/AssualtCharacter.h"
+#include "../FPS/Public/AI/BaseEnemy.h"
 #include "Runtime/Engine/Classes/Engine/World.h"
 #include "Runtime/Engine/Public/TimerManager.h"
 
@@ -14,7 +14,8 @@ void UFireAtTarget::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMem
 {
 	if (p_Owner == nullptr)
 	{
-		p_Owner = Cast<AAssualtCharacter>(OwnerComp.GetAIOwner()->GetPawn());
+		p_Owner = Cast<ABaseEnemy>(OwnerComp.GetAIOwner()->GetPawn());
+		p_Blackboard = OwnerComp.GetBlackboardComponent();
 	}
 
 	if (m_TimerDone)
@@ -26,6 +27,6 @@ void UFireAtTarget::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMem
 
 void UFireAtTarget::Fire()
 {
-	p_Owner->FireWeapon();
+	p_Owner->FireWeapon(Cast<AActor>(p_Blackboard->GetValueAsObject(FName("Target"))));
 	m_TimerDone = true;
 }

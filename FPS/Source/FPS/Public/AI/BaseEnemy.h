@@ -13,6 +13,8 @@ class FPS_API ABaseEnemy : public ACharacter, public IHitAble
 	GENERATED_BODY()
 
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGunFireDelegate);
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDeathDelegate);
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDuckDelegate);
 
 public:
 	// Sets default values for this character's properties
@@ -32,6 +34,14 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Shooting")
 	float BulletDamage;
 
+	/*The distance of the "bullet line trace"*/
+	UPROPERTY(EditDefaultsOnly, Category = "Shooting")
+	float BulletDistance;
+
+	/*The bullet spread the enemy has*/
+	UPROPERTY(EditDefaultsOnly, Category = "Shooting")
+	FVector2D BulletSpread;
+
 	/*If the enemey is following a waypoint path*/
 	UPROPERTY(EditAnywhere, Category = "AI")
 	bool bFollowsWaypointPath;
@@ -39,12 +49,24 @@ protected:
 	/*If the enemy is currently aiming*/
 	bool bIsAiming = false;
 
+	/*If the AI is death*/
+	bool bIsDeath = false;
+
+	/*If the AI is ducking*/
+	bool bIsDucking = false;
+
 	UPROPERTY(EditDefaultsOnly)
 	FName FrontWeaponSocketName;
 
 	/*The sensing component of the AI*/
 	UPROPERTY(EditDefaultsOnly)
 	class UPawnSensingComponent* PawnSensingComponent;
+
+	/*The standing capsule component of the AI*/
+	class UCapsuleComponent* StandCapsuleComponent;
+
+	/*The crouching capsule component of the AI*/
+	class UCapsuleComponent* CrouchCapsuleComponent;
 
 	/*The blackboard component of the AI (BT uses this)*/
 	class UBlackboardComponent* BlackboardComponent;
@@ -72,6 +94,7 @@ protected:
 	class USoundBase* GunShotSound;
 
 	/*The waypoints the AI walks*/
+	UPROPERTY(EditAnywhere, Category = "AI")
 	TArray<AActor*> Waypoints;
 
 	// Called when the game starts or when spawned
@@ -89,16 +112,9 @@ protected:
 	/*Sets the weapon audio*/
 	virtual void SetWeaponAudio();
 
+	void Die();
+
 	/*Sets*/
-
-	/*Returns if the AI is aiming or not*/
-	UFUNCTION(BlueprintCallable, Category = "AI")
-	bool GetIsAiming() { return bIsAiming; }
-
-	/*Returns if the ai is following a waypoint path or not*/
-	bool GetFollowPath() { return bFollowsWaypointPath;}
-
-	float GetFireRate() { return FireRate; }
 
 public:	
 	// Called every frame
@@ -111,9 +127,36 @@ public:
 	/*Gives Damage to the enemy*/
 	virtual void GiveDamage(float DamagaAmount);
 
-	virtual void FireWeapon();
-	
-	
+	virtual void FireWeapon(AActor* Target);
 
+	//Function to go ducking
+	void GoDucking();
+
+	/*Returns if the AI is aiming or not*/
+	UFUNCTION(BlueprintCallable, Category = "AI")
+	bool GetIsAiming() { return bIsAiming; }
+
+	/*Returns if the ai is following a waypoint path or not*/
+	bool GetFollowPath() { return bFollowsWaypointPath; }
+
+	/*Return the Fire Rate of the AI*/
+	float GetFireRate() { return FireRate; }
+
+	/*Return the Blackboard Data*/
+	UBlackboardData* GetBlackboardData() { return Blackboard; }
+
+	/*Return the Behaviour tree of the AI*/
+	UBehaviorTree* GetBehaviourTree() { return BehaviourTree; }
+
+	TArray<AActor*> GetWaypoints() { return Waypoints; }
+	
+	UPROPERTY(BlueprintAssignable, Category = "Shooting")
+	FGunFireDelegate OnFire;
+
+	UPROPERTY(BlueprintAssignable, Category = "AI")
+	FDeathDelegate OnDeath;
+
+	UPROPERTY(BlueprintAssignable, Category = "AI")
+	FDuckDelegate OnDuck;
 
 };

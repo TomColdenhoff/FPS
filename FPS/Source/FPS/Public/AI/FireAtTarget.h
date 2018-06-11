@@ -19,7 +19,10 @@ public:
 
 private:
 	//The Owner class
-	class AAssualtCharacter* p_Owner = nullptr;
+	class ABaseEnemy* p_Owner = nullptr;
+
+	//The blackboard component
+	UBlackboardComponent* p_Blackboard;
 	
 	//Timer for fire rate
 	FTimerHandle m_FireTimerHandle;

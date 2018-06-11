@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "UnitAIController.h"
-#include "AssualtCharacter.h"
+#include "BaseEnemy.h"
 #include "Runtime/AIModule/Classes/BehaviorTree/BehaviorTree.h"
 #include "Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeComponent.h"
 #include "Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h"
@@ -23,12 +23,13 @@ void AUnitAIController::Possess(APawn * InPawn)
 { 
 	Super::Possess(InPawn);
 
-	AAssualtCharacter* AI = Cast<AAssualtCharacter>(InPawn);
+	ABaseEnemy* AI = Cast<ABaseEnemy>(InPawn);
 
-	UseBlackboard(AI->Blackboard, BlackboardComponent);
-	BlackboardComponent->SetValueAsVector(FName("HomeLocation"), AI->GetActorLocation());
+	if (AI != nullptr)
+	{
+		UseBlackboard(AI->GetBlackboardData(), BlackboardComponent);
+		BlackboardComponent->SetValueAsVector(FName("HomeLocation"), AI->GetActorLocation());
 
-	BehaviorComponent->StartTree(*AI->BehaviourTree);
-
-	UE_LOG(LogTemp, Warning, TEXT("Run possess"));
+		BehaviorComponent->StartTree(*AI->GetBehaviourTree());
+	}
 }

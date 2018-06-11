@@ -12,6 +12,8 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 	FPS_API UFunction* Z_Construct_UDelegateFunction_ABaseEnemy_GunFireDelegate__DelegateSignature();
+	FPS_API UFunction* Z_Construct_UDelegateFunction_ABaseEnemy_DeathDelegate__DelegateSignature();
+	FPS_API UFunction* Z_Construct_UDelegateFunction_ABaseEnemy_DuckDelegate__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_FPS()
@@ -21,14 +23,16 @@ void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_ABaseEnemy_GunFireDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ABaseEnemy_DeathDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ABaseEnemy_DuckDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FPS",
 				PKG_CompiledIn | 0x00000000,
-				0x414E0475,
-				0x22BF7DF4,
+				0x74429777,
+				0xEFFF3FC5,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

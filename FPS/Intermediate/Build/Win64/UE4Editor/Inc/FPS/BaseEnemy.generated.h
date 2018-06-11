@@ -13,6 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPS_BaseEnemy_generated_h
 
+#define FPS_Source_FPS_Public_AI_BaseEnemy_h_17_DELEGATE \
+static inline void FDuckDelegate_DelegateWrapper(const FMulticastScriptDelegate& DuckDelegate) \
+{ \
+	DuckDelegate.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
+#define FPS_Source_FPS_Public_AI_BaseEnemy_h_16_DELEGATE \
+static inline void FDeathDelegate_DelegateWrapper(const FMulticastScriptDelegate& DeathDelegate) \
+{ \
+	DeathDelegate.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
 #define FPS_Source_FPS_Public_AI_BaseEnemy_h_15_DELEGATE \
 static inline void FGunFireDelegate_DelegateWrapper(const FMulticastScriptDelegate& GunFireDelegate) \
 { \
@@ -92,11 +106,15 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseEnemy); \
 	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(ABaseEnemy, Health); } \
 	FORCEINLINE static uint32 __PPO__FireRate() { return STRUCT_OFFSET(ABaseEnemy, FireRate); } \
 	FORCEINLINE static uint32 __PPO__BulletDamage() { return STRUCT_OFFSET(ABaseEnemy, BulletDamage); } \
+	FORCEINLINE static uint32 __PPO__BulletDistance() { return STRUCT_OFFSET(ABaseEnemy, BulletDistance); } \
+	FORCEINLINE static uint32 __PPO__BulletSpread() { return STRUCT_OFFSET(ABaseEnemy, BulletSpread); } \
 	FORCEINLINE static uint32 __PPO__bFollowsWaypointPath() { return STRUCT_OFFSET(ABaseEnemy, bFollowsWaypointPath); } \
+	FORCEINLINE static uint32 __PPO__FrontWeaponSocketName() { return STRUCT_OFFSET(ABaseEnemy, FrontWeaponSocketName); } \
 	FORCEINLINE static uint32 __PPO__PawnSensingComponent() { return STRUCT_OFFSET(ABaseEnemy, PawnSensingComponent); } \
 	FORCEINLINE static uint32 __PPO__BehaviourTree() { return STRUCT_OFFSET(ABaseEnemy, BehaviourTree); } \
 	FORCEINLINE static uint32 __PPO__Blackboard() { return STRUCT_OFFSET(ABaseEnemy, Blackboard); } \
-	FORCEINLINE static uint32 __PPO__p_AudioComponent() { return STRUCT_OFFSET(ABaseEnemy, p_AudioComponent); }
+	FORCEINLINE static uint32 __PPO__AudioComponent() { return STRUCT_OFFSET(ABaseEnemy, AudioComponent); } \
+	FORCEINLINE static uint32 __PPO__Waypoints() { return STRUCT_OFFSET(ABaseEnemy, Waypoints); }
 
 
 #define FPS_Source_FPS_Public_AI_BaseEnemy_h_10_PROLOG

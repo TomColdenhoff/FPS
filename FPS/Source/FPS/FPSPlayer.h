@@ -4,16 +4,19 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "HitAble.h"
 #include "FPSPlayer.generated.h"
 
 UCLASS()
-class FPS_API AFPSPlayer : public ACharacter
+class FPS_API AFPSPlayer : public ACharacter, public IHitAble
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
 	AFPSPlayer();
+
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -25,6 +28,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	/*Damage function of player*/
+	virtual void GiveDamage(float DamagaAmount);
 
 	//Movement Functions
 	/*Moves the player forward*/

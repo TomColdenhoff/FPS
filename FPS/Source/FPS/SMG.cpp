@@ -11,7 +11,7 @@
 #include "Runtime/Engine/Classes/Camera/CameraComponent.h"
 #include "Runtime/Engine/Classes/Particles/ParticleSystemComponent.h"
 #include "Runtime/Engine/Classes/Sound/SoundBase.h"
-#include "IDamageAble.h"
+#include "Public/AI/HitAble.h"
 
 USMG::USMG()
 {
@@ -175,7 +175,7 @@ void USMG::FireBullet()
 
 			DrawDebugLine(GetWorld(), GetSocketLocation(FName("Weapon Front")), (weaponAimDirection * AIM_DISTANCE), FColor::Green, false, 5.0f);
 
-			IIDamageAble* damageAbleObject = Cast<IIDamageAble>(hitResult.Actor);
+			IHitAble* damageAbleObject = Cast<IHitAble>(hitResult.Actor);
 
 			if (damageAbleObject != nullptr)
 				damageAbleObject->GiveDamage(BulletDamage);

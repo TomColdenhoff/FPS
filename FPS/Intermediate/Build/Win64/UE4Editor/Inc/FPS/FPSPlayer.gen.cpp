@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 	FPS_API UClass* Z_Construct_UClass_UBaseWeapon_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	FPS_API UClass* Z_Construct_UClass_UHitAble_NoRegister();
 // End Cross Module References
 	void AFPSPlayer::StaticRegisterNativesAFPSPlayer()
 	{
@@ -100,6 +101,9 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentWeaponMesh,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CameraComponent,
 			};
+			static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[] = {
+				{ Z_Construct_UClass_UHitAble_NoRegister, (int32)VTABLE_OFFSET(AFPSPlayer, IHitAble), false },
+			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AFPSPlayer>::IsAbstract,
 			};
@@ -111,14 +115,14 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
-				nullptr, 0,
+				InterfaceParams, ARRAY_COUNT(InterfaceParams),
 				METADATA_PARAMS(Class_MetaDataParams, ARRAY_COUNT(Class_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUClass(OuterClass, ClassParams);
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSPlayer, 802680996);
+	IMPLEMENT_CLASS(AFPSPlayer, 3937220025);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSPlayer(Z_Construct_UClass_AFPSPlayer, &AFPSPlayer::StaticClass, TEXT("/Script/FPS"), TEXT("AFPSPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

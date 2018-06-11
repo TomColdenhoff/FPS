@@ -187,4 +187,11 @@ void AFPSPlayer::AddMainWeapon()
 	CurrentWeapon = Cast<UBaseWeapon>(CurrentWeaponMesh);
 }
 
+void AFPSPlayer::GiveDamage(float DamagaAmount)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Hit by AI"));
+}
+
+
+
 

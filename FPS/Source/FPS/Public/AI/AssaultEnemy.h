@@ -23,8 +23,12 @@ protected:
 
 	virtual void BeginPlay() override;
 	
+	UFUNCTION()
 	virtual void OnSeePlayer(APawn* Pawn) override;
+	UFUNCTION()
 	virtual void OnHearNoise(APawn* Pawn, const FVector& Location, float Volume) override;
-	
+
+	virtual void FireWeapon(AActor* Target) override;
+	virtual void GiveDamage(float DamagaAmount) override;
 	
 };
