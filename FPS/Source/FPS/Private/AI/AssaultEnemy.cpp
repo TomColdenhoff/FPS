@@ -12,6 +12,7 @@
 #include "Runtime/Engine/Classes/Components/SkeletalMeshComponent.h" 
 #include "Engine/SkeletalMeshSocket.h"
 #include "Runtime/Core/Public/Math/UnrealMathUtility.h" 
+#include "DrawDebugHelpers.h"
 
 
 AAssaultEnemy::AAssaultEnemy()
@@ -130,9 +131,14 @@ void AAssaultEnemy::FireWeapon(AActor* Target)
 
 	//Fire the "bullet"
 	TArray<FHitResult> outHits;
-	//FVector endPosition = (GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketTransform(GetMesh()).GetRotation().GetForwardVector() + BulletDistance);
-	// + FVector(FMath::RandRange(-BulletSpread.X, BulletSpread.X), 0, FMath::RandRange(-BulletSpread.Y, BulletSpread.Y));
-	bool bHit = GetWorld()->LineTraceMultiByChannel(outHits, GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketLocation(GetMesh()), endPosition, ECC_Visibility);
+	FVector socketLocation = GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketLocation(GetMesh());
+	UE_LOG(LogTemp, Warning, TEXT("Socket loc: %s"), *socketLocation.ToString());
+	//FVector endPosition = ((GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketLocation(GetMesh()) + GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketTransform(GetMesh()).GetRotation().GetForwardVector()) + BulletDistance) + FVector(FMath::RandRange(-BulletSpread.X, BulletSpread.X), 0, FMath::RandRange(-BulletSpread.Y, BulletSpread.Y));
+	FVector endPosition = socketLocation + GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketTransform(GetMesh()).GetRotation().GetForwardVector() * -BulletDistance;
+	DrawDebugLine(GetWorld(), socketLocation, endPosition, FColor::Green, true);
+	//UE_LOG(LogTemp. Warning, TEXT("Loc: %s"), *)
+
+	bool bHit = GetWorld()->LineTraceMultiByChannel(outHits, socketLocation, endPosition, ECC_Visibility);
 
 	if (bHit)
 	{
