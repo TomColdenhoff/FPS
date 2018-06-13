@@ -40,7 +40,7 @@ protected:
 
 	/*The bullet spread the enemy has*/
 	UPROPERTY(EditDefaultsOnly, Category = "Shooting")
-	FVector2D BulletSpread;
+	FVector BulletSpread;
 
 	/*If the enemey is following a waypoint path*/
 	UPROPERTY(EditAnywhere, Category = "AI")

@@ -132,13 +132,13 @@ void AAssaultEnemy::FireWeapon(AActor* Target)
 	//Fire the "bullet"
 	TArray<FHitResult> outHits;
 	FVector socketLocation = GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketLocation(GetMesh());
-	UE_LOG(LogTemp, Warning, TEXT("Socket loc: %s"), *socketLocation.ToString());
-	//FVector endPosition = ((GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketLocation(GetMesh()) + GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketTransform(GetMesh()).GetRotation().GetForwardVector()) + BulletDistance) + FVector(FMath::RandRange(-BulletSpread.X, BulletSpread.X), 0, FMath::RandRange(-BulletSpread.Y, BulletSpread.Y));
-	FVector endPosition = socketLocation + GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketTransform(GetMesh()).GetRotation().GetForwardVector() * -BulletDistance;
-	DrawDebugLine(GetWorld(), socketLocation, endPosition, FColor::Green, true);
-	//UE_LOG(LogTemp. Warning, TEXT("Loc: %s"), *)
+	FVector endLocation = (Target->GetActorLocation() - FVector(FMath::FRandRange(-BulletSpread.X, BulletSpread.X), FMath::FRandRange(-BulletSpread.Y, BulletSpread.Y), FMath::FRandRange(-BulletSpread.Z, BulletSpread.Z))) - socketLocation;
+	endLocation.Normalize();
 
-	bool bHit = GetWorld()->LineTraceMultiByChannel(outHits, socketLocation, endPosition, ECC_Visibility);
+	endLocation *= BulletDistance;
+
+	bool bHit = GetWorld()->LineTraceMultiByChannel(outHits, socketLocation, endLocation, ECC_Visibility);
+	DrawDebugLine(GetWorld(), socketLocation, endLocation, FColor::Purple, true, 5.0f);
 
 	if (bHit)
 	{

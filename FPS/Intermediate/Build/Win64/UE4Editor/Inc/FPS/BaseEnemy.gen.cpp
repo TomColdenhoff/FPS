@@ -26,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 	AIMODULE_API UClass* Z_Construct_UClass_UBlackboardData_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UPawnSensingComponent_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	FPS_API UClass* Z_Construct_UClass_UHitAble_NoRegister();
 // End Cross Module References
 	UFunction* Z_Construct_UDelegateFunction_ABaseEnemy_DuckDelegate__DelegateSignature()
@@ -221,7 +221,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 				{ "ToolTip", "The bullet spread the enemy has" },
 			};
 #endif
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_BulletSpread = { UE4CodeGen_Private::EPropertyClass::Struct, "BulletSpread", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ABaseEnemy, BulletSpread), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(NewProp_BulletSpread_MetaData, ARRAY_COUNT(NewProp_BulletSpread_MetaData)) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_BulletSpread = { UE4CodeGen_Private::EPropertyClass::Struct, "BulletSpread", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ABaseEnemy, BulletSpread), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(NewProp_BulletSpread_MetaData, ARRAY_COUNT(NewProp_BulletSpread_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletDistance_MetaData[] = {
 				{ "Category", "Shooting" },
@@ -293,7 +293,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseEnemy, 2810711223);
+	IMPLEMENT_CLASS(ABaseEnemy, 3589232758);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseEnemy(Z_Construct_UClass_ABaseEnemy, &ABaseEnemy::StaticClass, TEXT("/Script/FPS"), TEXT("ABaseEnemy"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseEnemy);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

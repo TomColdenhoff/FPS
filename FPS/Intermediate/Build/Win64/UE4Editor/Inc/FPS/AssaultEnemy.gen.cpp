@@ -130,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeAssaultEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssaultEnemy, 2733756764);
+	IMPLEMENT_CLASS(AAssaultEnemy, 3790509122);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAssaultEnemy(Z_Construct_UClass_AAssaultEnemy, &AAssaultEnemy::StaticClass, TEXT("/Script/FPS"), TEXT("AAssaultEnemy"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAssaultEnemy);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
