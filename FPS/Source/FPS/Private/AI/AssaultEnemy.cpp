@@ -132,9 +132,9 @@ void AAssaultEnemy::FireWeapon(AActor* Target)
 	//Fire the "bullet"
 	TArray<FHitResult> outHits;
 	FVector socketLocation = GetMesh()->GetSocketByName(FrontWeaponSocketName)->GetSocketLocation(GetMesh());
-	FVector endLocation = (Target->GetActorLocation() - FVector(FMath::FRandRange(-BulletSpread.X, BulletSpread.X), FMath::FRandRange(-BulletSpread.Y, BulletSpread.Y), FMath::FRandRange(-BulletSpread.Z, BulletSpread.Z))) - socketLocation;
-	endLocation.Normalize();
+	FVector endLocation = (Target->GetActorLocation() + FVector(FMath::FRandRange(-BulletSpread.X, BulletSpread.X), FMath::FRandRange(-BulletSpread.Y, BulletSpread.Y), FMath::FRandRange(-BulletSpread.Z, BulletSpread.Z))) - socketLocation;
 
+	//Normally we want to normalize vector but it has a strange side effect that causes the AI to always miss
 	endLocation *= BulletDistance;
 
 	bool bHit = GetWorld()->LineTraceMultiByChannel(outHits, socketLocation, endLocation, ECC_Visibility);

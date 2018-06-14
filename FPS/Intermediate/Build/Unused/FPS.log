@@ -1,7 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5135.dll".
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5135.pdb".
-  Performing 1 actions (4 in parallel)
-  [1/1] Link UE4Editor-FPS.dll
+  Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2743.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2743.pdb".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5024.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5024.pdb".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8262.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8262.pdb".
+  Performing 2 actions (4 in parallel)
+  [2/2] Link UE4Editor-FPS.dll
+  [1/2] Link UE4Editor-FPS.lib
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
      Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
-  Total build time: 1.64 seconds (Local executor: 0.82 seconds)
+  Deploying FPSEditor Win64 Development...
+  Total build time: 4.91 seconds (Local executor: 0.81 seconds)
