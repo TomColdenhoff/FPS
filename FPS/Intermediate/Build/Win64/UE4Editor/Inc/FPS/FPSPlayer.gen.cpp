@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 	FPS_API UClass* Z_Construct_UClass_AFPSPlayer();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	FPS_API UClass* Z_Construct_UClass_UInteraction_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FPS_API UClass* Z_Construct_UClass_UBaseWeapon_NoRegister();
@@ -47,6 +48,14 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 				{ "ModuleRelativePath", "FPSPlayer.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_p_InteractionComponent_MetaData[] = {
+				{ "Category", "FPSPlayer" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "FPSPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_p_InteractionComponent = { UE4CodeGen_Private::EPropertyClass::Object, "p_InteractionComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a0009, 1, nullptr, STRUCT_OFFSET(AFPSPlayer, p_InteractionComponent), Z_Construct_UClass_UInteraction_NoRegister, METADATA_PARAMS(NewProp_p_InteractionComponent_MetaData, ARRAY_COUNT(NewProp_p_InteractionComponent_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_CurrentHUD_MetaData[] = {
 				{ "EditInline", "true" },
@@ -94,6 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "CameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFPSPlayer, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_CameraComponent_MetaData, ARRAY_COUNT(NewProp_CameraComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_p_InteractionComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_CurrentHUD,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_DefaultPlayerHUD,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentWeapon,
@@ -122,7 +132,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSPlayer, 3937220025);
+	IMPLEMENT_CLASS(AFPSPlayer, 2475054051);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSPlayer(Z_Construct_UClass_AFPSPlayer, &AFPSPlayer::StaticClass, TEXT("/Script/FPS"), TEXT("AFPSPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

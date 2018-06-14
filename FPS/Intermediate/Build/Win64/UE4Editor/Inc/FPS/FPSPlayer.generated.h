@@ -63,7 +63,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSPlayer); \
 
 #define FPS_Source_FPS_FPSPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_DefaultPlayerHUD() { return STRUCT_OFFSET(AFPSPlayer, m_DefaultPlayerHUD); } \
-	FORCEINLINE static uint32 __PPO__m_CurrentHUD() { return STRUCT_OFFSET(AFPSPlayer, m_CurrentHUD); }
+	FORCEINLINE static uint32 __PPO__m_CurrentHUD() { return STRUCT_OFFSET(AFPSPlayer, m_CurrentHUD); } \
+	FORCEINLINE static uint32 __PPO__p_InteractionComponent() { return STRUCT_OFFSET(AFPSPlayer, p_InteractionComponent); }
 
 
 #define FPS_Source_FPS_FPSPlayer_h_10_PROLOG

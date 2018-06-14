@@ -238,10 +238,21 @@
     <ClInclude Include="..\..\Source\FPS\AI\ToggleDuck.h">
       <Filter>Source\FPS\AI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Player\Interaction.h">
+      <Filter>Source\FPS\Player</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPS\AI\ToggleDuck.cpp">
       <Filter>Source\FPS\AI</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Player\Interaction.cpp">
+      <Filter>Source\FPS\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\FPS\Player">
+      <UniqueIdentifier>{2b43c65e-d9d9-4d89-be34-b08dfee1719b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

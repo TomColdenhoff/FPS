@@ -9,6 +9,7 @@
 #include "SMG.h"
 #include <typeinfo>
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
+#include "Player/Interaction.h"
 
 
 // Sets default values
@@ -18,8 +19,10 @@ AFPSPlayer::AFPSPlayer()
 	PrimaryActorTick.bCanEverTick = true;
 
 	CreateCamera();
+	CreateInteractionComponent();
 
 	AddMainWeapon<USMG>();
+
 	
 }
 
@@ -30,6 +33,12 @@ void AFPSPlayer::CreateCamera()
 	CameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0f));
 	CameraComponent->bUsePawnControlRotation = true;
 }
+
+void AFPSPlayer::CreateInteractionComponent()
+{
+	p_InteractionComponent = CreateDefaultSubobject<UInteraction>(TEXT("Interaction Component"));
+}
+
 
 // Called when the game starts or when spawned
 void AFPSPlayer::BeginPlay()
@@ -71,6 +80,9 @@ void AFPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAction("Fire", EInputEvent::IE_Released, this, &AFPSPlayer::StopFire);
 	PlayerInputComponent->BindAction("Reload", EInputEvent::IE_Pressed, this, &AFPSPlayer::Reload);
 	PlayerInputComponent->BindAction("ChangeWeaponMode", EInputEvent::IE_Pressed, this, &AFPSPlayer::ChangeWeaponMode);
+
+	//Player Actions
+	PlayerInputComponent->BindAction("Interact", EInputEvent::IE_Pressed, p_InteractionComponent, &UInteraction::Interact);
 }
 
 void AFPSPlayer::MoveForward(float Value)
@@ -192,6 +204,10 @@ void AFPSPlayer::GiveDamage(float DamagaAmount)
 	UE_LOG(LogTemp, Warning, TEXT("Hit by AI"));
 }
 
+void AFPSPlayer::Interact()
+{
+	p_InteractionComponent->Interact();
+}
 
 
 

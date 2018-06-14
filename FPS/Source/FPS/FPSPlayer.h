@@ -81,10 +81,19 @@ private:
 	UPROPERTY()
 	UUserWidget* m_CurrentHUD;
 
+	UPROPERTY(VisibleAnywhere)
+	class UInteraction* p_InteractionComponent;
+
 	bool m_IsRunning = false;
 
 	/*Creates and attachs a camera to the player*/
 	void CreateCamera();
+
+	/*Creates and attaches a interaction Component*/
+	void CreateInteractionComponent();
+
+	/*Calls interaction function on interaction component*/
+	void Interact();
 
 
 	
