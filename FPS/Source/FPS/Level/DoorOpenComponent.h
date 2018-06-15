@@ -29,7 +29,9 @@ public:
 	virtual void Interact(class AFPSPlayer* Player);
 
 private:
+	/*Calculate Values for door openening*/
 	void OpenDoor(class AFPSPlayer* Player);
+
 	bool bShouldRotate = false;
 	bool bIsOpen = false;
 
@@ -43,4 +45,6 @@ private:
 
 	/*the rotation the door will actually get*/
 	FVector m_OpenDoorRotation;
+
+	AActor* p_Owner = nullptr;
 };

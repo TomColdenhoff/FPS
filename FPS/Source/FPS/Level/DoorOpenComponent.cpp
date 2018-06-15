@@ -12,6 +12,7 @@ UDoorOpenComponent::UDoorOpenComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+	p_Owner = GetOwner();
 }
 
 
@@ -30,19 +31,21 @@ void UDoorOpenComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	if (p_Owner == nullptr)
+	{
+		return;
+	}
+
 	// ...
 	if (bShouldRotate)
 	{
-		GetOwner()->SetActorRotation(FMath::Lerp(GetOwner()->GetActorRotation(), m_OpenDoorRotation.Rotation(), m_OpenRate));
+		p_Owner->SetActorRotation(FMath::Lerp(p_Owner->GetActorRotation(), m_OpenDoorRotation.Rotation(), m_OpenRate));
 
-		if (GetOwner()->GetActorRotation().Equals(m_OpenDoorRotation.Rotation(), 1.0f))
+		if (p_Owner->GetActorRotation().Equals(m_OpenDoorRotation.Rotation(), 1.0f))
 		{
 			bShouldRotate = false;
 		}
 	}
-
-	UE_LOG(LogTemp, Warning, TEXT("%s"), (bShouldRotate ? TEXT("True") : TEXT("False")));
-
 }
 
 void UDoorOpenComponent::Interact(AFPSPlayer* Player)
@@ -52,14 +55,21 @@ void UDoorOpenComponent::Interact(AFPSPlayer* Player)
 
 void UDoorOpenComponent::OpenDoor(AFPSPlayer* Player)
 {
+	if (p_Owner == nullptr)
+	{
+		return;
+	}
+
 	bShouldRotate = true;
 
+	//If door is not open allready
 	if (!bIsOpen)
 	{
 		bIsOpen = true;
 		
-		float dotProduct = FVector::DotProduct(GetOwner()->GetActorRightVector(), Player->GetActorForwardVector());
+		float dotProduct = FVector::DotProduct(p_Owner->GetActorRightVector(), Player->GetActorForwardVector());
 
+		//Let the door open away from the player
 		if (dotProduct >= 0)
 		{
 			m_OpenDoorRotation = FVector(0, -m_TargetOpenRotation, 0);
@@ -70,8 +80,10 @@ void UDoorOpenComponent::OpenDoor(AFPSPlayer* Player)
 		}
 	}
 
+	//If the door is allready open
 	else
 	{
+		//Close the door
 		bIsOpen = false;
 		m_OpenDoorRotation = FVector(0, 0, 0);
 	}

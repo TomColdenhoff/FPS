@@ -1,0 +1,2081 @@
+﻿Log file open, 06/15/18 11:46:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2136927218) SRandInit(2136927218).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.421280
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CoverPointGenerator
+LogStreaming: Display: Took  0.106s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Tom-Laptop (10.52.88.121:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.15-09.46.58:902][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.15-09.46.58:903][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.15-09.46.58:915][  0]LogInit: Computer: TOM-LAPTOP
+[2018.06.15-09.46.58:915][  0]LogInit: User: tomco
+[2018.06.15-09.46.58:915][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.15-09.46.58:915][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.06.15-09.46.58:916][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.06.15-09.46.58:916][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.15-09.46.58:916][  0]LogMemory: Process Physical Memory: 275.55 MB used, 275.55 MB peak
+[2018.06.15-09.46.58:916][  0]LogMemory: Process Virtual Memory: 265.04 MB used, 265.04 MB peak
+[2018.06.15-09.46.58:916][  0]LogMemory: Physical Memory: 5241.16 MB used,  2849.36 MB free, 8090.52 MB total
+[2018.06.15-09.46.58:916][  0]LogMemory: Virtual Memory: 4794.24 MB used,  2849.36 MB free, 134217728.00 MB total
+[2018.06.15-09.46.59:007][  0]LogInit: Using OS detected language (en-US).
+[2018.06.15-09.46.59:007][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.15-09.46.59:020][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.15-09.46.59:563][  0]LogStreaming: Display: Took  0.557s to EndInitTextLocalization.
+[2018.06.15-09.46.59:564][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.15-09.46.59:626][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.15-09.46.59:626][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.15-09.47.00:139][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.15-09.47.00:233][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.06.15-09.47.00:233][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.15-09.47.00:259][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.06.15-09.47.00:259][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.06.15-09.47.00:268][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.15-09.47.00:268][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.15-09.47.00:268][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.15-09.47.00:289][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.15-09.47.00:290][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.06.15-09.47.00:290][  0]LogWindows: EnumDisplayDevices:
+[2018.06.15-09.47.00:290][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.06.15-09.47.00:291][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.06.15-09.47.00:291][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.06.15-09.47.00:291][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.15-09.47.00:292][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.06.15-09.47.00:292][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.15-09.47.00:292][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.15-09.47.00:292][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.06.15-09.47.00:324][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.06.15-09.47.00:324][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.15-09.47.00:325][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.15-09.47.00:337][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.06.15-09.47.00:338][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../SpareTime/Unreal/FPS/FPS/Intermediate/Shaders/WorkingDirectory/9724/).
+[2018.06.15-09.47.00:338][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomco/AppData/Local/Temp/UnrealShaderWorkingDir/150B883E487A115428787CBE8B511997/'.
+[2018.06.15-09.47.00:630][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.15-09.47.00:648][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.15-09.47.00:666][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.15-09.47.00:685][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.15-09.47.00:703][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.15-09.47.00:721][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.15-09.47.00:738][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.15-09.47.00:756][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.15-09.47.00:767][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.15-09.47.00:784][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.15-09.47.00:802][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.15-09.47.00:819][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.15-09.47.00:841][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.15-09.47.00:858][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.15-09.47.00:877][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.15-09.47.00:914][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.15-09.47.00:914][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.15-09.47.00:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.15-09.47.00:939][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.15-09.47.00:996][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.15-09.47.01:012][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.15-09.47.01:031][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.15-09.47.01:052][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.15-09.47.01:069][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.15-09.47.01:090][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.15-09.47.01:090][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.15-09.47.01:295][  0]LogXGEController: Cleaning working directory: C:/Users/tomco/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.15-09.47.01:295][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.15-09.47.01:295][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.15-09.47.01:296][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.15-09.47.02:107][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.15-09.47.02:482][  0]LogDerivedDataCache: Loaded boot cache 0.37s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.15-09.47.02:482][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.15-09.47.02:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.15-09.47.02:483][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.15-09.47.02:483][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.15-09.47.02:483][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.15-09.47.02:500][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.15-09.47.02:514][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.15-09.47.02:514][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.15-09.47.02:515][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.15-09.47.02:529][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.15-09.47.02:530][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.15-09.47.02:532][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.15-09.47.02:532][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.15-09.47.03:009][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2018.06.15-09.47.03:402][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.15-09.47.03:603][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.15-09.47.03:609][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.15-09.47.03:609][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.15-09.47.03:609][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.15-09.47.03:609][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.15-09.47.03:609][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.15-09.47.03:642][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.06.15-09.47.04:153][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.080853 seconds
+[2018.06.15-09.47.04:159][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.15-09.47.04:160][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.15-09.47.04:160][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.15-09.47.07:267][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.15-09.47.07:301][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.15-09.47.07:706][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.034270ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.06.15-09.47.07:733][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7e074bf10, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.15-09.47.07:744][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7e074bf10, Size=80
+[2018.06.15-09.47.07:745][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7e071b830, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.06.15-09.47.07:756][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7e0665710, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.15-09.47.07:948][  0]SourceControl: Source control is disabled
+[2018.06.15-09.47.07:949][  0]SourceControl: Source control is disabled
+[2018.06.15-09.47.07:972][  0]SourceControl: Source control is disabled
+[2018.06.15-09.47.07:992][  0]SourceControl: Source control is disabled
+[2018.06.15-09.47.08:582][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.15-09.47.08:805][  0]LogOcInput: OculusInput pre-init called
+[2018.06.15-09.47.10:062][  0]LogEngine: Initializing Engine...
+[2018.06.15-09.47.10:139][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.06.15-09.47.10:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.15-09.47.10:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.15-09.47.10:403][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.15-09.47.10:434][  0]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.15-09.47.10:480][  0]LogInit: FAudioDevice initialized.
+[2018.06.15-09.47.10:585][  0]LogDerivedDataCache: Saved boot cache 0.10s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.15-09.47.10:597][  0]LogInit: Texture streaming: Enabled
+[2018.06.15-09.47.10:637][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.15-09.47.10:637][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={302A171D-4A10-97A5-B56A-CD966A2EB59D}
+[2018.06.15-09.47.10:653][  0]LogInit: Transaction tracking system initialized
+[2018.06.15-09.47.10:700][  0]BlueprintLog: New page: Editor Load
+[2018.06.15-09.47.10:861][  0]LocalizationService: Localization service is disabled
+[2018.06.15-09.47.11:019][  0]LogConsoleResponse: Display: 
+[2018.06.15-09.47.11:207][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.15-09.47.11:207][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.15-09.47.11:207][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.15-09.47.11:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.15-09.47.11:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.15-09.47.11:675][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/' took 0.02s
+[2018.06.15-09.47.11:675][  0]SourceControl: Source control is disabled
+[2018.06.15-09.47.11:676][  0]Cmd: MAP LOAD FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.15-09.47.11:676][  0]LightingResults: New page: Lighting Build
+[2018.06.15-09.47.11:680][  0]MapCheck: New page: Map Check
+[2018.06.15-09.47.11:681][  0]LightingResults: New page: Lighting Build
+[2018.06.15-09.47.11:693][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7e071b830, Size=80
+[2018.06.15-09.47.11:746][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7edf3a680, Size=128, Default__BP_AssaultAIAnim_C Function /Game/Animations/AI/BP_AssaultAIAnim.BP_AssaultAIAnim_C:ExecuteUbergraph_BP_AssaultAIAnim
+[2018.06.15-09.47.11:774][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7edf3a680, Size=128
+[2018.06.15-09.47.11:775][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7ed717d80, Size=128, Default__BP_AssaultAIAnim_C Function /Engine/Transient.REINST_BP_AssaultAIAnim_C_1:ExecuteUbergraph_BP_AssaultAIAnim
+[2018.06.15-09.47.11:802][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7ed65de00, Size=128, Default__BP_AssaultAIAnim_C Function /Game/Animations/AI/BP_AssaultAIAnim.BP_AssaultAIAnim_C:ExecuteUbergraph_BP_AssaultAIAnim
+[2018.06.15-09.47.12:910][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [21.584171ms] /Game/Animations/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2018.06.15-09.47.13:273][  0]LogAIModule: Creating AISystem for world Level1
+[2018.06.15-09.47.13:307][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.15-09.47.13:323][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7ed717d80, Size=128
+[2018.06.15-09.47.13:326][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.15-09.47.13:408][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.621ms to complete.
+[2018.06.15-09.47.13:408][  0]LogFileHelpers: Loading map 'Level1' took 1.732
+[2018.06.15-09.47.13:589][  0]LogCollectionManager: Loaded 0 collections in 0.001131 seconds
+[2018.06.15-09.47.13:643][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.06.15-09.47.13:643][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Developers/tomco/Collections/' took 0.01s
+[2018.06.15-09.47.13:644][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Collections/' took 0.02s
+[2018.06.15-09.47.13:644][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.15-09.47.13:656][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2478 classes and 567 folders.
+[2018.06.15-09.47.13:666][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.06.15-09.47.13:819][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.06.15-09.47.15:250][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.15-09.47.15:280][  0]LogSlate: Took 0.003117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.15-09.47.15:285][  0]LogSlate: Took 0.002158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.15-09.47.15:299][  0]LogSlate: Took 0.001941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.15-09.47.15:302][  0]LogSlate: Took 0.001486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.06.15-09.47.15:493][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPS
+[2018.06.15-09.47.15:494][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.15-09.47.15:494][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2018.06.15-09.47.15:495][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.15-09.47.15:495][  0]LogTemp: BranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries
+[2018.06.15-09.47.15:495][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tomco\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.15-09.47.15:496][  0]LogRenderer: Reallocating scene render targets to support 908x600 Format 10 NumSamples 1 (Frame:1).
+[2018.06.15-09.47.15:766][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.06.15-09.47.15:767][  0]LogLoad: (Engine Initialization) Total time: 20.62 seconds
+[2018.06.15-09.47.15:767][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.15-09.47.15:786][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.15-09.47.15:816][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.15-09.47.15:894][  2]LogAssetRegistry: Asset discovery search completed in 12.9097 seconds
+[2018.06.15-09.47.15:899][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.15-09.47.15:900][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000634 seconds (updated 0 objects)
+[2018.06.15-09.48.23:630][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.15-09.48.23:696][773]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.15-09.48.23:717][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.15-09.48.23:718][773]PIE: New page: PIE session: Level1 (Jun 15, 2018, 1:48:23 PM)
+[2018.06.15-09.48.23:719][773]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.15-09.48.23:737][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017383s)
+[2018.06.15-09.48.23:738][773]LogAIModule: Creating AISystem for world Level1
+[2018.06.15-09.48.23:739][773]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2018.06.15-09.48.23:739][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.020635s)
+[2018.06.15-09.48.23:760][773]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.15-09.48.23:801][773]LogInit: FAudioDevice initialized.
+[2018.06.15-09.48.23:870][773]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7cc367f20, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.15-09.48.23:874][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7cc367f20, Size=104
+[2018.06.15-09.48.23:874][773]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7cc367f20, Size=104, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_0:ExecuteUbergraph_BP_InGameGUI
+[2018.06.15-09.48.23:877][773]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c7cc364e20, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.15-09.48.23:893][773]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.15-09.48.23:906][773]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.06.15-11.48.23
+[2018.06.15-09.48.23:908][773]LogWorld: Bringing up level for play took: 0.012271
+[2018.06.15-09.48.23:915][773]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2018.06.15-09.48.23:918][773]LogOutputDevice: Error: Ensure condition failed: Component->HasBegunPlay() [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3129] 
+Failed to route BeginPlay (SMG /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.BP_FPSPlayer_C_0.CurrentWeaponMesh)
+
+[2018.06.15-09.48.23:919][773]LogStats:             FDebug::EnsureFailed -  0.001 s
+[2018.06.15-09.48.27:571][773]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 3.093
+[2018.06.15-09.48.27:573][773]LogTemp: Warning: False
+[2018.06.15-09.48.27:735][774]LogTemp: Warning: False
+[2018.06.15-09.48.28:069][775]LogTemp: Warning: False
+[2018.06.15-09.48.28:400][776]LogTemp: Warning: False
+[2018.06.15-09.48.28:731][777]LogTemp: Warning: False
+[2018.06.15-09.48.28:745][778]LogTemp: Warning: False
+[2018.06.15-09.48.28:761][779]LogTemp: Warning: False
+[2018.06.15-09.48.28:778][780]LogTemp: Warning: False
+[2018.06.15-09.48.28:795][781]LogTemp: Warning: False
+[2018.06.15-09.48.28:817][782]LogTemp: Warning: False
+[2018.06.15-09.48.28:846][783]LogTemp: Warning: False
+[2018.06.15-09.48.28:870][784]LogTemp: Warning: False
+[2018.06.15-09.48.28:897][785]LogTemp: Warning: False
+[2018.06.15-09.48.28:921][786]LogTemp: Warning: False
+[2018.06.15-09.48.28:952][787]LogTemp: Warning: False
+[2018.06.15-09.48.28:973][788]LogTemp: Warning: False
+[2018.06.15-09.48.28:998][789]LogTemp: Warning: False
+[2018.06.15-09.48.29:032][790]LogTemp: Warning: False
+[2018.06.15-09.48.29:078][791]LogTemp: Warning: False
+[2018.06.15-09.48.29:094][792]LogTemp: Warning: False
+[2018.06.15-09.48.29:115][793]LogTemp: Warning: False
+[2018.06.15-09.48.29:131][794]LogTemp: Warning: False
+[2018.06.15-09.48.29:150][795]LogTemp: Warning: False
+[2018.06.15-09.48.29:174][796]LogTemp: Warning: False
+[2018.06.15-09.48.29:197][797]LogTemp: Warning: False
+[2018.06.15-09.48.29:225][798]LogTemp: Warning: False
+[2018.06.15-09.48.29:249][799]LogTemp: Warning: False
+[2018.06.15-09.48.29:273][800]LogTemp: Warning: False
+[2018.06.15-09.48.29:298][801]LogTemp: Warning: False
+[2018.06.15-09.48.29:323][802]LogTemp: Warning: False
+[2018.06.15-09.48.29:348][803]LogTemp: Warning: False
+[2018.06.15-09.48.29:373][804]LogTemp: Warning: False
+[2018.06.15-09.48.29:399][805]LogTemp: Warning: False
+[2018.06.15-09.48.29:424][806]LogTemp: Warning: False
+[2018.06.15-09.48.29:449][807]LogTemp: Warning: False
+[2018.06.15-09.48.29:472][808]LogTemp: Warning: False
+[2018.06.15-09.48.29:497][809]LogTemp: Warning: False
+[2018.06.15-09.48.29:524][810]LogTemp: Warning: False
+[2018.06.15-09.48.29:548][811]LogTemp: Warning: False
+[2018.06.15-09.48.29:574][812]LogTemp: Warning: False
+[2018.06.15-09.48.29:600][813]LogTemp: Warning: False
+[2018.06.15-09.48.29:623][814]LogTemp: Warning: False
+[2018.06.15-09.48.29:650][815]LogTemp: Warning: False
+[2018.06.15-09.48.29:675][816]LogTemp: Warning: False
+[2018.06.15-09.48.29:698][817]LogTemp: Warning: False
+[2018.06.15-09.48.29:721][818]LogTemp: Warning: False
+[2018.06.15-09.48.29:747][819]LogTemp: Warning: False
+[2018.06.15-09.48.29:775][820]LogTemp: Warning: False
+[2018.06.15-09.48.29:801][821]LogTemp: Warning: False
+[2018.06.15-09.48.29:825][822]LogTemp: Warning: False
+[2018.06.15-09.48.29:850][823]LogTemp: Warning: False
+[2018.06.15-09.48.29:876][824]LogTemp: Warning: False
+[2018.06.15-09.48.29:901][825]LogTemp: Warning: False
+[2018.06.15-09.48.29:926][826]LogTemp: Warning: False
+[2018.06.15-09.48.29:953][827]LogTemp: Warning: False
+[2018.06.15-09.48.29:980][828]LogTemp: Warning: False
+[2018.06.15-09.48.30:008][829]LogTemp: Warning: False
+[2018.06.15-09.48.30:032][830]LogTemp: Warning: False
+[2018.06.15-09.48.30:059][831]LogTemp: Warning: False
+[2018.06.15-09.48.30:086][832]LogTemp: Warning: False
+[2018.06.15-09.48.30:111][833]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.48.30:111][833]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.48.30:114][833]LogTemp: Warning: True
+[2018.06.15-09.48.30:138][834]LogTemp: Warning: True
+[2018.06.15-09.48.30:165][835]LogTemp: Warning: True
+[2018.06.15-09.48.30:191][836]LogTemp: Warning: True
+[2018.06.15-09.48.30:217][837]LogTemp: Warning: True
+[2018.06.15-09.48.30:247][838]LogTemp: Warning: True
+[2018.06.15-09.48.30:272][839]LogTemp: Warning: True
+[2018.06.15-09.48.30:299][840]LogTemp: Warning: True
+[2018.06.15-09.48.30:323][841]LogTemp: Warning: True
+[2018.06.15-09.48.30:349][842]LogTemp: Warning: True
+[2018.06.15-09.48.30:376][843]LogTemp: Warning: True
+[2018.06.15-09.48.30:403][844]LogTemp: Warning: True
+[2018.06.15-09.48.30:431][845]LogTemp: Warning: True
+[2018.06.15-09.48.30:455][846]LogTemp: Warning: True
+[2018.06.15-09.48.30:481][847]LogTemp: Warning: True
+[2018.06.15-09.48.30:509][848]LogTemp: Warning: True
+[2018.06.15-09.48.30:534][849]LogTemp: Warning: True
+[2018.06.15-09.48.30:561][850]LogTemp: Warning: True
+[2018.06.15-09.48.30:587][851]LogTemp: Warning: True
+[2018.06.15-09.48.30:613][852]LogTemp: Warning: True
+[2018.06.15-09.48.30:641][853]LogTemp: Warning: True
+[2018.06.15-09.48.30:668][854]LogTemp: Warning: True
+[2018.06.15-09.48.30:694][855]LogTemp: Warning: True
+[2018.06.15-09.48.30:720][856]LogTemp: Warning: True
+[2018.06.15-09.48.30:747][857]LogTemp: Warning: True
+[2018.06.15-09.48.30:773][858]LogTemp: Warning: True
+[2018.06.15-09.48.30:800][859]LogTemp: Warning: True
+[2018.06.15-09.48.30:828][860]LogTemp: Warning: True
+[2018.06.15-09.48.30:852][861]LogTemp: Warning: True
+[2018.06.15-09.48.30:879][862]LogTemp: Warning: True
+[2018.06.15-09.48.30:907][863]LogTemp: Warning: True
+[2018.06.15-09.48.30:934][864]LogTemp: Warning: True
+[2018.06.15-09.48.30:962][865]LogTemp: Warning: True
+[2018.06.15-09.48.30:987][866]LogTemp: Warning: True
+[2018.06.15-09.48.31:013][867]LogTemp: Warning: True
+[2018.06.15-09.48.31:038][868]LogTemp: Warning: True
+[2018.06.15-09.48.31:065][869]LogTemp: Warning: True
+[2018.06.15-09.48.31:094][870]LogTemp: Warning: True
+[2018.06.15-09.48.31:119][871]LogTemp: Warning: True
+[2018.06.15-09.48.31:148][872]LogTemp: Warning: True
+[2018.06.15-09.48.31:175][873]LogTemp: Warning: True
+[2018.06.15-09.48.31:199][874]LogTemp: Warning: True
+[2018.06.15-09.48.31:227][875]LogTemp: Warning: False
+[2018.06.15-09.48.31:252][876]LogTemp: Warning: False
+[2018.06.15-09.48.31:281][877]LogTemp: Warning: False
+[2018.06.15-09.48.31:305][878]LogTemp: Warning: False
+[2018.06.15-09.48.31:331][879]LogTemp: Warning: False
+[2018.06.15-09.48.31:358][880]LogTemp: Warning: False
+[2018.06.15-09.48.31:385][881]LogTemp: Warning: False
+[2018.06.15-09.48.31:413][882]LogTemp: Warning: False
+[2018.06.15-09.48.31:438][883]LogTemp: Warning: False
+[2018.06.15-09.48.31:465][884]LogTemp: Warning: False
+[2018.06.15-09.48.31:491][885]LogTemp: Warning: False
+[2018.06.15-09.48.31:516][886]LogTemp: Warning: False
+[2018.06.15-09.48.31:543][887]LogTemp: Warning: False
+[2018.06.15-09.48.31:570][888]LogTemp: Warning: False
+[2018.06.15-09.48.31:597][889]LogTemp: Warning: False
+[2018.06.15-09.48.31:624][890]LogTemp: Warning: False
+[2018.06.15-09.48.31:650][891]LogTemp: Warning: False
+[2018.06.15-09.48.31:679][892]LogTemp: Warning: False
+[2018.06.15-09.48.31:703][893]LogTemp: Warning: False
+[2018.06.15-09.48.31:732][894]LogTemp: Warning: False
+[2018.06.15-09.48.31:756][895]LogTemp: Warning: False
+[2018.06.15-09.48.31:782][896]LogTemp: Warning: False
+[2018.06.15-09.48.31:808][897]LogTemp: Warning: False
+[2018.06.15-09.48.31:835][898]LogTemp: Warning: False
+[2018.06.15-09.48.31:861][899]LogTemp: Warning: False
+[2018.06.15-09.48.31:888][900]LogTemp: Warning: False
+[2018.06.15-09.48.31:915][901]LogTemp: Warning: False
+[2018.06.15-09.48.31:941][902]LogTemp: Warning: False
+[2018.06.15-09.48.31:968][903]LogTemp: Warning: False
+[2018.06.15-09.48.31:995][904]LogTemp: Warning: False
+[2018.06.15-09.48.32:022][905]LogTemp: Warning: False
+[2018.06.15-09.48.32:049][906]LogTemp: Warning: False
+[2018.06.15-09.48.32:075][907]LogTemp: Warning: False
+[2018.06.15-09.48.32:101][908]LogTemp: Warning: False
+[2018.06.15-09.48.32:129][909]LogTemp: Warning: False
+[2018.06.15-09.48.32:157][910]LogTemp: Warning: False
+[2018.06.15-09.48.32:183][911]LogTemp: Warning: False
+[2018.06.15-09.48.32:208][912]LogTemp: Warning: False
+[2018.06.15-09.48.32:236][913]LogTemp: Warning: False
+[2018.06.15-09.48.32:262][914]LogTemp: Warning: False
+[2018.06.15-09.48.32:288][915]LogTemp: Warning: False
+[2018.06.15-09.48.32:315][916]LogTemp: Warning: False
+[2018.06.15-09.48.32:342][917]LogTemp: Warning: False
+[2018.06.15-09.48.32:370][918]LogTemp: Warning: False
+[2018.06.15-09.48.32:399][919]LogTemp: Warning: False
+[2018.06.15-09.48.32:427][920]LogTemp: Warning: False
+[2018.06.15-09.48.32:454][921]LogTemp: Warning: False
+[2018.06.15-09.48.32:484][922]LogTemp: Warning: False
+[2018.06.15-09.48.32:508][923]LogTemp: Warning: False
+[2018.06.15-09.48.32:536][924]LogTemp: Warning: False
+[2018.06.15-09.48.32:563][925]LogTemp: Warning: False
+[2018.06.15-09.48.32:591][926]LogTemp: Warning: False
+[2018.06.15-09.48.32:618][927]LogTemp: Warning: False
+[2018.06.15-09.48.32:647][928]LogTemp: Warning: False
+[2018.06.15-09.48.32:674][929]LogTemp: Warning: False
+[2018.06.15-09.48.32:701][930]LogTemp: Warning: False
+[2018.06.15-09.48.32:728][931]LogTemp: Warning: False
+[2018.06.15-09.48.32:755][932]LogTemp: Warning: False
+[2018.06.15-09.48.32:784][933]LogTemp: Warning: False
+[2018.06.15-09.48.32:811][934]LogTemp: Warning: False
+[2018.06.15-09.48.32:839][935]LogTemp: Warning: False
+[2018.06.15-09.48.32:866][936]LogTemp: Warning: False
+[2018.06.15-09.48.32:893][937]LogTemp: Warning: False
+[2018.06.15-09.48.32:923][938]LogTemp: Warning: False
+[2018.06.15-09.48.32:951][939]LogTemp: Warning: False
+[2018.06.15-09.48.32:980][940]LogTemp: Warning: False
+[2018.06.15-09.48.33:007][941]LogTemp: Warning: False
+[2018.06.15-09.48.33:033][942]LogTemp: Warning: False
+[2018.06.15-09.48.33:062][943]LogTemp: Warning: False
+[2018.06.15-09.48.33:089][944]LogTemp: Warning: False
+[2018.06.15-09.48.33:118][945]LogTemp: Warning: False
+[2018.06.15-09.48.33:146][946]LogTemp: Warning: False
+[2018.06.15-09.48.33:174][947]LogTemp: Warning: False
+[2018.06.15-09.48.33:202][948]LogTemp: Warning: False
+[2018.06.15-09.48.33:230][949]LogTemp: Warning: False
+[2018.06.15-09.48.33:259][950]LogTemp: Warning: False
+[2018.06.15-09.48.33:287][951]LogTemp: Warning: False
+[2018.06.15-09.48.33:315][952]LogTemp: Warning: False
+[2018.06.15-09.48.33:343][953]LogTemp: Warning: False
+[2018.06.15-09.48.33:372][954]LogTemp: Warning: False
+[2018.06.15-09.48.33:400][955]LogTemp: Warning: False
+[2018.06.15-09.48.33:428][956]LogTemp: Warning: False
+[2018.06.15-09.48.33:457][957]LogTemp: Warning: False
+[2018.06.15-09.48.33:484][958]LogTemp: Warning: False
+[2018.06.15-09.48.33:513][959]LogTemp: Warning: False
+[2018.06.15-09.48.33:541][960]LogTemp: Warning: False
+[2018.06.15-09.48.33:570][961]LogTemp: Warning: False
+[2018.06.15-09.48.33:598][962]LogTemp: Warning: False
+[2018.06.15-09.48.33:625][963]LogTemp: Warning: False
+[2018.06.15-09.48.33:655][964]LogTemp: Warning: False
+[2018.06.15-09.48.33:685][965]LogTemp: Warning: False
+[2018.06.15-09.48.33:711][966]LogTemp: Warning: False
+[2018.06.15-09.48.33:740][967]LogTemp: Warning: False
+[2018.06.15-09.48.33:768][968]LogTemp: Warning: False
+[2018.06.15-09.48.33:797][969]LogTemp: Warning: False
+[2018.06.15-09.48.33:825][970]LogTemp: Warning: False
+[2018.06.15-09.48.33:853][971]LogTemp: Warning: False
+[2018.06.15-09.48.33:881][972]LogTemp: Warning: False
+[2018.06.15-09.48.33:912][973]LogTemp: Warning: False
+[2018.06.15-09.48.33:940][974]LogTemp: Warning: False
+[2018.06.15-09.48.33:969][975]LogTemp: Warning: False
+[2018.06.15-09.48.33:998][976]LogTemp: Warning: False
+[2018.06.15-09.48.34:027][977]LogTemp: Warning: False
+[2018.06.15-09.48.34:055][978]LogTemp: Warning: False
+[2018.06.15-09.48.34:084][979]LogTemp: Warning: False
+[2018.06.15-09.48.34:113][980]LogTemp: Warning: False
+[2018.06.15-09.48.34:141][981]LogTemp: Warning: False
+[2018.06.15-09.48.34:170][982]LogTemp: Warning: False
+[2018.06.15-09.48.34:200][983]LogTemp: Warning: False
+[2018.06.15-09.48.34:230][984]LogTemp: Warning: False
+[2018.06.15-09.48.34:259][985]LogTemp: Warning: False
+[2018.06.15-09.48.34:290][986]LogTemp: Warning: False
+[2018.06.15-09.48.34:318][987]LogTemp: Warning: False
+[2018.06.15-09.48.34:347][988]LogTemp: Warning: False
+[2018.06.15-09.48.34:377][989]LogTemp: Warning: False
+[2018.06.15-09.48.34:407][990]LogTemp: Warning: False
+[2018.06.15-09.48.34:437][991]LogTemp: Warning: False
+[2018.06.15-09.48.34:468][992]LogTemp: Warning: False
+[2018.06.15-09.48.34:498][993]LogTemp: Warning: False
+[2018.06.15-09.48.34:529][994]LogTemp: Warning: False
+[2018.06.15-09.48.34:559][995]LogTemp: Warning: False
+[2018.06.15-09.48.34:591][996]LogTemp: Warning: False
+[2018.06.15-09.48.34:624][997]LogTemp: Warning: False
+[2018.06.15-09.48.34:657][998]LogTemp: Warning: False
+[2018.06.15-09.48.34:690][999]LogTemp: Warning: False
+[2018.06.15-09.48.34:724][  0]LogTemp: Warning: False
+[2018.06.15-09.48.34:753][  1]LogTemp: Warning: False
+[2018.06.15-09.48.34:787][  2]LogTemp: Warning: False
+[2018.06.15-09.48.34:818][  3]LogTemp: Warning: False
+[2018.06.15-09.48.34:848][  4]LogTemp: Warning: False
+[2018.06.15-09.48.34:877][  5]LogTemp: Warning: False
+[2018.06.15-09.48.34:907][  6]LogTemp: Warning: False
+[2018.06.15-09.48.34:936][  7]LogTemp: Warning: False
+[2018.06.15-09.48.34:966][  8]LogTemp: Warning: False
+[2018.06.15-09.48.34:996][  9]LogTemp: Warning: False
+[2018.06.15-09.48.35:025][ 10]LogTemp: Warning: False
+[2018.06.15-09.48.35:057][ 11]LogTemp: Warning: False
+[2018.06.15-09.48.35:084][ 12]LogTemp: Warning: False
+[2018.06.15-09.48.35:111][ 13]LogTemp: Warning: False
+[2018.06.15-09.48.35:141][ 14]LogTemp: Warning: False
+[2018.06.15-09.48.35:171][ 15]LogTemp: Warning: False
+[2018.06.15-09.48.35:199][ 16]LogTemp: Warning: False
+[2018.06.15-09.48.35:228][ 17]LogTemp: Warning: False
+[2018.06.15-09.48.35:258][ 18]LogTemp: Warning: False
+[2018.06.15-09.48.35:290][ 19]LogTemp: Warning: False
+[2018.06.15-09.48.35:320][ 20]LogTemp: Warning: False
+[2018.06.15-09.48.35:348][ 21]LogTemp: Warning: False
+[2018.06.15-09.48.35:379][ 22]LogTemp: Warning: False
+[2018.06.15-09.48.35:408][ 23]LogTemp: Warning: False
+[2018.06.15-09.48.35:440][ 24]LogTemp: Warning: False
+[2018.06.15-09.48.35:470][ 25]LogTemp: Warning: False
+[2018.06.15-09.48.35:500][ 26]LogTemp: Warning: False
+[2018.06.15-09.48.35:532][ 27]LogTemp: Warning: False
+[2018.06.15-09.48.35:565][ 28]LogTemp: Warning: False
+[2018.06.15-09.48.35:597][ 29]LogTemp: Warning: False
+[2018.06.15-09.48.35:626][ 30]LogTemp: Warning: False
+[2018.06.15-09.48.35:659][ 31]LogTemp: Warning: False
+[2018.06.15-09.48.35:692][ 32]LogTemp: Warning: False
+[2018.06.15-09.48.35:723][ 33]LogTemp: Warning: False
+[2018.06.15-09.48.35:752][ 34]LogTemp: Warning: False
+[2018.06.15-09.48.35:781][ 35]LogTemp: Warning: False
+[2018.06.15-09.48.35:811][ 36]LogTemp: Warning: False
+[2018.06.15-09.48.35:843][ 37]LogTemp: Warning: False
+[2018.06.15-09.48.35:875][ 38]LogTemp: Warning: False
+[2018.06.15-09.48.35:905][ 39]LogTemp: Warning: False
+[2018.06.15-09.48.35:937][ 40]LogTemp: Warning: False
+[2018.06.15-09.48.35:966][ 41]LogTemp: Warning: False
+[2018.06.15-09.48.35:995][ 42]LogTemp: Warning: False
+[2018.06.15-09.48.36:025][ 43]LogTemp: Warning: False
+[2018.06.15-09.48.36:055][ 44]LogTemp: Warning: False
+[2018.06.15-09.48.36:087][ 45]LogTemp: Warning: False
+[2018.06.15-09.48.36:117][ 46]LogTemp: Warning: False
+[2018.06.15-09.48.36:148][ 47]LogTemp: Warning: False
+[2018.06.15-09.48.36:178][ 48]LogTemp: Warning: False
+[2018.06.15-09.48.36:207][ 49]LogTemp: Warning: False
+[2018.06.15-09.48.36:238][ 50]LogTemp: Warning: False
+[2018.06.15-09.48.36:270][ 51]LogTemp: Warning: False
+[2018.06.15-09.48.36:303][ 52]LogTemp: Warning: False
+[2018.06.15-09.48.36:335][ 53]LogTemp: Warning: False
+[2018.06.15-09.48.36:368][ 54]LogTemp: Warning: False
+[2018.06.15-09.48.36:398][ 55]LogTemp: Warning: False
+[2018.06.15-09.48.36:430][ 56]LogTemp: Warning: False
+[2018.06.15-09.48.36:464][ 57]LogTemp: Warning: False
+[2018.06.15-09.48.36:499][ 58]LogTemp: Warning: False
+[2018.06.15-09.48.36:532][ 59]LogTemp: Warning: False
+[2018.06.15-09.48.36:566][ 60]LogTemp: Warning: False
+[2018.06.15-09.48.36:599][ 61]LogTemp: Warning: False
+[2018.06.15-09.48.36:631][ 62]LogTemp: Warning: False
+[2018.06.15-09.48.36:663][ 63]LogTemp: Warning: False
+[2018.06.15-09.48.36:698][ 64]LogTemp: Warning: False
+[2018.06.15-09.48.36:730][ 65]LogTemp: Warning: False
+[2018.06.15-09.48.36:762][ 66]LogTemp: Warning: False
+[2018.06.15-09.48.36:795][ 67]LogTemp: Warning: False
+[2018.06.15-09.48.36:826][ 68]LogTemp: Warning: False
+[2018.06.15-09.48.36:854][ 69]LogTemp: Warning: False
+[2018.06.15-09.48.36:883][ 70]LogTemp: Warning: False
+[2018.06.15-09.48.36:914][ 71]LogTemp: Warning: False
+[2018.06.15-09.48.36:943][ 72]LogTemp: Warning: False
+[2018.06.15-09.48.36:973][ 73]LogTemp: Warning: False
+[2018.06.15-09.48.37:004][ 74]LogTemp: Warning: False
+[2018.06.15-09.48.37:035][ 75]LogTemp: Warning: False
+[2018.06.15-09.48.37:065][ 76]LogTemp: Warning: False
+[2018.06.15-09.48.37:096][ 77]LogTemp: Warning: False
+[2018.06.15-09.48.37:127][ 78]LogTemp: Warning: False
+[2018.06.15-09.48.37:157][ 79]LogTemp: Warning: False
+[2018.06.15-09.48.37:186][ 80]LogTemp: Warning: False
+[2018.06.15-09.48.37:214][ 81]LogTemp: Warning: False
+[2018.06.15-09.48.37:244][ 82]LogTemp: Warning: False
+[2018.06.15-09.48.37:272][ 83]LogTemp: Warning: False
+[2018.06.15-09.48.37:302][ 84]LogTemp: Warning: False
+[2018.06.15-09.48.37:333][ 85]LogTemp: Warning: False
+[2018.06.15-09.48.37:362][ 86]LogTemp: Warning: False
+[2018.06.15-09.48.37:392][ 87]LogTemp: Warning: False
+[2018.06.15-09.48.37:421][ 88]LogTemp: Warning: False
+[2018.06.15-09.48.37:448][ 89]LogTemp: Warning: False
+[2018.06.15-09.48.37:477][ 90]LogTemp: Warning: False
+[2018.06.15-09.48.37:507][ 91]LogTemp: Warning: False
+[2018.06.15-09.48.37:537][ 92]LogTemp: Warning: False
+[2018.06.15-09.48.37:566][ 93]LogTemp: Warning: False
+[2018.06.15-09.48.37:596][ 94]LogTemp: Warning: False
+[2018.06.15-09.48.37:624][ 95]LogTemp: Warning: False
+[2018.06.15-09.48.37:656][ 96]LogTemp: Warning: False
+[2018.06.15-09.48.37:686][ 97]LogTemp: Warning: False
+[2018.06.15-09.48.37:714][ 98]LogTemp: Warning: False
+[2018.06.15-09.48.37:745][ 99]LogTemp: Warning: False
+[2018.06.15-09.48.37:774][100]LogTemp: Warning: False
+[2018.06.15-09.48.37:806][101]LogTemp: Warning: False
+[2018.06.15-09.48.37:832][102]LogTemp: Warning: False
+[2018.06.15-09.48.37:860][103]LogTemp: Warning: False
+[2018.06.15-09.48.37:888][104]LogTemp: Warning: False
+[2018.06.15-09.48.37:920][105]LogTemp: Warning: False
+[2018.06.15-09.48.37:948][106]LogTemp: Warning: False
+[2018.06.15-09.48.37:979][107]LogTemp: Warning: False
+[2018.06.15-09.48.38:006][108]LogTemp: Warning: False
+[2018.06.15-09.48.38:035][109]LogTemp: Warning: False
+[2018.06.15-09.48.38:064][110]LogTemp: Warning: False
+[2018.06.15-09.48.38:093][111]LogTemp: Warning: False
+[2018.06.15-09.48.38:122][112]LogTemp: Warning: False
+[2018.06.15-09.48.38:152][113]LogTemp: Warning: False
+[2018.06.15-09.48.38:249][113]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7cc367f20, Size=104
+[2018.06.15-09.48.57:564][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorVent)
+[2018.06.15-09.49.04:857][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.15-09.49.04:910][467]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.15-09.49.04:931][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.15-09.49.04:931][467]PIE: New page: PIE session: Level1 (Jun 15, 2018, 1:49:04 PM)
+[2018.06.15-09.49.04:932][467]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.15-09.49.04:955][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022634s)
+[2018.06.15-09.49.04:957][467]LogAIModule: Creating AISystem for world Level1
+[2018.06.15-09.49.04:958][467]LogPlayLevel: PIE: World Init took: (0.001972s)
+[2018.06.15-09.49.04:958][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.026331s)
+[2018.06.15-09.49.04:981][467]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.15-09.49.05:024][467]LogInit: FAudioDevice initialized.
+[2018.06.15-09.49.05:069][467]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.15-09.49.05:081][467]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.06.15-11.49.05
+[2018.06.15-09.49.05:083][467]LogWorld: Bringing up level for play took: 0.012100
+[2018.06.15-09.49.05:086][467]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.608
+[2018.06.15-09.49.05:088][467]LogTemp: Warning: False
+[2018.06.15-09.49.05:242][468]LogTemp: Warning: False
+[2018.06.15-09.49.05:259][469]LogTemp: Warning: False
+[2018.06.15-09.49.05:378][470]LogTemp: Warning: False
+[2018.06.15-09.49.05:405][471]LogTemp: Warning: False
+[2018.06.15-09.49.05:431][472]LogTemp: Warning: False
+[2018.06.15-09.49.05:454][473]LogTemp: Warning: False
+[2018.06.15-09.49.05:479][474]LogTemp: Warning: False
+[2018.06.15-09.49.05:505][475]LogTemp: Warning: False
+[2018.06.15-09.49.05:527][476]LogTemp: Warning: False
+[2018.06.15-09.49.05:550][477]LogTemp: Warning: False
+[2018.06.15-09.49.05:575][478]LogTemp: Warning: False
+[2018.06.15-09.49.05:598][479]LogTemp: Warning: False
+[2018.06.15-09.49.05:621][480]LogTemp: Warning: False
+[2018.06.15-09.49.05:645][481]LogTemp: Warning: False
+[2018.06.15-09.49.05:669][482]LogTemp: Warning: False
+[2018.06.15-09.49.05:692][483]LogTemp: Warning: False
+[2018.06.15-09.49.05:716][484]LogTemp: Warning: False
+[2018.06.15-09.49.05:739][485]LogTemp: Warning: False
+[2018.06.15-09.49.05:763][486]LogTemp: Warning: False
+[2018.06.15-09.49.05:794][487]LogTemp: Warning: False
+[2018.06.15-09.49.05:835][488]LogTemp: Warning: False
+[2018.06.15-09.49.05:850][489]LogTemp: Warning: False
+[2018.06.15-09.49.05:867][490]LogTemp: Warning: False
+[2018.06.15-09.49.05:884][491]LogTemp: Warning: False
+[2018.06.15-09.49.05:904][492]LogTemp: Warning: False
+[2018.06.15-09.49.05:929][493]LogTemp: Warning: False
+[2018.06.15-09.49.05:953][494]LogTemp: Warning: False
+[2018.06.15-09.49.05:978][495]LogTemp: Warning: False
+[2018.06.15-09.49.06:000][496]LogTemp: Warning: False
+[2018.06.15-09.49.06:027][497]LogTemp: Warning: False
+[2018.06.15-09.49.06:051][498]LogTemp: Warning: False
+[2018.06.15-09.49.06:078][499]LogTemp: Warning: False
+[2018.06.15-09.49.06:101][500]LogTemp: Warning: False
+[2018.06.15-09.49.06:128][501]LogTemp: Warning: False
+[2018.06.15-09.49.06:152][502]LogTemp: Warning: False
+[2018.06.15-09.49.06:177][503]LogTemp: Warning: False
+[2018.06.15-09.49.06:200][504]LogTemp: Warning: False
+[2018.06.15-09.49.06:225][505]LogTemp: Warning: False
+[2018.06.15-09.49.06:249][506]LogTemp: Warning: False
+[2018.06.15-09.49.06:277][507]LogTemp: Warning: False
+[2018.06.15-09.49.06:300][508]LogTemp: Warning: False
+[2018.06.15-09.49.06:325][509]LogTemp: Warning: False
+[2018.06.15-09.49.06:349][510]LogTemp: Warning: False
+[2018.06.15-09.49.06:375][511]LogTemp: Warning: False
+[2018.06.15-09.49.06:401][512]LogTemp: Warning: False
+[2018.06.15-09.49.06:426][513]LogTemp: Warning: False
+[2018.06.15-09.49.06:451][514]LogTemp: Warning: False
+[2018.06.15-09.49.06:478][515]LogTemp: Warning: False
+[2018.06.15-09.49.06:501][516]LogTemp: Warning: False
+[2018.06.15-09.49.06:528][517]LogTemp: Warning: False
+[2018.06.15-09.49.06:552][518]LogTemp: Warning: False
+[2018.06.15-09.49.06:577][519]LogTemp: Warning: False
+[2018.06.15-09.49.06:601][520]LogTemp: Warning: False
+[2018.06.15-09.49.06:627][521]LogTemp: Warning: False
+[2018.06.15-09.49.06:650][522]LogTemp: Warning: False
+[2018.06.15-09.49.06:676][523]LogTemp: Warning: False
+[2018.06.15-09.49.06:698][524]LogTemp: Warning: False
+[2018.06.15-09.49.06:723][525]LogTemp: Warning: False
+[2018.06.15-09.49.06:748][526]LogTemp: Warning: False
+[2018.06.15-09.49.06:774][527]LogTemp: Warning: False
+[2018.06.15-09.49.06:797][528]LogTemp: Warning: False
+[2018.06.15-09.49.06:823][529]LogTemp: Warning: False
+[2018.06.15-09.49.06:848][530]LogTemp: Warning: False
+[2018.06.15-09.49.06:874][531]LogTemp: Warning: False
+[2018.06.15-09.49.06:898][532]LogTemp: Warning: False
+[2018.06.15-09.49.06:925][533]LogTemp: Warning: False
+[2018.06.15-09.49.06:948][534]LogTemp: Warning: False
+[2018.06.15-09.49.06:975][535]LogTemp: Warning: False
+[2018.06.15-09.49.06:999][536]LogTemp: Warning: False
+[2018.06.15-09.49.07:028][537]LogTemp: Warning: False
+[2018.06.15-09.49.07:050][538]LogTemp: Warning: False
+[2018.06.15-09.49.07:077][539]LogTemp: Warning: False
+[2018.06.15-09.49.07:102][540]LogTemp: Warning: False
+[2018.06.15-09.49.07:128][541]LogTemp: Warning: False
+[2018.06.15-09.49.07:152][542]LogTemp: Warning: False
+[2018.06.15-09.49.07:176][543]LogTemp: Warning: False
+[2018.06.15-09.49.07:202][544]LogTemp: Warning: False
+[2018.06.15-09.49.07:226][545]LogTemp: Warning: False
+[2018.06.15-09.49.07:251][546]LogTemp: Warning: False
+[2018.06.15-09.49.07:276][547]LogTemp: Warning: False
+[2018.06.15-09.49.07:302][548]LogTemp: Warning: False
+[2018.06.15-09.49.07:327][549]LogTemp: Warning: False
+[2018.06.15-09.49.07:352][550]LogTemp: Warning: False
+[2018.06.15-09.49.07:379][551]LogTemp: Warning: False
+[2018.06.15-09.49.07:402][552]LogTemp: Warning: False
+[2018.06.15-09.49.07:430][553]LogTemp: Warning: False
+[2018.06.15-09.49.07:452][554]LogTemp: Warning: False
+[2018.06.15-09.49.07:478][555]LogTemp: Warning: False
+[2018.06.15-09.49.07:503][556]LogTemp: Warning: False
+[2018.06.15-09.49.07:528][557]LogTemp: Warning: False
+[2018.06.15-09.49.07:553][558]LogTemp: Warning: False
+[2018.06.15-09.49.07:578][559]LogTemp: Warning: False
+[2018.06.15-09.49.07:602][560]LogTemp: Warning: False
+[2018.06.15-09.49.07:627][561]LogTemp: Warning: False
+[2018.06.15-09.49.07:652][562]LogTemp: Warning: False
+[2018.06.15-09.49.07:680][563]LogTemp: Warning: False
+[2018.06.15-09.49.07:702][564]LogTemp: Warning: False
+[2018.06.15-09.49.08:043][565]LogTemp: Warning: False
+[2018.06.15-09.49.08:378][566]LogTemp: Warning: False
+[2018.06.15-09.49.08:707][567]LogTemp: Warning: False
+[2018.06.15-09.49.09:041][568]LogTemp: Warning: False
+[2018.06.15-09.49.09:374][569]LogTemp: Warning: False
+[2018.06.15-09.49.09:707][570]LogTemp: Warning: False
+[2018.06.15-09.49.10:040][571]LogTemp: Warning: False
+[2018.06.15-09.49.10:375][572]LogTemp: Warning: False
+[2018.06.15-09.49.10:385][573]LogTemp: Warning: False
+[2018.06.15-09.49.10:401][574]LogTemp: Warning: False
+[2018.06.15-09.49.10:526][575]LogTemp: Warning: False
+[2018.06.15-09.49.10:556][576]LogTemp: Warning: False
+[2018.06.15-09.49.10:581][577]LogTemp: Warning: False
+[2018.06.15-09.49.10:608][578]LogTemp: Warning: False
+[2018.06.15-09.49.10:632][579]LogTemp: Warning: False
+[2018.06.15-09.49.10:663][580]LogTemp: Warning: False
+[2018.06.15-09.49.10:691][581]LogTemp: Warning: False
+[2018.06.15-09.49.10:713][582]LogTemp: Warning: False
+[2018.06.15-09.49.10:739][583]LogTemp: Warning: False
+[2018.06.15-09.49.10:763][584]LogTemp: Warning: False
+[2018.06.15-09.49.10:789][585]LogTemp: Warning: False
+[2018.06.15-09.49.10:814][586]LogTemp: Warning: False
+[2018.06.15-09.49.10:840][587]LogTemp: Warning: False
+[2018.06.15-09.49.10:864][588]LogTemp: Warning: False
+[2018.06.15-09.49.10:889][589]LogTemp: Warning: False
+[2018.06.15-09.49.10:916][590]LogTemp: Warning: False
+[2018.06.15-09.49.10:941][591]LogTemp: Warning: False
+[2018.06.15-09.49.10:968][592]LogTemp: Warning: False
+[2018.06.15-09.49.10:992][593]LogTemp: Warning: False
+[2018.06.15-09.49.11:016][594]LogTemp: Warning: False
+[2018.06.15-09.49.11:042][595]LogTemp: Warning: False
+[2018.06.15-09.49.11:067][596]LogTemp: Warning: False
+[2018.06.15-09.49.11:092][597]LogTemp: Warning: False
+[2018.06.15-09.49.11:118][598]LogTemp: Warning: False
+[2018.06.15-09.49.11:144][599]LogTemp: Warning: False
+[2018.06.15-09.49.11:170][600]LogTemp: Warning: False
+[2018.06.15-09.49.11:193][601]LogTemp: Warning: False
+[2018.06.15-09.49.11:217][602]LogTemp: Warning: False
+[2018.06.15-09.49.11:242][603]LogTemp: Warning: False
+[2018.06.15-09.49.11:268][604]LogTemp: Warning: False
+[2018.06.15-09.49.11:292][605]LogTemp: Warning: False
+[2018.06.15-09.49.11:318][606]LogTemp: Warning: False
+[2018.06.15-09.49.11:343][607]LogTemp: Warning: False
+[2018.06.15-09.49.11:365][608]LogTemp: Warning: False
+[2018.06.15-09.49.11:390][609]LogTemp: Warning: False
+[2018.06.15-09.49.11:415][610]LogTemp: Warning: False
+[2018.06.15-09.49.11:439][611]LogTemp: Warning: False
+[2018.06.15-09.49.11:463][612]LogTemp: Warning: False
+[2018.06.15-09.49.11:488][613]LogTemp: Warning: False
+[2018.06.15-09.49.11:510][614]LogTemp: Warning: False
+[2018.06.15-09.49.11:534][615]LogTemp: Warning: False
+[2018.06.15-09.49.11:560][616]LogTemp: Warning: False
+[2018.06.15-09.49.11:583][617]LogTemp: Warning: False
+[2018.06.15-09.49.11:608][618]LogTemp: Warning: False
+[2018.06.15-09.49.11:633][619]LogTemp: Warning: False
+[2018.06.15-09.49.11:661][620]LogTemp: Warning: False
+[2018.06.15-09.49.11:687][621]LogTemp: Warning: False
+[2018.06.15-09.49.11:713][622]LogTemp: Warning: False
+[2018.06.15-09.49.11:738][623]LogTemp: Warning: False
+[2018.06.15-09.49.11:763][624]LogTemp: Warning: False
+[2018.06.15-09.49.11:789][625]LogTemp: Warning: False
+[2018.06.15-09.49.11:813][626]LogTemp: Warning: False
+[2018.06.15-09.49.11:841][627]LogTemp: Warning: False
+[2018.06.15-09.49.11:867][628]LogTemp: Warning: False
+[2018.06.15-09.49.11:893][629]LogTemp: Warning: False
+[2018.06.15-09.49.11:917][630]LogTemp: Warning: False
+[2018.06.15-09.49.11:942][631]LogTemp: Warning: False
+[2018.06.15-09.49.11:967][632]LogTemp: Warning: False
+[2018.06.15-09.49.11:995][633]LogTemp: Warning: False
+[2018.06.15-09.49.12:019][634]LogTemp: Warning: False
+[2018.06.15-09.49.12:043][635]LogTemp: Warning: False
+[2018.06.15-09.49.12:070][636]LogTemp: Warning: False
+[2018.06.15-09.49.12:096][637]LogTemp: Warning: False
+[2018.06.15-09.49.12:120][638]LogTemp: Warning: False
+[2018.06.15-09.49.12:147][639]LogTemp: Warning: False
+[2018.06.15-09.49.12:171][640]LogTemp: Warning: False
+[2018.06.15-09.49.12:197][641]LogTemp: Warning: False
+[2018.06.15-09.49.12:221][642]LogTemp: Warning: False
+[2018.06.15-09.49.12:247][643]LogTemp: Warning: False
+[2018.06.15-09.49.12:274][644]LogTemp: Warning: False
+[2018.06.15-09.49.12:300][645]LogTemp: Warning: False
+[2018.06.15-09.49.12:323][646]LogTemp: Warning: False
+[2018.06.15-09.49.12:348][647]LogTemp: Warning: False
+[2018.06.15-09.49.12:375][648]LogTemp: Warning: False
+[2018.06.15-09.49.12:399][649]LogTemp: Warning: False
+[2018.06.15-09.49.12:425][650]LogTemp: Warning: False
+[2018.06.15-09.49.12:452][651]LogTemp: Warning: False
+[2018.06.15-09.49.12:476][652]LogTemp: Warning: False
+[2018.06.15-09.49.12:500][653]LogTemp: Warning: False
+[2018.06.15-09.49.12:526][654]LogTemp: Warning: False
+[2018.06.15-09.49.12:550][655]LogTemp: Warning: False
+[2018.06.15-09.49.12:577][656]LogTemp: Warning: False
+[2018.06.15-09.49.12:601][657]LogTemp: Warning: False
+[2018.06.15-09.49.12:627][658]LogTemp: Warning: False
+[2018.06.15-09.49.12:654][659]LogTemp: Warning: False
+[2018.06.15-09.49.12:679][660]LogTemp: Warning: False
+[2018.06.15-09.49.12:703][661]LogTemp: Warning: False
+[2018.06.15-09.49.12:730][662]LogTemp: Warning: False
+[2018.06.15-09.49.12:753][663]LogTemp: Warning: False
+[2018.06.15-09.49.12:779][664]LogTemp: Warning: False
+[2018.06.15-09.49.12:804][665]LogTemp: Warning: False
+[2018.06.15-09.49.12:829][666]LogTemp: Warning: False
+[2018.06.15-09.49.12:855][667]LogTemp: Warning: False
+[2018.06.15-09.49.12:879][668]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.49.12:880][668]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.49.12:883][668]LogTemp: Warning: True
+[2018.06.15-09.49.12:909][669]LogTemp: Warning: True
+[2018.06.15-09.49.12:932][670]LogTemp: Warning: True
+[2018.06.15-09.49.12:959][671]LogTemp: Warning: True
+[2018.06.15-09.49.12:984][672]LogTemp: Warning: True
+[2018.06.15-09.49.13:012][673]LogTemp: Warning: True
+[2018.06.15-09.49.13:036][674]LogTemp: Warning: True
+[2018.06.15-09.49.13:063][675]LogTemp: Warning: True
+[2018.06.15-09.49.13:089][676]LogTemp: Warning: True
+[2018.06.15-09.49.13:118][677]LogTemp: Warning: True
+[2018.06.15-09.49.13:141][678]LogTemp: Warning: True
+[2018.06.15-09.49.13:169][679]LogTemp: Warning: True
+[2018.06.15-09.49.13:194][680]LogTemp: Warning: True
+[2018.06.15-09.49.13:221][681]LogTemp: Warning: True
+[2018.06.15-09.49.13:246][682]LogTemp: Warning: True
+[2018.06.15-09.49.13:273][683]LogTemp: Warning: True
+[2018.06.15-09.49.13:299][684]LogTemp: Warning: True
+[2018.06.15-09.49.13:326][685]LogTemp: Warning: True
+[2018.06.15-09.49.13:354][686]LogTemp: Warning: True
+[2018.06.15-09.49.13:381][687]LogTemp: Warning: True
+[2018.06.15-09.49.13:409][688]LogTemp: Warning: True
+[2018.06.15-09.49.13:436][689]LogTemp: Warning: True
+[2018.06.15-09.49.13:462][690]LogTemp: Warning: True
+[2018.06.15-09.49.13:489][691]LogTemp: Warning: True
+[2018.06.15-09.49.13:517][692]LogTemp: Warning: True
+[2018.06.15-09.49.13:543][693]LogTemp: Warning: True
+[2018.06.15-09.49.13:569][694]LogTemp: Warning: True
+[2018.06.15-09.49.13:596][695]LogTemp: Warning: True
+[2018.06.15-09.49.13:624][696]LogTemp: Warning: True
+[2018.06.15-09.49.13:652][697]LogTemp: Warning: True
+[2018.06.15-09.49.13:678][698]LogTemp: Warning: True
+[2018.06.15-09.49.13:704][699]LogTemp: Warning: True
+[2018.06.15-09.49.13:732][700]LogTemp: Warning: True
+[2018.06.15-09.49.13:759][701]LogTemp: Warning: True
+[2018.06.15-09.49.13:785][702]LogTemp: Warning: True
+[2018.06.15-09.49.13:812][703]LogTemp: Warning: True
+[2018.06.15-09.49.13:839][704]LogTemp: Warning: True
+[2018.06.15-09.49.13:868][705]LogTemp: Warning: True
+[2018.06.15-09.49.13:894][706]LogTemp: Warning: True
+[2018.06.15-09.49.13:920][707]LogTemp: Warning: True
+[2018.06.15-09.49.13:947][708]LogTemp: Warning: True
+[2018.06.15-09.49.13:974][709]LogTemp: Warning: True
+[2018.06.15-09.49.14:001][710]LogTemp: Warning: False
+[2018.06.15-09.49.14:029][711]LogTemp: Warning: False
+[2018.06.15-09.49.14:056][712]LogTemp: Warning: False
+[2018.06.15-09.49.14:081][713]LogTemp: Warning: False
+[2018.06.15-09.49.14:110][714]LogTemp: Warning: False
+[2018.06.15-09.49.14:135][715]LogTemp: Warning: False
+[2018.06.15-09.49.14:164][716]LogTemp: Warning: False
+[2018.06.15-09.49.14:190][717]LogTemp: Warning: False
+[2018.06.15-09.49.14:217][718]LogTemp: Warning: False
+[2018.06.15-09.49.14:244][719]LogTemp: Warning: False
+[2018.06.15-09.49.14:272][720]LogTemp: Warning: False
+[2018.06.15-09.49.14:296][721]LogTemp: Warning: False
+[2018.06.15-09.49.14:324][722]LogTemp: Warning: False
+[2018.06.15-09.49.14:351][723]LogTemp: Warning: False
+[2018.06.15-09.49.14:380][724]LogTemp: Warning: False
+[2018.06.15-09.49.14:407][725]LogTemp: Warning: False
+[2018.06.15-09.49.14:431][726]LogTemp: Warning: False
+[2018.06.15-09.49.14:458][727]LogTemp: Warning: False
+[2018.06.15-09.49.14:485][728]LogTemp: Warning: False
+[2018.06.15-09.49.14:511][729]LogTemp: Warning: False
+[2018.06.15-09.49.14:538][730]LogTemp: Warning: False
+[2018.06.15-09.49.14:565][731]LogTemp: Warning: False
+[2018.06.15-09.49.14:593][732]LogTemp: Warning: False
+[2018.06.15-09.49.14:621][733]LogTemp: Warning: False
+[2018.06.15-09.49.14:648][734]LogTemp: Warning: False
+[2018.06.15-09.49.14:674][735]LogTemp: Warning: False
+[2018.06.15-09.49.14:700][736]LogTemp: Warning: False
+[2018.06.15-09.49.14:730][737]LogTemp: Warning: False
+[2018.06.15-09.49.14:755][738]LogTemp: Warning: False
+[2018.06.15-09.49.14:782][739]LogTemp: Warning: False
+[2018.06.15-09.49.14:808][740]LogTemp: Warning: False
+[2018.06.15-09.49.14:834][741]LogTemp: Warning: False
+[2018.06.15-09.49.14:862][742]LogTemp: Warning: False
+[2018.06.15-09.49.14:890][743]LogTemp: Warning: False
+[2018.06.15-09.49.14:917][744]LogTemp: Warning: False
+[2018.06.15-09.49.14:943][745]LogTemp: Warning: False
+[2018.06.15-09.49.14:971][746]LogTemp: Warning: False
+[2018.06.15-09.49.14:999][747]LogTemp: Warning: False
+[2018.06.15-09.49.15:027][748]LogTemp: Warning: False
+[2018.06.15-09.49.15:052][749]LogTemp: Warning: False
+[2018.06.15-09.49.15:078][750]LogTemp: Warning: False
+[2018.06.15-09.49.15:107][751]LogTemp: Warning: False
+[2018.06.15-09.49.15:133][752]LogTemp: Warning: False
+[2018.06.15-09.49.15:162][753]LogTemp: Warning: False
+[2018.06.15-09.49.15:188][754]LogTemp: Warning: False
+[2018.06.15-09.49.15:215][755]LogTemp: Warning: False
+[2018.06.15-09.49.15:242][756]LogTemp: Warning: False
+[2018.06.15-09.49.15:269][757]LogTemp: Warning: False
+[2018.06.15-09.49.15:297][758]LogTemp: Warning: False
+[2018.06.15-09.49.15:324][759]LogTemp: Warning: False
+[2018.06.15-09.49.15:350][760]LogTemp: Warning: False
+[2018.06.15-09.49.15:377][761]LogTemp: Warning: False
+[2018.06.15-09.49.15:405][762]LogTemp: Warning: False
+[2018.06.15-09.49.15:433][763]LogTemp: Warning: False
+[2018.06.15-09.49.15:460][764]LogTemp: Warning: False
+[2018.06.15-09.49.15:486][765]LogTemp: Warning: False
+[2018.06.15-09.49.15:512][766]LogTemp: Warning: False
+[2018.06.15-09.49.15:540][767]LogTemp: Warning: False
+[2018.06.15-09.49.15:567][768]LogTemp: Warning: False
+[2018.06.15-09.49.15:594][769]LogTemp: Warning: False
+[2018.06.15-09.49.15:621][770]LogTemp: Warning: False
+[2018.06.15-09.49.15:649][771]LogTemp: Warning: False
+[2018.06.15-09.49.15:676][772]LogTemp: Warning: False
+[2018.06.15-09.49.15:701][773]LogTemp: Warning: False
+[2018.06.15-09.49.15:728][774]LogTemp: Warning: False
+[2018.06.15-09.49.15:757][775]LogTemp: Warning: False
+[2018.06.15-09.49.15:782][776]LogTemp: Warning: False
+[2018.06.15-09.49.15:810][777]LogTemp: Warning: False
+[2018.06.15-09.49.15:838][778]LogTemp: Warning: False
+[2018.06.15-09.49.15:864][779]LogTemp: Warning: False
+[2018.06.15-09.49.15:891][780]LogTemp: Warning: False
+[2018.06.15-09.49.15:917][781]LogTemp: Warning: False
+[2018.06.15-09.49.15:945][782]LogTemp: Warning: False
+[2018.06.15-09.49.15:972][783]LogTemp: Warning: False
+[2018.06.15-09.49.15:999][784]LogTemp: Warning: False
+[2018.06.15-09.49.16:026][785]LogTemp: Warning: False
+[2018.06.15-09.49.16:053][786]LogTemp: Warning: False
+[2018.06.15-09.49.16:082][787]LogTemp: Warning: False
+[2018.06.15-09.49.16:107][788]LogTemp: Warning: False
+[2018.06.15-09.49.16:133][789]LogTemp: Warning: False
+[2018.06.15-09.49.16:161][790]LogTemp: Warning: False
+[2018.06.15-09.49.16:187][791]LogTemp: Warning: False
+[2018.06.15-09.49.16:215][792]LogTemp: Warning: False
+[2018.06.15-09.49.16:998][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorVent)
+[2018.06.15-09.49.18:784][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.15-09.49.18:955][877]LogSlate: Took 0.002278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.15-09.49.24:104][ 61]LogSlate: Took 0.003013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.15-09.49.24:128][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.15-09.49.24:453][ 61]LogSavePackage: Save=300.27ms
+[2018.06.15-09.49.24:454][ 61]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Level1A0CA24D64CBF6C49028DBA8B366D5784.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap'
+[2018.06.15-09.49.24:457][ 61]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap
+[2018.06.15-09.49.24:492][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1_BuiltData" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1_BuiltData.uasset" SILENT=true
+[2018.06.15-09.49.24:989][ 61]LogSavePackage: Save=491.13ms
+[2018.06.15-09.49.24:989][ 61]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Level1_BuiltData941FB6524326681C7A091B823E8EA0E1.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1_BuiltData.uasset'
+[2018.06.15-09.49.24:991][ 61]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1_BuiltData.uasset
+[2018.06.15-09.49.25:685][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.15-09.49.25:706][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.15-09.49.25:707][ 81]PIE: New page: PIE session: Level1 (Jun 15, 2018, 1:49:25 PM)
+[2018.06.15-09.49.25:707][ 81]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.15-09.49.25:728][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020121s)
+[2018.06.15-09.49.25:729][ 81]LogAIModule: Creating AISystem for world Level1
+[2018.06.15-09.49.25:729][ 81]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2018.06.15-09.49.25:730][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.022812s)
+[2018.06.15-09.49.25:750][ 81]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.15-09.49.25:786][ 81]LogInit: FAudioDevice initialized.
+[2018.06.15-09.49.25:824][ 81]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.15-09.49.25:837][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.06.15-11.49.25
+[2018.06.15-09.49.25:839][ 81]LogWorld: Bringing up level for play took: 0.014284
+[2018.06.15-09.49.25:842][ 81]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.635
+[2018.06.15-09.49.25:844][ 81]LogTemp: Warning: False
+[2018.06.15-09.49.25:919][ 82]LogTemp: Warning: False
+[2018.06.15-09.49.25:935][ 83]LogTemp: Warning: False
+[2018.06.15-09.49.25:956][ 84]LogTemp: Warning: False
+[2018.06.15-09.49.25:985][ 85]LogTemp: Warning: False
+[2018.06.15-09.49.26:009][ 86]LogTemp: Warning: False
+[2018.06.15-09.49.26:034][ 87]LogTemp: Warning: False
+[2018.06.15-09.49.26:058][ 88]LogTemp: Warning: False
+[2018.06.15-09.49.26:082][ 89]LogTemp: Warning: False
+[2018.06.15-09.49.26:105][ 90]LogTemp: Warning: False
+[2018.06.15-09.49.26:128][ 91]LogTemp: Warning: False
+[2018.06.15-09.49.26:154][ 92]LogTemp: Warning: False
+[2018.06.15-09.49.26:177][ 93]LogTemp: Warning: False
+[2018.06.15-09.49.26:203][ 94]LogTemp: Warning: False
+[2018.06.15-09.49.26:225][ 95]LogTemp: Warning: False
+[2018.06.15-09.49.26:250][ 96]LogTemp: Warning: False
+[2018.06.15-09.49.26:273][ 97]LogTemp: Warning: False
+[2018.06.15-09.49.26:296][ 98]LogTemp: Warning: False
+[2018.06.15-09.49.26:320][ 99]LogTemp: Warning: False
+[2018.06.15-09.49.26:344][100]LogTemp: Warning: False
+[2018.06.15-09.49.26:369][101]LogTemp: Warning: False
+[2018.06.15-09.49.26:392][102]LogTemp: Warning: False
+[2018.06.15-09.49.26:416][103]LogTemp: Warning: False
+[2018.06.15-09.49.26:440][104]LogTemp: Warning: False
+[2018.06.15-09.49.26:473][105]LogTemp: Warning: False
+[2018.06.15-09.49.26:513][106]LogTemp: Warning: False
+[2018.06.15-09.49.26:528][107]LogTemp: Warning: False
+[2018.06.15-09.49.26:545][108]LogTemp: Warning: False
+[2018.06.15-09.49.26:562][109]LogTemp: Warning: False
+[2018.06.15-09.49.26:586][110]LogTemp: Warning: False
+[2018.06.15-09.49.26:608][111]LogTemp: Warning: False
+[2018.06.15-09.49.26:631][112]LogTemp: Warning: False
+[2018.06.15-09.49.26:657][113]LogTemp: Warning: False
+[2018.06.15-09.49.26:681][114]LogTemp: Warning: False
+[2018.06.15-09.49.26:705][115]LogTemp: Warning: False
+[2018.06.15-09.49.26:728][116]LogTemp: Warning: False
+[2018.06.15-09.49.26:753][117]LogTemp: Warning: False
+[2018.06.15-09.49.26:778][118]LogTemp: Warning: False
+[2018.06.15-09.49.26:805][119]LogTemp: Warning: False
+[2018.06.15-09.49.26:828][120]LogTemp: Warning: False
+[2018.06.15-09.49.26:854][121]LogTemp: Warning: False
+[2018.06.15-09.49.26:880][122]LogTemp: Warning: False
+[2018.06.15-09.49.26:906][123]LogTemp: Warning: False
+[2018.06.15-09.49.26:932][124]LogTemp: Warning: False
+[2018.06.15-09.49.26:957][125]LogTemp: Warning: False
+[2018.06.15-09.49.26:982][126]LogTemp: Warning: False
+[2018.06.15-09.49.27:008][127]LogTemp: Warning: False
+[2018.06.15-09.49.27:033][128]LogTemp: Warning: False
+[2018.06.15-09.49.27:057][129]LogTemp: Warning: False
+[2018.06.15-09.49.27:084][130]LogTemp: Warning: False
+[2018.06.15-09.49.27:108][131]LogTemp: Warning: False
+[2018.06.15-09.49.27:136][132]LogTemp: Warning: False
+[2018.06.15-09.49.27:159][133]LogTemp: Warning: False
+[2018.06.15-09.49.27:183][134]LogTemp: Warning: False
+[2018.06.15-09.49.27:209][135]LogTemp: Warning: False
+[2018.06.15-09.49.27:237][136]LogTemp: Warning: False
+[2018.06.15-09.49.27:262][137]LogTemp: Warning: False
+[2018.06.15-09.49.27:287][138]LogTemp: Warning: False
+[2018.06.15-09.49.27:310][139]LogTemp: Warning: False
+[2018.06.15-09.49.27:334][140]LogTemp: Warning: False
+[2018.06.15-09.49.27:359][141]LogTemp: Warning: False
+[2018.06.15-09.49.27:384][142]LogTemp: Warning: False
+[2018.06.15-09.49.27:411][143]LogTemp: Warning: False
+[2018.06.15-09.49.27:436][144]LogTemp: Warning: False
+[2018.06.15-09.49.27:463][145]LogTemp: Warning: False
+[2018.06.15-09.49.27:490][146]LogTemp: Warning: False
+[2018.06.15-09.49.27:515][147]LogTemp: Warning: False
+[2018.06.15-09.49.27:541][148]LogTemp: Warning: False
+[2018.06.15-09.49.27:565][149]LogTemp: Warning: False
+[2018.06.15-09.49.27:591][150]LogTemp: Warning: False
+[2018.06.15-09.49.27:618][151]LogTemp: Warning: False
+[2018.06.15-09.49.27:643][152]LogTemp: Warning: False
+[2018.06.15-09.49.27:667][153]LogTemp: Warning: False
+[2018.06.15-09.49.27:692][154]LogTemp: Warning: False
+[2018.06.15-09.49.27:719][155]LogTemp: Warning: False
+[2018.06.15-09.49.27:746][156]LogTemp: Warning: False
+[2018.06.15-09.49.27:772][157]LogTemp: Warning: False
+[2018.06.15-09.49.27:799][158]LogTemp: Warning: False
+[2018.06.15-09.49.27:825][159]LogTemp: Warning: False
+[2018.06.15-09.49.27:850][160]LogTemp: Warning: False
+[2018.06.15-09.49.27:876][161]LogTemp: Warning: False
+[2018.06.15-09.49.27:903][162]LogTemp: Warning: False
+[2018.06.15-09.49.27:930][163]LogTemp: Warning: False
+[2018.06.15-09.49.27:954][164]LogTemp: Warning: False
+[2018.06.15-09.49.27:982][165]LogTemp: Warning: False
+[2018.06.15-09.49.28:008][166]LogTemp: Warning: False
+[2018.06.15-09.49.28:034][167]LogTemp: Warning: False
+[2018.06.15-09.49.28:060][168]LogTemp: Warning: False
+[2018.06.15-09.49.28:086][169]LogTemp: Warning: False
+[2018.06.15-09.49.28:113][170]LogTemp: Warning: False
+[2018.06.15-09.49.28:139][171]LogTemp: Warning: False
+[2018.06.15-09.49.28:167][172]LogTemp: Warning: False
+[2018.06.15-09.49.28:191][173]LogTemp: Warning: False
+[2018.06.15-09.49.28:217][174]LogTemp: Warning: False
+[2018.06.15-09.49.28:243][175]LogTemp: Warning: False
+[2018.06.15-09.49.28:270][176]LogTemp: Warning: False
+[2018.06.15-09.49.28:297][177]LogTemp: Warning: False
+[2018.06.15-09.49.28:322][178]LogTemp: Warning: False
+[2018.06.15-09.49.28:347][179]LogTemp: Warning: False
+[2018.06.15-09.49.28:372][180]LogTemp: Warning: False
+[2018.06.15-09.49.28:400][181]LogTemp: Warning: False
+[2018.06.15-09.49.28:427][182]LogTemp: Warning: False
+[2018.06.15-09.49.28:452][183]LogTemp: Warning: False
+[2018.06.15-09.49.28:478][184]LogTemp: Warning: False
+[2018.06.15-09.49.28:504][185]LogTemp: Warning: False
+[2018.06.15-09.49.28:531][186]LogTemp: Warning: False
+[2018.06.15-09.49.28:559][187]LogTemp: Warning: False
+[2018.06.15-09.49.28:584][188]LogTemp: Warning: False
+[2018.06.15-09.49.28:610][189]LogTemp: Warning: False
+[2018.06.15-09.49.28:637][190]LogTemp: Warning: False
+[2018.06.15-09.49.28:661][191]LogTemp: Warning: False
+[2018.06.15-09.49.28:687][192]LogTemp: Warning: False
+[2018.06.15-09.49.28:712][193]LogTemp: Warning: False
+[2018.06.15-09.49.28:738][194]LogTemp: Warning: False
+[2018.06.15-09.49.28:766][195]LogTemp: Warning: False
+[2018.06.15-09.49.28:790][196]LogTemp: Warning: False
+[2018.06.15-09.49.28:815][197]LogTemp: Warning: False
+[2018.06.15-09.49.28:839][198]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.49.28:840][198]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.49.28:842][198]LogTemp: Warning: True
+[2018.06.15-09.49.28:868][199]LogTemp: Warning: True
+[2018.06.15-09.49.28:891][200]LogTemp: Warning: True
+[2018.06.15-09.49.28:920][201]LogTemp: Warning: True
+[2018.06.15-09.49.28:946][202]LogTemp: Warning: True
+[2018.06.15-09.49.28:973][203]LogTemp: Warning: True
+[2018.06.15-09.49.28:999][204]LogTemp: Warning: True
+[2018.06.15-09.49.29:023][205]LogTemp: Warning: True
+[2018.06.15-09.49.29:049][206]LogTemp: Warning: True
+[2018.06.15-09.49.29:076][207]LogTemp: Warning: True
+[2018.06.15-09.49.29:102][208]LogTemp: Warning: True
+[2018.06.15-09.49.29:128][209]LogTemp: Warning: True
+[2018.06.15-09.49.29:157][210]LogTemp: Warning: True
+[2018.06.15-09.49.29:183][211]LogTemp: Warning: True
+[2018.06.15-09.49.29:210][212]LogTemp: Warning: True
+[2018.06.15-09.49.29:234][213]LogTemp: Warning: True
+[2018.06.15-09.49.29:260][214]LogTemp: Warning: True
+[2018.06.15-09.49.29:288][215]LogTemp: Warning: True
+[2018.06.15-09.49.29:315][216]LogTemp: Warning: True
+[2018.06.15-09.49.29:342][217]LogTemp: Warning: True
+[2018.06.15-09.49.29:367][218]LogTemp: Warning: True
+[2018.06.15-09.49.29:398][219]LogTemp: Warning: True
+[2018.06.15-09.49.29:424][220]LogTemp: Warning: True
+[2018.06.15-09.49.29:451][221]LogTemp: Warning: True
+[2018.06.15-09.49.29:477][222]LogTemp: Warning: True
+[2018.06.15-09.49.29:506][223]LogTemp: Warning: True
+[2018.06.15-09.49.29:532][224]LogTemp: Warning: True
+[2018.06.15-09.49.29:558][225]LogTemp: Warning: True
+[2018.06.15-09.49.29:587][226]LogTemp: Warning: True
+[2018.06.15-09.49.29:614][227]LogTemp: Warning: True
+[2018.06.15-09.49.29:639][228]LogTemp: Warning: True
+[2018.06.15-09.49.29:667][229]LogTemp: Warning: True
+[2018.06.15-09.49.29:694][230]LogTemp: Warning: True
+[2018.06.15-09.49.29:721][231]LogTemp: Warning: True
+[2018.06.15-09.49.29:748][232]LogTemp: Warning: True
+[2018.06.15-09.49.29:775][233]LogTemp: Warning: True
+[2018.06.15-09.49.29:802][234]LogTemp: Warning: True
+[2018.06.15-09.49.29:828][235]LogTemp: Warning: True
+[2018.06.15-09.49.29:856][236]LogTemp: Warning: True
+[2018.06.15-09.49.29:882][237]LogTemp: Warning: True
+[2018.06.15-09.49.29:909][238]LogTemp: Warning: True
+[2018.06.15-09.49.29:937][239]LogTemp: Warning: True
+[2018.06.15-09.49.29:964][240]LogTemp: Warning: False
+[2018.06.15-09.49.29:993][241]LogTemp: Warning: False
+[2018.06.15-09.49.30:021][242]LogTemp: Warning: False
+[2018.06.15-09.49.30:047][243]LogTemp: Warning: False
+[2018.06.15-09.49.30:072][244]LogTemp: Warning: False
+[2018.06.15-09.49.30:099][245]LogTemp: Warning: False
+[2018.06.15-09.49.30:126][246]LogTemp: Warning: False
+[2018.06.15-09.49.30:154][247]LogTemp: Warning: False
+[2018.06.15-09.49.30:181][248]LogTemp: Warning: False
+[2018.06.15-09.49.30:208][249]LogTemp: Warning: False
+[2018.06.15-09.49.30:237][250]LogTemp: Warning: False
+[2018.06.15-09.49.30:261][251]LogTemp: Warning: False
+[2018.06.15-09.49.30:289][252]LogTemp: Warning: False
+[2018.06.15-09.49.30:315][253]LogTemp: Warning: False
+[2018.06.15-09.49.30:341][254]LogTemp: Warning: False
+[2018.06.15-09.49.30:369][255]LogTemp: Warning: False
+[2018.06.15-09.49.30:398][256]LogTemp: Warning: False
+[2018.06.15-09.49.30:423][257]LogTemp: Warning: False
+[2018.06.15-09.49.30:453][258]LogTemp: Warning: False
+[2018.06.15-09.49.30:478][259]LogTemp: Warning: False
+[2018.06.15-09.49.30:506][260]LogTemp: Warning: False
+[2018.06.15-09.49.30:532][261]LogTemp: Warning: False
+[2018.06.15-09.49.30:559][262]LogTemp: Warning: False
+[2018.06.15-09.49.30:586][263]LogTemp: Warning: False
+[2018.06.15-09.49.30:614][264]LogTemp: Warning: False
+[2018.06.15-09.49.30:641][265]LogTemp: Warning: False
+[2018.06.15-09.49.30:669][266]LogTemp: Warning: False
+[2018.06.15-09.49.30:693][267]LogTemp: Warning: False
+[2018.06.15-09.49.30:721][268]LogTemp: Warning: False
+[2018.06.15-09.49.30:749][269]LogTemp: Warning: False
+[2018.06.15-09.49.30:774][270]LogTemp: Warning: False
+[2018.06.15-09.49.30:800][271]LogTemp: Warning: False
+[2018.06.15-09.49.30:827][272]LogTemp: Warning: False
+[2018.06.15-09.49.30:854][273]LogTemp: Warning: False
+[2018.06.15-09.49.30:882][274]LogTemp: Warning: False
+[2018.06.15-09.49.30:910][275]LogTemp: Warning: False
+[2018.06.15-09.49.30:938][276]LogTemp: Warning: False
+[2018.06.15-09.49.30:964][277]LogTemp: Warning: False
+[2018.06.15-09.49.30:992][278]LogTemp: Warning: False
+[2018.06.15-09.49.31:020][279]LogTemp: Warning: False
+[2018.06.15-09.49.31:045][280]LogTemp: Warning: False
+[2018.06.15-09.49.31:071][281]LogTemp: Warning: False
+[2018.06.15-09.49.31:098][282]LogTemp: Warning: False
+[2018.06.15-09.49.31:124][283]LogTemp: Warning: False
+[2018.06.15-09.49.31:151][284]LogTemp: Warning: False
+[2018.06.15-09.49.31:178][285]LogTemp: Warning: False
+[2018.06.15-09.49.31:205][286]LogTemp: Warning: False
+[2018.06.15-09.49.31:232][287]LogTemp: Warning: False
+[2018.06.15-09.49.31:258][288]LogTemp: Warning: False
+[2018.06.15-09.49.31:288][289]LogTemp: Warning: False
+[2018.06.15-09.49.31:311][290]LogTemp: Warning: False
+[2018.06.15-09.49.31:338][291]LogTemp: Warning: False
+[2018.06.15-09.49.31:365][292]LogTemp: Warning: False
+[2018.06.15-09.49.31:392][293]LogTemp: Warning: False
+[2018.06.15-09.49.31:421][294]LogTemp: Warning: False
+[2018.06.15-09.49.31:447][295]LogTemp: Warning: False
+[2018.06.15-09.49.31:474][296]LogTemp: Warning: False
+[2018.06.15-09.49.31:499][297]LogTemp: Warning: False
+[2018.06.15-09.49.31:526][298]LogTemp: Warning: False
+[2018.06.15-09.49.31:553][299]LogTemp: Warning: False
+[2018.06.15-09.49.31:580][300]LogTemp: Warning: False
+[2018.06.15-09.49.31:607][301]LogTemp: Warning: False
+[2018.06.15-09.49.31:634][302]LogTemp: Warning: False
+[2018.06.15-09.49.31:662][303]LogTemp: Warning: False
+[2018.06.15-09.49.31:689][304]LogTemp: Warning: False
+[2018.06.15-09.49.31:716][305]LogTemp: Warning: False
+[2018.06.15-09.49.31:744][306]LogTemp: Warning: False
+[2018.06.15-09.49.31:768][307]LogTemp: Warning: False
+[2018.06.15-09.49.31:797][308]LogTemp: Warning: False
+[2018.06.15-09.49.31:822][309]LogTemp: Warning: False
+[2018.06.15-09.49.31:850][310]LogTemp: Warning: False
+[2018.06.15-09.49.31:876][311]LogTemp: Warning: False
+[2018.06.15-09.49.31:904][312]LogTemp: Warning: False
+[2018.06.15-09.49.31:931][313]LogTemp: Warning: False
+[2018.06.15-09.49.31:960][314]LogTemp: Warning: False
+[2018.06.15-09.49.31:985][315]LogTemp: Warning: False
+[2018.06.15-09.49.32:012][316]LogTemp: Warning: False
+[2018.06.15-09.49.32:039][317]LogTemp: Warning: False
+[2018.06.15-09.49.32:067][318]LogTemp: Warning: False
+[2018.06.15-09.49.32:093][319]LogTemp: Warning: False
+[2018.06.15-09.49.32:122][320]LogTemp: Warning: False
+[2018.06.15-09.49.33:669][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorVent)
+[2018.06.15-09.49.35:324][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.15-09.49.41:691][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.15-09.49.42:042][639]LogSavePackage: Save=327.43ms
+[2018.06.15-09.49.42:043][639]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Level1A79A7A8445749CBA55B568AFBF7123E4.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap'
+[2018.06.15-09.49.42:047][639]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap
+[2018.06.15-09.49.42:088][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1_BuiltData" FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1_BuiltData.uasset" SILENT=true
+[2018.06.15-09.49.42:436][639]LogSavePackage: Save=337.49ms
+[2018.06.15-09.49.42:437][639]LogSavePackage: Moving '../../../../../SpareTime/Unreal/FPS/FPS/Saved/Level1_BuiltDataB1B7970E487C33F3062F669C4D4EB223.tmp' to '../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1_BuiltData.uasset'
+[2018.06.15-09.49.42:439][639]LogSavePackage: Display: Finished SavePackage ../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1_BuiltData.uasset
+[2018.06.15-09.49.43:001][657]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.15-09.49.43:023][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.15-09.49.43:024][657]PIE: New page: PIE session: Level1 (Jun 15, 2018, 1:49:43 PM)
+[2018.06.15-09.49.43:024][657]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.15-09.49.43:043][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018884s)
+[2018.06.15-09.49.43:045][657]LogAIModule: Creating AISystem for world Level1
+[2018.06.15-09.49.43:046][657]LogPlayLevel: PIE: World Init took: (0.001803s)
+[2018.06.15-09.49.43:046][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.022264s)
+[2018.06.15-09.49.43:066][657]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.15-09.49.43:107][657]LogInit: FAudioDevice initialized.
+[2018.06.15-09.49.43:150][657]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.15-09.49.43:163][657]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.06.15-11.49.43
+[2018.06.15-09.49.43:165][657]LogWorld: Bringing up level for play took: 0.013417
+[2018.06.15-09.49.43:168][657]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.69
+[2018.06.15-09.49.43:169][657]LogTemp: Warning: False
+[2018.06.15-09.49.43:234][658]LogTemp: Warning: False
+[2018.06.15-09.49.43:250][659]LogTemp: Warning: False
+[2018.06.15-09.49.43:275][660]LogTemp: Warning: False
+[2018.06.15-09.49.43:302][661]LogTemp: Warning: False
+[2018.06.15-09.49.43:326][662]LogTemp: Warning: False
+[2018.06.15-09.49.43:350][663]LogTemp: Warning: False
+[2018.06.15-09.49.43:374][664]LogTemp: Warning: False
+[2018.06.15-09.49.43:399][665]LogTemp: Warning: False
+[2018.06.15-09.49.43:421][666]LogTemp: Warning: False
+[2018.06.15-09.49.43:444][667]LogTemp: Warning: False
+[2018.06.15-09.49.43:469][668]LogTemp: Warning: False
+[2018.06.15-09.49.43:492][669]LogTemp: Warning: False
+[2018.06.15-09.49.43:516][670]LogTemp: Warning: False
+[2018.06.15-09.49.43:542][671]LogTemp: Warning: False
+[2018.06.15-09.49.43:569][672]LogTemp: Warning: False
+[2018.06.15-09.49.43:612][673]LogTemp: Warning: False
+[2018.06.15-09.49.43:626][674]LogTemp: Warning: False
+[2018.06.15-09.49.43:644][675]LogTemp: Warning: False
+[2018.06.15-09.49.43:661][676]LogTemp: Warning: False
+[2018.06.15-09.49.43:682][677]LogTemp: Warning: False
+[2018.06.15-09.49.43:709][678]LogTemp: Warning: False
+[2018.06.15-09.49.43:733][679]LogTemp: Warning: False
+[2018.06.15-09.49.43:755][680]LogTemp: Warning: False
+[2018.06.15-09.49.43:781][681]LogTemp: Warning: False
+[2018.06.15-09.49.43:805][682]LogTemp: Warning: False
+[2018.06.15-09.49.43:832][683]LogTemp: Warning: False
+[2018.06.15-09.49.43:855][684]LogTemp: Warning: False
+[2018.06.15-09.49.43:881][685]LogTemp: Warning: False
+[2018.06.15-09.49.43:907][686]LogTemp: Warning: False
+[2018.06.15-09.49.43:932][687]LogTemp: Warning: False
+[2018.06.15-09.49.43:959][688]LogTemp: Warning: False
+[2018.06.15-09.49.43:980][689]LogTemp: Warning: False
+[2018.06.15-09.49.44:005][690]LogTemp: Warning: False
+[2018.06.15-09.49.44:030][691]LogTemp: Warning: False
+[2018.06.15-09.49.44:054][692]LogTemp: Warning: False
+[2018.06.15-09.49.44:077][693]LogTemp: Warning: False
+[2018.06.15-09.49.44:101][694]LogTemp: Warning: False
+[2018.06.15-09.49.44:126][695]LogTemp: Warning: False
+[2018.06.15-09.49.44:153][696]LogTemp: Warning: False
+[2018.06.15-09.49.44:177][697]LogTemp: Warning: False
+[2018.06.15-09.49.44:199][698]LogTemp: Warning: False
+[2018.06.15-09.49.44:223][699]LogTemp: Warning: False
+[2018.06.15-09.49.44:248][700]LogTemp: Warning: False
+[2018.06.15-09.49.44:273][701]LogTemp: Warning: False
+[2018.06.15-09.49.44:296][702]LogTemp: Warning: False
+[2018.06.15-09.49.44:319][703]LogTemp: Warning: False
+[2018.06.15-09.49.44:343][704]LogTemp: Warning: False
+[2018.06.15-09.49.44:370][705]LogTemp: Warning: False
+[2018.06.15-09.49.44:399][706]LogTemp: Warning: False
+[2018.06.15-09.49.44:425][707]LogTemp: Warning: False
+[2018.06.15-09.49.44:450][708]LogTemp: Warning: False
+[2018.06.15-09.49.44:478][709]LogTemp: Warning: False
+[2018.06.15-09.49.44:503][710]LogTemp: Warning: False
+[2018.06.15-09.49.44:530][711]LogTemp: Warning: False
+[2018.06.15-09.49.44:556][712]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.49.44:557][712]LogTemp: Warning: Actor: SM_DoorVent_10
+[2018.06.15-09.49.44:559][712]LogTemp: Warning: True
+[2018.06.15-09.49.44:585][713]LogTemp: Warning: True
+[2018.06.15-09.49.44:610][714]LogTemp: Warning: True
+[2018.06.15-09.49.44:637][715]LogTemp: Warning: True
+[2018.06.15-09.49.44:663][716]LogTemp: Warning: True
+[2018.06.15-09.49.44:690][717]LogTemp: Warning: True
+[2018.06.15-09.49.44:717][718]LogTemp: Warning: True
+[2018.06.15-09.49.44:745][719]LogTemp: Warning: True
+[2018.06.15-09.49.44:769][720]LogTemp: Warning: True
+[2018.06.15-09.49.44:796][721]LogTemp: Warning: True
+[2018.06.15-09.49.44:823][722]LogTemp: Warning: True
+[2018.06.15-09.49.44:849][723]LogTemp: Warning: True
+[2018.06.15-09.49.44:876][724]LogTemp: Warning: True
+[2018.06.15-09.49.44:903][725]LogTemp: Warning: True
+[2018.06.15-09.49.44:931][726]LogTemp: Warning: True
+[2018.06.15-09.49.44:958][727]LogTemp: Warning: True
+[2018.06.15-09.49.44:983][728]LogTemp: Warning: True
+[2018.06.15-09.49.45:011][729]LogTemp: Warning: True
+[2018.06.15-09.49.45:038][730]LogTemp: Warning: True
+[2018.06.15-09.49.45:064][731]LogTemp: Warning: True
+[2018.06.15-09.49.45:092][732]LogTemp: Warning: True
+[2018.06.15-09.49.45:117][733]LogTemp: Warning: True
+[2018.06.15-09.49.45:147][734]LogTemp: Warning: True
+[2018.06.15-09.49.45:172][735]LogTemp: Warning: True
+[2018.06.15-09.49.45:198][736]LogTemp: Warning: True
+[2018.06.15-09.49.45:224][737]LogTemp: Warning: True
+[2018.06.15-09.49.45:249][738]LogTemp: Warning: True
+[2018.06.15-09.49.45:277][739]LogTemp: Warning: True
+[2018.06.15-09.49.45:304][740]LogTemp: Warning: True
+[2018.06.15-09.49.45:330][741]LogTemp: Warning: True
+[2018.06.15-09.49.45:357][742]LogTemp: Warning: True
+[2018.06.15-09.49.45:384][743]LogTemp: Warning: True
+[2018.06.15-09.49.45:411][744]LogTemp: Warning: True
+[2018.06.15-09.49.45:438][745]LogTemp: Warning: True
+[2018.06.15-09.49.45:464][746]LogTemp: Warning: True
+[2018.06.15-09.49.45:491][747]LogTemp: Warning: True
+[2018.06.15-09.49.45:518][748]LogTemp: Warning: True
+[2018.06.15-09.49.45:545][749]LogTemp: Warning: True
+[2018.06.15-09.49.45:570][750]LogTemp: Warning: True
+[2018.06.15-09.49.45:597][751]LogTemp: Warning: True
+[2018.06.15-09.49.45:624][752]LogTemp: Warning: True
+[2018.06.15-09.49.45:651][753]LogTemp: Warning: True
+[2018.06.15-09.49.45:677][754]LogTemp: Warning: False
+[2018.06.15-09.49.45:703][755]LogTemp: Warning: False
+[2018.06.15-09.49.45:731][756]LogTemp: Warning: False
+[2018.06.15-09.49.45:758][757]LogTemp: Warning: False
+[2018.06.15-09.49.45:783][758]LogTemp: Warning: False
+[2018.06.15-09.49.45:812][759]LogTemp: Warning: False
+[2018.06.15-09.49.45:838][760]LogTemp: Warning: False
+[2018.06.15-09.49.45:865][761]LogTemp: Warning: False
+[2018.06.15-09.49.45:892][762]LogTemp: Warning: False
+[2018.06.15-09.49.45:919][763]LogTemp: Warning: False
+[2018.06.15-09.49.45:947][764]LogTemp: Warning: False
+[2018.06.15-09.49.45:975][765]LogTemp: Warning: False
+[2018.06.15-09.49.46:002][766]LogTemp: Warning: False
+[2018.06.15-09.49.46:027][767]LogTemp: Warning: False
+[2018.06.15-09.49.46:055][768]LogTemp: Warning: False
+[2018.06.15-09.49.46:081][769]LogTemp: Warning: False
+[2018.06.15-09.49.46:109][770]LogTemp: Warning: False
+[2018.06.15-09.49.46:136][771]LogTemp: Warning: False
+[2018.06.15-09.49.46:164][772]LogTemp: Warning: False
+[2018.06.15-09.49.46:189][773]LogTemp: Warning: False
+[2018.06.15-09.49.46:218][774]LogTemp: Warning: False
+[2018.06.15-09.49.46:241][775]LogTemp: Warning: False
+[2018.06.15-09.49.46:268][776]LogTemp: Warning: False
+[2018.06.15-09.49.46:295][777]LogTemp: Warning: False
+[2018.06.15-09.49.46:321][778]LogTemp: Warning: False
+[2018.06.15-09.49.46:347][779]LogTemp: Warning: False
+[2018.06.15-09.49.46:373][780]LogTemp: Warning: False
+[2018.06.15-09.49.46:400][781]LogTemp: Warning: False
+[2018.06.15-09.49.46:427][782]LogTemp: Warning: False
+[2018.06.15-09.49.46:453][783]LogTemp: Warning: False
+[2018.06.15-09.49.46:480][784]LogTemp: Warning: False
+[2018.06.15-09.49.46:507][785]LogTemp: Warning: False
+[2018.06.15-09.49.46:535][786]LogTemp: Warning: False
+[2018.06.15-09.49.46:562][787]LogTemp: Warning: False
+[2018.06.15-09.49.46:588][788]LogTemp: Warning: False
+[2018.06.15-09.49.46:616][789]LogTemp: Warning: False
+[2018.06.15-09.49.46:642][790]LogTemp: Warning: False
+[2018.06.15-09.49.46:668][791]LogTemp: Warning: False
+[2018.06.15-09.49.46:694][792]LogTemp: Warning: False
+[2018.06.15-09.49.46:720][793]LogTemp: Warning: False
+[2018.06.15-09.49.46:746][794]LogTemp: Warning: False
+[2018.06.15-09.49.46:774][795]LogTemp: Warning: False
+[2018.06.15-09.49.46:802][796]LogTemp: Warning: False
+[2018.06.15-09.49.46:827][797]LogTemp: Warning: False
+[2018.06.15-09.49.46:853][798]LogTemp: Warning: False
+[2018.06.15-09.49.46:880][799]LogTemp: Warning: False
+[2018.06.15-09.49.46:909][800]LogTemp: Warning: False
+[2018.06.15-09.49.46:935][801]LogTemp: Warning: False
+[2018.06.15-09.49.46:964][802]LogTemp: Warning: False
+[2018.06.15-09.49.46:990][803]LogTemp: Warning: False
+[2018.06.15-09.49.47:016][804]LogTemp: Warning: False
+[2018.06.15-09.49.47:042][805]LogTemp: Warning: False
+[2018.06.15-09.49.47:068][806]LogTemp: Warning: False
+[2018.06.15-09.49.47:095][807]LogTemp: Warning: False
+[2018.06.15-09.49.47:123][808]LogTemp: Warning: False
+[2018.06.15-09.49.47:150][809]LogTemp: Warning: False
+[2018.06.15-09.49.47:177][810]LogTemp: Warning: False
+[2018.06.15-09.49.47:202][811]LogTemp: Warning: False
+[2018.06.15-09.49.47:228][812]LogTemp: Warning: False
+[2018.06.15-09.49.47:258][813]LogTemp: Warning: False
+[2018.06.15-09.49.47:284][814]LogTemp: Warning: False
+[2018.06.15-09.49.47:308][815]LogTemp: Warning: False
+[2018.06.15-09.49.47:337][816]LogTemp: Warning: False
+[2018.06.15-09.49.47:363][817]LogTemp: Warning: False
+[2018.06.15-09.49.47:390][818]LogTemp: Warning: False
+[2018.06.15-09.49.47:417][819]LogTemp: Warning: False
+[2018.06.15-09.49.47:444][820]LogTemp: Warning: False
+[2018.06.15-09.49.47:471][821]LogTemp: Warning: False
+[2018.06.15-09.49.47:496][822]LogTemp: Warning: False
+[2018.06.15-09.49.47:523][823]LogTemp: Warning: False
+[2018.06.15-09.49.47:550][824]LogTemp: Warning: False
+[2018.06.15-09.49.47:576][825]LogTemp: Warning: False
+[2018.06.15-09.49.47:603][826]LogTemp: Warning: False
+[2018.06.15-09.49.47:629][827]LogTemp: Warning: False
+[2018.06.15-09.49.47:658][828]LogTemp: Warning: False
+[2018.06.15-09.49.47:683][829]LogTemp: Warning: False
+[2018.06.15-09.49.47:711][830]LogTemp: Warning: False
+[2018.06.15-09.49.47:738][831]LogTemp: Warning: False
+[2018.06.15-09.49.47:765][832]LogTemp: Warning: False
+[2018.06.15-09.49.47:794][833]LogTemp: Warning: False
+[2018.06.15-09.49.47:818][834]LogTemp: Warning: False
+[2018.06.15-09.49.47:846][835]LogTemp: Warning: False
+[2018.06.15-09.49.47:873][836]LogTemp: Warning: False
+[2018.06.15-09.49.47:901][837]LogTemp: Warning: False
+[2018.06.15-09.49.47:932][838]LogTemp: Warning: False
+[2018.06.15-09.49.47:959][839]LogTemp: Warning: False
+[2018.06.15-09.49.47:986][840]LogTemp: Warning: False
+[2018.06.15-09.49.48:013][841]LogTemp: Warning: False
+[2018.06.15-09.49.48:041][842]LogTemp: Warning: False
+[2018.06.15-09.49.48:069][843]LogTemp: Warning: False
+[2018.06.15-09.49.48:097][844]LogTemp: Warning: False
+[2018.06.15-09.49.48:125][845]LogTemp: Warning: False
+[2018.06.15-09.49.48:154][846]LogTemp: Warning: False
+[2018.06.15-09.49.48:182][847]LogTemp: Warning: False
+[2018.06.15-09.49.48:211][848]LogTemp: Warning: False
+[2018.06.15-09.49.48:237][849]LogTemp: Warning: False
+[2018.06.15-09.49.48:267][850]LogTemp: Warning: False
+[2018.06.15-09.49.48:295][851]LogTemp: Warning: False
+[2018.06.15-09.49.48:324][852]LogTemp: Warning: False
+[2018.06.15-09.49.48:351][853]LogTemp: Warning: False
+[2018.06.15-09.49.48:378][854]LogTemp: Warning: False
+[2018.06.15-09.49.48:408][855]LogTemp: Warning: False
+[2018.06.15-09.49.48:434][856]LogTemp: Warning: False
+[2018.06.15-09.49.48:462][857]LogTemp: Warning: False
+[2018.06.15-09.49.48:488][858]LogTemp: Warning: False
+[2018.06.15-09.49.48:517][859]LogTemp: Warning: False
+[2018.06.15-09.49.48:545][860]LogTemp: Warning: False
+[2018.06.15-09.49.48:575][861]LogTemp: Warning: False
+[2018.06.15-09.49.48:601][862]LogTemp: Warning: False
+[2018.06.15-09.49.48:631][863]LogTemp: Warning: False
+[2018.06.15-09.49.48:663][864]LogTemp: Warning: False
+[2018.06.15-09.49.48:697][865]LogTemp: Warning: False
+[2018.06.15-09.49.48:727][866]LogTemp: Warning: False
+[2018.06.15-09.49.48:761][867]LogTemp: Warning: False
+[2018.06.15-09.49.48:792][868]LogTemp: Warning: False
+[2018.06.15-09.49.48:825][869]LogTemp: Warning: False
+[2018.06.15-09.49.48:856][870]LogTemp: Warning: False
+[2018.06.15-09.49.48:883][871]LogTemp: Warning: False
+[2018.06.15-09.49.48:915][872]LogTemp: Warning: False
+[2018.06.15-09.49.48:942][873]LogTemp: Warning: False
+[2018.06.15-09.49.48:974][874]LogTemp: Warning: False
+[2018.06.15-09.49.49:000][875]LogTemp: Warning: False
+[2018.06.15-09.49.49:031][876]LogTemp: Warning: False
+[2018.06.15-09.49.49:061][877]LogTemp: Warning: False
+[2018.06.15-09.49.49:093][878]LogTemp: Warning: False
+[2018.06.15-09.49.49:126][879]LogTemp: Warning: False
+[2018.06.15-09.49.49:158][880]LogTemp: Warning: False
+[2018.06.15-09.49.49:189][881]LogTemp: Warning: False
+[2018.06.15-09.49.49:219][882]LogTemp: Warning: False
+[2018.06.15-09.49.49:248][883]LogTemp: Warning: False
+[2018.06.15-09.49.49:278][884]LogTemp: Warning: False
+[2018.06.15-09.49.49:309][885]LogTemp: Warning: False
+[2018.06.15-09.49.49:342][886]LogTemp: Warning: False
+[2018.06.15-09.49.49:372][887]LogTemp: Warning: False
+[2018.06.15-09.49.49:401][888]LogTemp: Warning: False
+[2018.06.15-09.49.49:434][889]LogTemp: Warning: False
+[2018.06.15-09.49.49:464][890]LogTemp: Warning: False
+[2018.06.15-09.49.49:495][891]LogTemp: Warning: False
+[2018.06.15-09.49.49:526][892]LogTemp: Warning: False
+[2018.06.15-09.49.49:557][893]LogTemp: Warning: False
+[2018.06.15-09.49.49:587][894]LogTemp: Warning: False
+[2018.06.15-09.49.49:618][895]LogTemp: Warning: False
+[2018.06.15-09.49.49:648][896]LogTemp: Warning: False
+[2018.06.15-09.49.49:678][897]LogTemp: Warning: False
+[2018.06.15-09.49.49:710][898]LogTemp: Warning: False
+[2018.06.15-09.49.49:738][899]LogTemp: Warning: False
+[2018.06.15-09.49.49:769][900]LogTemp: Warning: False
+[2018.06.15-09.49.49:800][901]LogTemp: Warning: False
+[2018.06.15-09.49.49:829][902]LogTemp: Warning: False
+[2018.06.15-09.49.49:859][903]LogTemp: Warning: False
+[2018.06.15-09.49.49:892][904]LogTemp: Warning: False
+[2018.06.15-09.49.49:922][905]LogTemp: Warning: False
+[2018.06.15-09.49.49:951][906]LogTemp: Warning: False
+[2018.06.15-09.49.49:980][907]LogTemp: Warning: False
+[2018.06.15-09.49.50:009][908]LogTemp: Warning: False
+[2018.06.15-09.49.50:040][909]LogTemp: Warning: False
+[2018.06.15-09.49.50:071][910]LogTemp: Warning: False
+[2018.06.15-09.49.50:103][911]LogTemp: Warning: False
+[2018.06.15-09.49.50:132][912]LogTemp: Warning: False
+[2018.06.15-09.49.50:166][913]LogTemp: Warning: False
+[2018.06.15-09.49.50:194][914]LogTemp: Warning: False
+[2018.06.15-09.49.50:222][915]LogTemp: Warning: False
+[2018.06.15-09.49.50:252][916]LogTemp: Warning: False
+[2018.06.15-09.49.50:282][917]LogTemp: Warning: False
+[2018.06.15-09.49.50:312][918]LogTemp: Warning: False
+[2018.06.15-09.49.50:343][919]LogTemp: Warning: False
+[2018.06.15-09.49.50:373][920]LogTemp: Warning: False
+[2018.06.15-09.49.50:405][921]LogTemp: Warning: False
+[2018.06.15-09.49.50:436][922]LogTemp: Warning: False
+[2018.06.15-09.49.50:467][923]LogTemp: Warning: False
+[2018.06.15-09.49.50:495][924]LogTemp: Warning: False
+[2018.06.15-09.49.50:526][925]LogTemp: Warning: False
+[2018.06.15-09.49.50:556][926]LogTemp: Warning: False
+[2018.06.15-09.49.50:587][927]LogTemp: Warning: False
+[2018.06.15-09.49.50:616][928]LogTemp: Warning: False
+[2018.06.15-09.49.50:647][929]LogTemp: Warning: False
+[2018.06.15-09.49.50:677][930]LogTemp: Warning: False
+[2018.06.15-09.49.50:706][931]LogTemp: Warning: False
+[2018.06.15-09.49.50:738][932]LogTemp: Warning: False
+[2018.06.15-09.49.50:768][933]LogTemp: Warning: False
+[2018.06.15-09.49.50:797][934]LogTemp: Warning: False
+[2018.06.15-09.49.50:827][935]LogTemp: Warning: False
+[2018.06.15-09.49.50:859][936]LogTemp: Warning: False
+[2018.06.15-09.49.50:890][937]LogTemp: Warning: False
+[2018.06.15-09.49.50:921][938]LogTemp: Warning: False
+[2018.06.15-09.49.50:952][939]LogTemp: Warning: False
+[2018.06.15-09.49.50:982][940]LogTemp: Warning: False
+[2018.06.15-09.49.51:012][941]LogTemp: Warning: False
+[2018.06.15-09.49.51:042][942]LogTemp: Warning: False
+[2018.06.15-09.49.51:073][943]LogTemp: Warning: False
+[2018.06.15-09.49.51:103][944]LogTemp: Warning: False
+[2018.06.15-09.49.51:133][945]LogTemp: Warning: False
+[2018.06.15-09.49.51:163][946]LogTemp: Warning: False
+[2018.06.15-09.49.51:195][947]LogTemp: Warning: False
+[2018.06.15-09.49.51:224][948]LogTemp: Warning: False
+[2018.06.15-09.49.51:255][949]LogTemp: Warning: False
+[2018.06.15-09.49.51:283][950]LogTemp: Warning: False
+[2018.06.15-09.49.51:316][951]LogTemp: Warning: False
+[2018.06.15-09.49.51:348][952]LogTemp: Warning: False
+[2018.06.15-09.49.51:377][953]LogTemp: Warning: False
+[2018.06.15-09.49.51:410][954]LogTemp: Warning: False
+[2018.06.15-09.49.51:442][955]LogTemp: Warning: False
+[2018.06.15-09.49.51:476][956]LogTemp: Warning: False
+[2018.06.15-09.49.51:510][957]LogTemp: Warning: False
+[2018.06.15-09.49.51:545][958]LogTemp: Warning: False
+[2018.06.15-09.49.51:579][959]LogTemp: Warning: False
+[2018.06.15-09.49.51:614][960]LogTemp: Warning: False
+[2018.06.15-09.49.51:650][961]LogTemp: Warning: False
+[2018.06.15-09.49.51:686][962]LogTemp: Warning: False
+[2018.06.15-09.49.51:721][963]LogTemp: Warning: False
+[2018.06.15-09.49.51:756][964]LogTemp: Warning: False
+[2018.06.15-09.49.51:791][965]LogTemp: Warning: False
+[2018.06.15-09.49.51:828][966]LogTemp: Warning: False
+[2018.06.15-09.49.51:863][967]LogTemp: Warning: False
+[2018.06.15-09.49.51:899][968]LogTemp: Warning: False
+[2018.06.15-09.49.51:935][969]LogTemp: Warning: False
+[2018.06.15-09.49.51:972][970]LogTemp: Warning: False
+[2018.06.15-09.49.52:007][971]LogTemp: Warning: False
+[2018.06.15-09.49.52:041][972]LogTemp: Warning: False
+[2018.06.15-09.49.52:073][973]LogTemp: Warning: False
+[2018.06.15-09.49.52:108][974]LogTemp: Warning: False
+[2018.06.15-09.49.52:138][975]LogTemp: Warning: False
+[2018.06.15-09.49.52:171][976]LogTemp: Warning: False
+[2018.06.15-09.49.52:200][977]LogTemp: Warning: False
+[2018.06.15-09.49.52:230][978]LogTemp: Warning: False
+[2018.06.15-09.49.52:262][979]LogTemp: Warning: False
+[2018.06.15-09.49.52:290][980]LogTemp: Warning: False
+[2018.06.15-09.49.52:324][981]LogTemp: Warning: False
+[2018.06.15-09.49.52:353][982]LogTemp: Warning: False
+[2018.06.15-09.49.52:385][983]LogTemp: Warning: False
+[2018.06.15-09.49.52:416][984]LogTemp: Warning: False
+[2018.06.15-09.49.52:446][985]LogTemp: Warning: False
+[2018.06.15-09.49.52:478][986]LogTemp: Warning: False
+[2018.06.15-09.49.52:510][987]LogTemp: Warning: False
+[2018.06.15-09.49.52:542][988]LogTemp: Warning: False
+[2018.06.15-09.49.52:572][989]LogTemp: Warning: False
+[2018.06.15-09.49.52:602][990]LogTemp: Warning: False
+[2018.06.15-09.49.52:634][991]LogTemp: Warning: False
+[2018.06.15-09.49.52:665][992]LogTemp: Warning: False
+[2018.06.15-09.49.52:695][993]LogTemp: Warning: False
+[2018.06.15-09.49.52:726][994]LogTemp: Warning: False
+[2018.06.15-09.49.52:757][995]LogTemp: Warning: False
+[2018.06.15-09.49.52:788][996]LogTemp: Warning: False
+[2018.06.15-09.49.52:819][997]LogTemp: Warning: False
+[2018.06.15-09.49.52:850][998]LogTemp: Warning: False
+[2018.06.15-09.49.52:882][999]LogTemp: Warning: False
+[2018.06.15-09.49.52:916][  0]LogTemp: Warning: False
+[2018.06.15-09.49.52:948][  1]LogTemp: Warning: False
+[2018.06.15-09.49.52:981][  2]LogTemp: Warning: False
+[2018.06.15-09.49.53:014][  3]LogTemp: Warning: False
+[2018.06.15-09.49.53:044][  4]LogTemp: Warning: False
+[2018.06.15-09.49.53:075][  5]LogTemp: Warning: False
+[2018.06.15-09.49.53:108][  6]LogTemp: Warning: False
+[2018.06.15-09.49.53:140][  7]LogTemp: Warning: False
+[2018.06.15-09.49.53:172][  8]LogTemp: Warning: False
+[2018.06.15-09.49.53:204][  9]LogTemp: Warning: False
+[2018.06.15-09.49.53:237][ 10]LogTemp: Warning: False
+[2018.06.15-09.49.53:268][ 11]LogTemp: Warning: False
+[2018.06.15-09.49.53:304][ 12]LogTemp: Warning: False
+[2018.06.15-09.49.53:332][ 13]LogTemp: Warning: False
+[2018.06.15-09.49.53:365][ 14]LogTemp: Warning: False
+[2018.06.15-09.49.53:399][ 15]LogTemp: Warning: False
+[2018.06.15-09.49.53:430][ 16]LogTemp: Warning: False
+[2018.06.15-09.49.53:461][ 17]LogTemp: Warning: False
+[2018.06.15-09.49.53:496][ 18]LogTemp: Warning: False
+[2018.06.15-09.49.53:528][ 19]LogTemp: Warning: False
+[2018.06.15-09.49.53:560][ 20]LogTemp: Warning: False
+[2018.06.15-09.49.53:592][ 21]LogTemp: Warning: False
+[2018.06.15-09.49.53:623][ 22]LogTemp: Warning: False
+[2018.06.15-09.49.53:656][ 23]LogTemp: Warning: False
+[2018.06.15-09.49.53:689][ 24]LogTemp: Warning: False
+[2018.06.15-09.49.53:719][ 25]LogTemp: Warning: False
+[2018.06.15-09.49.53:751][ 26]LogTemp: Warning: False
+[2018.06.15-09.49.53:784][ 27]LogTemp: Warning: False
+[2018.06.15-09.49.53:815][ 28]LogTemp: Warning: False
+[2018.06.15-09.49.53:846][ 29]LogTemp: Warning: False
+[2018.06.15-09.49.53:879][ 30]LogTemp: Warning: False
+[2018.06.15-09.49.53:911][ 31]LogTemp: Warning: False
+[2018.06.15-09.49.53:944][ 32]LogTemp: Warning: False
+[2018.06.15-09.49.53:975][ 33]LogTemp: Warning: False
+[2018.06.15-09.49.54:006][ 34]LogTemp: Warning: False
+[2018.06.15-09.49.54:037][ 35]LogTemp: Warning: False
+[2018.06.15-09.49.54:066][ 36]LogTemp: Warning: False
+[2018.06.15-09.49.54:099][ 37]LogTemp: Warning: False
+[2018.06.15-09.49.54:128][ 38]LogTemp: Warning: False
+[2018.06.15-09.49.54:161][ 39]LogTemp: Warning: False
+[2018.06.15-09.49.54:190][ 40]LogTemp: Warning: False
+[2018.06.15-09.49.54:220][ 41]LogTemp: Warning: False
+[2018.06.15-09.49.54:251][ 42]LogTemp: Warning: False
+[2018.06.15-09.49.54:282][ 43]LogTemp: Warning: False
+[2018.06.15-09.49.54:313][ 44]LogTemp: Warning: False
+[2018.06.15-09.49.54:343][ 45]LogTemp: Warning: False
+[2018.06.15-09.49.54:374][ 46]LogTemp: Warning: False
+[2018.06.15-09.49.54:404][ 47]LogTemp: Warning: False
+[2018.06.15-09.49.54:438][ 48]LogTemp: Warning: False
+[2018.06.15-09.49.54:468][ 49]LogTemp: Warning: False
+[2018.06.15-09.49.54:498][ 50]LogTemp: Warning: False
+[2018.06.15-09.49.54:529][ 51]LogTemp: Warning: False
+[2018.06.15-09.49.54:560][ 52]LogTemp: Warning: False
+[2018.06.15-09.49.54:592][ 53]LogTemp: Warning: False
+[2018.06.15-09.49.54:622][ 54]LogTemp: Warning: False
+[2018.06.15-09.49.54:654][ 55]LogTemp: Warning: False
+[2018.06.15-09.49.54:686][ 56]LogTemp: Warning: False
+[2018.06.15-09.49.54:717][ 57]LogTemp: Warning: False
+[2018.06.15-09.49.54:749][ 58]LogTemp: Warning: False
+[2018.06.15-09.49.54:779][ 59]LogTemp: Warning: False
+[2018.06.15-09.49.54:811][ 60]LogTemp: Warning: False
+[2018.06.15-09.49.54:842][ 61]LogTemp: Warning: False
+[2018.06.15-09.49.54:873][ 62]LogTemp: Warning: False
+[2018.06.15-09.49.54:905][ 63]LogTemp: Warning: False
+[2018.06.15-09.49.54:937][ 64]LogTemp: Warning: False
+[2018.06.15-09.49.54:970][ 65]LogTemp: Warning: False
+[2018.06.15-09.49.55:001][ 66]LogTemp: Warning: False
+[2018.06.15-09.49.55:032][ 67]LogTemp: Warning: False
+[2018.06.15-09.49.55:064][ 68]LogTemp: Warning: False
+[2018.06.15-09.49.55:095][ 69]LogTemp: Warning: False
+[2018.06.15-09.49.55:126][ 70]LogTemp: Warning: False
+[2018.06.15-09.49.55:159][ 71]LogTemp: Warning: False
+[2018.06.15-09.49.55:191][ 72]LogTemp: Warning: False
+[2018.06.15-09.49.55:221][ 73]LogTemp: Warning: False
+[2018.06.15-09.49.55:253][ 74]LogTemp: Warning: False
+[2018.06.15-09.49.55:285][ 75]LogTemp: Warning: False
+[2018.06.15-09.49.55:318][ 76]LogTemp: Warning: False
+[2018.06.15-09.49.55:348][ 77]LogTemp: Warning: False
+[2018.06.15-09.49.55:380][ 78]LogTemp: Warning: False
+[2018.06.15-09.49.55:414][ 79]LogTemp: Warning: False
+[2018.06.15-09.49.55:444][ 80]LogTemp: Warning: False
+[2018.06.15-09.49.55:475][ 81]LogTemp: Warning: False
+[2018.06.15-09.49.55:508][ 82]LogTemp: Warning: False
+[2018.06.15-09.49.55:540][ 83]LogTemp: Warning: False
+[2018.06.15-09.49.55:571][ 84]LogTemp: Warning: False
+[2018.06.15-09.49.55:600][ 85]LogTemp: Warning: False
+[2018.06.15-09.49.55:631][ 86]LogTemp: Warning: False
+[2018.06.15-09.49.55:664][ 87]LogTemp: Warning: False
+[2018.06.15-09.49.55:694][ 88]LogTemp: Warning: False
+[2018.06.15-09.49.55:726][ 89]LogTemp: Warning: False
+[2018.06.15-09.49.55:757][ 90]LogTemp: Warning: False
+[2018.06.15-09.49.55:788][ 91]LogTemp: Warning: False
+[2018.06.15-09.49.55:820][ 92]LogTemp: Warning: False
+[2018.06.15-09.49.55:853][ 93]LogTemp: Warning: False
+[2018.06.15-09.49.55:880][ 94]LogTemp: Warning: False
+[2018.06.15-09.49.55:914][ 95]LogTemp: Warning: False
+[2018.06.15-09.49.55:943][ 96]LogTemp: Warning: False
+[2018.06.15-09.49.55:976][ 97]LogTemp: Warning: False
+[2018.06.15-09.49.56:007][ 98]LogTemp: Warning: False
+[2018.06.15-09.49.56:037][ 99]LogTemp: Warning: False
+[2018.06.15-09.49.56:070][100]LogTemp: Warning: False
+[2018.06.15-09.49.56:100][101]LogTemp: Warning: False
+[2018.06.15-09.49.56:133][102]LogTemp: Warning: False
+[2018.06.15-09.49.56:164][103]LogTemp: Warning: False
+[2018.06.15-09.49.56:194][104]LogTemp: Warning: False
+[2018.06.15-09.49.56:226][105]LogTemp: Warning: False
+[2018.06.15-09.49.56:257][106]LogTemp: Warning: False
+[2018.06.15-09.49.56:289][107]LogTemp: Warning: False
+[2018.06.15-09.49.56:321][108]LogTemp: Warning: False
+[2018.06.15-09.49.56:353][109]LogTemp: Warning: False
+[2018.06.15-09.49.56:384][110]LogTemp: Warning: False
+[2018.06.15-09.49.56:415][111]LogTemp: Warning: False
+[2018.06.15-09.49.56:449][112]LogTemp: Warning: False
+[2018.06.15-09.49.56:480][113]LogTemp: Warning: False
+[2018.06.15-09.49.56:513][114]LogTemp: Warning: False
+[2018.06.15-09.49.56:542][115]LogTemp: Warning: False
+[2018.06.15-09.49.56:575][116]LogTemp: Warning: False
+[2018.06.15-09.49.56:606][117]LogTemp: Warning: False
+[2018.06.15-09.49.56:637][118]LogTemp: Warning: False
+[2018.06.15-09.49.56:671][119]LogTemp: Warning: False
+[2018.06.15-09.50.01:279][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.06.15-09.50.02:500][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.06.15-09.50.03:751][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.15-09.50.03:920][355]LogSlate: Window 'FPS - Unreal Editor' being destroyed
+[2018.06.15-09.50.03:921][355]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.15-09.50.04:250][356]Cmd: QUIT_EDITOR
+[2018.06.15-09.50.05:084][356]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.06.15-09.50.05:085][356]LogExit: Preparing to exit.
+[2018.06.15-09.50.06:036][356]LogDirectoryWatcher: A directory notification for 'D:/SpareTime/Unreal/FPS/FPS/Content/' was aborted.
+[2018.06.15-09.50.06:065][356]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7e0665710, Size=80
+[2018.06.15-09.50.06:069][356]LogExit: Editor shut down
+[2018.06.15-09.50.06:074][356]LogExit: Transaction tracking system shut down
+[2018.06.15-09.50.06:076][356]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7ed65de00, Size=128
+[2018.06.15-09.50.06:076][356]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c7cc364e20, Size=104
+[2018.06.15-09.50.06:268][356]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.06.15-09.50.06:268][356]LogDirectoryWatcher: A directory notification for '../../../../../SpareTime/Unreal/FPS/FPS/Content/' was aborted.
+[2018.06.15-09.50.06:268][356]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.06.15-09.50.06:269][356]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.06.15-09.50.06:269][356]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.06.15-09.50.06:269][356]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.06.15-09.50.06:269][356]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.06.15-09.50.06:269][356]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.06.15-09.50.06:461][356]LogExit: Object subsystem successfully closed.
+[2018.06.15-09.50.06:525][356]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.06.15-09.50.06:531][356]LogD3D11RHI: Shutdown
+[2018.06.15-09.50.06:531][356]LogD3D11RHI: CleanupD3DDevice
+[2018.06.15-09.50.06:535][356]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.06.15-09.50.06:595][356]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (582)
+[2018.06.15-09.50.06:596][356]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (580)
+[2018.06.15-09.50.06:596][356]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (578)
+[2018.06.15-09.50.06:596][356]LogModuleManager: Shutting down and abandoning module DesktopPlatform (576)
+[2018.06.15-09.50.06:596][356]LogModuleManager: Shutting down and abandoning module AddContentDialog (574)
+[2018.06.15-09.50.06:598][356]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.06.15-09.50.06:599][356]LogModuleManager: Shutting down and abandoning module WidgetCarousel (573)
+[2018.06.15-09.50.06:600][356]LogModuleManager: Shutting down and abandoning module EditorWidgets (570)
+[2018.06.15-09.50.06:600][356]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
+[2018.06.15-09.50.06:601][356]LogDirectoryWatcher: A directory notification for 'D:/SpareTime/Unreal/FPS/FPS/Content/Collections/' was aborted.
+[2018.06.15-09.50.06:601][356]LogDirectoryWatcher: A directory notification for 'D:/SpareTime/Unreal/FPS/FPS/Content/Developers/tomco/Collections/' was aborted.
+[2018.06.15-09.50.06:601][356]LogDirectoryWatcher: A directory notification for 'D:/SpareTime/Unreal/FPS/FPS/Saved/Collections/' was aborted.
+[2018.06.15-09.50.06:602][356]LogModuleManager: Shutting down and abandoning module SceneOutliner (566)
+[2018.06.15-09.50.06:602][356]LogModuleManager: Shutting down and abandoning module StatsViewer (564)
+[2018.06.15-09.50.06:603][356]LogModuleManager: Shutting down and abandoning module FoliageEdit (562)
+[2018.06.15-09.50.06:603][356]LogModuleManager: Shutting down and abandoning module LandscapeEditor (560)
+[2018.06.15-09.50.06:604][356]LogModuleManager: Shutting down and abandoning module MeshPaintMode (558)
+[2018.06.15-09.50.06:604][356]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (556)
+[2018.06.15-09.50.06:604][356]LogModuleManager: Shutting down and abandoning module ActorPickerMode (554)
+[2018.06.15-09.50.06:604][356]LogModuleManager: Shutting down and abandoning module GeometryMode (552)
+[2018.06.15-09.50.06:605][356]LogModuleManager: Shutting down and abandoning module TextureAlignMode (550)
+[2018.06.15-09.50.06:605][356]LogModuleManager: Shutting down and abandoning module BspMode (548)
+[2018.06.15-09.50.06:605][356]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (546)
+[2018.06.15-09.50.06:605][356]LogModuleManager: Shutting down and abandoning module HardwareSurvey (544)
+[2018.06.15-09.50.06:605][356]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (542)
+[2018.06.15-09.50.06:606][356]LogModuleManager: Shutting down and abandoning module AutomationWorker (540)
+[2018.06.15-09.50.06:606][356]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (538)
+[2018.06.15-09.50.06:606][356]LogModuleManager: Shutting down and abandoning module SequenceRecorder (537)
+[2018.06.15-09.50.06:607][356]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (534)
+[2018.06.15-09.50.06:607][356]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (532)
+[2018.06.15-09.50.06:611][356]LogModuleManager: Shutting down and abandoning module PlacementMode (531)
+[2018.06.15-09.50.06:611][356]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2018.06.15-09.50.06:616][356]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (526)
+[2018.06.15-09.50.06:616][356]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (524)
+[2018.06.15-09.50.06:616][356]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (522)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (520)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (518)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (516)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (514)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (512)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (510)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (508)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module CharacterAI (506)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module SmartSnapping (504)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module SessionServices (502)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module ViewportSnapping (500)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module ViewportInteraction (498)
+[2018.06.15-09.50.06:619][356]LogModuleManager: Shutting down and abandoning module ClothPainter (496)
+[2018.06.15-09.50.06:621][356]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (495)
+[2018.06.15-09.50.06:623][356]LogModuleManager: Shutting down and abandoning module LogVisualizer (492)
+[2018.06.15-09.50.06:624][356]LogModuleManager: Shutting down and abandoning module IntroTutorials (490)
+[2018.06.15-09.50.06:626][356]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (489)
+[2018.06.15-09.50.06:628][356]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (486)
+[2018.06.15-09.50.06:628][356]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (484)
+[2018.06.15-09.50.06:628][356]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (482)
+[2018.06.15-09.50.06:629][356]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (481)
+[2018.06.15-09.50.07:333][356]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (478)
+[2018.06.15-09.50.07:334][356]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (476)
+[2018.06.15-09.50.07:334][356]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (474)
+[2018.06.15-09.50.07:334][356]LogModuleManager: Shutting down and abandoning module InputBindingEditor (472)
+[2018.06.15-09.50.07:334][356]LogModuleManager: Shutting down and abandoning module MergeActors (470)
+[2018.06.15-09.50.07:335][356]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (468)
+[2018.06.15-09.50.07:336][356]LogModuleManager: Shutting down and abandoning module LocalizationService (467)
+[2018.06.15-09.50.07:337][356]LogModuleManager: Shutting down and abandoning module HardwareTargeting (464)
+[2018.06.15-09.50.07:337][356]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (462)
+[2018.06.15-09.50.07:338][356]LogModuleManager: Shutting down and abandoning module UndoHistory (460)
+[2018.06.15-09.50.07:338][356]LogModuleManager: Shutting down and abandoning module XmlParser (458)
+[2018.06.15-09.50.07:339][356]LogModuleManager: Shutting down and abandoning module Blutility (456)
+[2018.06.15-09.50.07:339][356]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (454)
+[2018.06.15-09.50.07:339][356]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (453)
+[2018.06.15-09.50.07:339][356]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (450)
+[2018.06.15-09.50.07:339][356]LogModuleManager: Shutting down and abandoning module SettingsEditor (448)
+[2018.06.15-09.50.07:340][356]LogModuleManager: Shutting down and abandoning module ProjectLauncher (446)
+[2018.06.15-09.50.07:341][356]LogModuleManager: Shutting down and abandoning module SessionFrontend (444)
+[2018.06.15-09.50.07:341][356]LogModuleManager: Shutting down and abandoning module ProfilerClient (442)
+[2018.06.15-09.50.07:342][356]LogModuleManager: Shutting down and abandoning module DeviceManager (440)
+[2018.06.15-09.50.07:343][356]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (439)
+[2018.06.15-09.50.07:397][356]LogModuleManager: Shutting down and abandoning module AutomationController (436)
+[2018.06.15-09.50.07:398][356]LogModuleManager: Shutting down and abandoning module AutomationWindow (434)
+[2018.06.15-09.50.07:400][356]LogModuleManager: Shutting down and abandoning module Layers (432)
+[2018.06.15-09.50.07:404][356]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (430)
+[2018.06.15-09.50.07:404][356]LogModuleManager: Shutting down and abandoning module DetailCustomizations (428)
+[2018.06.15-09.50.07:404][356]LogModuleManager: Shutting down and abandoning module PackagesDialog (426)
+[2018.06.15-09.50.07:405][356]LogModuleManager: Shutting down and abandoning module Persona (424)
+[2018.06.15-09.50.07:406][356]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (423)
+[2018.06.15-09.50.07:406][356]LogModuleManager: Shutting down and abandoning module AnimGraph (421)
+[2018.06.15-09.50.07:407][356]LogModuleManager: Shutting down and abandoning module Kismet (418)
+[2018.06.15-09.50.07:409][356]LogModuleManager: Shutting down and abandoning module GraphEditor (416)
+[2018.06.15-09.50.07:412][356]LogModuleManager: Shutting down and abandoning module ClassViewer (414)
+[2018.06.15-09.50.07:412][356]LogModuleManager: Shutting down and abandoning module Toolbox (412)
+[2018.06.15-09.50.07:412][356]LogModuleManager: Shutting down and abandoning module ModuleUI (410)
+[2018.06.15-09.50.07:413][356]LogModuleManager: Shutting down and abandoning module MovieSceneTools (408)
+[2018.06.15-09.50.07:415][356]LogModuleManager: Shutting down and abandoning module OutputLog (406)
+[2018.06.15-09.50.07:415][356]LogModuleManager: Shutting down and abandoning module GammaUI (404)
+[2018.06.15-09.50.07:415][356]LogModuleManager: Shutting down and abandoning module Documentation (402)
+[2018.06.15-09.50.07:415][356]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (400)
+[2018.06.15-09.50.07:415][356]LogModuleManager: Shutting down and abandoning module MovieScene (398)
+[2018.06.15-09.50.07:415][356]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (396)
+[2018.06.15-09.50.07:415][356]LogModuleManager: Shutting down and abandoning module LauncherPlatform (394)
+[2018.06.15-09.50.07:416][356]LogModuleManager: Shutting down and abandoning module AnalyticsET (392)
+[2018.06.15-09.50.07:416][356]LogModuleManager: Shutting down and abandoning module PortalServices (390)
+[2018.06.15-09.50.07:416][356]LogModuleManager: Shutting down and abandoning module PortalRpc (388)
+[2018.06.15-09.50.07:416][356]LogModuleManager: Shutting down and abandoning module MessagingRpc (386)
+[2018.06.15-09.50.07:416][356]LogModuleManager: Shutting down and abandoning module AIModule (384)
+[2018.06.15-09.50.07:417][356]LogModuleManager: Shutting down and abandoning module GameplayDebugger (383)
+[2018.06.15-09.50.07:417][356]LogModuleManager: Shutting down and abandoning module AITestSuite (381)
+[2018.06.15-09.50.07:417][356]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
+[2018.06.15-09.50.07:515][356]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
+[2018.06.15-09.50.07:516][356]LogModuleManager: Shutting down and abandoning module CoverPointGenerator (374)
+[2018.06.15-09.50.07:516][356]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.06.15-09.50.07:516][356]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.06.15-09.50.07:517][356]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.06.15-09.50.07:517][356]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.06.15-09.50.07:518][356]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.06.15-09.50.07:518][356]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.06.15-09.50.07:518][356]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.06.15-09.50.07:518][356]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.06.15-09.50.07:518][356]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.06.15-09.50.07:519][356]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.06.15-09.50.07:519][356]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.06.15-09.50.07:519][356]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.06.15-09.50.07:521][356]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.06.15-09.50.07:521][356]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.06.15-09.50.07:521][356]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.06.15-09.50.07:521][356]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.06.15-09.50.07:534][356]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.06.15-09.50.07:535][356]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.06.15-09.50.07:535][356]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.06.15-09.50.07:535][356]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.06.15-09.50.07:536][356]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.06.15-09.50.07:536][356]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.06.15-09.50.07:536][356]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.06.15-09.50.07:536][356]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.06.15-09.50.07:538][356]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.06.15-09.50.07:539][356]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.06.15-09.50.07:540][356]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.06.15-09.50.07:540][356]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.06.15-09.50.07:540][356]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.06.15-09.50.07:540][356]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.06.15-09.50.07:540][356]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.06.15-09.50.07:541][356]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.06.15-09.50.07:543][356]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.06.15-09.50.07:544][356]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.06.15-09.50.07:544][356]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.06.15-09.50.07:545][356]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.06.15-09.50.07:545][356]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.06.15-09.50.07:545][356]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.06.15-09.50.07:545][356]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.06.15-09.50.07:547][356]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.06.15-09.50.07:547][356]LogModuleManager: Shutting down and abandoning module FPS (290)
+[2018.06.15-09.50.07:547][356]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.06.15-09.50.07:548][356]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.06.15-09.50.07:548][356]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.06.15-09.50.07:548][356]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.06.15-09.50.07:548][356]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.06.15-09.50.07:548][356]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.06.15-09.50.07:548][356]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.06.15-09.50.07:549][356]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.06.15-09.50.07:549][356]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.06.15-09.50.07:650][356]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.06.15-09.50.07:751][356]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.06.15-09.50.07:751][356]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.06.15-09.50.07:752][356]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.06.15-09.50.07:752][356]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.06.15-09.50.07:752][356]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.06.15-09.50.07:754][356]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.06.15-09.50.07:756][356]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.06.15-09.50.07:757][356]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.06.15-09.50.07:757][356]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.06.15-09.50.07:757][356]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.06.15-09.50.07:757][356]LogDirectoryWatcher: A directory notification for 'D:/SpareTime/Unreal/FPS/FPS/Binaries/Win64' was aborted.
+[2018.06.15-09.50.07:757][356]LogDirectoryWatcher: A directory notification for 'D:/SpareTime/Unreal/FPS/FPS/Plugins/CoverPointGenerator/Binaries/Win64' was aborted.
+[2018.06.15-09.50.07:758][356]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.06.15-09.50.07:759][356]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.06.15-09.50.07:760][356]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.06.15-09.50.07:760][356]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.06.15-09.50.07:761][356]LogModuleManager: Shutting down and abandoning module LiveLink (240)
