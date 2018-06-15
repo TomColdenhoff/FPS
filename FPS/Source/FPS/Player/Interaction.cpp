@@ -5,6 +5,7 @@
 #include "FPSPlayer.h"
 #include "Runtime/Engine/Classes/Engine/World.h"
 #include "DrawDebugHelpers.h"
+#include "../Level/InteractAble.h"
 
 
 // Sets default values for this component's properties
@@ -43,16 +44,28 @@ void UInteraction::Interact()
 	FVector cameraPosition = player->CameraComponent->GetComponentLocation();
 	FVector forwardVector = player->CameraComponent->GetForwardVector();
 
-	bool gotHit = GetWorld()->LineTraceSingleByChannel(outHit, cameraPosition, ((cameraPosition + forwardVector) * m_InteractionDistance), ECC_Visibility);
+	bool gotHit = GetWorld()->LineTraceSingleByChannel(outHit, cameraPosition, (cameraPosition + (forwardVector * m_InteractionDistance)), ECC_Visibility);
 
 	if (bDebug)
 	{
-		DrawDebugLine(GetWorld(), cameraPosition, ((cameraPosition + forwardVector) * m_InteractionDistance), FColor::Purple, false, 5.0f);
+		DrawDebugLine(GetWorld(), cameraPosition, (cameraPosition + (forwardVector * m_InteractionDistance)), FColor::Purple, false, 5.0f);
 	}
 
 	if (gotHit)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Actor: %s"), *outHit.Actor->GetName());
+		TArray<UActorComponent*> components;
+		outHit.Actor->GetComponents(components);
+		
+		for (int32 i = 0; i != components.Num(); ++i)
+		{
+			if (IInteractAble* interactAble = Cast<IInteractAble>(components[i]))
+			{
+				interactAble->Interact(Cast<AFPSPlayer>(GetOwner()));
+			}
+
+			if (bDebug)
+				UE_LOG(LogTemp, Warning, TEXT("Actor: %s"), *outHit.Actor->GetName());
+		}
 	}
 
 

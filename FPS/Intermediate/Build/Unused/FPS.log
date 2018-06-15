@@ -1,17 +1,29 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
-  Parsing headers for FPSEditor
-    Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSEditor in 8.0564829 seconds
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8834.dll".
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8834.pdb".
-  Performing 5 actions (4 in parallel)
-  FPSPlayer.cpp
-  FPSPlayer.gen.cpp
-  Interaction.cpp
-  [4/5] Link UE4Editor-FPS.lib
-  [5/5] Link UE4Editor-FPS.dll
-     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
-     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2303.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2303.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2370.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2370.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-4793.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-4793.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5214.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5214.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5808.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5808.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-6278.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-6278.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-6354.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-6354.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-7225.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-7225.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8287.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8287.pdb".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8613.dll".
+  Deleting old hot reload file: "D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-8613.pdb".
+  Performing 2 actions (4 in parallel)
+  [1/2] Link UE4Editor-FPS.lib
+  [2/2] Link UE4Editor-FPS.dll
+     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
+     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 14.92 seconds (Local executor: 2.43 seconds)
+  Total build time: 11.03 seconds (Local executor: 1.02 seconds)

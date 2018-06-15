@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-CoverPointGenerator.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
-"E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\CoverPointGenerator\Module.CoverPointGenerator.cpp.obj"
-"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoverPointGenerator\PCLaunch.rc.res"
-"E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-/OUT:"E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.lib"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\SpareTime\Unreal\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\CoverPointGenerator\Module.CoverPointGenerator.cpp.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoverPointGenerator\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\SpareTime\Unreal\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.lib"
