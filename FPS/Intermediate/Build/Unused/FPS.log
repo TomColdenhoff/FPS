@@ -1,14 +1,17 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
   Parsing headers for FPSEditor
-    Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSEditor in 9.5424171 seconds
-  Performing 4 actions (4 in parallel)
-  DoorOpenComponent.gen.cpp
-  DoorOpenComponent.cpp
-  [3/4] Link UE4Editor-FPS.lib
-  [4/4] Link UE4Editor-FPS.dll
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
-     Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
+    Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSEditor in 10.9234303 seconds
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-4232.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-4232.pdb".
+  Performing 5 actions (4 in parallel)
+  UIComponent.gen.cpp
+  UIComponent.cpp
+  FPSPlayer.cpp
+  [4/5] Link UE4Editor-FPS.lib
+  [5/5] Link UE4Editor-FPS.dll
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
+     Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 19.10 seconds (Local executor: 4.14 seconds)
+  Total build time: 155.17 seconds (Local executor: 106.31 seconds)

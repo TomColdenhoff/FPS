@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 	FPS_API UClass* Z_Construct_UClass_AFPSPlayer();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	FPS_API UFunction* Z_Construct_UFunction_AFPSPlayer_GetUIComponent();
+	FPS_API UClass* Z_Construct_UClass_UUIComponent_NoRegister();
 	FPS_API UClass* Z_Construct_UClass_UInteraction_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -27,6 +29,40 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 // End Cross Module References
 	void AFPSPlayer::StaticRegisterNativesAFPSPlayer()
 	{
+		UClass* Class = AFPSPlayer::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetUIComponent", &AFPSPlayer::execGetUIComponent },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_AFPSPlayer_GetUIComponent()
+	{
+		struct FPSPlayer_eventGetUIComponent_Parms
+		{
+			UUIComponent* ReturnValue;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[] = {
+				{ "EditInline", "true" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080588, 1, nullptr, STRUCT_OFFSET(FPSPlayer_eventGetUIComponent_Parms, ReturnValue), Z_Construct_UClass_UUIComponent_NoRegister, METADATA_PARAMS(NewProp_ReturnValue_MetaData, ARRAY_COUNT(NewProp_ReturnValue_MetaData)) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "UI" },
+				{ "ModuleRelativePath", "FPSPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSPlayer, "GetUIComponent", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(FPSPlayer_eventGetUIComponent_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AFPSPlayer_NoRegister()
 	{
@@ -41,6 +77,9 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 				(UObject* (*)())Z_Construct_UClass_ACharacter,
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
+			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_AFPSPlayer_GetUIComponent, "GetUIComponent" }, // 1216462810
+			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "HideCategories", "Navigation" },
@@ -48,6 +87,14 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 				{ "ModuleRelativePath", "FPSPlayer.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_p_UIComponent_MetaData[] = {
+				{ "Category", "FPSPlayer" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "FPSPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_p_UIComponent = { UE4CodeGen_Private::EPropertyClass::Object, "p_UIComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a0009, 1, nullptr, STRUCT_OFFSET(AFPSPlayer, p_UIComponent), Z_Construct_UClass_UUIComponent_NoRegister, METADATA_PARAMS(NewProp_p_UIComponent_MetaData, ARRAY_COUNT(NewProp_p_UIComponent_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_p_InteractionComponent_MetaData[] = {
 				{ "Category", "FPSPlayer" },
@@ -103,6 +150,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "CameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFPSPlayer, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_CameraComponent_MetaData, ARRAY_COUNT(NewProp_CameraComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_p_UIComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_p_InteractionComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_CurrentHUD,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_m_DefaultPlayerHUD,
@@ -121,7 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 				&AFPSPlayer::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
-				nullptr, 0,
+				FuncInfo, ARRAY_COUNT(FuncInfo),
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -132,7 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSPlayer, 2475054051);
+	IMPLEMENT_CLASS(AFPSPlayer, 861861417);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSPlayer(Z_Construct_UClass_AFPSPlayer, &AFPSPlayer::StaticClass, TEXT("/Script/FPS"), TEXT("AFPSPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

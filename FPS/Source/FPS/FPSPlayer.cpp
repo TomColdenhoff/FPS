@@ -10,6 +10,7 @@
 #include <typeinfo>
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
 #include "Player/Interaction.h"
+#include "Player/UIComponent.h"
 
 
 // Sets default values
@@ -20,7 +21,7 @@ AFPSPlayer::AFPSPlayer()
 
 	CreateCamera();
 	CreateInteractionComponent();
-
+	CreateUIComponent();
 	AddMainWeapon<USMG>();
 
 	
@@ -32,6 +33,11 @@ void AFPSPlayer::CreateCamera()
 	CameraComponent->SetupAttachment((USceneComponent*)GetCapsuleComponent());
 	CameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0f));
 	CameraComponent->bUsePawnControlRotation = true;
+}
+
+void AFPSPlayer::CreateUIComponent()
+{
+	p_UIComponent = CreateDefaultSubobject<UUIComponent>(TEXT("UI Component"));
 }
 
 void AFPSPlayer::CreateInteractionComponent()
@@ -83,6 +89,7 @@ void AFPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 	//Player Actions
 	PlayerInputComponent->BindAction("Interact", EInputEvent::IE_Pressed, p_InteractionComponent, &UInteraction::Interact);
+	PlayerInputComponent->BindAction("Inventory", EInputEvent::IE_Pressed, this, &AFPSPlayer::ToggleInventory);
 }
 
 void AFPSPlayer::MoveForward(float Value)
@@ -209,5 +216,9 @@ void AFPSPlayer::Interact()
 	p_InteractionComponent->Interact();
 }
 
+void AFPSPlayer::ToggleInventory()
+{
+		p_UIComponent->SwitchMode(EUIMode::Inventory);
+}
 
 

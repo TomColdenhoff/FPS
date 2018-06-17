@@ -1,0 +1,752 @@
+﻿Log file open, 06/15/18 22:15:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1496347766) SRandInit(1496347766).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.271724
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CoverPointGenerator
+LogStreaming: Display: Took  0.065s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../../Projects/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../../Projects/FPS/FPS/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-27ERO04 (192.168.178.101:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.15-20.15.28:540][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.15-20.15.28:540][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.15-20.15.28:570][  0]LogInit: Computer: DESKTOP-27ERO04
+[2018.06.15-20.15.28:570][  0]LogInit: User: TomColdenhoff
+[2018.06.15-20.15.28:570][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.15-20.15.28:570][  0]LogInit: High frequency timer resolution =3.319355 MHz
+[2018.06.15-20.15.28:570][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.06.15-20.15.28:570][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.15-20.15.28:570][  0]LogMemory: Process Physical Memory: 278.91 MB used, 278.91 MB peak
+[2018.06.15-20.15.28:570][  0]LogMemory: Process Virtual Memory: 270.77 MB used, 270.77 MB peak
+[2018.06.15-20.15.28:570][  0]LogMemory: Physical Memory: 5519.34 MB used,  6688.10 MB free, 12207.44 MB total
+[2018.06.15-20.15.28:570][  0]LogMemory: Virtual Memory: 4795.46 MB used,  6688.10 MB free, 134217728.00 MB total
+[2018.06.15-20.15.28:586][  0]LogInit: Using OS detected language (en-US).
+[2018.06.15-20.15.28:586][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.15-20.15.28:588][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.15-20.15.28:989][  0]LogStreaming: Display: Took  0.403s to EndInitTextLocalization.
+[2018.06.15-20.15.28:989][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.15-20.15.29:024][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.15-20.15.29:024][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.15-20.15.29:187][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.15-20.15.29:238][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.06.15-20.15.29:238][  0]LogD3D11RHI:       4043/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.15-20.15.29:240][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.15-20.15.29:240][  0]LogD3D11RHI:       0/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.15-20.15.29:240][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.15-20.15.29:246][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.15-20.15.29:246][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.15-20.15.29:246][  0]LogWindows: EnumDisplayDevices:
+[2018.06.15-20.15.29:247][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.06.15-20.15.29:247][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.06.15-20.15.29:247][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.06.15-20.15.29:247][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.06.15-20.15.29:247][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.15-20.15.29:247][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.06.15-20.15.29:247][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.15-20.15.29:247][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.15-20.15.29:247][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.06.15-20.15.29:280][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.15-20.15.29:280][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.15-20.15.29:280][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.15-20.15.29:351][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.15-20.15.29:398][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../../../Projects/FPS/FPS/Intermediate/Shaders/WorkingDirectory/7784/).
+[2018.06.15-20.15.29:398][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TomColdenhoff/AppData/Local/Temp/UnrealShaderWorkingDir/3913C9BF4CE4E5EE2701259686128A5D/'.
+[2018.06.15-20.15.29:569][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.15-20.15.29:580][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.15-20.15.29:592][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.15-20.15.29:603][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.15-20.15.29:616][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.15-20.15.29:630][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.15-20.15.29:647][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.15-20.15.29:660][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.15-20.15.29:665][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.15-20.15.29:676][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.15-20.15.29:687][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.15-20.15.29:698][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.15-20.15.29:709][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.15-20.15.29:720][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.15-20.15.29:731][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.15-20.15.29:753][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.15-20.15.29:753][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.15-20.15.29:764][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.15-20.15.29:765][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.15-20.15.29:801][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.15-20.15.29:811][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.15-20.15.29:822][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.15-20.15.29:837][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.15-20.15.29:849][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.15-20.15.29:861][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.15-20.15.29:861][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.15-20.15.29:936][  0]LogXGEController: Cleaning working directory: C:/Users/TomColdenhoff/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.15-20.15.29:936][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.15-20.15.29:936][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.15-20.15.29:936][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.15-20.15.30:560][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.15-20.15.30:630][  0]LogDerivedDataCache: Loaded boot cache 0.07s 80MB C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.15-20.15.30:631][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.15-20.15.30:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Projects/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.15-20.15.30:631][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.15-20.15.30:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Projects/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.15-20.15.30:631][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.15-20.15.30:645][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.15-20.15.30:657][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.15-20.15.30:657][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.15-20.15.30:657][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.15-20.15.30:668][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.15-20.15.30:668][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.15-20.15.30:669][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.15-20.15.30:669][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.15-20.15.30:766][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.06.15-20.15.31:802][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.15-20.15.31:930][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.15-20.15.31:931][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.15-20.15.31:931][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.15-20.15.31:931][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.15-20.15.31:931][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.15-20.15.31:931][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.15-20.15.31:956][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.06.15-20.15.32:333][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.061172 seconds
+[2018.06.15-20.15.32:338][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.15-20.15.32:338][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.06.15-20.15.32:338][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.15-20.15.33:723][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.15-20.15.33:745][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.15-20.15.33:995][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.109854ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.06.15-20.15.34:017][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bbe1524360, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.15-20.15.34:026][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001bbe1524360, Size=80
+[2018.06.15-20.15.34:026][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bbe36afce0, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.06.15-20.15.34:035][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bbe3611b20, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.15-20.15.34:132][  0]SourceControl: Source control is disabled
+[2018.06.15-20.15.34:132][  0]SourceControl: Source control is disabled
+[2018.06.15-20.15.34:143][  0]SourceControl: Source control is disabled
+[2018.06.15-20.15.34:155][  0]SourceControl: Source control is disabled
+[2018.06.15-20.15.34:533][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.15-20.15.34:644][  0]LogOcInput: OculusInput pre-init called
+[2018.06.15-20.15.35:581][  0]LogEngine: Initializing Engine...
+[2018.06.15-20.15.35:582][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.15-20.15.35:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.15-20.15.35:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.15-20.15.35:785][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.15-20.15.35:808][  0]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.15-20.15.35:819][  0]LogInit: FAudioDevice initialized.
+[2018.06.15-20.15.35:969][  0]LogDerivedDataCache: Saved boot cache 0.15s 80MB C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.15-20.15.35:985][  0]LogInit: Texture streaming: Enabled
+[2018.06.15-20.15.35:996][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.15-20.15.36:006][  0]LogInit: Transaction tracking system initialized
+[2018.06.15-20.15.36:020][  0]BlueprintLog: New page: Editor Load
+[2018.06.15-20.15.36:081][  0]LocalizationService: Localization service is disabled
+[2018.06.15-20.15.36:152][  0]LogConsoleResponse: Display: 
+[2018.06.15-20.15.36:279][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.15-20.15.36:279][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.15-20.15.36:279][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.15-20.15.36:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.15-20.15.36:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.15-20.15.36:528][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/' took 0.01s
+[2018.06.15-20.15.36:528][  0]SourceControl: Source control is disabled
+[2018.06.15-20.15.36:528][  0]Cmd: MAP LOAD FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.15-20.15.36:528][  0]LightingResults: New page: Lighting Build
+[2018.06.15-20.15.36:530][  0]MapCheck: New page: Map Check
+[2018.06.15-20.15.36:530][  0]LightingResults: New page: Lighting Build
+[2018.06.15-20.15.36:541][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001bbe36afce0, Size=80
+[2018.06.15-20.15.37:261][  0]LogAIModule: Creating AISystem for world Level1
+[2018.06.15-20.15.37:283][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.15-20.15.37:300][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.15-20.15.37:355][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.473ms to complete.
+[2018.06.15-20.15.37:355][  0]LogFileHelpers: Loading map 'Level1' took 0.827
+[2018.06.15-20.15.37:485][  0]LogCollectionManager: Loaded 0 collections in 0.000894 seconds
+[2018.06.15-20.15.37:533][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.06.15-20.15.37:533][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/Developers/TomColdenhoff/Collections/' took 0.01s
+[2018.06.15-20.15.37:533][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/Collections/' took 0.01s
+[2018.06.15-20.15.37:533][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.15-20.15.37:553][  0]LogContentBrowser: Native class hierarchy populated in 0.0197 seconds. Added 2477 classes and 565 folders.
+[2018.06.15-20.15.37:559][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.06.15-20.15.37:591][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.15-20.15.37:597][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.06.15-20.15.38:629][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.15-20.15.38:656][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.15-20.15.38:659][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.15-20.15.38:666][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.15-20.15.38:667][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.06.15-20.15.38:824][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPS
+[2018.06.15-20.15.38:824][  0]LogTemp: CWD: E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.15-20.15.38:824][  0]LogTemp: Initial Dir: E:\Game Engines\Epic Games\4.19\UE_4.19
+[2018.06.15-20.15.38:824][  0]LogTemp: Env CWD: E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.15-20.15.38:824][  0]LogTemp: BranchPath = DESKTOP-27ERO04/E/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-27ERO04/E/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries
+[2018.06.15-20.15.38:825][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\TomColdenhoff\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.15-20.15.38:825][  0]LogRenderer: Reallocating scene render targets to support 1136x532 Format 10 NumSamples 1 (Frame:1).
+[2018.06.15-20.15.39:031][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.06.15-20.15.39:031][  0]LogLoad: (Engine Initialization) Total time: 12.65 seconds
+[2018.06.15-20.15.39:031][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.15-20.15.39:050][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.15-20.15.39:073][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.15-20.15.39:123][  1]LogAssetRegistry: Asset discovery search completed in 8.3794 seconds
+[2018.06.15-20.15.39:126][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.15-20.15.39:127][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000247 seconds (updated 0 objects)
+[2018.06.15-20.17.13:043][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.15-20.17.13:142][ 63]LogSlate: Took 0.078111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.15-20.18.51:681][629]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.15-20.18.51:692][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-20.18.51:703][629]LogSavePackage: Save=8.36ms
+[2018.06.15-20.18.51:703][629]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryC863C96849D24C0C263E9A92CD59BC7F.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-20.18.51:707][629]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-20.18.53:825][829]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.06.15-20.18.54:178][829]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bb97363758, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.15-20.18.54:179][829]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bb97363750, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.15-20.18.54:754][829]LogSlate: Took 0.015240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.15-20.19.13:119][ 28]BlueprintLog: New page: Compile Inventory
+[2018.06.15-20.20.05:468][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-20.20.05:487][136]LogSavePackage: Save=7.77ms
+[2018.06.15-20.20.05:487][136]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryD8E30B0B402FC7019B776DA9176578CE.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-20.20.05:489][136]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-20.20.07:250][347]BlueprintLog: New page: Compile Inventory
+[2018.06.15-20.21.37:907][802]LogEditorTransaction: Undo Edit Width Override
+[2018.06.15-20.22.12:818][769]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.15-20.22.14:853][ 13]LogEditorTransaction: Undo Edit Content Color and Opacity
+[2018.06.15-20.22.29:697][785]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.15-20.23.26:693][114]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.15-20.23.46:029][418]LogSlate: Took 0.049285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.06.15-20.25.38:900][528]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.018
+[2018.06.15-20.25.38:902][528]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/Inventory/Inventory] ([1] browsable assets)...
+[2018.06.15-20.25.38:902][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/Inventory/Inventory]
+[2018.06.15-20.25.38:920][528]LogSavePackage: Save=8.45ms
+[2018.06.15-20.25.38:920][528]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory_Auto13910FB65424C7C82D01298A5029B8D9C.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/Inventory_Auto1.uasset'
+[2018.06.15-20.25.38:921][528]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/Inventory_Auto1.uasset
+[2018.06.15-20.25.38:921][528]LogFileHelpers: Auto-saving content packages took 0.020
+[2018.06.15-20.26.00:510][323]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.15-20.26.06:263][  6]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.15-20.28.22:027][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-20.28.22:041][305]LogSavePackage: Save=9.15ms
+[2018.06.15-20.28.22:042][305]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory118E9FD84FB63422051D81A5F70019BB.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-20.28.22:044][305]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-20.35.39:644][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.056
+[2018.06.15-20.35.39:646][912]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/Inventory/Inventory] ([1] browsable assets)...
+[2018.06.15-20.35.39:646][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/Inventory/Inventory]
+[2018.06.15-20.35.39:670][912]LogSavePackage: Save=8.91ms
+[2018.06.15-20.35.39:670][912]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory_Auto27565C34046B6A15BEDC978A556122E00.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/Inventory_Auto2.uasset'
+[2018.06.15-20.35.39:671][912]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/Inventory_Auto2.uasset
+[2018.06.15-20.35.39:671][912]LogFileHelpers: Auto-saving content packages took 0.026
+[2018.06.15-20.57.50:049][993]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Projects/FPS/External_Resources/UI/Inventory/Slot.png)
+[2018.06.15-20.57.50:144][993]LogTexture: Display: Building textures: Slot (AutoDXT, 1024X1024)
+[2018.06.15-20.57.51:469][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Files/Slot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Files/Slot.uasset" SILENT=true
+[2018.06.15-20.57.51:554][ 70]LogSavePackage: Save=82.71ms
+[2018.06.15-20.57.51:554][ 70]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Slot02A0C780428032A2EE80E18430DA9C7D.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Files/Slot.uasset'
+[2018.06.15-20.57.51:559][ 70]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Files/Slot.uasset
+[2018.06.15-20.57.53:179][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-20.57.53:198][247]LogSavePackage: Save=8.94ms
+[2018.06.15-20.57.53:199][247]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryCFB8F2144CA6537BE01D68918BF16504.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-20.57.53:203][247]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-20.59.15:291][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-20.59.15:306][214]LogSavePackage: Save=9.60ms
+[2018.06.15-20.59.15:306][214]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory150F01FC440351BBE2A122AEB06A8DE7.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-20.59.15:308][214]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-20.59.49:017][756]LogEditorFactories: Performing atomic reimport of [E:/Projects/FPS/External_Resources/UI/Inventory/Slot.png]
+[2018.06.15-20.59.49:019][756]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 E:/Projects/FPS/External_Resources/UI/Inventory/Slot.png)
+[2018.06.15-20.59.49:095][756]LogTexture: Display: Building textures: Slot (AutoDXT, 1024X1024)
+[2018.06.15-20.59.49:247][756]LogEditorFactories: -- imported successfully
+[2018.06.15-20.59.50:431][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Files/Slot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Files/Slot.uasset" SILENT=true
+[2018.06.15-20.59.50:479][849]LogSavePackage: Save=38.57ms
+[2018.06.15-20.59.50:479][849]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/SlotC61CE096447B2DCD4B2C83967BA7B715.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Files/Slot.uasset'
+[2018.06.15-20.59.50:482][849]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Files/Slot.uasset
+[2018.06.15-21.00.22:038][921]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2018.06.15-21.00.38:103][956]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.GridPanel_0
+[2018.06.15-21.00.38:103][956]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.GridPanel_0
+[2018.06.15-21.00.38:104][956]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.GridPanel_0
+[2018.06.15-21.00.38:105][956]LogProperty: Warning: Illegal TEXT reference to a private object in external package (GridSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0.GridSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_0).  Import failed...
+[2018.06.15-21.00.38:105][956]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'GridSlot'"GridPanel_0.GridSlot_0"''
+[2018.06.15-21.01.22:720][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.01.22:735][634]LogSavePackage: Save=10.25ms
+[2018.06.15-21.01.22:736][634]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory3B293501411FBF5D678AE98324FC9BE4.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.01.22:738][634]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.01.38:198][916]BlueprintLog: New page: Compile Inventory
+[2018.06.15-21.01.39:094][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.01.39:110][ 10]LogSavePackage: Save=11.29ms
+[2018.06.15-21.01.39:110][ 10]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory082DCB9144E0DFC5BDD48EBB81EE5494.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.01.39:111][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.02.04:456][972]BlueprintLog: New page: Compile Inventory
+[2018.06.15-21.02.05:308][ 71]BlueprintLog: New page: Compile Inventory
+[2018.06.15-21.02.05:712][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.02.05:726][115]LogSavePackage: Save=9.57ms
+[2018.06.15-21.02.05:726][115]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory7A66F11B46551598F35BD490BF4199BF.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.02.05:728][115]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.03.26:403][501]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.15-21.03.50:633][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/InventoryItem" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset" SILENT=true
+[2018.06.15-21.03.50:644][191]LogSavePackage: Save=8.55ms
+[2018.06.15-21.03.50:644][191]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryItem23BFCDCD4ED3DF82420414BD243932DB.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset'
+[2018.06.15-21.03.50:646][191]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset
+[2018.06.15-21.04.35:541][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/InventoryItem" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset" SILENT=true
+[2018.06.15-21.04.35:559][153]LogSavePackage: Save=8.83ms
+[2018.06.15-21.04.35:559][153]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryItemFFE742C2463F8A33AED35DB9AA41AC9D.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset'
+[2018.06.15-21.04.35:561][153]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset
+[2018.06.15-21.04.51:852][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/InventoryItem" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset" SILENT=true
+[2018.06.15-21.04.51:867][617]LogSavePackage: Save=8.25ms
+[2018.06.15-21.04.51:867][617]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryItemFDF7BAAE4A9F07ACA0C60B8DD087F489.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset'
+[2018.06.15-21.04.51:869][617]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset
+[2018.06.15-21.05.04:624][147]BlueprintLog: New page: Compile InventoryItem
+[2018.06.15-21.05.05:182][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/InventoryItem" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset" SILENT=true
+[2018.06.15-21.05.05:196][202]LogSavePackage: Save=8.76ms
+[2018.06.15-21.05.05:196][202]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryItemB12577F045EB0B0816B24E8781D98C3C.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset'
+[2018.06.15-21.05.05:198][202]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset
+[2018.06.15-21.05.50:563][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.05.50:582][622]LogSavePackage: Save=9.19ms
+[2018.06.15-21.05.50:582][622]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory5120359B4E7CCFF88C1672A6488B1E7D.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.05.50:584][622]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.05.50:587][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/InventoryItem" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset" SILENT=true
+[2018.06.15-21.05.50:600][622]LogSavePackage: Save=8.11ms
+[2018.06.15-21.05.50:600][622]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryItem82CFA5CD43DD9ADCAE8907B14A882BA0.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset'
+[2018.06.15-21.05.50:602][622]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/InventoryItem.uasset
+[2018.06.15-21.05.53:658][988]BlueprintLog: New page: Compile InventoryItem
+[2018.06.15-21.06.35:051][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.06.35:066][702]LogSavePackage: Save=10.19ms
+[2018.06.15-21.06.35:067][702]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory3F95B57D4AB58961013F3DB3AB5E1C4D.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.06.35:068][702]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.06.43:004][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_14.WidgetTree_13.VerticalBox_0
+[2018.06.15-21.06.43:005][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_15.WidgetTree_14.VerticalBox_0
+[2018.06.15-21.06.43:005][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_16.WidgetTree_15.VerticalBox_0
+[2018.06.15-21.06.43:005][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_17.WidgetTree_16.VerticalBox_0
+[2018.06.15-21.06.43:005][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_18.WidgetTree_17.VerticalBox_0
+[2018.06.15-21.06.43:006][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.VerticalBox_0
+[2018.06.15-21.06.43:006][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.VerticalBox_0
+[2018.06.15-21.06.43:006][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.VerticalBox_0
+[2018.06.15-21.06.43:007][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_22.WidgetTree_21.VerticalBox_0
+[2018.06.15-21.06.43:007][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_23.WidgetTree_22.VerticalBox_0
+[2018.06.15-21.06.43:007][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_24.WidgetTree_23.VerticalBox_0
+[2018.06.15-21.06.43:008][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_25.WidgetTree_24.VerticalBox_0
+[2018.06.15-21.06.43:008][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_42.WidgetTree_52.VerticalBox_0
+[2018.06.15-21.06.43:008][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_43.WidgetTree_54.VerticalBox_0
+[2018.06.15-21.06.43:009][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_30.WidgetTree_28.VerticalBox_0
+[2018.06.15-21.06.43:009][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_Inventory_C_24:WidgetTree.VerticalBox_0
+[2018.06.15-21.06.43:009][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory_C:WidgetTree.VerticalBox_0
+[2018.06.15-21.06.43:009][634]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_41.WidgetTree_48.VerticalBox_0
+[2018.06.15-21.06.43:010][634]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0.VerticalBoxSlot_6) from referencer (InventoryItem_C /Engine/UMG/Editor/Transient.InventoryItem).  Import failed...
+[2018.06.15-21.06.43:010][634]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_0.VerticalBoxSlot_6"''
+[2018.06.15-21.06.52:280][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_14.WidgetTree_13.VerticalBox_0
+[2018.06.15-21.06.52:280][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_15.WidgetTree_14.VerticalBox_0
+[2018.06.15-21.06.52:280][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_16.WidgetTree_15.VerticalBox_0
+[2018.06.15-21.06.52:281][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_17.WidgetTree_16.VerticalBox_0
+[2018.06.15-21.06.52:281][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_18.WidgetTree_17.VerticalBox_0
+[2018.06.15-21.06.52:281][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.VerticalBox_0
+[2018.06.15-21.06.52:282][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.VerticalBox_0
+[2018.06.15-21.06.52:282][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.VerticalBox_0
+[2018.06.15-21.06.52:282][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_22.WidgetTree_21.VerticalBox_0
+[2018.06.15-21.06.52:283][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_23.WidgetTree_22.VerticalBox_0
+[2018.06.15-21.06.52:283][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_24.WidgetTree_23.VerticalBox_0
+[2018.06.15-21.06.52:283][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_25.WidgetTree_24.VerticalBox_0
+[2018.06.15-21.06.52:284][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_44.WidgetTree_56.VerticalBox_0
+[2018.06.15-21.06.52:284][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_42.WidgetTree_52.VerticalBox_0
+[2018.06.15-21.06.52:284][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_43.WidgetTree_54.VerticalBox_0
+[2018.06.15-21.06.52:284][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_30.WidgetTree_28.VerticalBox_0
+[2018.06.15-21.06.52:285][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_Inventory_C_24:WidgetTree.VerticalBox_0
+[2018.06.15-21.06.52:285][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory_C:WidgetTree.VerticalBox_0
+[2018.06.15-21.06.52:285][837]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_41.WidgetTree_48.VerticalBox_0
+[2018.06.15-21.06.52:286][837]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0.VerticalBoxSlot_6) from referencer (InventoryItem_C /Engine/UMG/Editor/Transient.InventoryItem).  Import failed...
+[2018.06.15-21.06.52:286][837]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_0.VerticalBoxSlot_6"''
+[2018.06.15-21.06.52:469][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_14.WidgetTree_13.VerticalBox_0
+[2018.06.15-21.06.52:470][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_15.WidgetTree_14.VerticalBox_0
+[2018.06.15-21.06.52:470][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_16.WidgetTree_15.VerticalBox_0
+[2018.06.15-21.06.52:470][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_17.WidgetTree_16.VerticalBox_0
+[2018.06.15-21.06.52:471][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_18.WidgetTree_17.VerticalBox_0
+[2018.06.15-21.06.52:471][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.VerticalBox_0
+[2018.06.15-21.06.52:471][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.VerticalBox_0
+[2018.06.15-21.06.52:472][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.VerticalBox_0
+[2018.06.15-21.06.52:472][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_22.WidgetTree_21.VerticalBox_0
+[2018.06.15-21.06.52:472][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_23.WidgetTree_22.VerticalBox_0
+[2018.06.15-21.06.52:473][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_24.WidgetTree_23.VerticalBox_0
+[2018.06.15-21.06.52:473][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_25.WidgetTree_24.VerticalBox_0
+[2018.06.15-21.06.52:473][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_44.WidgetTree_56.VerticalBox_0
+[2018.06.15-21.06.52:474][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_42.WidgetTree_52.VerticalBox_0
+[2018.06.15-21.06.52:474][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_43.WidgetTree_54.VerticalBox_0
+[2018.06.15-21.06.52:474][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_30.WidgetTree_28.VerticalBox_0
+[2018.06.15-21.06.52:474][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_Inventory_C_24:WidgetTree.VerticalBox_0
+[2018.06.15-21.06.52:475][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_45.WidgetTree_58.VerticalBox_0
+[2018.06.15-21.06.52:475][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory_C:WidgetTree.VerticalBox_0
+[2018.06.15-21.06.52:475][855]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_2:Inventory_C_41.WidgetTree_48.VerticalBox_0
+[2018.06.15-21.06.52:476][855]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.VerticalBox_0.VerticalBoxSlot_6) from referencer (InventoryItem_C /Engine/UMG/Editor/Transient.InventoryItem).  Import failed...
+[2018.06.15-21.06.52:476][855]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_0.VerticalBoxSlot_6"''
+[2018.06.15-21.07.27:079][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.GridPanel_0
+[2018.06.15-21.07.27:080][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.GridPanel_0
+[2018.06.15-21.07.27:080][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.GridPanel_0
+[2018.06.15-21.07.27:080][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_22.WidgetTree_21.GridPanel_0
+[2018.06.15-21.07.27:081][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_23.WidgetTree_22.GridPanel_0
+[2018.06.15-21.07.27:081][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_24.WidgetTree_23.GridPanel_0
+[2018.06.15-21.07.27:081][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_25.WidgetTree_24.GridPanel_0
+[2018.06.15-21.07.27:082][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_45.WidgetTree_58.GridPanel_0
+[2018.06.15-21.07.27:082][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_44.WidgetTree_56.GridPanel_0
+[2018.06.15-21.07.27:082][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_43.WidgetTree_54.GridPanel_0
+[2018.06.15-21.07.27:083][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_30.WidgetTree_28.GridPanel_0
+[2018.06.15-21.07.27:083][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.REINST_Inventory_C_24:WidgetTree.GridPanel_0
+[2018.06.15-21.07.27:083][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_41.WidgetTree_48.GridPanel_0
+[2018.06.15-21.07.27:083][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory_C:WidgetTree.GridPanel_0
+[2018.06.15-21.07.27:084][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_42.WidgetTree_52.GridPanel_0
+[2018.06.15-21.07.27:084][705]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_46.WidgetTree_60.GridPanel_0
+[2018.06.15-21.07.27:084][705]LogProperty: Warning: Illegal TEXT reference to a private object in external package (GridSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0.GridSlot_7) from referencer (InventoryItem_C /Engine/UMG/Editor/Transient.InventoryItem_C_2).  Import failed...
+[2018.06.15-21.07.27:085][705]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'GridSlot'"GridPanel_0.GridSlot_7"''
+[2018.06.15-21.07.27:631][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.GridPanel_0
+[2018.06.15-21.07.27:631][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.GridPanel_0
+[2018.06.15-21.07.27:631][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.GridPanel_0
+[2018.06.15-21.07.27:632][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_22.WidgetTree_21.GridPanel_0
+[2018.06.15-21.07.27:632][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_23.WidgetTree_22.GridPanel_0
+[2018.06.15-21.07.27:632][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_24.WidgetTree_23.GridPanel_0
+[2018.06.15-21.07.27:633][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_25.WidgetTree_24.GridPanel_0
+[2018.06.15-21.07.27:633][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_45.WidgetTree_58.GridPanel_0
+[2018.06.15-21.07.27:633][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_44.WidgetTree_56.GridPanel_0
+[2018.06.15-21.07.27:634][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_43.WidgetTree_54.GridPanel_0
+[2018.06.15-21.07.27:634][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_30.WidgetTree_28.GridPanel_0
+[2018.06.15-21.07.27:634][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.REINST_Inventory_C_24:WidgetTree.GridPanel_0
+[2018.06.15-21.07.27:634][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_41.WidgetTree_48.GridPanel_0
+[2018.06.15-21.07.27:635][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory_C:WidgetTree.GridPanel_0
+[2018.06.15-21.07.27:635][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_42.WidgetTree_52.GridPanel_0
+[2018.06.15-21.07.27:635][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_46.WidgetTree_60.GridPanel_0
+[2018.06.15-21.07.27:636][764]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_47.WidgetTree_62.GridPanel_0
+[2018.06.15-21.07.27:636][764]LogProperty: Warning: Illegal TEXT reference to a private object in external package (GridSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0.GridSlot_7) from referencer (InventoryItem_C /Engine/UMG/Editor/Transient.InventoryItem_C_2).  Import failed...
+[2018.06.15-21.07.27:637][764]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'GridSlot'"GridPanel_0.GridSlot_7"''
+[2018.06.15-21.07.28:342][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.GridPanel_0
+[2018.06.15-21.07.28:343][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.GridPanel_0
+[2018.06.15-21.07.28:343][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.GridPanel_0
+[2018.06.15-21.07.28:343][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_22.WidgetTree_21.GridPanel_0
+[2018.06.15-21.07.28:344][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_23.WidgetTree_22.GridPanel_0
+[2018.06.15-21.07.28:344][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_24.WidgetTree_23.GridPanel_0
+[2018.06.15-21.07.28:344][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_25.WidgetTree_24.GridPanel_0
+[2018.06.15-21.07.28:344][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_45.WidgetTree_58.GridPanel_0
+[2018.06.15-21.07.28:345][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_44.WidgetTree_56.GridPanel_0
+[2018.06.15-21.07.28:345][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_43.WidgetTree_54.GridPanel_0
+[2018.06.15-21.07.28:345][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_30.WidgetTree_28.GridPanel_0
+[2018.06.15-21.07.28:346][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.REINST_Inventory_C_24:WidgetTree.GridPanel_0
+[2018.06.15-21.07.28:346][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_41.WidgetTree_48.GridPanel_0
+[2018.06.15-21.07.28:346][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory_C:WidgetTree.GridPanel_0
+[2018.06.15-21.07.28:347][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_42.WidgetTree_52.GridPanel_0
+[2018.06.15-21.07.28:347][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_46.WidgetTree_60.GridPanel_0
+[2018.06.15-21.07.28:347][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_47.WidgetTree_62.GridPanel_0
+[2018.06.15-21.07.28:347][826]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_48.WidgetTree_64.GridPanel_0
+[2018.06.15-21.07.28:348][826]LogProperty: Warning: Illegal TEXT reference to a private object in external package (GridSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0.GridSlot_7) from referencer (InventoryItem_C /Engine/UMG/Editor/Transient.InventoryItem_C_2).  Import failed...
+[2018.06.15-21.07.28:348][826]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'GridSlot'"GridPanel_0.GridSlot_7"''
+[2018.06.15-21.07.28:745][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_19.WidgetTree_18.GridPanel_0
+[2018.06.15-21.07.28:745][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_20.WidgetTree_19.GridPanel_0
+[2018.06.15-21.07.28:745][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_21.WidgetTree_20.GridPanel_0
+[2018.06.15-21.07.28:746][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_22.WidgetTree_21.GridPanel_0
+[2018.06.15-21.07.28:746][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_23.WidgetTree_22.GridPanel_0
+[2018.06.15-21.07.28:746][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_24.WidgetTree_23.GridPanel_0
+[2018.06.15-21.07.28:747][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_25.WidgetTree_24.GridPanel_0
+[2018.06.15-21.07.28:747][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_45.WidgetTree_58.GridPanel_0
+[2018.06.15-21.07.28:748][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_44.WidgetTree_56.GridPanel_0
+[2018.06.15-21.07.28:748][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_43.WidgetTree_54.GridPanel_0
+[2018.06.15-21.07.28:748][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_30.WidgetTree_28.GridPanel_0
+[2018.06.15-21.07.28:748][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.REINST_Inventory_C_24:WidgetTree.GridPanel_0
+[2018.06.15-21.07.28:749][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_41.WidgetTree_48.GridPanel_0
+[2018.06.15-21.07.28:749][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory_C:WidgetTree.GridPanel_0
+[2018.06.15-21.07.28:749][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_42.WidgetTree_52.GridPanel_0
+[2018.06.15-21.07.28:750][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_46.WidgetTree_60.GridPanel_0
+[2018.06.15-21.07.28:750][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_47.WidgetTree_62.GridPanel_0
+[2018.06.15-21.07.28:750][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_48.WidgetTree_64.GridPanel_0
+[2018.06.15-21.07.28:751][869]LogUObjectHash: Warning: Ambiguous search, could be GridPanel /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_2:Inventory_C_49.WidgetTree_66.GridPanel_0
+[2018.06.15-21.07.28:751][869]LogProperty: Warning: Illegal TEXT reference to a private object in external package (GridSlot /Game/UI/Widgets/Inventory/Inventory.Inventory:WidgetTree.GridPanel_0.GridSlot_7) from referencer (InventoryItem_C /Engine/UMG/Editor/Transient.InventoryItem_C_2).  Import failed...
+[2018.06.15-21.07.28:751][869]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'GridSlot'"GridPanel_0.GridSlot_7"''
+[2018.06.15-21.08.17:376][116]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.032
+[2018.06.15-21.08.17:378][116]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/Inventory/Inventory] ([1] browsable assets)...
+[2018.06.15-21.08.17:378][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/Inventory/Inventory]
+[2018.06.15-21.08.17:402][116]LogSavePackage: Save=18.39ms
+[2018.06.15-21.08.17:403][116]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory_Auto38B816FE64EF7A37D6ED2B6AD8AFC1CD2.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/Inventory_Auto3.uasset'
+[2018.06.15-21.08.17:403][116]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/Inventory_Auto3.uasset
+[2018.06.15-21.08.17:404][116]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.06.15-21.09.13:528][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.09.13:547][249]LogSavePackage: Save=13.90ms
+[2018.06.15-21.09.13:547][249]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Inventory5CB52730473DF8452E4B3086CBE6A91C.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.09.13:549][249]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.09.14:703][387]BlueprintLog: New page: Compile Inventory
+[2018.06.15-21.09.45:026][630]LogEditorTransaction: Undo Remove Widget
+[2018.06.15-21.10.27:142][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_2:Inventory_C_58.WidgetTree_90.None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.15-21.10.27:143][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_2:Inventory_C_58.WidgetTree_90.None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.15-21.10.27:143][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_2:Inventory_C_58.WidgetTree_90.None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.15-21.10.27:144][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_2:Inventory_C_58.WidgetTree_90.None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.15-21.10.27:144][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_2:Inventory_C_58.WidgetTree_90.None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.15-21.10.27:144][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_2:Inventory_C_58.WidgetTree_90.None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.15-21.10.27:158][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.10.27:179][628]LogSavePackage: Save=14.82ms
+[2018.06.15-21.10.27:179][628]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryDFDF695F46838A28E01FF3AE5105C50D.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.10.27:181][628]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.14.28:697][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.14.28:719][634]LogSavePackage: Save=13.29ms
+[2018.06.15-21.14.28:719][634]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryB1359BE54C80A815D0CCCE9CC5E31401.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.14.28:720][634]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.14.29:189][690]BlueprintLog: New page: Compile Inventory
+[2018.06.15-21.14.29:776][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/Inventory" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset" SILENT=true
+[2018.06.15-21.14.29:795][747]LogSavePackage: Save=13.65ms
+[2018.06.15-21.14.29:795][747]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/InventoryDC2483184B0B74F20F40759A36281ABE.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset'
+[2018.06.15-21.14.29:796][747]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/Inventory.uasset
+[2018.06.15-21.15.01:677][865]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.06.15-21.15.16:889][350]LogRenderer: Reallocating scene render targets to support 1136x836 Format 10 NumSamples 1 (Frame:1).
+[2018.06.15-21.15.17:541][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/FPSHUD" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/FPSHUD.uasset" SILENT=true
+[2018.06.15-21.15.17:563][405]LogSavePackage: Save=20.38ms
+[2018.06.15-21.15.17:564][405]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/FPSHUD9666DFAB47CE9A5E411B5EA7A8A45420.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/FPSHUD.uasset'
+[2018.06.15-21.15.17:565][405]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/FPSHUD.uasset
+[2018.06.15-21.15.27:489][423]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bc48bd3b30, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.15-21.15.27:500][423]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001bc48bd3b30, Size=104
+[2018.06.15-21.15.27:500][423]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bc48bd3b30, Size=104, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_61:ExecuteUbergraph_BP_InGameGUI
+[2018.06.15-21.15.27:522][423]LogUObjectGlobals: Created PersistentFrame Addr=0x000001bbd86d4720, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.15-21.15.33:966][124]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.15-21.15.36:639][436]BlueprintLog: New page: Compile BP_FPSGameModeBase
+[2018.06.15-21.15.36:830][436]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001bc48bd3b30, Size=104
+[2018.06.15-21.15.37:407][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSGameModeBase" FILE="../../../../../../../Projects/FPS/FPS/Content/Blueprints/BP_FPSGameModeBase.uasset" SILENT=true
+[2018.06.15-21.15.37:425][499]LogSavePackage: Save=7.73ms
+[2018.06.15-21.15.37:426][499]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_FPSGameModeBaseE080E65C41AC5D8718B388BB38387D90.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Blueprints/BP_FPSGameModeBase.uasset'
+[2018.06.15-21.15.37:449][499]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Blueprints/BP_FPSGameModeBase.uasset
+[2018.06.15-21.15.39:362][716]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.15-21.15.39:440][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.15-21.15.39:530][716]PIE: New page: PIE session: Level1 (Jun 16, 2018, 1:15:39 AM)
+[2018.06.15-21.15.39:531][716]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.15-21.15.39:645][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113611s)
+[2018.06.15-21.15.39:648][716]LogAIModule: Creating AISystem for world Level1
+[2018.06.15-21.15.39:658][716]LogPlayLevel: PIE: World Init took: (0.011860s)
+[2018.06.15-21.15.39:659][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.127889s)
+[2018.06.15-21.15.39:741][716]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.15-21.15.39:758][716]LogInit: FAudioDevice initialized.
+[2018.06.15-21.15.39:836][716]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.15-21.15.39:892][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.06.15-23.15.39
+[2018.06.15-21.15.39:962][716]LogWorld: Bringing up level for play took: 0.124105
+[2018.06.15-21.15.40:096][716]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0055 seconds. Added 11 classes and 0 folders.
+[2018.06.15-21.15.41:838][716]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.606 s
+[2018.06.15-21.15.41:839][716]LogOutputDevice: Error: === Handled ensure: ===
+[2018.06.15-21.15.41:839][716]LogOutputDevice: Error: 
+[2018.06.15-21.15.41:840][716]LogOutputDevice: Error: Ensure condition failed: Component->HasBegunPlay() [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3129]
+[2018.06.15-21.15.41:841][716]LogOutputDevice: Error: Failed to route BeginPlay (SMG /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.BP_FPSPlayer_C_0.CurrentWeaponMesh)
+[2018.06.15-21.15.41:842][716]LogOutputDevice: Error: Stack: 
+[2018.06.15-21.15.41:842][716]LogOutputDevice: Error: [Callstack] 0x00000000D591B706 UE4Editor-Core.dll!UnknownFunction []
+[2018.06.15-21.15.41:843][716]LogOutputDevice: Error: [Callstack] 0x00000000D567AE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.06.15-21.15.41:844][716]LogOutputDevice: Error: [Callstack] 0x00000000D568ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.06.15-21.15.41:845][716]LogOutputDevice: Error: [Callstack] 0x00000000D2A5A2D5 UE4Editor-Engine.dll!UnknownFunction []
+[2018.06.15-21.15.41:845][716]LogOutputDevice: Error: [Callstack] 0x00000000BB90992F UE4Editor-FPS.dll!AFPSPlayer::BeginPlay() [e:\projects\fps\fps\source\fps\fpsplayer.cpp:48]
+[2018.06.15-21.15.41:846][716]LogOutputDevice: Error: [Callstack] 0x00000000D2A672FB UE4Editor-Engine.dll!UnknownFunction []
+[2018.06.15-21.15.41:847][716]LogOutputDevice: Error: [Callstack] 0x00000000D3D1AE33 UE4Editor-Engine.dll!UnknownFunction []
+[2018.06.15-21.15.41:848][716]LogOutputDevice: Error: [Callstack] 0x00000000D31DF731 UE4Editor-Engine.dll!UnknownFunction []
+[2018.06.15-21.15.41:848][716]LogOutputDevice: Error: [Callstack] 0x00000000D3D0414E UE4Editor-Engine.dll!UnknownFunction []
+[2018.06.15-21.15.41:849][716]LogOutputDevice: Error: [Callstack] 0x00000000D320443E UE4Editor-Engine.dll!UnknownFunction []
+[2018.06.15-21.15.41:850][716]LogOutputDevice: Error: [Callstack] 0x00000000D09127E0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.06.15-21.15.41:850][716]LogOutputDevice: Error: [Callstack] 0x00000000D0931246 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.06.15-21.15.41:851][716]LogOutputDevice: Error: [Callstack] 0x00000000D094BBEF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.06.15-21.15.41:852][716]LogOutputDevice: Error: [Callstack] 0x00000000D03BC961 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.06.15-21.15.41:853][716]LogOutputDevice: Error: [Callstack] 0x00000000D0C59626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.06.15-21.15.41:853][716]LogOutputDevice: Error: [Callstack] 0x00000000E2BB5EAC UE4Editor.exe!UnknownFunction []
+[2018.06.15-21.15.41:854][716]LogOutputDevice: Error: [Callstack] 0x00000000E2BC6BD0 UE4Editor.exe!UnknownFunction []
+[2018.06.15-21.15.41:855][716]LogOutputDevice: Error: [Callstack] 0x00000000E2BC6C4A UE4Editor.exe!UnknownFunction []
+[2018.06.15-21.15.41:855][716]LogOutputDevice: Error: [Callstack] 0x00000000E2BD4177 UE4Editor.exe!UnknownFunction []
+[2018.06.15-21.15.41:856][716]LogOutputDevice: Error: [Callstack] 0x00000000E2BD5B87 UE4Editor.exe!UnknownFunction []
+[2018.06.15-21.15.41:857][716]LogOutputDevice: Error: [Callstack] 0x00000000253A3034 KERNEL32.DLL!UnknownFunction []
+[2018.06.15-21.15.41:857][716]LogOutputDevice: Error: [Callstack] 0x0000000025C21431 ntdll.dll!UnknownFunction []
+[2018.06.15-21.15.41:858][716]LogOutputDevice: Error: 
+[2018.06.15-21.15.41:868][716]LogStats:                SubmitErrorReport -  0.000 s

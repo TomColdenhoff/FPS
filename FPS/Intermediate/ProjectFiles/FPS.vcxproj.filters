@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPS.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3FB0AFC8-5E5F-4F93-8EA1-CE069A2EE6F0}</UniqueIdentifier>
+      <UniqueIdentifier>{56819F4F-3E0B-4658-8D99-68B47286ECEE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPS.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4ADC9AA5-D167-4F43-9ACA-D75E272D617A}</UniqueIdentifier>
+      <UniqueIdentifier>{6B3DD530-07FA-49C3-9BCE-104387FDDE6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,22 +30,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{47CCD790-BCC8-4D73-871F-26E93CBB4EF0}</UniqueIdentifier>
+      <UniqueIdentifier>{A9D28218-6428-47DF-B22D-D7749B046778}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\CoverPointGenerator">
-      <UniqueIdentifier>{5B07F784-283C-4E12-BC40-0DB318DA0644}</UniqueIdentifier>
+      <UniqueIdentifier>{8C910BE9-F67D-475C-AAFB-D521E1A2A5B7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\CoverPointGenerator\Source">
-      <UniqueIdentifier>{22F1B12A-C6D4-4A3D-B110-8C5955DF220E}</UniqueIdentifier>
+      <UniqueIdentifier>{1F7B8C7E-357B-45A2-9732-C7FD4BBF53A1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\CoverPointGenerator\Source\CoverPointGenerator">
-      <UniqueIdentifier>{42AB2ED2-A432-42C4-A91F-DA00CA46575B}</UniqueIdentifier>
+      <UniqueIdentifier>{47C18E0F-FD99-45E8-B1EA-A9C483910883}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\CoverPointGenerator.Build.cs">
       <Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator</Filter>
     </None>
     <Filter Include="Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private">
-      <UniqueIdentifier>{9F9A03B8-2B45-4F41-ACF0-5DF4C4CDB4D2}</UniqueIdentifier>
+      <UniqueIdentifier>{81B5BB84-A62A-4DD5-84C1-BD02D0DCA22C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private\CoverPointGenerator.cpp">
       <Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private</Filter>
@@ -57,7 +57,7 @@
       <Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public">
-      <UniqueIdentifier>{6AEBCB88-78B9-4DD8-BD7F-DAFB78E9F320}</UniqueIdentifier>
+      <UniqueIdentifier>{6318DB84-6960-4E07-855E-66E6924B29D3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public\CoverPointGenerator.h">
       <Filter>Plugins\CoverPointGenerator\Source\CoverPointGenerator\Public</Filter>
@@ -72,7 +72,7 @@
       <Filter>Plugins\CoverPointGenerator</Filter>
     </None>
     <Filter Include="Plugins\CoverPointGenerator\Resources">
-      <UniqueIdentifier>{14C0EEEE-94EE-42B4-AA6A-56D826A95EC8}</UniqueIdentifier>
+      <UniqueIdentifier>{108A7CF4-84F8-49C9-A8B6-4124F2D9C2E8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\CoverPointGenerator\Resources\ButtonIcon_40x.png">
       <Filter>Plugins\CoverPointGenerator\Resources</Filter>
@@ -81,7 +81,7 @@
       <Filter>Plugins\CoverPointGenerator\Resources</Filter>
     </None>
     <Filter Include="Source\FPS">
-      <UniqueIdentifier>{D758F620-EFCE-4897-84DD-71D2FFB15FE6}</UniqueIdentifier>
+      <UniqueIdentifier>{C25AD77D-8400-4E6B-B8E9-7324E8209BDD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPS\AssualtCharacter.cpp">
       <Filter>Source\FPS</Filter>
@@ -147,7 +147,7 @@
       <Filter>Source\FPS</Filter>
     </ClInclude>
     <Filter Include="Source\FPS\AI">
-      <UniqueIdentifier>{03C93872-B058-46C1-9D8F-15FA8A9C689F}</UniqueIdentifier>
+      <UniqueIdentifier>{E359C790-4C7D-411E-B2EA-CE7193A24158}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPS\AI\AimTowardsTarget.cpp">
       <Filter>Source\FPS\AI</Filter>
@@ -191,8 +191,23 @@
     <ClInclude Include="..\..\Source\FPS\AI\ToggleDuck.h">
       <Filter>Source\FPS\AI</Filter>
     </ClInclude>
+    <Filter Include="Source\FPS\Level">
+      <UniqueIdentifier>{652B23F4-953F-432A-BE79-EFEC8AFAE2A2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Level\DoorOpenComponent.cpp">
+      <Filter>Source\FPS\Level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Level\DoorOpenComponent.h">
+      <Filter>Source\FPS\Level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Level\InteractAble.cpp">
+      <Filter>Source\FPS\Level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Level\InteractAble.h">
+      <Filter>Source\FPS\Level</Filter>
+    </ClInclude>
     <Filter Include="Source\FPS\Player">
-      <UniqueIdentifier>{F141944D-D62B-45B7-99EC-79738494A622}</UniqueIdentifier>
+      <UniqueIdentifier>{E1D6A4FA-7A7C-40B4-B0C8-7C96A2B345E5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPS\Player\Interaction.cpp">
       <Filter>Source\FPS\Player</Filter>
@@ -201,7 +216,7 @@
       <Filter>Source\FPS\Player</Filter>
     </ClInclude>
     <Filter Include="Source\FPS\Private">
-      <UniqueIdentifier>{6DF94922-EB2A-451F-9333-8676D7D46AD9}</UniqueIdentifier>
+      <UniqueIdentifier>{3D1A7F09-E4D6-4302-A0A1-B8BF8C0E04BA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPS\Private\CoverPoint.cpp">
       <Filter>Source\FPS\Private</Filter>
@@ -210,7 +225,7 @@
       <Filter>Source\FPS\Private</Filter>
     </ClCompile>
     <Filter Include="Source\FPS\Private\AI">
-      <UniqueIdentifier>{F5BFCF3A-B14D-4D14-824A-ABE5619E00C2}</UniqueIdentifier>
+      <UniqueIdentifier>{2768D108-82B6-48CB-8CDE-4916589785A8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPS\Private\AI\AssaultEnemy.cpp">
       <Filter>Source\FPS\Private\AI</Filter>
@@ -225,7 +240,7 @@
       <Filter>Source\FPS\Private\AI</Filter>
     </ClCompile>
     <Filter Include="Source\FPS\Public">
-      <UniqueIdentifier>{B9933E52-C386-4D43-8BE5-21E79C9065BF}</UniqueIdentifier>
+      <UniqueIdentifier>{3AE7D310-7F2A-43C9-AE7F-56C6F98CDFC7}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FPS\Public\CoverPoint.h">
       <Filter>Source\FPS\Public</Filter>
@@ -234,7 +249,7 @@
       <Filter>Source\FPS\Public</Filter>
     </ClInclude>
     <Filter Include="Source\FPS\Public\AI">
-      <UniqueIdentifier>{FAEEA9D5-7C3B-41FB-8FAD-6DE675B3231C}</UniqueIdentifier>
+      <UniqueIdentifier>{75B1A01B-4D82-4D6D-AA08-DDFCFB3C568D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FPS\Public\AI\AssaultEnemy.h">
       <Filter>Source\FPS\Public\AI</Filter>
@@ -250,23 +265,24 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Source\FPS\Level">
-      <UniqueIdentifier>{96512033-7338-4c9a-b723-919d1dfd03cf}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FPS\Level\InteractAble.h">
+    <ClInclude Include="..\..\Source\FPS\Player\UIComponent.h">
+      <Filter>Source\FPS\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Level\BasicPickup.h">
       <Filter>Source\FPS\Level</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\FPS\Level\DoorOpenComponent.h">
+    <ClInclude Include="..\..\Source\FPS\Level\HoldAblePickUp.h">
       <Filter>Source\FPS\Level</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\FPS\Level\InteractAble.cpp">
+    <ClCompile Include="..\..\Source\FPS\Player\UIComponent.cpp">
+      <Filter>Source\FPS\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Level\BasicPickup.cpp">
       <Filter>Source\FPS\Level</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FPS\Level\DoorOpenComponent.cpp">
+    <ClCompile Include="..\..\Source\FPS\Level\HoldAblePickUp.cpp">
       <Filter>Source\FPS\Level</Filter>
     </ClCompile>
   </ItemGroup>

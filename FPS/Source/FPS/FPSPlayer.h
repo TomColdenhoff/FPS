@@ -61,6 +61,9 @@ public:
 	/*Returns the running state of the player*/
 	bool GetIsRunning() { return m_IsRunning; }
 
+	UFUNCTION(BlueprintCallable, Category = "UI")
+	class UUIComponent* GetUIComponent() { return p_UIComponent; }
+
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* CameraComponent;
 
@@ -84,16 +87,24 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	class UInteraction* p_InteractionComponent;
 
+	UPROPERTY(VisibleAnywhere)
+	class UUIComponent* p_UIComponent;
+
 	bool m_IsRunning = false;
 
 	/*Creates and attachs a camera to the player*/
 	void CreateCamera();
+
+	/*Creates and attaches ui component*/
+	void CreateUIComponent();
 
 	/*Creates and attaches a interaction Component*/
 	void CreateInteractionComponent();
 
 	/*Calls interaction function on interaction component*/
 	void Interact();
+
+	void ToggleInventory();
 
 
 	

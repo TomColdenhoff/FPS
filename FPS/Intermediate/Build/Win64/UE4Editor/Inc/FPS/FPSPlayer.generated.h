@@ -8,13 +8,34 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UUIComponent;
 #ifdef FPS_FPSPlayer_generated_h
 #error "FPSPlayer.generated.h already included, missing '#pragma once' in FPSPlayer.h"
 #endif
 #define FPS_FPSPlayer_generated_h
 
-#define FPS_Source_FPS_FPSPlayer_h_13_RPC_WRAPPERS
-#define FPS_Source_FPS_FPSPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FPS_Source_FPS_FPSPlayer_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetUIComponent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UUIComponent**)Z_Param__Result=P_THIS->GetUIComponent(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FPS_Source_FPS_FPSPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetUIComponent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UUIComponent**)Z_Param__Result=P_THIS->GetUIComponent(); \
+		P_NATIVE_END; \
+	}
+
+
 #define FPS_Source_FPS_FPSPlayer_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSPlayer(); \
@@ -64,7 +85,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSPlayer); \
 #define FPS_Source_FPS_FPSPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_DefaultPlayerHUD() { return STRUCT_OFFSET(AFPSPlayer, m_DefaultPlayerHUD); } \
 	FORCEINLINE static uint32 __PPO__m_CurrentHUD() { return STRUCT_OFFSET(AFPSPlayer, m_CurrentHUD); } \
-	FORCEINLINE static uint32 __PPO__p_InteractionComponent() { return STRUCT_OFFSET(AFPSPlayer, p_InteractionComponent); }
+	FORCEINLINE static uint32 __PPO__p_InteractionComponent() { return STRUCT_OFFSET(AFPSPlayer, p_InteractionComponent); } \
+	FORCEINLINE static uint32 __PPO__p_UIComponent() { return STRUCT_OFFSET(AFPSPlayer, p_UIComponent); }
 
 
 #define FPS_Source_FPS_FPSPlayer_h_10_PROLOG

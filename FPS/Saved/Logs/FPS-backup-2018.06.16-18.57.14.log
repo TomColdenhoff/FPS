@@ -1,0 +1,1887 @@
+﻿Log file open, 06/16/18 16:16:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2017582672) SRandInit(2017582672).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.361846
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CoverPointGenerator
+LogStreaming: Display: Took  0.075s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../../Projects/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../../Projects/FPS/FPS/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-27ERO04 (192.168.178.101:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.16-14.16.18:470][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.16-14.16.18:470][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.16-14.16.18:516][  0]LogInit: Computer: DESKTOP-27ERO04
+[2018.06.16-14.16.18:516][  0]LogInit: User: TomColdenhoff
+[2018.06.16-14.16.18:516][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.16-14.16.18:517][  0]LogInit: High frequency timer resolution =3.319355 MHz
+[2018.06.16-14.16.18:517][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.06.16-14.16.18:517][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.16-14.16.18:517][  0]LogMemory: Process Physical Memory: 279.15 MB used, 279.57 MB peak
+[2018.06.16-14.16.18:517][  0]LogMemory: Process Virtual Memory: 269.92 MB used, 269.92 MB peak
+[2018.06.16-14.16.18:517][  0]LogMemory: Physical Memory: 6166.02 MB used,  6041.42 MB free, 12207.44 MB total
+[2018.06.16-14.16.18:517][  0]LogMemory: Virtual Memory: 4794.46 MB used,  6041.42 MB free, 134217728.00 MB total
+[2018.06.16-14.16.18:558][  0]LogInit: Using OS detected language (en-US).
+[2018.06.16-14.16.18:558][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.16-14.16.18:561][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.16-14.16.18:999][  0]LogStreaming: Display: Took  0.441s to EndInitTextLocalization.
+[2018.06.16-14.16.18:999][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.16-14.16.19:046][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.16-14.16.19:047][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.16-14.16.19:221][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.16-14.16.19:296][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.06.16-14.16.19:296][  0]LogD3D11RHI:       4043/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.16-14.16.19:300][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.16-14.16.19:301][  0]LogD3D11RHI:       0/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.16-14.16.19:301][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.16-14.16.19:309][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.16-14.16.19:310][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.16-14.16.19:310][  0]LogWindows: EnumDisplayDevices:
+[2018.06.16-14.16.19:310][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.06.16-14.16.19:310][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.06.16-14.16.19:310][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.06.16-14.16.19:311][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.06.16-14.16.19:311][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.16-14.16.19:311][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.06.16-14.16.19:311][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.16-14.16.19:311][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.16-14.16.19:311][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.06.16-14.16.19:348][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.16-14.16.19:348][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.16-14.16.19:348][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.16-14.16.19:422][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.16-14.16.19:470][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../../../Projects/FPS/FPS/Intermediate/Shaders/WorkingDirectory/7188/).
+[2018.06.16-14.16.19:471][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TomColdenhoff/AppData/Local/Temp/UnrealShaderWorkingDir/416A539344224B04051EC59A3B26120F/'.
+[2018.06.16-14.16.19:678][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.16-14.16.19:694][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.16-14.16.19:712][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.16-14.16.19:726][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.16-14.16.19:741][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.16-14.16.19:756][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.16-14.16.19:770][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.16-14.16.19:785][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.16-14.16.19:792][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.16-14.16.19:806][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.16-14.16.19:823][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.16-14.16.19:837][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.16-14.16.19:851][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.16-14.16.19:865][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.16-14.16.19:879][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.16-14.16.19:906][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.16-14.16.19:906][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.16-14.16.19:923][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.16-14.16.19:926][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.16-14.16.19:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.16-14.16.19:984][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.16-14.16.20:001][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.16-14.16.20:018][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.16-14.16.20:038][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.16-14.16.20:054][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.16-14.16.20:054][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.16-14.16.20:173][  0]LogXGEController: Cleaning working directory: C:/Users/TomColdenhoff/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.16-14.16.20:173][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.16-14.16.20:173][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.16-14.16.20:173][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.16-14.16.20:842][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.16-14.16.20:914][  0]LogDerivedDataCache: Loaded boot cache 0.07s 80MB C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.16-14.16.20:914][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.16-14.16.20:914][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Projects/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.16-14.16.20:914][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.16-14.16.20:914][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Projects/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.16-14.16.20:915][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.16-14.16.20:932][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.16-14.16.20:945][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.16-14.16.20:945][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.16-14.16.20:945][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.16-14.16.20:957][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.16-14.16.20:957][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.16-14.16.20:958][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.16-14.16.20:958][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.16-14.16.21:061][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2018.06.16-14.16.22:182][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.16-14.16.22:344][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.16-14.16.22:348][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.16-14.16.22:348][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.16-14.16.22:348][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.16-14.16.22:348][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.16-14.16.22:348][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.16-14.16.22:375][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.06.16-14.16.22:778][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.068845 seconds
+[2018.06.16-14.16.22:784][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.16-14.16.22:784][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.06.16-14.16.22:784][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.16-14.16.24:324][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.16-14.16.24:351][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.16-14.16.24:659][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.343032ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.06.16-14.16.24:679][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b51a7f10, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.16-14.16.24:687][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b6b51a7f10, Size=80
+[2018.06.16-14.16.24:688][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b5193600, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.06.16-14.16.24:698][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b63d1530, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.16-14.16.24:821][  0]SourceControl: Source control is disabled
+[2018.06.16-14.16.24:821][  0]SourceControl: Source control is disabled
+[2018.06.16-14.16.24:834][  0]SourceControl: Source control is disabled
+[2018.06.16-14.16.24:849][  0]SourceControl: Source control is disabled
+[2018.06.16-14.16.25:289][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.16-14.16.25:447][  0]LogOcInput: OculusInput pre-init called
+[2018.06.16-14.16.26:451][  0]LogEngine: Initializing Engine...
+[2018.06.16-14.16.26:453][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.16-14.16.26:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.16-14.16.26:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.16-14.16.26:669][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.16-14.16.26:690][  0]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.16-14.16.26:706][  0]LogInit: FAudioDevice initialized.
+[2018.06.16-14.16.26:868][  0]LogDerivedDataCache: Saved boot cache 0.16s 80MB C:/Users/TomColdenhoff/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.16-14.16.26:893][  0]LogInit: Texture streaming: Enabled
+[2018.06.16-14.16.26:923][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.16-14.16.26:923][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={5999ABD3-44A7-E0D4-DD02-10A1EF29CDF8}
+[2018.06.16-14.16.26:936][  0]LogInit: Transaction tracking system initialized
+[2018.06.16-14.16.26:966][  0]BlueprintLog: New page: Editor Load
+[2018.06.16-14.16.27:068][  0]LocalizationService: Localization service is disabled
+[2018.06.16-14.16.27:182][  0]LogConsoleResponse: Display: 
+[2018.06.16-14.16.27:313][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.16-14.16.27:313][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.16-14.16.27:314][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.16-14.16.27:314][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.16-14.16.27:314][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.16-14.16.27:564][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/' took 0.02s
+[2018.06.16-14.16.27:622][  0]SourceControl: Source control is disabled
+[2018.06.16-14.16.27:622][  0]Cmd: MAP LOAD FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.16-14.16.27:623][  0]LightingResults: New page: Lighting Build
+[2018.06.16-14.16.27:625][  0]MapCheck: New page: Map Check
+[2018.06.16-14.16.27:625][  0]LightingResults: New page: Lighting Build
+[2018.06.16-14.16.27:635][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b6b5193600, Size=80
+[2018.06.16-14.16.28:398][  0]LogAIModule: Creating AISystem for world Level1
+[2018.06.16-14.16.28:426][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.16-14.16.28:443][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.16-14.16.28:501][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.873ms to complete.
+[2018.06.16-14.16.28:501][  0]LogFileHelpers: Loading map 'Level1' took 0.879
+[2018.06.16-14.16.28:655][  0]LogCollectionManager: Loaded 0 collections in 0.000867 seconds
+[2018.06.16-14.16.28:703][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.06.16-14.16.28:703][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/Developers/TomColdenhoff/Collections/' took 0.01s
+[2018.06.16-14.16.28:703][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/FPS/FPS/Content/Collections/' took 0.01s
+[2018.06.16-14.16.28:703][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.16-14.16.28:717][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2480 classes and 565 folders.
+[2018.06.16-14.16.28:722][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.16-14.16.28:755][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.06.16-14.16.28:764][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.06.16-14.16.29:820][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.16-14.16.29:854][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.16-14.16.29:856][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.16-14.16.29:864][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.16-14.16.29:961][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPS
+[2018.06.16-14.16.29:961][  0]LogTemp: CWD: E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.16-14.16.29:962][  0]LogTemp: Initial Dir: E:\Game Engines\Epic Games\4.19\UE_4.19
+[2018.06.16-14.16.29:962][  0]LogTemp: Env CWD: E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.16-14.16.29:962][  0]LogTemp: BranchPath = DESKTOP-27ERO04/E/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-27ERO04/E/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries
+[2018.06.16-14.16.29:962][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\TomColdenhoff\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.16-14.16.29:962][  0]LogRenderer: Reallocating scene render targets to support 1136x532 Format 10 NumSamples 1 (Frame:1).
+[2018.06.16-14.16.30:225][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.06.16-14.16.30:226][  0]LogLoad: (Engine Initialization) Total time: 14.18 seconds
+[2018.06.16-14.16.30:226][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.16-14.16.30:235][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.16-14.16.30:262][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.16-14.16.30:307][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.16-14.16.30:349][  2]LogAssetRegistry: Asset discovery search completed in 9.3120 seconds
+[2018.06.16-14.16.30:351][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.16-14.16.30:351][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000188 seconds (updated 0 objects)
+[2018.06.16-14.16.31:997][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-14.16.33:064][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-14.16.33:143][244]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.16-14.16.33:165][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.16-14.16.33:166][244]PIE: New page: PIE session: Level1 (Jun 16, 2018, 6:16:33 PM)
+[2018.06.16-14.16.33:166][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.16-14.16.33:182][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015685s)
+[2018.06.16-14.16.33:183][244]LogAIModule: Creating AISystem for world Level1
+[2018.06.16-14.16.33:183][244]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2018.06.16-14.16.33:184][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.017341s)
+[2018.06.16-14.16.33:199][244]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.16-14.16.33:210][244]LogInit: FAudioDevice initialized.
+[2018.06.16-14.16.33:266][244]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b5215a60, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.16-14.16.33:270][244]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b6b5215a60, Size=104
+[2018.06.16-14.16.33:270][244]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b5215a60, Size=104, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_0:ExecuteUbergraph_BP_InGameGUI
+[2018.06.16-14.16.33:272][244]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b5f165c0, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.16-14.16.33:279][244]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b5f63b00, Size=40, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.16-14.16.33:283][244]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b6b5f63b00, Size=40
+[2018.06.16-14.16.33:283][244]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b5f63b00, Size=40, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_2:ExecuteUbergraph_UIHUD
+[2018.06.16-14.16.33:285][244]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6b5f639c0, Size=40, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.16-14.16.33:310][244]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.16-14.16.33:321][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.06.16-16.16.33
+[2018.06.16-14.16.33:322][244]LogWorld: Bringing up level for play took: 0.009711
+[2018.06.16-14.16.33:326][244]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.06.16-14.16.33:328][244]LogOutputDevice: Error: Ensure condition failed: Component->HasBegunPlay() [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3129] 
+Failed to route BeginPlay (SMG /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.BP_FPSPlayer_C_0.CurrentWeaponMesh)
+
+[2018.06.16-14.16.33:328][244]LogStats:             FDebug::EnsureFailed -  0.000 s
+[2018.06.16-14.16.34:852][244]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.279
+[2018.06.16-14.16.38:694][513]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b6b5215a60, Size=104
+[2018.06.16-14.16.38:695][513]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b6b5f63b00, Size=40
+[2018.06.16-14.16.39:587][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-14.16.39:590][593]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.06.16-14.16.40:586][681]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.16-14.16.40:609][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.16-14.16.40:609][681]PIE: New page: PIE session: Level1 (Jun 16, 2018, 6:16:40 PM)
+[2018.06.16-14.16.40:610][681]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.16-14.16.40:629][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019321s)
+[2018.06.16-14.16.40:630][681]LogAIModule: Creating AISystem for world Level1
+[2018.06.16-14.16.40:631][681]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2018.06.16-14.16.40:631][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.021316s)
+[2018.06.16-14.16.40:650][681]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.16-14.16.40:659][681]LogInit: FAudioDevice initialized.
+[2018.06.16-14.16.40:697][681]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.16-14.16.40:707][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.06.16-16.16.40
+[2018.06.16-14.16.40:708][681]LogWorld: Bringing up level for play took: 0.009557
+[2018.06.16-14.16.40:711][681]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.863
+[2018.06.16-14.16.44:533][ 64]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:544][ 65]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:556][ 66]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:568][ 67]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:580][ 68]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:590][ 69]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:602][ 70]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:613][ 71]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:625][ 72]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:637][ 73]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:649][ 74]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:660][ 75]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:671][ 76]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:684][ 77]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:695][ 78]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:706][ 79]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:718][ 80]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:730][ 81]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:741][ 82]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:753][ 83]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:766][ 84]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:777][ 85]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:788][ 86]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:800][ 87]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:812][ 88]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:825][ 89]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:838][ 90]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:849][ 91]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:861][ 92]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:873][ 93]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:885][ 94]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:897][ 95]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:908][ 96]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:921][ 97]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:933][ 98]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:944][ 99]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:956][100]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:968][101]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:980][102]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.44:992][103]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:003][104]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:016][105]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:027][106]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:038][107]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:051][108]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:062][109]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:074][110]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:086][111]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:098][112]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:110][113]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:121][114]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:133][115]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:146][116]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:157][117]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:168][118]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:180][119]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:193][120]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:205][121]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:216][122]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:229][123]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:240][124]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:252][125]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:263][126]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:275][127]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:287][128]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:299][129]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:311][130]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:323][131]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:336][132]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:347][133]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:359][134]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:371][135]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:383][136]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:395][137]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:407][138]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:419][139]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:431][140]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:442][141]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:454][142]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:466][143]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:477][144]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:489][145]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:501][146]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:513][147]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:524][148]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:536][149]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:548][150]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:560][151]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:571][152]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:584][153]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:594][154]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:606][155]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:617][156]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:629][157]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:640][158]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:653][159]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:664][160]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:675][161]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:687][162]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:698][163]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:709][164]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:721][165]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:732][166]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:744][167]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:755][168]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:767][169]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:779][170]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:789][171]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:801][172]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:812][173]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:825][174]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:836][175]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.45:847][176]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:871][270]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:881][271]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:891][272]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:903][273]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:914][274]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:924][275]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:936][276]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:946][277]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:958][278]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:968][279]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:979][280]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.46:990][281]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:001][282]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:012][283]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:022][284]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:033][285]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:044][286]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:055][287]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:066][288]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:076][289]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:088][290]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:098][291]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:109][292]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:120][293]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:131][294]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:141][295]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:153][296]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:164][297]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.47:175][298]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:806][ 66]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:818][ 67]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:830][ 68]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:842][ 69]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:854][ 70]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:866][ 71]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:878][ 72]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:889][ 73]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:901][ 74]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:913][ 75]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:924][ 76]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:936][ 77]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:948][ 78]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:959][ 79]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:971][ 80]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:982][ 81]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.55:995][ 82]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:006][ 83]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:017][ 84]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:028][ 85]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:040][ 86]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:051][ 87]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:064][ 88]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:075][ 89]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:086][ 90]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:098][ 91]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:109][ 92]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:120][ 93]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:132][ 94]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:144][ 95]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:154][ 96]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:167][ 97]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:178][ 98]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:189][ 99]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:201][100]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:212][101]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:224][102]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:236][103]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:247][104]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:258][105]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:271][106]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:283][107]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:294][108]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:306][109]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:317][110]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:329][111]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:340][112]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:351][113]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:363][114]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:374][115]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:386][116]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:398][117]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:409][118]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:420][119]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:433][120]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:443][121]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:455][122]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:466][123]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:478][124]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:489][125]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:501][126]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:513][127]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:525][128]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:536][129]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:548][130]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:559][131]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:570][132]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:582][133]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:593][134]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:605][135]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:617][136]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:629][137]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:641][138]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:652][139]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:663][140]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:674][141]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:685][142]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:697][143]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:709][144]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:720][145]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:731][146]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:742][147]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:754][148]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:766][149]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:778][150]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:790][151]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:801][152]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:813][153]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:825][154]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:837][155]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:849][156]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:861][157]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:872][158]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:884][159]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:896][160]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:907][161]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:919][162]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:930][163]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:942][164]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:953][165]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:965][166]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:977][167]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.56:989][168]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:001][169]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:013][170]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:024][171]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:037][172]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:048][173]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:059][174]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:072][175]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:083][176]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:095][177]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:107][178]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:119][179]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:131][180]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:142][181]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:154][182]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:166][183]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:177][184]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:189][185]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:200][186]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:212][187]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:224][188]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:236][189]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:247][190]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:259][191]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:272][192]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:283][193]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:295][194]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:307][195]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:319][196]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:330][197]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:341][198]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:354][199]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:365][200]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:376][201]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:388][202]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:399][203]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:410][204]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:421][205]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:432][206]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:444][207]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:455][208]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:467][209]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:478][210]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:489][211]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:501][212]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:513][213]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:524][214]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:536][215]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:547][216]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:559][217]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:570][218]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:581][219]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:593][220]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:604][221]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:615][222]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:626][223]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:638][224]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:649][225]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:661][226]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:673][227]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:684][228]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:694][229]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:707][230]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:718][231]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:730][232]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:741][233]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:753][234]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:764][235]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:776][236]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:787][237]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:798][238]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:810][239]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:822][240]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:834][241]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:845][242]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:857][243]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:869][244]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:880][245]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:892][246]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:904][247]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:916][248]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:927][249]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:940][250]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:951][251]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:962][252]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:975][253]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:987][254]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.57:998][255]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:009][256]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:023][257]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:034][258]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:045][259]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:057][260]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:069][261]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:080][262]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:092][263]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:104][264]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:116][265]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:127][266]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:139][267]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:150][268]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:162][269]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:174][270]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:186][271]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:197][272]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:209][273]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:220][274]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:232][275]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:243][276]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:255][277]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:267][278]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:279][279]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:290][280]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:302][281]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:314][282]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:326][283]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:337][284]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:349][285]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:361][286]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:372][287]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:384][288]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:396][289]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:408][290]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:420][291]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:431][292]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:442][293]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:454][294]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:466][295]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:478][296]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:490][297]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:501][298]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:514][299]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:525][300]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:537][301]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:548][302]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:560][303]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:573][304]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:584][305]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:596][306]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:608][307]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:619][308]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:631][309]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:642][310]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:654][311]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:666][312]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:678][313]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:689][314]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:701][315]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:713][316]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:725][317]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:736][318]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:749][319]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:760][320]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:773][321]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:785][322]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:796][323]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:807][324]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:819][325]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:831][326]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:842][327]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:854][328]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:865][329]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:877][330]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:888][331]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:901][332]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:911][333]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:923][334]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:935][335]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:948][336]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:960][337]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:971][338]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:984][339]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.58:995][340]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:007][341]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:019][342]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:031][343]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:043][344]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:055][345]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:067][346]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:079][347]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:090][348]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:102][349]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:113][350]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:125][351]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:138][352]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:149][353]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:161][354]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:172][355]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:184][356]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:196][357]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:208][358]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:218][359]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:230][360]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:242][361]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:254][362]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:266][363]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:278][364]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:289][365]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:301][366]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:313][367]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:325][368]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:336][369]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:347][370]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:359][371]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:370][372]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:383][373]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:395][374]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:407][375]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:419][376]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:431][377]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:442][378]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:454][379]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:466][380]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:477][381]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:489][382]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:500][383]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:512][384]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:524][385]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:536][386]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:547][387]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:559][388]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:570][389]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:582][390]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:594][391]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:606][392]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:616][393]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:628][394]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:640][395]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:652][396]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:663][397]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:676][398]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:687][399]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:698][400]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:710][401]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:722][402]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:733][403]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:746][404]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:757][405]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:769][406]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:781][407]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:792][408]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:805][409]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:816][410]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:828][411]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:839][412]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:852][413]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:863][414]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:874][415]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:887][416]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:899][417]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:910][418]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:922][419]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:933][420]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:945][421]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:957][422]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:968][423]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:980][424]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.16.59:991][425]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:004][426]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:016][427]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:027][428]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:039][429]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:050][430]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:062][431]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:074][432]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:086][433]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:098][434]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:109][435]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:121][436]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:132][437]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:144][438]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:156][439]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:168][440]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:181][441]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:192][442]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:204][443]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:216][444]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:226][445]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:238][446]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:249][447]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:262][448]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:273][449]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:284][450]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:296][451]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:308][452]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:320][453]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:331][454]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:343][455]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:356][456]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:367][457]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:379][458]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:392][459]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:403][460]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:414][461]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:426][462]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:438][463]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:450][464]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:461][465]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:473][466]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:485][467]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:497][468]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:508][469]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:520][470]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:532][471]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:543][472]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:555][473]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:567][474]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:578][475]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:590][476]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:602][477]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:613][478]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:625][479]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:637][480]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:648][481]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:660][482]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:672][483]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:684][484]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:695][485]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:707][486]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:718][487]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:730][488]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:741][489]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:753][490]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:766][491]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:777][492]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:788][493]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:800][494]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:812][495]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:824][496]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:835][497]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:847][498]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:858][499]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:871][500]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:882][501]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:894][502]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:906][503]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:918][504]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:929][505]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:941][506]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:953][507]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:965][508]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:976][509]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.00:988][510]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:000][511]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:011][512]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:023][513]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:035][514]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:048][515]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:058][516]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:072][517]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:083][518]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:094][519]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:106][520]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:117][521]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:128][522]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:139][523]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:152][524]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:163][525]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:174][526]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:185][527]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:197][528]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:209][529]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:220][530]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:231][531]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:243][532]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:255][533]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:266][534]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:278][535]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:289][536]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:302][537]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:313][538]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:326][539]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:337][540]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:349][541]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:360][542]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:372][543]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:684][570]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:695][571]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:707][572]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:718][573]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:730][574]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:741][575]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:753][576]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:766][577]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:778][578]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:789][579]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:800][580]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:812][581]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:823][582]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:835][583]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:847][584]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:858][585]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:871][586]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:882][587]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:894][588]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:905][589]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:917][590]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:928][591]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:939][592]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:952][593]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:963][594]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:974][595]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:986][596]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.01:997][597]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:008][598]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:021][599]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:032][600]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:043][601]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:054][602]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:066][603]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:078][604]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:090][605]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:101][606]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:113][607]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:125][608]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:137][609]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:149][610]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:161][611]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:172][612]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:184][613]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:196][614]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:207][615]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:219][616]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:231][617]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:243][618]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:254][619]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:268][620]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:278][621]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:290][622]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:303][623]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:314][624]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:325][625]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:338][626]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:349][627]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:359][628]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:371][629]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:384][630]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:396][631]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:407][632]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:419][633]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:430][634]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:442][635]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:454][636]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:466][637]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:478][638]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:489][639]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:502][640]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:513][641]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:525][642]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:536][643]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:548][644]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:559][645]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:571][646]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:583][647]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:594][648]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:606][649]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:618][650]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:630][651]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:641][652]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:653][653]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:665][654]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:676][655]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:688][656]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:701][657]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:712][658]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:724][659]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:735][660]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:748][661]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:759][662]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:772][663]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:783][664]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:795][665]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:806][666]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:818][667]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:830][668]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:842][669]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:854][670]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:866][671]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:877][672]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:888][673]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:900][674]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:911][675]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:924][676]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:936][677]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:947][678]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:959][679]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:970][680]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:982][681]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.02:993][682]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:006][683]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:017][684]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:028][685]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:041][686]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:052][687]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:064][688]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:076][689]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:087][690]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:099][691]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:110][692]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:122][693]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:134][694]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:146][695]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:157][696]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:169][697]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:181][698]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:193][699]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:205][700]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:216][701]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:228][702]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:239][703]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:251][704]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:263][705]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:275][706]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:286][707]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:298][708]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:310][709]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:321][710]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:333][711]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:345][712]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:356][713]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:368][714]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:380][715]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:392][716]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:403][717]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:415][718]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:426][719]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:438][720]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:450][721]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:461][722]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:473][723]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:485][724]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:496][725]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:508][726]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:521][727]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:532][728]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:543][729]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:556][730]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:567][731]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:579][732]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:590][733]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:602][734]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:614][735]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:625][736]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:638][737]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:649][738]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:660][739]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:672][740]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:684][741]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:695][742]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:707][743]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:718][744]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:730][745]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:742][746]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:754][747]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:766][748]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:777][749]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:789][750]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:800][751]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:811][752]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:823][753]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:835][754]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:847][755]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:858][756]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:870][757]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:882][758]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:893][759]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:905][760]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:917][761]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:928][762]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:939][763]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:951][764]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:963][765]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:975][766]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:986][767]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.03:998][768]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:010][769]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:021][770]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:034][771]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:046][772]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:057][773]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:068][774]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:080][775]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:091][776]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:105][777]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:116][778]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:127][779]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:140][780]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:151][781]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:163][782]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:174][783]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:186][784]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:197][785]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:209][786]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:220][787]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:232][788]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:243][789]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:255][790]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:267][791]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:280][792]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:292][793]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:303][794]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:315][795]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:326][796]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:338][797]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:350][798]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:361][799]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:373][800]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:384][801]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:396][802]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:407][803]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:419][804]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:432][805]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:443][806]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:455][807]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:467][808]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:478][809]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:490][810]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:502][811]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:514][812]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:525][813]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:537][814]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:549][815]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:560][816]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:573][817]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:584][818]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:596][819]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:607][820]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:620][821]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:632][822]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:643][823]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:655][824]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:666][825]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:678][826]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:690][827]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:702][828]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:713][829]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:725][830]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:736][831]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:749][832]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:759][833]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:772][834]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:783][835]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:795][836]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:807][837]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:818][838]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:830][839]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:841][840]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:853][841]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:865][842]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:876][843]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:888][844]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:899][845]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:911][846]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:923][847]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:935][848]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:947][849]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:958][850]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:970][851]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:982][852]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.04:993][853]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:005][854]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:016][855]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:028][856]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:041][857]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:053][858]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:063][859]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:075][860]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:087][861]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:099][862]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:110][863]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:121][864]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:133][865]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:145][866]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:157][867]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:169][868]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:180][869]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:191][870]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:203][871]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:216][872]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:227][873]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:238][874]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:250][875]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:262][876]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:274][877]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:286][878]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:298][879]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:309][880]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:321][881]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:332][882]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:344][883]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:355][884]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:368][885]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:379][886]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:391][887]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:403][888]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:415][889]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:425][890]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:437][891]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:449][892]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:461][893]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:472][894]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:483][895]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:496][896]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:507][897]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:520][898]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:531][899]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:542][900]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:554][901]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:566][902]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:578][903]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:590][904]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:602][905]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:613][906]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:625][907]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:637][908]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:648][909]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:659][910]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:671][911]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:683][912]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:695][913]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:706][914]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:718][915]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:730][916]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:741][917]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:753][918]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:765][919]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:777][920]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:789][921]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:800][922]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:812][923]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:824][924]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:835][925]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:847][926]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:858][927]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:870][928]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:882][929]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:893][930]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:905][931]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:917][932]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:929][933]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:940][934]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:952][935]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:965][936]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:976][937]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:987][938]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.05:999][939]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.06:011][940]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.06:023][941]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.06:035][942]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.06:047][943]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.06:059][944]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.06:070][945]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.17.06:082][946]LogTemp: Warning: BP_SMGPickUp_2
+[2018.06.16-14.44.35:045][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-14.44.36:576][215]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_2:PersistentLevel.BP_SMGPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-14.44.37:252][257]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.16-14.44.37:482][257]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2018.06.16-14.44.37:759][257]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b69cfcaff0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.16-14.44.37:760][257]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b69cfcafe8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.16-14.44.38:312][257]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_3:PersistentLevel.BP_SMGPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-14.44.48:619][428]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.16-14.44.48:643][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.16-14.44.48:643][428]PIE: New page: PIE session: Level1 (Jun 16, 2018, 6:44:48 PM)
+[2018.06.16-14.44.48:644][428]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.16-14.44.48:660][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016191s)
+[2018.06.16-14.44.48:661][428]LogAIModule: Creating AISystem for world Level1
+[2018.06.16-14.44.48:662][428]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2018.06.16-14.44.48:662][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.018301s)
+[2018.06.16-14.44.48:692][428]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.16-14.44.48:702][428]LogInit: FAudioDevice initialized.
+[2018.06.16-14.44.48:736][428]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.16-14.44.48:746][428]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.06.16-16.44.48
+[2018.06.16-14.44.48:747][428]LogWorld: Bringing up level for play took: 0.009473
+[2018.06.16-14.44.48:750][428]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.823
+[2018.06.16-14.44.55:626][  2]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.16-14.44.56:454][ 63]MapCheck: New page: Map Check
+[2018.06.16-14.44.56:486][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.16-14.44.56:500][ 63]LightingResults: New page: Lighting Build - Jun 16, 2018, 6:44:56 PM
+[2018.06.16-14.44.56:807][ 63]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.16-14.44.56:962][ 63]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.16-14.44.56:988][ 63]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.16-14.44.58:023][ 63]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.16-14.44.58:023][ 63]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7188
+[2018.06.16-14.45.02:572][ 63]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.06.16-14.45.02:590][ 63]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.16-14.45.02:591][ 63]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.16-14.45.02:591][ 63]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.16-14.45.02:591][ 63]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.16-14.45.02:592][ 63]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.16-14.45.02:887][ 63]LogEditorBuildUtils: Build time 0:06
+[2018.06.16-14.45.11:887][689]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.11:887][689]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.12:050][701]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.12:050][701]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.12:696][753]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.12:696][753]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.13:057][781]LightingResults: Warning: trolley Object has overlapping UVs.
+[2018.06.16-14.45.13:058][781]LightingResults: trolley Lightmap UV are overlapping by 5.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.13:189][788]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.13:189][788]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.13:244][791]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.13:244][791]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.14:597][891]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.14:597][891]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.15:155][934]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.15:155][934]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.15:624][968]LightingResults: Warning: trolley Object has overlapping UVs.
+[2018.06.16-14.45.15:624][968]LightingResults: trolley Lightmap UV are overlapping by 5.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.16:196][  9]LightingResults: Warning: office_free_unity_5 Object has overlapping UVs.
+[2018.06.16-14.45.16:196][  9]LightingResults: office_free_unity_5 Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.06.16-14.45.17:587][113]Job is a success!
+[2018.06.16-14.45.17:621][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.16-14.45.17:712][114]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.039s
+[2018.06.16-14.45.17:712][114]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.06.16-14.45.17:712][114]LogVolumetricLightmapImport:      BrickData 165x5x5 = 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.06.16-14.45.17:713][114]LogVolumetricLightmapImport:      Bricks at Level
+[2018.06.16-14.45.17:713][114]LogVolumetricLightmapImport:          0: 3.0% covering 100.0% of volume
+[2018.06.16-14.45.17:713][114]LogVolumetricLightmapImport:          1: 12.1% covering 6.3% of volume
+[2018.06.16-14.45.17:713][114]LogVolumetricLightmapImport:          2: 84.8% covering 0.7% of volume
+[2018.06.16-14.45.18:619][114]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.06.16-14.45.18:619][114]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.06.16-14.45.18:620][114]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.06.16-14.45.18:621][114]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.06.16-14.45.18:621][114]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.06.16-14.45.18:621][114]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.06.16-14.45.18:622][114]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2018.06.16-14.45.18:622][114]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2018.06.16-14.45.18:622][114]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2018.06.16-14.45.18:622][114]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2018.06.16-14.45.18:623][114]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2018.06.16-14.45.18:623][114]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2018.06.16-14.45.18:623][114]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2018.06.16-14.45.18:623][114]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2018.06.16-14.45.18:624][114]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2018.06.16-14.45.18:624][114]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
+[2018.06.16-14.45.18:624][114]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2018.06.16-14.45.18:624][114]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2018.06.16-14.45.18:818][114]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.06.16-14.45.18:915][114]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2018.06.16-14.45.18:915][114]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2018.06.16-14.45.18:947][114]Lightmass on DESKTOP-27ERO04: 14.4 sec total, 612 ms importing, 113 ms setup, 2.14 sec photons, 11.4 sec processing, 0 ms extra exporting [279/279 mappings]. Threads: 1:20 min total, 58.9 sec processing.
+[2018.06.16-14.45.18:977][114]LogStaticLightingSystem: Illumination: 22.4 sec (758 ms encoding lightmaps, 285 ms encoding shadowmaps)
+[2018.06.16-14.45.18:978][114]LogStaticLightingSystem: Lightmap texture memory:  13.3 MB (13.3 MB streaming, 0.0 MB non-streaming), 12 textures
+[2018.06.16-14.45.18:978][114]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.06.16-14.45.19:662][114]DumpUnbuiltLightIteractions
+[2018.06.16-14.45.19:663][114]Lights with unbuilt interactions: 0
+[2018.06.16-14.45.19:663][114]
+[2018.06.16-14.45.19:663][114]Primitives with unbuilt interactions: 0
+[2018.06.16-14.45.19:677][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.16-14.45.19:711][115]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.16-14.45.19:711][115]MapCheck: New page: Level1 - Jun 16, 2018, 6:45:19 PM
+[2018.06.16-14.45.19:836][115]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.801ms to complete.
+[2018.06.16-14.45.22:378][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DeskSingle)
+[2018.06.16-14.45.23:025][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x406)
+[2018.06.16-14.45.53:431][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.026
+[2018.06.16-14.45.53:456][948]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Level1_BuiltData] ([1] browsable assets)...
+[2018.06.16-14.45.53:457][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Level1_BuiltData]
+[2018.06.16-14.45.53:457][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1_BuiltData" FILE="../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Maps/Level1_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.06.16-14.45.53:517][948]LogSavePackage: Save=43.59ms
+[2018.06.16-14.45.53:517][948]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Level1_BuiltData_Auto1A7B9B4DB46E141942EE4948DF60C7E4A.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Maps/Level1_BuiltData_Auto1.uasset'
+[2018.06.16-14.45.53:519][948]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/Maps/Level1_BuiltData_Auto1.uasset
+[2018.06.16-14.45.53:519][948]LogFileHelpers: Auto-saving content packages took 0.086
+[2018.06.16-14.51.11:206][733]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.16-14.59.34:261][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-15.06.12:073][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-15.07.37:539][895]LogSlate: Took 0.000466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.16-15.07.39:035][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1_BuiltData" FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/Level1_BuiltData.uasset" SILENT=true
+[2018.06.16-15.07.39:344][ 60]LogSavePackage: Save=292.24ms
+[2018.06.16-15.07.39:344][ 60]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Level1_BuiltDataAE8D2AF84B08CF38A8ED5DADAF265CCB.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Maps/Level1_BuiltData.uasset'
+[2018.06.16-15.07.39:347][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Maps/Level1_BuiltData.uasset
+[2018.06.16-15.07.39:351][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundSlot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset" SILENT=true
+[2018.06.16-15.07.39:362][ 60]LogSavePackage: Save=7.38ms
+[2018.06.16-15.07.39:362][ 60]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlotBB9419A54C69A37C4D49A195CE4EC7DD.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset'
+[2018.06.16-15.07.39:365][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset
+[2018.06.16-15.07.59:619][297]LogSlate: Window 'Save Asset As' being destroyed
+[2018.06.16-15.08.07:285][193]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.16-15.08.36:410][656]BlueprintLog: New page: Compile OnGroundSlot
+[2018.06.16-15.09.11:342][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundSlot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset" SILENT=true
+[2018.06.16-15.09.11:368][593]LogSavePackage: Save=10.32ms
+[2018.06.16-15.09.11:368][593]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlotCBC3CE3A44426C990180E5BDEC973107.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset'
+[2018.06.16-15.09.11:371][593]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset
+[2018.06.16-15.09.24:587][147]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.16-15.09.32:472][ 86]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.16-15.09.35:234][405]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_0' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:236][405]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_2' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:239][405]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_4' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:248][406]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_6' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:250][406]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_8' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:251][406]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_10' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:252][406]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_12' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:254][406]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_14' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:262][407]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_16' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:263][407]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_18' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:265][407]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_20' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.09.35:267][407]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_22' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.06.16-15.10.20:944][867]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.021
+[2018.06.16-15.10.20:946][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/Inventory/OnGroundSlot] ([1] browsable assets)...
+[2018.06.16-15.10.20:946][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/Inventory/OnGroundSlot]
+[2018.06.16-15.10.20:968][867]LogSavePackage: Save=12.72ms
+[2018.06.16-15.10.20:968][867]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlot_Auto251FEEE7648E6533FA1D8CD927F360F4B.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundSlot_Auto2.uasset'
+[2018.06.16-15.10.20:970][867]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundSlot_Auto2.uasset
+[2018.06.16-15.10.20:971][867]LogFileHelpers: Auto-saving content packages took 0.026
+[2018.06.16-15.12.42:108][626]LogSlate: Took 0.058816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.06.16-15.13.31:507][498]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.16-15.13.33:998][796]BlueprintLog: New page: Compile OnGroundSlot
+[2018.06.16-15.13.34:554][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundSlot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset" SILENT=true
+[2018.06.16-15.13.34:574][835]LogSavePackage: Save=11.85ms
+[2018.06.16-15.13.34:574][835]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlot856534544858E0A8B77668990AD08D47.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset'
+[2018.06.16-15.13.34:578][835]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset
+[2018.06.16-15.15.34:307][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundSlot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset" SILENT=true
+[2018.06.16-15.15.34:331][ 92]LogSavePackage: Save=10.64ms
+[2018.06.16-15.15.34:332][ 92]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlot24CD3ABB4E6FA58EDAF2E8B05255C36C.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset'
+[2018.06.16-15.15.34:336][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset
+[2018.06.16-15.15.35:974][285]BlueprintLog: New page: Compile OnGroundSlot
+[2018.06.16-15.15.36:818][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundSlot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset" SILENT=true
+[2018.06.16-15.15.36:836][374]LogSavePackage: Save=10.60ms
+[2018.06.16-15.15.36:837][374]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlot33E77914467810680EEE0199230AFFA3.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset'
+[2018.06.16-15.15.36:838][374]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset
+[2018.06.16-15.16.28:171][664]LogSlate: Took 0.015553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.06.16-15.17.25:508][  0]BlueprintLog: New page: Compile OnGroundSlot
+[2018.06.16-15.17.43:557][993]Candidate modules for hot reload:
+[2018.06.16-15.17.43:557][993]  FPS
+[2018.06.16-15.17.43:557][993]Launching UnrealBuildTool... [E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,3382 Win64 Development -editorrecompile -canskiplink "E:/Projects/FPS/FPS/FPS.uproject" ]
+[2018.06.16-15.17.43:559][993]Warning: Starting HotReload took  0.0s.
+[2018.06.16-15.18.03:494][898]CompilerResultsLog: New page: Compilation - Jun 16, 2018, 7:18:03 PM
+[2018.06.16-15.18.03:494][898]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.16-15.18.03:494][898]CompilerResultsLog: Creating makefile for hot reloading FPS (ini files are newer than UBTMakefile)
+[2018.06.16-15.18.03:495][898]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.16-15.18.03:495][898]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.06.16-15.18.03:495][898]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.16-15.18.03:496][898]CompilerResultsLog: Reflection code generated for FPSEditor in 10.6808268 seconds
+[2018.06.16-15.18.03:496][898]CompilerResultsLog: Performing 8 actions (4 in parallel)
+[2018.06.16-15.18.03:496][898]CompilerResultsLog: FPS.init.gen.cpp
+[2018.06.16-15.18.03:496][898]CompilerResultsLog: HoldAblePickUp.gen.cpp
+[2018.06.16-15.18.03:497][898]CompilerResultsLog: BasicPickup.cpp
+[2018.06.16-15.18.03:497][898]CompilerResultsLog: BasicPickup.gen.cpp
+[2018.06.16-15.18.03:497][898]CompilerResultsLog: HoldAblePickUp.cpp
+[2018.06.16-15.18.03:497][898]CompilerResultsLog: UIComponent.cpp
+[2018.06.16-15.18.03:497][898]CompilerResultsLog: [7/8] Link UE4Editor-FPS-3382.dll
+[2018.06.16-15.18.03:497][898]CompilerResultsLog: [8/8] Link UE4Editor-FPS-3382.lib
+[2018.06.16-15.18.03:498][898]CompilerResultsLog:    Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3382.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3382.exp
+[2018.06.16-15.18.03:498][898]CompilerResultsLog:    Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3382.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-3382.suppressed.exp
+[2018.06.16-15.18.03:499][898]CompilerResultsLog: Total build time: 19.69 seconds (Local executor: 3.95 seconds)
+[2018.06.16-15.18.03:499][898]LogMainFrame: MainFrame: Module compiling took 19.948 seconds
+[2018.06.16-15.18.03:595][898]LogClass: Could not find existing class BasicPickup in package /Script/FPS for HotReload, assuming new class
+[2018.06.16-15.18.03:609][898]LogClass: Could not find existing class HoldAblePickUp in package /Script/FPS for HotReload, assuming new class
+[2018.06.16-15.18.03:631][898]LogHotReload: Re-instancing BasicPickup after hot-reload.
+[2018.06.16-15.18.03:727][898]LogHotReload: Re-instancing CoverPoint after hot-reload.
+[2018.06.16-15.18.06:269][898]LogHotReload: Re-instancing HoldAblePickUp after hot-reload.
+[2018.06.16-15.18.06:277][898]LogActor: Warning: BP_SMGPickUp_C /Game/Maps/Level1.Level1:PersistentLevel.BP_SMGPickUp_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-15.18.06:279][898]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_2:PersistentLevel.BP_SMGPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-15.18.06:280][898]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_3:PersistentLevel.BP_SMGPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-15.18.06:634][898]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_2:PersistentLevel.BP_SMGPickUp_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-15.18.06:712][898]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0011 seconds. Added 28 classes and 7 folders.
+[2018.06.16-15.18.06:715][898]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2018.06.16-15.18.07:125][898]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2481 classes and 567 folders.
+[2018.06.16-15.18.07:125][898]Display: HotReload took 23.6s.
+[2018.06.16-15.19.22:552][298]BlueprintLog: New page: Compile OnGroundSlot
+[2018.06.16-15.20.21:322][111]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.032
+[2018.06.16-15.20.21:325][111]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/Inventory/OnGroundSlot] ([1] browsable assets)...
+[2018.06.16-15.20.21:325][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/Inventory/OnGroundSlot]
+[2018.06.16-15.20.21:366][111]LogSavePackage: Save=31.22ms
+[2018.06.16-15.20.21:367][111]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlot_Auto3B32F16AF4AB3C6005BF824BAB08C14DE.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundSlot_Auto3.uasset'
+[2018.06.16-15.20.21:368][111]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundSlot_Auto3.uasset
+[2018.06.16-15.20.21:368][111]LogFileHelpers: Auto-saving content packages took 0.044
+[2018.06.16-15.24.09:695][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundSlot" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset" SILENT=true
+[2018.06.16-15.24.09:719][ 13]LogSavePackage: Save=11.85ms
+[2018.06.16-15.24.09:720][ 13]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundSlotB764CCBB4F209914D3719C94E95E6821.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset'
+[2018.06.16-15.24.09:723][ 13]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundSlot.uasset
+[2018.06.16-15.24.10:570][ 93]Candidate modules for hot reload:
+[2018.06.16-15.24.10:571][ 93]  FPS
+[2018.06.16-15.24.10:571][ 93]Launching UnrealBuildTool... [E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,3293 Win64 Development -editorrecompile -canskiplink "E:/Projects/FPS/FPS/FPS.uproject" ]
+[2018.06.16-15.24.10:573][ 93]Warning: Starting HotReload took  0.0s.
+[2018.06.16-15.24.21:329][126]CompilerResultsLog: New page: Compilation - Jun 16, 2018, 7:24:21 PM
+[2018.06.16-15.24.21:330][126]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.16-15.24.21:330][126]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.16-15.24.21:330][126]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.06.16-15.24.21:330][126]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.16-15.24.21:331][126]CompilerResultsLog: Error: E:/Projects/FPS/FPS/Source/FPS/Player/UIComponent.h(16)  : Error: Missing ',' in Delegate definitions require a , between the parameter type and parameter name
+[2018.06.16-15.24.21:331][126]CompilerResultsLog: UnrealHeaderTool failed for target 'FPSEditor' (platform: Win64, module info: E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest).
+[2018.06.16-15.24.21:332][126]LogMainFrame: MainFrame: Module compiling took 10.768 seconds
+[2018.06.16-15.24.21:332][126]Warning: HotReload failed, recompile failed
+[2018.06.16-15.24.48:611][339]Candidate modules for hot reload:
+[2018.06.16-15.24.48:611][339]  FPS
+[2018.06.16-15.24.48:612][339]Launching UnrealBuildTool... [E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,2770 Win64 Development -editorrecompile -canskiplink "E:/Projects/FPS/FPS/FPS.uproject" ]
+[2018.06.16-15.24.48:613][339]Warning: Starting HotReload took  0.0s.
+[2018.06.16-15.24.59:032][140]CompilerResultsLog: New page: Compilation - Jun 16, 2018, 7:24:59 PM
+[2018.06.16-15.24.59:032][140]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.16-15.24.59:033][140]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.16-15.24.59:033][140]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.06.16-15.24.59:033][140]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.16-15.24.59:034][140]CompilerResultsLog: Error: E:/Projects/FPS/FPS/Source/FPS/Player/UIComponent.h(16)  : Error: Missing ',' in Delegate definitions require a , between the parameter type and parameter name
+[2018.06.16-15.24.59:034][140]CompilerResultsLog: UnrealHeaderTool failed for target 'FPSEditor' (platform: Win64, module info: E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest).
+[2018.06.16-15.24.59:034][140]LogMainFrame: MainFrame: Module compiling took 10.435 seconds
+[2018.06.16-15.24.59:035][140]Warning: HotReload failed, recompile failed
+[2018.06.16-15.25.37:234][616]Candidate modules for hot reload:
+[2018.06.16-15.25.37:234][616]  FPS
+[2018.06.16-15.25.37:234][616]Launching UnrealBuildTool... [E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,2823 Win64 Development -editorrecompile -canskiplink "E:/Projects/FPS/FPS/FPS.uproject" ]
+[2018.06.16-15.25.37:236][616]Warning: Starting HotReload took  0.0s.
+[2018.06.16-15.25.54:886][210]CompilerResultsLog: New page: Compilation - Jun 16, 2018, 7:25:54 PM
+[2018.06.16-15.25.54:886][210]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.16-15.25.54:887][210]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.16-15.25.54:887][210]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.06.16-15.25.54:887][210]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.16-15.25.54:888][210]CompilerResultsLog: Reflection code generated for FPSEditor in 9.9883064 seconds
+[2018.06.16-15.25.54:888][210]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.06.16-15.25.54:888][210]CompilerResultsLog: FPS.init.gen.cpp
+[2018.06.16-15.25.54:888][210]CompilerResultsLog: UIComponent.cpp
+[2018.06.16-15.25.54:888][210]CompilerResultsLog: FPSPlayer.cpp
+[2018.06.16-15.25.54:889][210]CompilerResultsLog: UIComponent.gen.cpp
+[2018.06.16-15.25.54:889][210]CompilerResultsLog: [5/6] Link UE4Editor-FPS-2823.dll
+[2018.06.16-15.25.54:889][210]CompilerResultsLog: [6/6] Link UE4Editor-FPS-2823.lib
+[2018.06.16-15.25.54:889][210]CompilerResultsLog:    Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2823.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2823.exp
+[2018.06.16-15.25.54:890][210]CompilerResultsLog:    Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2823.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-2823.suppressed.exp
+[2018.06.16-15.25.54:890][210]CompilerResultsLog: Total build time: 17.45 seconds (Local executor: 6.77 seconds)
+[2018.06.16-15.25.54:891][210]LogMainFrame: MainFrame: Module compiling took 17.664 seconds
+[2018.06.16-15.25.55:010][210]LogHotReload: Re-instancing CoverPoint after hot-reload.
+[2018.06.16-15.25.57:842][210]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0011 seconds. Added 28 classes and 7 folders.
+[2018.06.16-15.25.57:846][210]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2018.06.16-15.25.58:297][210]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2481 classes and 567 folders.
+[2018.06.16-15.25.58:297][210]Display: HotReload took 21.1s.
+[2018.06.16-15.26.50:443][152]LogSlate: Window 'Message Log' being destroyed
+[2018.06.16-15.26.50:456][152]LogSlate: Window 'Message Log' being destroyed
+[2018.06.16-15.43.26:517][404]Candidate modules for hot reload:
+[2018.06.16-15.43.26:518][404]  FPS
+[2018.06.16-15.43.26:518][404]Launching UnrealBuildTool... [E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,8650 Win64 Development -editorrecompile -canskiplink "E:/Projects/FPS/FPS/FPS.uproject" ]
+[2018.06.16-15.43.26:520][404]Warning: Starting HotReload took  0.0s.
+[2018.06.16-15.43.43:628][ 43]CompilerResultsLog: New page: Compilation - Jun 16, 2018, 7:43:43 PM
+[2018.06.16-15.43.43:629][ 43]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.16-15.43.43:629][ 43]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.16-15.43.43:629][ 43]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.06.16-15.43.43:630][ 43]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.16-15.43.43:630][ 43]CompilerResultsLog: Reflection code generated for FPSEditor in 9.942355 seconds
+[2018.06.16-15.43.43:631][ 43]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.06.16-15.43.43:631][ 43]CompilerResultsLog: FPS.init.gen.cpp
+[2018.06.16-15.43.43:631][ 43]CompilerResultsLog: UIComponent.cpp
+[2018.06.16-15.43.43:631][ 43]CompilerResultsLog: UIComponent.gen.cpp
+[2018.06.16-15.43.43:631][ 43]CompilerResultsLog: FPSPlayer.cpp
+[2018.06.16-15.43.43:632][ 43]CompilerResultsLog: Error: e:\projects\fps\fps\source\fps\player\uicomponent.cpp(135)  : warning C4701: potentially uninitialized local variable 'bFoundObjects' used
+[2018.06.16-15.43.43:632][ 43]CompilerResultsLog: [5/6] Link UE4Editor-FPS-8650.dll
+[2018.06.16-15.43.43:633][ 43]CompilerResultsLog: [6/6] Link UE4Editor-FPS-8650.lib
+[2018.06.16-15.43.43:633][ 43]CompilerResultsLog:    Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8650.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8650.exp
+[2018.06.16-15.43.43:634][ 43]CompilerResultsLog:    Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8650.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8650.suppressed.exp
+[2018.06.16-15.43.43:634][ 43]CompilerResultsLog: Total build time: 16.91 seconds (Local executor: 6.28 seconds)
+[2018.06.16-15.43.43:634][ 43]LogMainFrame: MainFrame: Module compiling took 17.124 seconds
+[2018.06.16-15.43.43:793][ 43]LogClass: Could not find existing class UIComponent in package /Script/FPS for HotReload, assuming new class
+[2018.06.16-15.43.43:793][ 43]LogClass: Function Initialize is new.
+[2018.06.16-15.43.43:804][ 43]LogHotReload: Re-instancing CoverPoint after hot-reload.
+[2018.06.16-15.43.47:504][ 43]LogHotReload: Re-instancing FPSPlayer after hot-reload.
+[2018.06.16-15.43.47:909][ 43]LogHotReload: Re-instancing UIComponent after hot-reload.
+[2018.06.16-15.43.48:051][ 43]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0013 seconds. Added 28 classes and 7 folders.
+[2018.06.16-15.43.48:056][ 43]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2018.06.16-15.43.48:408][ 43]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2481 classes and 567 folders.
+[2018.06.16-15.43.48:408][ 43]Display: HotReload took 21.9s.
+[2018.06.16-15.44.24:178][514]Cmd: POLY SELECT ADJACENT WALLS
+[2018.06.16-15.44.24:870][576]Cmd: POLY SELECT ALL
+[2018.06.16-15.44.26:083][690]Cmd: POLY SELECT ADJACENT WALLS
+[2018.06.16-15.44.27:784][857]Cmd: POLY SELECT ADJACENT WALLS
+[2018.06.16-15.44.56:049][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-15.44.56:065][446]Candidate modules for hot reload:
+[2018.06.16-15.44.56:065][446]  FPS
+[2018.06.16-15.44.56:065][446]Launching UnrealBuildTool... [E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,6054 Win64 Development -editorrecompile -canskiplink "E:/Projects/FPS/FPS/FPS.uproject" ]
+[2018.06.16-15.44.56:067][446]Warning: Starting HotReload took  0.0s.
+[2018.06.16-15.44.57:114][469]CompilerResultsLog: New page: Compilation - Jun 16, 2018, 7:44:57 PM
+[2018.06.16-15.44.57:116][469]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.16-15.44.57:118][469]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.16-15.44.57:119][469]CompilerResultsLog: Target is up to date
+[2018.06.16-15.44.57:120][469]CompilerResultsLog: Total build time: 0.55 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.06.16-15.44.57:122][469]LogMainFrame: MainFrame: Module compiling took 1.064 seconds
+[2018.06.16-15.44.57:444][469]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2481 classes and 567 folders.
+[2018.06.16-15.44.57:444][469]Display: HotReload took  1.4s.
+[2018.06.16-15.47.39:131][384]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78ca74108, Size=4, Default__SKEL_OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.SKEL_OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-15.47.40:993][600]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78ca74108, Size=4
+[2018.06.16-15.47.40:993][600]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78ca74108, Size=4, Default__SKEL_OnGroundUI_C Function /Engine/Transient.REINST_SKEL_OnGroundUI_C_36:ExecuteUbergraph_OnGroundUI
+[2018.06.16-15.47.40:994][600]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78ca75a88, Size=4, Default__SKEL_OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.SKEL_OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-15.47.50:383][724]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78ca75a88, Size=4
+[2018.06.16-15.47.50:383][724]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78ca75a88, Size=4, Default__SKEL_OnGroundUI_C Function /Engine/Transient.REINST_SKEL_OnGroundUI_C_37:ExecuteUbergraph_OnGroundUI
+[2018.06.16-15.47.50:384][724]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78ca77368, Size=4, Default__SKEL_OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.SKEL_OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-15.48.18:149][ 43]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78ca74108, Size=4
+[2018.06.16-15.48.18:149][ 43]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78ca75a88, Size=4
+[2018.06.16-15.48.18:187][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.084
+[2018.06.16-15.48.18:189][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/Inventory/OnGroundUI] ([1] browsable assets)...
+[2018.06.16-15.48.18:190][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/Inventory/OnGroundUI]
+[2018.06.16-15.48.18:215][ 43]LogSavePackage: Save=12.89ms
+[2018.06.16-15.48.18:215][ 43]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundUI_Auto4C1023DA64D5ACE130EB8C6AD47D8ED83.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundUI_Auto4.uasset'
+[2018.06.16-15.48.18:217][ 43]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundUI_Auto4.uasset
+[2018.06.16-15.48.18:217][ 43]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.06.16-16.50.39:347][623]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78ca77368, Size=4
+[2018.06.16-16.50.39:347][623]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78064d5f8, Size=4, Default__SKEL_OnGroundUI_C Function /Engine/Transient.REINST_SKEL_OnGroundUI_C_38:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.50.39:349][623]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78064e1d0, Size=4, Default__SKEL_OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.SKEL_OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.52.00:236][174]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78064e1d0, Size=4
+[2018.06.16-16.52.00:236][174]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78064e1d0, Size=4, Default__SKEL_OnGroundUI_C Function /Engine/Transient.REINST_SKEL_OnGroundUI_C_39:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.52.00:238][174]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b78064c1d0, Size=4, Default__SKEL_OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.SKEL_OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.52.59:062][449]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78064e1d0, Size=4
+[2018.06.16-16.52.59:063][449]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78064d5f8, Size=4
+[2018.06.16-16.52.59:075][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.047
+[2018.06.16-16.52.59:077][449]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/Inventory/OnGroundUI] ([1] browsable assets)...
+[2018.06.16-16.52.59:077][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/Inventory/OnGroundUI]
+[2018.06.16-16.52.59:114][449]LogSavePackage: Save=16.92ms
+[2018.06.16-16.52.59:114][449]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundUI_Auto51DC3F6C44DBE5455A8CB08860936CC74.tmp' to '../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundUI_Auto5.uasset'
+[2018.06.16-16.52.59:116][449]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Saved/Autosaves/Game/UI/Widgets/Inventory/OnGroundUI_Auto5.uasset
+[2018.06.16-16.52.59:117][449]LogFileHelpers: Auto-saving content packages took 0.040
+[2018.06.16-16.54.49:805][156]BlueprintLog: New page: Compile OnGroundUI
+[2018.06.16-16.54.49:811][156]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b78064c1d0, Size=4
+[2018.06.16-16.54.49:811][156]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b796036280, Size=4, Default__SKEL_OnGroundUI_C Function /Engine/Transient.REINST_SKEL_OnGroundUI_C_40:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.54.49:822][156]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b6828a6cf0, Size=80, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.54.49:937][156]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b796036280, Size=4
+[2018.06.16-16.54.50:396][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundUI" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundUI.uasset" SILENT=true
+[2018.06.16-16.54.50:445][204]LogSavePackage: Save=39.73ms
+[2018.06.16-16.54.50:445][204]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundUID056193D411E596AE9B57AAD554F5423.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundUI.uasset'
+[2018.06.16-16.54.50:448][204]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundUI.uasset
+[2018.06.16-16.55.09:761][216]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_9:PersistentLevel.BP_SMGPickUp_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-16.55.35:617][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.16-16.55.35:903][541]LogSavePackage: Save=241.36ms
+[2018.06.16-16.55.35:904][541]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Level1941021C84CC0A254B591C6BEE603CD52.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap'
+[2018.06.16-16.55.35:907][541]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap
+[2018.06.16-16.55.35:953][541]LogFileHelpers: Saving map 'Level1' took 3.480
+[2018.06.16-16.55.35:994][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/BP_SMGPickUp" FILE="../../../../../../../Projects/FPS/FPS/Content/Blueprints/Pickups/BP_SMGPickUp.uasset" SILENT=true
+[2018.06.16-16.55.36:053][541]LogSavePackage: Save=36.43ms
+[2018.06.16-16.55.36:053][541]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_SMGPickUp41651C0242026D416A9607851AA86FDE.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Blueprints/Pickups/BP_SMGPickUp.uasset'
+[2018.06.16-16.55.36:059][541]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Blueprints/Pickups/BP_SMGPickUp.uasset
+[2018.06.16-16.55.36:466][587]BlueprintLog: New page: Compile BP_SMGPickUp
+[2018.06.16-16.55.36:474][587]LogActor: Warning: BP_SMGPickUp_C /Game/Maps/Level1.Level1:PersistentLevel.BP_SMGPickUp_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-16.55.36:476][587]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_2:PersistentLevel.BP_SMGPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-16.55.36:477][587]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_2:PersistentLevel.BP_SMGPickUp_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-16.55.36:478][587]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_9:PersistentLevel.BP_SMGPickUp_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-16.55.36:999][587]LogActor: Warning: BP_SMGPickUp_C /Engine/Transient.World_2:PersistentLevel.BP_SMGPickUp_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.16-16.55.37:420][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/BP_SMGPickUp" FILE="../../../../../../../Projects/FPS/FPS/Content/Blueprints/Pickups/BP_SMGPickUp.uasset" SILENT=true
+[2018.06.16-16.55.37:445][629]LogSavePackage: Save=16.20ms
+[2018.06.16-16.55.37:445][629]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/BP_SMGPickUp427B7D0546A7A22233849DA805EEF723.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Blueprints/Pickups/BP_SMGPickUp.uasset'
+[2018.06.16-16.55.37:446][629]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Blueprints/Pickups/BP_SMGPickUp.uasset
+[2018.06.16-16.55.38:769][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.16-16.55.39:036][759]LogSavePackage: Save=237.13ms
+[2018.06.16-16.55.39:037][759]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/Level1E908A14A41E2F811F6BB909AE7E29B84.tmp' to '../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap'
+[2018.06.16-16.55.39:040][759]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/Maps/Level1.umap
+[2018.06.16-16.55.39:077][759]LogFileHelpers: Saving map 'Level1' took 0.368
+[2018.06.16-16.55.39:878][826]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.16-16.55.39:917][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.16-16.55.39:918][826]PIE: New page: PIE session: Level1 (Jun 16, 2018, 8:55:39 PM)
+[2018.06.16-16.55.39:918][826]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.16-16.55.39:936][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017176s)
+[2018.06.16-16.55.39:937][826]LogAIModule: Creating AISystem for world Level1
+[2018.06.16-16.55.39:937][826]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2018.06.16-16.55.39:938][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.019577s)
+[2018.06.16-16.55.39:966][826]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.16-16.55.39:976][826]LogInit: FAudioDevice initialized.
+[2018.06.16-16.55.40:015][826]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.16-16.55.40:029][826]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.06.16-18.55.40
+[2018.06.16-16.55.40:030][826]LogWorld: Bringing up level for play took: 0.013579
+[2018.06.16-16.55.40:034][826]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.461
+[2018.06.16-16.55.45:698][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-16.55.45:776][381]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.16-16.55.45:805][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.16-16.55.45:805][381]PIE: New page: PIE session: Level1 (Jun 16, 2018, 8:55:45 PM)
+[2018.06.16-16.55.45:806][381]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.16-16.55.45:820][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014065s)
+[2018.06.16-16.55.45:821][381]LogAIModule: Creating AISystem for world Level1
+[2018.06.16-16.55.45:821][381]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2018.06.16-16.55.45:822][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.016045s)
+[2018.06.16-16.55.45:850][381]LogInit: XAudio2 using 'Speakers (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.16-16.55.45:859][381]LogInit: FAudioDevice initialized.
+[2018.06.16-16.55.45:894][381]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.16-16.55.45:904][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.06.16-18.55.45
+[2018.06.16-16.55.45:906][381]LogWorld: Bringing up level for play took: 0.010340
+[2018.06.16-16.55.45:909][381]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.336
+[2018.06.16-16.55.50:167][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.16-16.55.50:256][802]Candidate modules for hot reload:
+[2018.06.16-16.55.50:256][802]  FPS
+[2018.06.16-16.55.50:257][802]Launching UnrealBuildTool... [E:/Game Engines/Epic Games/4.19/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,7478 Win64 Development -editorrecompile -canskiplink "E:/Projects/FPS/FPS/FPS.uproject" ]
+[2018.06.16-16.55.50:383][802]Warning: Starting HotReload took  0.1s.
+[2018.06.16-16.55.51:635][922]CompilerResultsLog: New page: Compilation - Jun 16, 2018, 8:55:51 PM
+[2018.06.16-16.55.51:635][922]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.16-16.55.51:635][922]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.16-16.55.51:636][922]CompilerResultsLog: Target is up to date
+[2018.06.16-16.55.51:636][922]CompilerResultsLog: Total build time: 0.93 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.06.16-16.55.51:636][922]LogMainFrame: MainFrame: Module compiling took 1.385 seconds
+[2018.06.16-16.55.51:909][922]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2481 classes and 567 folders.
+[2018.06.16-16.55.51:909][922]Display: HotReload took  1.7s.
+[2018.06.16-16.55.53:126][ 67]BlueprintLog: New page: Compile OnGroundUI
+[2018.06.16-16.55.53:135][ 67]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b6828a6cf0, Size=80
+[2018.06.16-16.55.53:135][ 67]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b729414270, Size=80, Default__OnGroundUI_C Function /Engine/Transient.REINST_OnGroundUI_C_45:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.55.53:138][ 67]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b729415440, Size=80, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.55.59:871][849]BlueprintLog: New page: Compile OnGroundUI
+[2018.06.16-16.55.59:881][849]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b729415440, Size=80
+[2018.06.16-16.55.59:881][849]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b780c2a750, Size=80, OnGroundUI_C_35 Function /Engine/Transient.REINST_OnGroundUI_C_48:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.55.59:884][849]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b782c56c80, Size=128, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.16-16.55.59:912][849]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b729414270, Size=80
+[2018.06.16-16.56.00:555][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Inventory/OnGroundUI" FILE="../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundUI.uasset" SILENT=true
+[2018.06.16-16.56.00:582][919]LogSavePackage: Save=20.63ms
+[2018.06.16-16.56.00:584][919]LogSavePackage: Moving '../../../../../../../Projects/FPS/FPS/Saved/OnGroundUI95F68347430878456CA0D18A4D020793.tmp' to '../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundUI.uasset'
+[2018.06.16-16.56.00:586][919]LogSavePackage: Display: Finished SavePackage ../../../../../../../Projects/FPS/FPS/Content/UI/Widgets/Inventory/OnGroundUI.uasset
+[2018.06.16-16.56.05:685][520]BlueprintLog: New page: Compile OnGroundSlot
+[2018.06.16-16.56.05:723][520]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b780c2a750, Size=80
+[2018.06.16-16.56.06:789][640]BlueprintLog: New page: Compile OnGroundSlot
