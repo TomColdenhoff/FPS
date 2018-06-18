@@ -28,6 +28,15 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
 	UTexture2D* Image;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
+	UTexture2D* DragImage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
+	UTexture2D* InvetoryImage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
+	FVector2D SlotSize;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

@@ -58,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeHoldAblePickUp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHoldAblePickUp, 1000631613);
+	IMPLEMENT_CLASS(AHoldAblePickUp, 3027945827);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHoldAblePickUp(Z_Construct_UClass_AHoldAblePickUp, &AHoldAblePickUp::StaticClass, TEXT("/Script/FPS"), TEXT("AHoldAblePickUp"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHoldAblePickUp);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -2,16 +2,16 @@
   Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
   Parsing headers for FPSEditor
     Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSEditor in 10.9234303 seconds
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-4232.dll".
-  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-4232.pdb".
+  Reflection code generated for FPSEditor in 7.5932447 seconds
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2950.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-2950.pdb".
   Performing 5 actions (4 in parallel)
-  UIComponent.gen.cpp
-  UIComponent.cpp
   FPSPlayer.cpp
+  UIComponent.cpp
+  UIComponent.gen.cpp
   [4/5] Link UE4Editor-FPS.lib
   [5/5] Link UE4Editor-FPS.dll
      Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
      Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 155.17 seconds (Local executor: 106.31 seconds)
+  Total build time: 14.20 seconds (Local executor: 2.33 seconds)

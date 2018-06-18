@@ -6,6 +6,8 @@
 #include "DrawDebugHelpers.h"
 #include "Level/BasicPickup.h"
 #include "GameFramework/PlayerController.h"
+#include "Runtime/UMG/Public/Components/Image.h"
+#include "Runtime/Engine/Classes/Engine/Texture2D.h"
 
 
 // Sets default values for this component's properties
@@ -25,7 +27,7 @@ void UUIComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
+	HideImageGrid();
 }
 
 
@@ -161,5 +163,43 @@ void UUIComponent::ToggleMouse(const bool Enable)
 	playerController->bShowMouseCursor = Enable;
 	playerController->bEnableClickEvents = Enable;
 	playerController->bEnableMouseOverEvents = Enable;
+}
+
+void UUIComponent::HideImageGrid()
+{
+	for (int32 i = 0; i != Rows.Num(); ++i)
+	{
+		for (int32 j = 0; j != Rows[i].CollumImages.Num(); ++j)
+		{
+			FSlotImage slotImage;
+			slotImage.Image = Rows[i].CollumImages[j];
+			Rows[i].SlotImage.Add(slotImage);
+
+			Rows[i].SlotImage[j].Image->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
+}
+
+void UUIComponent::SetImage(UTexture2D* Texture, int Row, int Collum, FVector2D GridSize)
+{
+	Rows[Row].SlotImage[Collum].Image->SetBrushFromTexture(Texture, true);
+	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::Visible);
+	
+}
+
+void UUIComponent::ResetImage(class UTexture2D* Texture, int Row, int Collum, FVector2D GridSize)
+{
+	Rows[Row].SlotImage[Collum].Image->SetBrushFromTexture(Texture, true);
+	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::Hidden);
+}
+
+bool UUIComponent::IsAvailable(int Row, int Collum, FVector2D GridSize)
+{
+	if (Row + GridSize.Y > Rows.Num() || Collum + GridSize.X > Rows[Row].SlotImage.Num())
+	{
+		return false;
+	}
+
+	return true;
 }
 

@@ -13,6 +13,30 @@ enum EUIMode
 	Inventory
 };
 
+
+USTRUCT(BlueprintType)
+struct FSlotImage
+{
+	GENERATED_BODY()
+
+	UPROPERTY(BlueprintReadWrite, Category = "Inventory")
+	class UImage* Image;
+
+	
+};
+
+/*Collum Struct to hold array of images in that collum*/
+USTRUCT(BlueprintType)
+struct FCollum
+{
+	GENERATED_BODY()
+
+	UPROPERTY(BlueprintReadWrite, Category = "Inventory")
+	TArray<class UImage*> CollumImages;
+
+	TArray<FSlotImage> SlotImage;
+};
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateOnGroundDelegate, const TArray<ABasicPickup*>&, Items);
 
 
@@ -50,6 +74,9 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Inventory")
 	FUpdateOnGroundDelegate OnUpdateInventorySlots;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
+	TArray<FCollum> Rows;
+
 private:
 	EUIMode m_CurrentUIMode;
 
@@ -76,6 +103,18 @@ private:
 
 	void ToggleMouse(const bool Enable);
 
+	/*Hides all the images in front of the inventory grid and put all images in a slotimage struct*/
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	void HideImageGrid();
+
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	void SetImage(class UTexture2D* Texture, int Row, int Collum, FVector2D GridSize);
+
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	void ResetImage(class UTexture2D* Texture, int Row, int Collum, FVector2D GridSize);
+
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	bool IsAvailable(int Row, int Collum, FVector2D GridSize);
 		
 	
 };

@@ -62,7 +62,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABasicPickup); \
 #define FPS_Source_FPS_Level_BasicPickup_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__p_StaticMeshComponent() { return STRUCT_OFFSET(ABasicPickup, p_StaticMeshComponent); } \
 	FORCEINLINE static uint32 __PPO__Name() { return STRUCT_OFFSET(ABasicPickup, Name); } \
-	FORCEINLINE static uint32 __PPO__Image() { return STRUCT_OFFSET(ABasicPickup, Image); }
+	FORCEINLINE static uint32 __PPO__Image() { return STRUCT_OFFSET(ABasicPickup, Image); } \
+	FORCEINLINE static uint32 __PPO__DragImage() { return STRUCT_OFFSET(ABasicPickup, DragImage); } \
+	FORCEINLINE static uint32 __PPO__InvetoryImage() { return STRUCT_OFFSET(ABasicPickup, InvetoryImage); } \
+	FORCEINLINE static uint32 __PPO__SlotSize() { return STRUCT_OFFSET(ABasicPickup, SlotSize); }
 
 
 #define FPS_Source_FPS_Level_BasicPickup_h_9_PROLOG
