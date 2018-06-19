@@ -17,7 +17,7 @@ class UWidget;
 #endif
 #define FPS_UIComponent_generated_h
 
-#define FPS_Source_FPS_Player_UIComponent_h_32_GENERATED_BODY \
+#define FPS_Source_FPS_Player_UIComponent_h_34_GENERATED_BODY \
 	friend FPS_API class UScriptStruct* Z_Construct_UScriptStruct_FCollum(); \
 	FPS_API static class UScriptStruct* StaticStruct();
 
@@ -27,7 +27,7 @@ class UWidget;
 	FPS_API static class UScriptStruct* StaticStruct();
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_40_DELEGATE \
+#define FPS_Source_FPS_Player_UIComponent_h_42_DELEGATE \
 struct _Script_FPS_eventUpdateOnGroundDelegate_Parms \
 { \
 	TArray<ABasicPickup*> Items; \
@@ -40,7 +40,7 @@ static inline void FUpdateOnGroundDelegate_DelegateWrapper(const FMulticastScrip
 }
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_RPC_WRAPPERS \
+#define FPS_Source_FPS_Player_UIComponent_h_48_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execIsAvailable) \
 	{ \
@@ -88,9 +88,11 @@ static inline void FUpdateOnGroundDelegate_DelegateWrapper(const FMulticastScrip
 	DECLARE_FUNCTION(execDropToIventory) \
 	{ \
 		P_GET_OBJECT(ABasicPickup,Z_Param_Pickup); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Row); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Collum); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DropToIventory(Z_Param_Pickup); \
+		P_THIS->DropToIventory(Z_Param_Pickup,Z_Param_Row,Z_Param_Collum); \
 		P_NATIVE_END; \
 	} \
  \
@@ -106,7 +108,7 @@ static inline void FUpdateOnGroundDelegate_DelegateWrapper(const FMulticastScrip
 	}
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FPS_Source_FPS_Player_UIComponent_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIsAvailable) \
 	{ \
@@ -154,9 +156,11 @@ static inline void FUpdateOnGroundDelegate_DelegateWrapper(const FMulticastScrip
 	DECLARE_FUNCTION(execDropToIventory) \
 	{ \
 		P_GET_OBJECT(ABasicPickup,Z_Param_Pickup); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Row); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Collum); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DropToIventory(Z_Param_Pickup); \
+		P_THIS->DropToIventory(Z_Param_Pickup,Z_Param_Row,Z_Param_Collum); \
 		P_NATIVE_END; \
 	} \
  \
@@ -172,7 +176,7 @@ static inline void FUpdateOnGroundDelegate_DelegateWrapper(const FMulticastScrip
 	}
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_INCLASS_NO_PURE_DECLS \
+#define FPS_Source_FPS_Player_UIComponent_h_48_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUUIComponent(); \
 	friend FPS_API class UClass* Z_Construct_UClass_UUIComponent(); \
@@ -182,7 +186,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_INCLASS \
+#define FPS_Source_FPS_Player_UIComponent_h_48_INCLASS \
 private: \
 	static void StaticRegisterNativesUUIComponent(); \
 	friend FPS_API class UClass* Z_Construct_UClass_UUIComponent(); \
@@ -192,7 +196,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_STANDARD_CONSTRUCTORS \
+#define FPS_Source_FPS_Player_UIComponent_h_48_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUIComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUIComponent) \
@@ -205,7 +209,7 @@ private: \
 public:
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_ENHANCED_CONSTRUCTORS \
+#define FPS_Source_FPS_Player_UIComponent_h_48_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UUIComponent(UUIComponent&&); \
@@ -216,30 +220,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUIComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UUIComponent)
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_PRIVATE_PROPERTY_OFFSET \
+#define FPS_Source_FPS_Player_UIComponent_h_48_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__bDebug() { return STRUCT_OFFSET(UUIComponent, bDebug); } \
 	FORCEINLINE static uint32 __PPO__m_SearchDistance() { return STRUCT_OFFSET(UUIComponent, m_SearchDistance); }
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_43_PROLOG
-#define FPS_Source_FPS_Player_UIComponent_h_46_GENERATED_BODY_LEGACY \
+#define FPS_Source_FPS_Player_UIComponent_h_45_PROLOG
+#define FPS_Source_FPS_Player_UIComponent_h_48_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FPS_Source_FPS_Player_UIComponent_h_46_PRIVATE_PROPERTY_OFFSET \
-	FPS_Source_FPS_Player_UIComponent_h_46_RPC_WRAPPERS \
-	FPS_Source_FPS_Player_UIComponent_h_46_INCLASS \
-	FPS_Source_FPS_Player_UIComponent_h_46_STANDARD_CONSTRUCTORS \
+	FPS_Source_FPS_Player_UIComponent_h_48_PRIVATE_PROPERTY_OFFSET \
+	FPS_Source_FPS_Player_UIComponent_h_48_RPC_WRAPPERS \
+	FPS_Source_FPS_Player_UIComponent_h_48_INCLASS \
+	FPS_Source_FPS_Player_UIComponent_h_48_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FPS_Source_FPS_Player_UIComponent_h_46_GENERATED_BODY \
+#define FPS_Source_FPS_Player_UIComponent_h_48_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FPS_Source_FPS_Player_UIComponent_h_46_PRIVATE_PROPERTY_OFFSET \
-	FPS_Source_FPS_Player_UIComponent_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
-	FPS_Source_FPS_Player_UIComponent_h_46_INCLASS_NO_PURE_DECLS \
-	FPS_Source_FPS_Player_UIComponent_h_46_ENHANCED_CONSTRUCTORS \
+	FPS_Source_FPS_Player_UIComponent_h_48_PRIVATE_PROPERTY_OFFSET \
+	FPS_Source_FPS_Player_UIComponent_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
+	FPS_Source_FPS_Player_UIComponent_h_48_INCLASS_NO_PURE_DECLS \
+	FPS_Source_FPS_Player_UIComponent_h_48_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -93,9 +93,14 @@ void UUIComponent::SwitchMode(EUIMode NewUIMode)
 	}
 }
 
-void UUIComponent::DropToIventory(ABasicPickup* Pickup)
+void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 {
-	m_InvetoryItems.Add(Pickup);
+	if (IsAvailable(Row, Collum, Pickup->GetSlotSize()))
+	{
+		SetImage(Pickup->GetInventoryImage(), Row, Collum, Pickup->GetSlotSize());
+		CalculateOverlap(Pickup, Row, Collum);
+		m_InvetoryItems.Add(Pickup);
+	}
 }
 
 void UUIComponent::DisableWidgets(TArray<UWidget*> ToDisable)
@@ -183,7 +188,7 @@ void UUIComponent::HideImageGrid()
 void UUIComponent::SetImage(UTexture2D* Texture, int Row, int Collum, FVector2D GridSize)
 {
 	Rows[Row].SlotImage[Collum].Image->SetBrushFromTexture(Texture, true);
-	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::Visible);
+	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 	
 }
 
@@ -200,6 +205,58 @@ bool UUIComponent::IsAvailable(int Row, int Collum, FVector2D GridSize)
 		return false;
 	}
 
+	if (IsButtonTaken(Row, Collum))
+	{
+		return false;
+	}
+
+	if (IsOverlapping(Row, Collum, GridSize))
+	{
+		return false;
+	}
+
 	return true;
+}
+
+bool UUIComponent::IsButtonTaken(int Row, int Collum) const
+{
+	FVector2D slotPosition = {(float)Collum, (float)Row};
+
+	int32 rowNum = Rows.Num();
+	//Loop through all the images
+	for (int32 i = 0; i != rowNum; ++i)
+	{
+		int32 collumNum = Rows[i].SlotImage.Num();
+		for (int32 j = 0; j != collumNum; ++j)
+		{
+			int32 overlapNum = Rows[i].SlotImage[j].OverlappingSlots.Num();
+			for (int32 k = 0; k != overlapNum; ++k)
+			{
+				if (Rows[i].SlotImage[j].OverlappingSlots[k] == slotPosition)
+				{
+					return true;
+				}
+			}
+		}
+	}
+
+	return false;
+}
+
+bool UUIComponent::IsOverlapping(int32 Row, int32 Collum, FVector2D SlotSize) const
+{
+
+}
+
+void UUIComponent::CalculateOverlap(ABasicPickup* Pickup, int32 Row, int32 Collum)
+{
+	for (int32 i = 0; i != Pickup->GetSlotSize().X; ++i)
+	{
+		for (int32 j = 0; j != Pickup->GetSlotSize().Y; ++j)
+		{
+			FVector2D overlappingSlot = { (float)Collum + i, (float)Row + j };
+			Rows[Row].SlotImage[Collum].OverlappingSlots.Add(overlappingSlot);
+		}
+	}
 }
 

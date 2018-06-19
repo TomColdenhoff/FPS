@@ -22,6 +22,8 @@ struct FSlotImage
 	UPROPERTY(BlueprintReadWrite, Category = "Inventory")
 	class UImage* Image;
 
+	//X is collum numer and Y is row number
+	TArray<FVector2D> OverlappingSlots;
 	
 };
 
@@ -66,7 +68,7 @@ public:
 	void SwitchMode(EUIMode NewUIMode);
 
 	UFUNCTION(BlueprintCallable)
-	void DropToIventory(ABasicPickup* Pickup);
+	void DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum);
 
 	UPROPERTY(BlueprintAssignable, Category = "Inventory")
 	FUpdateOnGroundDelegate OnUpdateInventory;
@@ -115,6 +117,14 @@ private:
 
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	bool IsAvailable(int Row, int Collum, FVector2D GridSize);
+
+	/*Checks if the hovered button is overlaped by an other image*/
+	bool IsButtonTaken(int Row, int Collum) const;
+
+	/*Checks if the item is overlapping an allready placed item*/
+	bool IsOverlapping(int32 Row, int32 Collum, FVector2D SlotSize) const;
+
+	void CalculateOverlap(ABasicPickup* Pickup, int32 Row, int32 Collum);
 		
 	
 };

@@ -15,6 +15,9 @@ public:
 	// Sets default values for this actor's properties
 	ABasicPickup();
 
+	UTexture2D* GetInventoryImage() { return InvetoryImage; }
+	FVector2D GetSlotSize() { return SlotSize; }
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

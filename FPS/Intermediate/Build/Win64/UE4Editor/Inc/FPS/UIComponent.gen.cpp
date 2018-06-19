@@ -211,12 +211,18 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 		struct UIComponent_eventDropToIventory_Parms
 		{
 			ABasicPickup* Pickup;
+			int32 Row;
+			int32 Collum;
 		};
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_Collum = { UE4CodeGen_Private::EPropertyClass::Int, "Collum", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UIComponent_eventDropToIventory_Parms, Collum), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_Row = { UE4CodeGen_Private::EPropertyClass::Int, "Row", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UIComponent_eventDropToIventory_Parms, Row), METADATA_PARAMS(nullptr, 0) };
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Pickup = { UE4CodeGen_Private::EPropertyClass::Object, "Pickup", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UIComponent_eventDropToIventory_Parms, Pickup), Z_Construct_UClass_ABasicPickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Collum,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Row,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Pickup,
 			};
 #if WITH_METADATA
@@ -412,7 +418,7 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_UUIComponent_DropToIventory, "DropToIventory" }, // 2088746195
+				{ &Z_Construct_UFunction_UUIComponent_DropToIventory, "DropToIventory" }, // 608431982
 				{ &Z_Construct_UFunction_UUIComponent_HideImageGrid, "HideImageGrid" }, // 2133565422
 				{ &Z_Construct_UFunction_UUIComponent_Initialize, "Initialize" }, // 2241902068
 				{ &Z_Construct_UFunction_UUIComponent_IsAvailable, "IsAvailable" }, // 2445145741
@@ -490,7 +496,7 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUIComponent, 2771193100);
+	IMPLEMENT_CLASS(UUIComponent, 2109269348);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UUIComponent(Z_Construct_UClass_UUIComponent, &UUIComponent::StaticClass, TEXT("/Script/FPS"), TEXT("UUIComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UUIComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
