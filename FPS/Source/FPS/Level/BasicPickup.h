@@ -15,8 +15,12 @@ public:
 	// Sets default values for this actor's properties
 	ABasicPickup();
 
-	UTexture2D* GetInventoryImage() { return InvetoryImage; }
-	FVector2D GetSlotSize() { return SlotSize; }
+	UTexture2D* GetInventoryImage() const { return InvetoryImage; }
+	FVector2D GetSlotSize() const { return SlotSize; }
+	FString GetName() const { return Name; }
+	struct FSlotImage* GetFSlotImage() const { return CurrentSlotImage; }
+
+	void SetFSlotImage(struct FSlotImage* FSlotImage) { CurrentSlotImage = FSlotImage; };
 
 protected:
 	// Called when the game starts or when spawned
@@ -40,9 +44,12 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
 	FVector2D SlotSize;
 
+	struct FSlotImage* CurrentSlotImage = nullptr;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 
 	
 	

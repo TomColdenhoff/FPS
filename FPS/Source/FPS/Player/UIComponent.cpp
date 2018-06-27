@@ -8,6 +8,7 @@
 #include "GameFramework/PlayerController.h"
 #include "Runtime/UMG/Public/Components/Image.h"
 #include "Runtime/Engine/Classes/Engine/Texture2D.h"
+#include "Runtime/UMG/Public/Components/CanvasPanelSlot.h"
 
 
 // Sets default values for this component's properties
@@ -95,12 +96,31 @@ void UUIComponent::SwitchMode(EUIMode NewUIMode)
 
 void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 {
-	if (IsAvailable(Row, Collum, Pickup->GetSlotSize()))
+	//Remove from inventory first if it was allready in there
+	if (Pickup->GetFSlotImage() != nullptr)
 	{
-		SetImage(Pickup->GetInventoryImage(), Row, Collum, Pickup->GetSlotSize());
-		CalculateOverlap(Pickup, Row, Collum);
-		m_InvetoryItems.Add(Pickup);
+		ResetImage(Pickup->GetFSlotImage());
+		RemoveOverlap(Pickup->GetFSlotImage());
+		RemoveFromInventory(Pickup);
 	}
+
+
+	//Availability check done in blueprint
+
+	SetImage(Pickup->GetInventoryImage(), Row, Collum, Pickup->GetSlotSize());
+	Rows[Row].SlotImage[Collum].Pickup = Pickup;
+	CalculateOverlap(Pickup, Row, Collum);
+	SetSlotImage(Row, Collum, Pickup);
+	m_InvetoryItems.Add(Pickup);
+
+	UE_LOG(LogTemp, Warning, TEXT("%s: Added to inventory"), *Pickup->GetName())
+
+}
+
+void UUIComponent::RemoveFromInventory(ABasicPickup * Pickup)
+{
+	m_InvetoryItems.Remove(Pickup);
+	Pickup->SetFSlotImage(nullptr);
 }
 
 void UUIComponent::DisableWidgets(TArray<UWidget*> ToDisable)
@@ -108,7 +128,7 @@ void UUIComponent::DisableWidgets(TArray<UWidget*> ToDisable)
 	for (int32 i = 0; i != ToDisable.Num(); ++i)
 	{
 		ToDisable[i]->SetVisibility(ESlateVisibility::Hidden);
-	}
+	} 
 }
 
 void UUIComponent::EnableWidgets(TArray<UWidget*> ToEnable)
@@ -185,27 +205,36 @@ void UUIComponent::HideImageGrid()
 	}
 }
 
-void UUIComponent::SetImage(UTexture2D* Texture, int Row, int Collum, FVector2D GridSize)
+void UUIComponent::SetImage(UTexture2D* Texture, int32 Row, int32 Collum, FVector2D GridSize)
 {
 	Rows[Row].SlotImage[Collum].Image->SetBrushFromTexture(Texture, true);
 	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
+	UCanvasPanelSlot* slot = Cast<UCanvasPanelSlot>(Rows[Row].SlotImage[Collum].Image->Slot);
+	if (slot)
+		slot->SetSize(GridSize * 100);
 	
 }
 
-void UUIComponent::ResetImage(class UTexture2D* Texture, int Row, int Collum, FVector2D GridSize)
+void UUIComponent::SetSlotImage(int32 Row, int32 Collum, ABasicPickup * Pickup)
+{
+	Pickup->SetFSlotImage(&Rows[Row].SlotImage[Collum]);
+}
+
+void UUIComponent::ResetImage(class UTexture2D* Texture, int32 Row, int32 Collum, FVector2D GridSize)
 {
 	Rows[Row].SlotImage[Collum].Image->SetBrushFromTexture(Texture, true);
 	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::Hidden);
 }
 
-bool UUIComponent::IsAvailable(int Row, int Collum, FVector2D GridSize)
+void UUIComponent::ResetImage(FSlotImage* SlotImage)
+{
+	SlotImage->Image->SetBrushFromTexture(m_DefaultImage, true);
+	SlotImage->Image->SetVisibility(ESlateVisibility::Hidden);
+}
+
+bool UUIComponent::IsAvailable(int32 Row, int32 Collum, FVector2D GridSize)
 {
 	if (Row + GridSize.Y > Rows.Num() || Collum + GridSize.X > Rows[Row].SlotImage.Num())
-	{
-		return false;
-	}
-
-	if (IsButtonTaken(Row, Collum))
 	{
 		return false;
 	}
@@ -218,7 +247,33 @@ bool UUIComponent::IsAvailable(int Row, int Collum, FVector2D GridSize)
 	return true;
 }
 
-bool UUIComponent::IsButtonTaken(int Row, int Collum) const
+ABasicPickup* UUIComponent::GetInventoryItem(int32 Row, int32 Collum)
+{
+	FVector2D slotPosition = { (float)Collum, (float)Row };
+	ABasicPickup* pickupToReturn = nullptr;
+
+	int32 rowNum = Rows.Num();
+	//Loop through all the images
+	for (int32 i = 0; i != rowNum; ++i)
+	{
+		int32 collumNum = Rows[i].SlotImage.Num();
+		for (int32 j = 0; j != collumNum; ++j)
+		{
+			int32 overlapNum = Rows[i].SlotImage[j].OverlappingSlots.Num();
+			for (int32 k = 0; k != overlapNum; ++k)
+			{
+				if (Rows[i].SlotImage[j].OverlappingSlots[k] == slotPosition)
+				{
+					pickupToReturn = Rows[i].SlotImage[j].Pickup;
+				}
+			}
+		}
+	}
+	
+	return pickupToReturn;
+}
+
+bool UUIComponent::IsButtonTaken(int32 Row, int32 Collum) const
 {
 	FVector2D slotPosition = {(float)Collum, (float)Row};
 
@@ -245,7 +300,18 @@ bool UUIComponent::IsButtonTaken(int Row, int Collum) const
 
 bool UUIComponent::IsOverlapping(int32 Row, int32 Collum, FVector2D SlotSize) const
 {
+	for (int i = 0; i < SlotSize.Y; ++i)
+	{
+		for (int j = 0; j < SlotSize.X; ++j)
+		{
+			if (IsButtonTaken(Row + i, Collum + j))
+			{
+				return true;
+			}
+		}
+	}
 
+	return false;
 }
 
 void UUIComponent::CalculateOverlap(ABasicPickup* Pickup, int32 Row, int32 Collum)
@@ -258,5 +324,10 @@ void UUIComponent::CalculateOverlap(ABasicPickup* Pickup, int32 Row, int32 Collu
 			Rows[Row].SlotImage[Collum].OverlappingSlots.Add(overlappingSlot);
 		}
 	}
+}
+
+void UUIComponent::RemoveOverlap(FSlotImage * SlotImage)
+{
+	SlotImage->OverlappingSlots.Empty();
 }
 

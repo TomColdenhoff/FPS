@@ -24,6 +24,8 @@ struct FSlotImage
 
 	//X is collum numer and Y is row number
 	TArray<FVector2D> OverlappingSlots;
+
+	ABasicPickup* Pickup = nullptr;
 	
 };
 
@@ -70,6 +72,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum);
 
+	UFUNCTION(BlueprintCallable)
+	void RemoveFromInventory(ABasicPickup* Pickup);
+
 	UPROPERTY(BlueprintAssignable, Category = "Inventory")
 	FUpdateOnGroundDelegate OnUpdateInventory;
 
@@ -94,6 +99,9 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Inventory")
 	float m_SearchDistance;
 
+	UPROPERTY(EditAnywhere, Category = "Inventory")
+	UTexture2D* m_DefaultImage;
+
 	/*Disables all the the passed in widgets*/
 	void DisableWidgets(TArray<UWidget*> ToDisable);
 
@@ -110,21 +118,31 @@ private:
 	void HideImageGrid();
 
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
-	void SetImage(class UTexture2D* Texture, int Row, int Collum, FVector2D GridSize);
+	void SetImage(class UTexture2D* Texture, int32 Row, int32 Collum, FVector2D GridSize);
 
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
-	void ResetImage(class UTexture2D* Texture, int Row, int Collum, FVector2D GridSize);
+	void SetSlotImage(int32 Row, int32 Collum, ABasicPickup* Pickup);
 
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
-	bool IsAvailable(int Row, int Collum, FVector2D GridSize);
+	void ResetImage(class UTexture2D* Texture, int32 Row, int32 Collum, FVector2D GridSize);
+
+	void ResetImage(FSlotImage* SlotImage);
+
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	bool IsAvailable(int32 Row, int32 Collum, FVector2D GridSize);
+
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	ABasicPickup* GetInventoryItem(int32 Row, int32 Collum);
 
 	/*Checks if the hovered button is overlaped by an other image*/
-	bool IsButtonTaken(int Row, int Collum) const;
+	bool IsButtonTaken(int32 Row, int32 Collum) const;
 
 	/*Checks if the item is overlapping an allready placed item*/
 	bool IsOverlapping(int32 Row, int32 Collum, FVector2D SlotSize) const;
 
 	void CalculateOverlap(ABasicPickup* Pickup, int32 Row, int32 Collum);
+
+	void RemoveOverlap(FSlotImage* SlotImage);
 		
 	
 };
