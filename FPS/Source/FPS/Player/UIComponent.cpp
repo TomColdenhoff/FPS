@@ -103,6 +103,12 @@ void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 		RemoveOverlap(Pickup->GetFSlotImage());
 		RemoveFromInventory(Pickup);
 	}
+	//SlotImage is nullptr so hasn't been in inventory yet so we remove it from the ground
+	else
+	{
+		Pickup->SetActorLocation(FVector(0.0f, 0.0f, 0.0f));
+		Pickup->SetActorHiddenInGame(true);
+	}
 
 
 	//Availability check done in blueprint
