@@ -100,6 +100,10 @@ void UUIComponent::SwitchMode(EUIMode NewUIMode)
 
 void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 {
+	if (Pickup == nullptr)
+	{
+		return;
+	}
 	//Remove from inventory first if it was allready in there
 	if (Pickup->GetFSlotImage() != nullptr)
 	{
@@ -116,6 +120,12 @@ void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 	else if (Pickup->GetFSlotImage() == nullptr && m_InvetoryItems.Contains(Pickup))
 	{
 		RemoveFromInventory(Pickup);
+	}
+
+	if (m_CurrentHoldPickUp == Pickup)
+	{
+		m_CurrentHoldPickUp = nullptr;
+		OnHandClear.Broadcast();
 	}
 
 
@@ -138,15 +148,20 @@ bool UUIComponent::DropToHands(AHoldAblePickUp * Pickup)
 		UE_LOG(LogTemp, Error, TEXT("There is no player"));
 		return false;
 	}
+
 	if (Pickup->GetFSlotImage() != nullptr)
 	{
 		ResetImage(Pickup->GetFSlotImage());
 		RemoveOverlap(Pickup->GetFSlotImage());
+
 	}
 	else
 	{
 		m_InvetoryItems.Add(Pickup);
+		Pickup->SetActorLocation(FVector(0.0f, 0.0f, 0.0f));
+		Pickup->SetActorHiddenInGame(true);
 	}
+	m_CurrentHoldPickUp = Pickup;
 	Pickup->ToHands(m_Player);
 
 	return true;
@@ -155,7 +170,38 @@ bool UUIComponent::DropToHands(AHoldAblePickUp * Pickup)
 void UUIComponent::RemoveFromInventory(ABasicPickup * Pickup)
 {
 	m_InvetoryItems.Remove(Pickup);
+
+	if (Pickup->GetFSlotImage() != nullptr)
+	{
+		ResetImage(Pickup->GetFSlotImage());
+		RemoveOverlap(Pickup->GetFSlotImage());
+	}
+
 	Pickup->SetFSlotImage(nullptr);
+}
+
+void UUIComponent::DropItem(ABasicPickup* Pickup)
+{
+	RemoveFromInventory(Pickup);
+	
+	FVector dropLocation;
+	dropLocation = GetOwner()->GetActorLocation() + (GetOwner()->GetActorForwardVector() * 100.0f);
+
+	FHitResult hitResult;
+	bool gotHit = GetWorld()->LineTraceSingleByChannel(hitResult, dropLocation, (dropLocation - FVector(0, 0, 500)), ECC_Visibility);
+	if (gotHit)
+	{
+		dropLocation = hitResult.Location;
+	}
+
+	Pickup->SetActorLocation(dropLocation);
+	Pickup->SetActorHiddenInGame(false);
+
+	if (Pickup == m_CurrentHoldPickUp)
+	{
+		m_CurrentHoldPickUp = nullptr;
+		OnHandClear.Broadcast();
+	}
 }
 
 void UUIComponent::DisableWidgets(TArray<UWidget*> ToDisable)

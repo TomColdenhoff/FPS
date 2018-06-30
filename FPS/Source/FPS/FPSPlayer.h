@@ -111,8 +111,12 @@ private:
 	/*Calls interaction function on interaction component*/
 	void Interact();
 
+	//Toggle the visibility of the HUD
 	void ToggleInventory();
 
+	/*Clear the hands of the player*/
+	UFUNCTION()
+	void ClearHands();
 
 	
 };

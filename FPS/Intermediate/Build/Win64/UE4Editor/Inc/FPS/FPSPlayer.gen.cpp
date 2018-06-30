@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 	FPS_API UClass* Z_Construct_UClass_AFPSPlayer_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	FPS_API UFunction* Z_Construct_UFunction_AFPSPlayer_ClearHands();
 	FPS_API UFunction* Z_Construct_UFunction_AFPSPlayer_GetUIComponent();
 	FPS_API UClass* Z_Construct_UClass_UUIComponent_NoRegister();
 	FPS_API UClass* Z_Construct_UClass_UInteraction_NoRegister();
@@ -47,9 +48,26 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 	{
 		UClass* Class = AFPSPlayer::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ClearHands", &AFPSPlayer::execClearHands },
 			{ "GetUIComponent", &AFPSPlayer::execGetUIComponent },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_AFPSPlayer_ClearHands()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "FPSPlayer.h" },
+				{ "ToolTip", "Clear the hands of the player" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSPlayer, "ClearHands", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_AFPSPlayer_GetUIComponent()
 	{
@@ -94,6 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_AFPSPlayer_ClearHands, "ClearHands" }, // 461717658
 				{ &Z_Construct_UFunction_AFPSPlayer_GetUIComponent, "GetUIComponent" }, // 1216462810
 				{ &Z_Construct_UDelegateFunction_AFPSPlayer_OnNewWeapon__DelegateSignature, "OnNewWeapon__DelegateSignature" }, // 3685928248
 			};
@@ -205,7 +224,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSPlayer, 3137616178);
+	IMPLEMENT_CLASS(AFPSPlayer, 1591308485);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSPlayer(Z_Construct_UClass_AFPSPlayer, &AFPSPlayer::StaticClass, TEXT("/Script/FPS"), TEXT("AFPSPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

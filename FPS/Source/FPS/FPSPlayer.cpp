@@ -51,6 +51,8 @@ void AFPSPlayer::BeginPlay()
 	Super::BeginPlay();
 	//Show the default HUD to the player
 	ChangeWidget(m_DefaultPlayerHUD);
+	//Register to On Empty Hand event
+	p_UIComponent->OnHandClear.AddDynamic(this, &AFPSPlayer::ClearHands);
 }
 
 // Called every frame
@@ -222,4 +224,12 @@ void AFPSPlayer::ToggleInventory()
 		p_UIComponent->SwitchMode(EUIMode::Inventory);
 }
 
+void AFPSPlayer::ClearHands()
+{
+	if (CurrentWeaponMesh != nullptr)
+	{
+		CurrentWeaponMesh->DestroyComponent();
+		CurrentWeaponMesh = nullptr;
+	}
+}
 

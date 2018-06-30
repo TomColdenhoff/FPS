@@ -13,8 +13,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeUIComponent() {}
 // Cross Module References
-	FPS_API UFunction* Z_Construct_UDelegateFunction_FPS_UpdateOnGroundDelegate__DelegateSignature();
+	FPS_API UFunction* Z_Construct_UDelegateFunction_FPS_ClearHandSlot__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	FPS_API UFunction* Z_Construct_UDelegateFunction_FPS_UpdateOnGroundDelegate__DelegateSignature();
 	FPS_API UClass* Z_Construct_UClass_ABasicPickup_NoRegister();
 	FPS_API UScriptStruct* Z_Construct_UScriptStruct_FCollum();
 	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
@@ -22,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeUIComponent() {}
 	FPS_API UClass* Z_Construct_UClass_UUIComponent_NoRegister();
 	FPS_API UClass* Z_Construct_UClass_UUIComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+	FPS_API UFunction* Z_Construct_UFunction_UUIComponent_DropItem();
 	FPS_API UFunction* Z_Construct_UFunction_UUIComponent_DropToHands();
 	FPS_API UClass* Z_Construct_UClass_AHoldAblePickUp_NoRegister();
 	FPS_API UFunction* Z_Construct_UFunction_UUIComponent_DropToIventory();
@@ -37,6 +39,21 @@ void EmptyLinkFunctionForGeneratedCodeUIComponent() {}
 	FPS_API UFunction* Z_Construct_UFunction_UUIComponent_SetImage();
 	FPS_API UFunction* Z_Construct_UFunction_UUIComponent_SetSlotImage();
 // End Cross Module References
+	UFunction* Z_Construct_UDelegateFunction_FPS_ClearHandSlot__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Player/UIComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_FPS, "ClearHandSlot__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UDelegateFunction_FPS_UpdateOnGroundDelegate__DelegateSignature()
 	{
 		struct _Script_FPS_eventUpdateOnGroundDelegate_Parms
@@ -202,6 +219,7 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 	{
 		UClass* Class = UUIComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "DropItem", &UUIComponent::execDropItem },
 			{ "DropToHands", &UUIComponent::execDropToHands },
 			{ "DropToIventory", &UUIComponent::execDropToIventory },
 			{ "GetInventoryItem", &UUIComponent::execGetInventoryItem },
@@ -214,6 +232,29 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 			{ "SetSlotImage", &UUIComponent::execSetSlotImage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_UUIComponent_DropItem()
+	{
+		struct UIComponent_eventDropItem_Parms
+		{
+			ABasicPickup* Pickup;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Pickup = { UE4CodeGen_Private::EPropertyClass::Object, "Pickup", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UIComponent_eventDropItem_Parms, Pickup), Z_Construct_UClass_ABasicPickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Pickup,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Player/UIComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UUIComponent, "DropItem", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(UIComponent_eventDropItem_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_UUIComponent_DropToHands()
 	{
@@ -539,6 +580,7 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_UUIComponent_DropItem, "DropItem" }, // 3751829751
 				{ &Z_Construct_UFunction_UUIComponent_DropToHands, "DropToHands" }, // 3793880904
 				{ &Z_Construct_UFunction_UUIComponent_DropToIventory, "DropToIventory" }, // 2264863686
 				{ &Z_Construct_UFunction_UUIComponent_GetInventoryItem, "GetInventoryItem" }, // 1576998818
@@ -589,6 +631,13 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Rows = { UE4CodeGen_Private::EPropertyClass::Array, "Rows", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010008000000005, 1, nullptr, STRUCT_OFFSET(UUIComponent, Rows), METADATA_PARAMS(NewProp_Rows_MetaData, ARRAY_COUNT(NewProp_Rows_MetaData)) };
 			static const UE4CodeGen_Private::FStructPropertyParams NewProp_Rows_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "Rows", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000008000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FCollum, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnHandClear_MetaData[] = {
+				{ "Category", "Inventory" },
+				{ "ModuleRelativePath", "Player/UIComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnHandClear = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnHandClear", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UUIComponent, OnHandClear), Z_Construct_UDelegateFunction_FPS_ClearHandSlot__DelegateSignature, METADATA_PARAMS(NewProp_OnHandClear_MetaData, ARRAY_COUNT(NewProp_OnHandClear_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUpdateInventorySlots_MetaData[] = {
 				{ "Category", "Inventory" },
 				{ "ModuleRelativePath", "Player/UIComponent.h" },
@@ -608,6 +657,7 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bDebug,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Rows,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Rows_Inner,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OnHandClear,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OnUpdateInventorySlots,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OnUpdateInventory,
 			};
@@ -629,7 +679,7 @@ static struct FScriptStruct_FPS_StaticRegisterNativesFSlotImage
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUIComponent, 3355199483);
+	IMPLEMENT_CLASS(UUIComponent, 772126538);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UUIComponent(Z_Construct_UClass_UUIComponent, &UUIComponent::StaticClass, TEXT("/Script/FPS"), TEXT("UUIComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UUIComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

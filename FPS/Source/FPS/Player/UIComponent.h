@@ -42,6 +42,7 @@ struct FCollum
 };
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateOnGroundDelegate, const TArray<ABasicPickup*>&, Items);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FClearHandSlot);
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -80,11 +81,17 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void RemoveFromInventory(ABasicPickup* Pickup);
 
+	UFUNCTION(BlueprintCallable)
+	void DropItem(ABasicPickup* Pickup);
+
 	UPROPERTY(BlueprintAssignable, Category = "Inventory")
 	FUpdateOnGroundDelegate OnUpdateInventory;
 
 	UPROPERTY(BlueprintAssignable, Category = "Inventory")
 	FUpdateOnGroundDelegate OnUpdateInventorySlots;
+
+	UPROPERTY(BlueprintAssignable, Category = "Inventory")
+	FClearHandSlot OnHandClear;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
 	TArray<FCollum> Rows;
@@ -97,6 +104,7 @@ private:
 	TArray<UWidget*> m_InventoryUI;
 
 	TArray<ABasicPickup*> m_InvetoryItems;
+	AHoldAblePickUp* m_CurrentHoldPickUp = nullptr;
 
 	UPROPERTY(EditAnywhere, Category = "Debug")
 	bool bDebug;
