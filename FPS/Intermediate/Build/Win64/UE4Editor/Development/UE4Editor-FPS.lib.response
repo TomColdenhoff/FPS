@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-FPS.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\AssualtCharacter.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\BaseWeapon.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\CloseEnough.cpp.obj"
@@ -28,6 +28,7 @@
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\DoorOpenComponent.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\HoldAblePickUp.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\InteractAble.cpp.obj"
+"D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\SMGPickUp.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\Interaction.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\UIComponent.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\CoverPoint.cpp.obj"
@@ -61,6 +62,7 @@
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\InteractAble.gen.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\Interaction.gen.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\SMG.gen.cpp.obj"
+"D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\SMGPickUp.gen.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\ToggleDuck.gen.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\UIComponent.gen.cpp.obj"
 "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\UnitAIController.gen.cpp.obj"

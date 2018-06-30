@@ -1,0 +1,1498 @@
+﻿Log file open, 06/29/18 11:28:24
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CoverPointGenerator
+LogStreaming: Display: Took  0.103s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Binaries/Win64/UE4Editor-FPS-5763.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Tom-Laptop (192.168.80.102:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: D:\SpareTime\Unreal\FPS\FPS\FPS.uproject -run=Cook  -NoLogTimes -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="D:\Epic Games\UE_4.19\Engine\Programs\AutomationTool\Saved\Cook-2018.06.29-11.28.11.txt" -stdout -CrashForUAT -unattended  -UTF8Output
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogInit: Selected Device Profile: [Windows]
+LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+LogInit: Computer: TOM-LAPTOP
+LogInit: User: tomco
+LogInit: CPU Page size=4096, Cores=4
+LogInit: High frequency timer resolution =2.531254 MHz
+LogMemory: Memory total: Physical=7.9GB (8GB approx)
+LogMemory: Platform Memory Stats for Windows
+LogMemory: Process Physical Memory: 279.50 MB used, 279.50 MB peak
+LogMemory: Process Virtual Memory: 269.76 MB used, 269.76 MB peak
+LogMemory: Physical Memory: 6865.18 MB used,  1225.34 MB free, 8090.52 MB total
+LogMemory: Virtual Memory: 4796.92 MB used,  1225.34 MB free, 134217728.00 MB total
+LogInit: Using OS detected language (en-US).
+LogInit: Using OS detected locale (en-US).
+LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+LogStreaming: Display: Took  0.648s to EndInitTextLocalization.
+LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../SpareTime/Unreal/FPS/FPS/Intermediate/Shaders/WorkingDirectory/8780/).
+LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomco/AppData/Local/Temp/UnrealShaderWorkingDir/F2D072404869D1F6165DC08568299058/'.
+LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+LogTemp: Display: Loaded TP MacClientTargetPlatform
+LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+LogTemp: Display: Loaded TP MacServerTargetPlatform
+LogTemp: Display: Loaded TP MacTargetPlatform
+LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+LogTemp: Display: Loaded TP WindowsTargetPlatform
+LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+LogTemp: Display: Loaded TP AndroidTargetPlatform
+LogTemp: Display: Loaded TP HTML5TargetPlatform
+LogTemp: Display: Loaded TP IOSTargetPlatform
+LogTemp: Display: Loaded TP TVOSTargetPlatform
+LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+LogTemp: Display: Loaded TP LinuxTargetPlatform
+LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+LogShaderCompilers: Display: Using Local Shader Compiler.
+LogDerivedDataCache: Display: Max Cache Size: 512 MB
+LogDerivedDataCache: Loaded boot cache 0.55s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+LogDerivedDataCache: Using Local data cache path C:/Users/tomco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
+LogInit: Selected Device Profile: [Windows]
+LogSimplygon: Simplygon DLL not present - disabling.
+LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: No automatic skeletal mesh reduction module available
+LogMeshReduction: No automatic mesh merging module available
+LogMeshMerging: No automatic mesh merging module available
+LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.104487 seconds
+LogSkeletalMesh: Skeletal Mesh found in DDC [1.492936ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d76832480, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d76832480, Size=80
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d774876f0, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d773e70b0, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+LogUObjectGlobals: Warning: Failed to find object 'AnimBlueprint /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'
+Error: CDO Constructor (SMG): Failed to find AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'
+
+LogTemp: Error: Animation Instance is nullptr
+LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+LogUObjectBase: Warning: Error: CDO Constructor (SMG): Failed to find AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'
+
+Default Property warnings and errors:
+Error: CDO Constructor (SMG): Failed to find AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'
+
+
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+LogOcInput: OculusInput pre-init called
+LogWindows: Windows GetLastError: The operation completed successfully. (0)
+LogWindows: Failed to preload 'D:/SpareTime/Unreal/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll' (GetLastError=1114)
+Error: CDO Constructor (SMG): Failed to find AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'
+
+LogTemp: Error: Animation Instance is nullptr
+LogHotReload: Re-instancing SMG after hot-reload.
+LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+LogUObjectBase: Warning: Error: CDO Constructor (SMG): Failed to find AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'
+
+Default Property warnings and errors:
+Error: CDO Constructor (SMG): Failed to find AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'
+
+
+LogUObjectArray: 41867 objects as part of root set at end of initial load.
+LogUObjectAllocator: 9083088 out of 0 bytes used by permanent object pool.
+LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+LogInit: Executing Class /Script/UnrealEd.CookCommandlet
+LogInit: Initializing Editor Engine...
+LogEngine: Initializing Engine...
+LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+LogAIModule: Creating AISystem for world Untitled
+LogDerivedDataCache: Saved boot cache 0.12s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+LogInit: Texture streaming: Disabled
+LogInit: Initializing Editor Engine Completed
+LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+LogCollectionManager: Loaded 0 collections in 0.001092 seconds
+LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Saved/Collections/' took 0.01s
+LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Developers/tomco/Collections/' took 0.01s
+LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Collections/' took 0.01s
+LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+LogCook: Display: Mobile HDR setting 1
+LogCook: Display: Creating asset registry
+LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+LogCook: Display: Sandbox cleanup took 0.930 seconds for platforms WindowsNoEditor  iterative false
+LogMaterial: Verifying Global Shaders for PCD3D_SM5
+LogMaterial: Verifying Global Shaders for PCD3D_SM4
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../../../SpareTime/Unreal/FPS/FPS/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/2D/Paper2D/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Editor/CryptoKeys/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Enterprise/DatasmithContent/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Media/MediaCompositing/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/AppleARKit/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../../../SpareTime/Unreal/FPS/FPS/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/2D/Paper2D/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Editor/CryptoKeys/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Enterprise/DatasmithContent/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Media/MediaCompositing/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/AppleARKit/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/*.umap'
+LogCook: Display: Cooking /Engine/Tutorial/Foliage/Foliage_Intro_Tutorial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for Foliage_Intro_Tutorial. Package will not be saved.
+LogCook: Display: Cooking /Engine/EditorResources/S_Actor -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+LogSavePackage: Save=2.40ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+LogCook: Display: Cooking /Engine/EngineResources/WhiteSquareTexture -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+LogSavePackage: Save=0.50ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+LogCook: Display: Cooking /Engine/EngineResources/GradientTexture0 -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+LogSavePackage: Save=0.72ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+LogCook: Display: Cooking /Engine/EngineResources/Black -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+LogSavePackage: Save=0.73ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+LogCook: Display: Cooking /Engine/EngineMeshes/Sphere -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+LogSavePackage: Save=1.11ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+LogCook: Display: Cooking /Engine/EngineSounds/Master -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+LogSavePackage: Save=0.35ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Float -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+LogSavePackage: Save=0.77ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Anim -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+LogSavePackage: Save=0.74ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+LogSavePackage: Save=0.62ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+LogSavePackage: Save=2.80ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Fade -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+LogSavePackage: Save=0.91ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Director -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+LogSavePackage: Save=2.11ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Event -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+LogSavePackage: Save=0.84ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Move -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+LogSavePackage: Save=1.18ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Slomo -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+LogSavePackage: Save=0.92ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Sound -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+LogSavePackage: Save=0.75ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MAT_Groups_Toggle -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+LogSavePackage: Save=0.62ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Vector -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+LogSavePackage: Save=0.75ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/MAT_Groups_Visibility -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+LogSavePackage: Save=0.78ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+LogCook: Display: Cooking /Engine/EngineResources/DefaultTexture -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+LogSavePackage: Save=2.74ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+LogCook: Display: Cooking /Engine/EngineResources/DefaultTextureCube -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+LogSavePackage: Save=1.50ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/RobotoDistanceField -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+LogSavePackage: Save=1.02ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultTextMaterialOpaque -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+LogSavePackage: Save=7.33ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+LogSavePackage: Save=0.85ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+LogSavePackage: Save=0.96ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/WorldGridMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+LogSavePackage: Save=58.67ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+LogSavePackage: Save=1.23ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_M -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+LogSavePackage: Save=0.83ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_N -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+LogSavePackage: Save=1.03ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultDeferredDecalMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+LogSavePackage: Save=15.72ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultDiffuse -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+LogSavePackage: Save=0.91ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultLightFunctionMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+LogSavePackage: Save=4.72ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultPostProcessMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+LogSavePackage: Save=6.59ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+LogSavePackage: Save=0.70ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+LogCook: Display: Cooking /Engine/EditorResources/S_Trigger -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+LogSavePackage: Save=0.86ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+LogCook: Display: Cooking /Engine/EngineDamageTypes/DmgTypeBP_Environmental -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+LogSavePackage: Save=4.06ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Sequencer_Node -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset
+LogSavePackage: Save=1.10ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/Main -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset
+LogSavePackage: Save=2.55ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/Xray -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset
+LogSavePackage: Save=2.43ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/PlaneTranslationHandle -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+LogSavePackage: Save=1.24ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+LogSavePackage: Save=1.31ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/VR_LaserPower_01 -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+LogSavePackage: Save=0.64ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+LogSavePackage: Save=4.90ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxCorner -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+LogSavePackage: Save=1.10ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxEdge -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+LogSavePackage: Save=1.40ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Sequencer_Key -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset
+LogSavePackage: Save=1.17ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Base -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+LogSavePackage: Save=0.69ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/Camera/MI_CineMat_Rig -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+LogSavePackage: Save=0.60ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/Camera/CineMat -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+LogSavePackage: Save=5.84ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+LogCook: Display: Cooking /Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for Foliage_Using_The_Tool_Tutorial. Package will not be saved.
+LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Arm -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+LogSavePackage: Save=0.94ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Mount -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+LogSavePackage: Save=0.87ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Body -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+LogSavePackage: Save=1.04ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Track -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+LogSavePackage: Save=0.99ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Mount -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+LogSavePackage: Save=1.18ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/Roboto -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+LogSavePackage: Save=0.82ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoBold -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset
+LogSavePackage: Save=4.14ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoBoldItalic -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset
+LogSavePackage: Save=1.96ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoItalic -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset
+LogSavePackage: Save=2.28ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoLight -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset
+LogSavePackage: Save=1.71ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoRegular -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset
+LogSavePackage: Save=1.80ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+LogSavePackage: Save=1.93ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+LogSavePackage: Save=4.88ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+LogSavePackage: Save=2.11ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+LogSavePackage: Save=1.84ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+LogSavePackage: Save=1.26ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+LogSavePackage: Save=2.41ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+LogSavePackage: Save=2.19ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+LogSavePackage: Save=0.85ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_OOD -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+LogSavePackage: Save=1.45ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+LogCook: Display: Cooking /Engine/Maps/Templates/Thumbnails/Default -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+LogSavePackage: Save=1.18ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+LogCook: Display: Cooking /Engine/Maps/Templates/Thumbnails/VR-Basic -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+LogSavePackage: Save=0.80ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+LogCook: Display: Cooking /Engine/EditorLandscapeResources/DataLayer -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+LogSavePackage: Save=0.46ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+LogCook: Display: Cooking /AppleARKit/ARKitCameraMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/AppleARKit/Content/ARKitCameraMaterial.uasset
+LogSavePackage: Save=2.35ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/AppleARKit/Content/ARKitCameraMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/AppleARKit/Content/ARKitCameraMaterial.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4 -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset
+LogSavePackage: Save=1.09ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset
+LogCook: Display: Cooking /OculusVR/Meshes/GearVrController -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset
+LogSavePackage: Save=1.23ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset
+LogCook: Display: Cooking /OculusVR/Materials/GearVRControllerMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset
+LogSavePackage: Save=3.78ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset
+LogCook: Display: Cooking /OculusVR/Textures/GearVRController_AO -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset
+LogSavePackage: Save=0.93ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset
+LogCook: Display: Cooking /OculusVR/Textures/GearVRController_Color -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset
+LogSavePackage: Save=0.86ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset
+LogCook: Display: Cooking /Engine/VREditor/VREditorAssetContainerData -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/VREditorAssetContainerData.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for VREditorAssetContainerData. Package will not be saved.
+LogCook: Display: Cooking /Engine/VREditor/Fonts/VRText_RobotoLarge -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+LogSavePackage: Save=0.77ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+LogCook: Display: Cooking /Engine/VREditor/Fonts/VRTextMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+LogSavePackage: Save=2.61ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/GridMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+LogSavePackage: Save=5.64ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+LogSavePackage: Save=0.55ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/SimpleGrid -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+LogSavePackage: Save=1.16ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/GridPostProcess -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+LogSavePackage: Save=4.81ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+LogSavePackage: Save=1.14ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMaterial_Inst -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset
+LogSavePackage: Save=0.82ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset
+LogSavePackage: Save=6.20ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset
+LogSavePackage: Save=0.64ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreController_MasksB -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset
+LogSavePackage: Save=0.94ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Inst -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset
+LogSavePackage: Save=0.99ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset
+LogSavePackage: Save=9.14ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/T_VivePreController_EM -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset
+LogSavePackage: Save=2.96ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreController_MasksA -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset
+LogSavePackage: Save=3.74ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterialInst -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+LogSavePackage: Save=0.97ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+LogSavePackage: Save=5.29ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+LogSavePackage: Save=4.79ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+LogCook: Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMaterial_Inst -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset
+LogSavePackage: Save=0.50ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset
+LogCook: Display: Cooking /Engine/Tutorial/Foliage/Foliage_Settings_Tutorial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for Foliage_Settings_Tutorial. Package will not be saved.
+LogCook: Display: Cooking /OculusVR/Textures/GearVRController_Normal -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset
+LogSavePackage: Save=6.41ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerDiffuse -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset
+LogSavePackage: Save=5.12ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerSpec -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset
+LogSavePackage: Save=4.65ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset
+LogCook: Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset
+LogSavePackage: Save=4.36ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoMaterial_Inst -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset
+LogSavePackage: Save=2.40ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset
+LogSavePackage: Save=0.49ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMD -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+LogSavePackage: Save=1.32ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMDMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+LogSavePackage: Save=2.28ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMesh -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset
+LogSavePackage: Save=4.16ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMesh -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset
+LogSavePackage: Save=4.93ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/CursorPointer -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset
+LogSavePackage: Save=1.45ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/HoverMesh -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset
+LogSavePackage: Save=1.25ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/HoverMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset
+LogSavePackage: Save=0.83ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/TranslucentHoverMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset
+LogSavePackage: Save=0.86ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+LogSavePackage: Save=1.09ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh_End -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset
+LogSavePackage: Save=1.21ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset
+LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh_Start -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset
+LogSavePackage: Save=4.09ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Click_on_Button_Cue -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset
+LogSavePackage: Save=1.30ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Close -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset
+LogSavePackage: Save=1.42ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Drop -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset
+LogSavePackage: Save=1.60ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Open -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset
+LogSavePackage: Save=1.53ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Pick_Up -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset
+LogSavePackage: Save=1.25ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset
+LogSavePackage: Save=1.33ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Floating_UI_Open-001 -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset
+LogSavePackage: Save=1.54ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Radial_Menu_FadeOut -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset
+LogSavePackage: Save=1.12ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Teleport_Mode_Entered -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset
+LogSavePackage: Save=2.20ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/VR_teleport -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+LogSavePackage: Save=1.72ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+LogCook: Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMesh -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset
+LogSavePackage: Save=1.26ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Dialog_Close -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset
+LogSavePackage: Save=2.55ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset
+LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Dialog_Move -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset
+LogSavePackage: Save=0.69ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset
+LogCook: Display: Cooking /Engine/VREditor/UI/SM_ContentWindow_01 -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+LogSavePackage: Save=1.46ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+LogCook: Display: Cooking /Engine/VREditor/UI/M_ContentWindow -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+LogSavePackage: Save=6.35ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/UE4_Logo -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+LogSavePackage: Save=2.90ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+LogCook: Display: Cooking /Engine/VREditor/UI/SM_Radial_Disk -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset
+LogSavePackage: Save=0.94ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset
+LogCook: Display: Cooking /Engine/VREditor/UI/DiscMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset
+LogSavePackage: Save=0.71ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/UI/KeyDiskMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset
+LogSavePackage: Save=2.35ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/UI/SM_Radial_Pointer -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset
+LogSavePackage: Save=1.16ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset
+LogCook: Display: Cooking /Engine/VREditor/UI/ArrowMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset
+LogSavePackage: Save=5.16ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/PlaneMesh -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+LogSavePackage: Save=1.10ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+LogCook: Display: Cooking /Engine/EditorLandscapeResources/FlattenHeightMat -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+LogSavePackage: Save=4.79ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Click_on_Button -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset
+LogSavePackage: Save=1.09ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset
+LogCook: Display: Cooking /Engine/VREditor/FloatingText/LineSegmentCylinder -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+LogSavePackage: Save=1.18ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+LogCook: Display: Cooking /Engine/VREditor/FloatingText/LineMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+LogSavePackage: Save=3.11ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+LogCook: Display: Cooking /Engine/VREditor/FloatingText/JointSphere -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+LogSavePackage: Save=1.30ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+LogCook: Display: Cooking /Engine/VREditor/Fonts/TranslucentVRTextMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+LogSavePackage: Save=1.80ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+LogCook: Display: Cooking /Engine/Tutorial/Basics/LevelEditorAttract -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for LevelEditorAttract. Package will not be saved.
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/GettingSubstance -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/GettingSubstance.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for GettingSubstance. Package will not be saved.
+LogCook: Display: Cooking /Engine/Tutorial/Basics/LevelEditorOverview -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for LevelEditorOverview. Package will not be saved.
+LogCook: Display: Cooking /Engine/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset
+LogSavePackage: Save=2.34ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset
+LogCook: Display: Cooking /Engine/Tutorial/Paper2D/SpriteEditorTutorial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for SpriteEditorTutorial. Package will not be saved.
+LogCook: Display: Cooking /Engine/Tutorial/ContentIntroCurve -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+LogSavePackage: Save=0.42ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+LogCook: Display: Cooking /Paper2D/MaskedUnlitSpriteMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+LogSavePackage: Save=0.60ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+LogCook: Display: Cooking /Paper2D/DefaultSpriteMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+LogSavePackage: Save=2.98ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+LogCook: Display: Cooking /Paper2D/DummySpriteTexture -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for DummySpriteTexture. Package will not be saved.
+LogCook: Display: Cooking /Paper2D/PlaceholderTextures/DummySpriteTexture -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+LogSavePackage: Save=0.60ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+LogCook: Display: Cooking /Paper2D/OpaqueUnlitSpriteMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+LogSavePackage: Save=1.72ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+LogCook: Display: Cooking /Paper2D/DefaultPaperTerrainMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+LogSavePackage: Save=0.83ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+LogCook: Display: Cooking /Paper2D/DummySprite -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+LogSavePackage: Save=0.48ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+LogCook: Display: Cooking /Engine/EngineMeshes/Cylinder -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+LogSavePackage: Save=0.79ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+LogSavePackage: Save=9.39ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+LogCook: Display: Cooking /Game/Particles/Muzzle_Flash/P_Muzzle_Flash -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+LogSavePackage: Save=10.50ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/P_Muzzle_Flash.uasset
+LogCook: Display: Cooking /Game/Particles/Muzzle_Flash/Muzzle_FLesh_Material -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLesh_Material.uasset
+LogSavePackage: Save=10.81ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLesh_Material.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLesh_Material.uasset
+LogCook: Display: Cooking /Game/Particles/Muzzle_Flash/Muzzle_FLash -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLash.uasset
+LogSavePackage: Save=3.53ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLash.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_FLash.uasset
+LogCook: Display: Cooking /Game/Particles/Muzzle_Flash/Muzzle_Flash_Texture -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_Flash_Texture.uasset
+LogSavePackage: Save=0.86ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_Flash_Texture.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/Muzzle_Flash/Muzzle_Flash_Texture.uasset
+LogCook: Display: Cooking /Game/StarterContent/Particles/Materials/M_radial_ramp -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+LogSavePackage: Save=6.92ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+LogCook: Display: Cooking /Game/StarterContent/Particles/Materials/M_smoke_subUV -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+LogSavePackage: Save=9.26ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+LogCook: Display: Cooking /Game/StarterContent/Textures/T_Smoke_Tiled_D -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+LogSavePackage: Save=1.67ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+LogCook: Display: Cooking /Game/Sound/SFX/SMG/Silenced_SMG_Shot -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Sound/SFX/SMG/Silenced_SMG_Shot.uasset
+LogSavePackage: Save=1.23ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Sound/SFX/SMG/Silenced_SMG_Shot.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Sound/SFX/SMG/Silenced_SMG_Shot.uasset
+LogCook: Display: Cooking /Game/Particles/MuzzleFlash/MuzzleFlash_PS -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/MuzzleFlash_PS.uasset
+LogSavePackage: Save=5.76ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/MuzzleFlash_PS.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/MuzzleFlash_PS.uasset
+LogCook: Display: Cooking /Game/Particles/MuzzleFlash/Materials/Muzzle_MAT -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Materials/Muzzle_MAT.uasset
+LogSavePackage: Save=13.43ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Materials/Muzzle_MAT.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Materials/Muzzle_MAT.uasset
+LogCook: Display: Cooking /Game/Particles/MuzzleFlash/Textures/MuzzleNoiseTex -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/MuzzleNoiseTex.uasset
+LogSavePackage: Save=1.34ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/MuzzleNoiseTex.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/MuzzleNoiseTex.uasset
+LogCook: Display: Cooking /Game/Particles/MuzzleFlash/Textures/UE4FlashMask -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/UE4FlashMask.uasset
+LogSavePackage: Save=2.88ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/UE4FlashMask.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/UE4FlashMask.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/Arms_SMG -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG.uasset
+LogSavePackage: Save=3.19ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/arms -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/arms.uasset
+LogSavePackage: Save=5.73ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/arms.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/arms.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/armsColor -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsColor.uasset
+LogSavePackage: Save=4.42ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsColor.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsColor.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/armsNormal -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsNormal.uasset
+LogSavePackage: Save=9.91ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsNormal.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsNormal.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/armsSpecular -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsSpecular.uasset
+LogSavePackage: Save=8.16ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsSpecular.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/armsSpecular.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/raptor -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptor.uasset
+LogSavePackage: Save=5.75ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptor.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptor.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/raptorColor -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorColor.uasset
+LogSavePackage: Save=5.52ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorColor.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorColor.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/raptorNormal -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorNormal.uasset
+LogSavePackage: Save=10.03ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorNormal.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorNormal.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/Arms_SMG_PhysicsAsset -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG_PhysicsAsset.uasset
+LogSavePackage: Save=3.02ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG_PhysicsAsset.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG_PhysicsAsset.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/Arms_SMG_Skeleton -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG_Skeleton.uasset
+LogSavePackage: Save=1.09ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG_Skeleton.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/Arms_SMG_Skeleton.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/BP_SMGAnim -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/BP_SMGAnim.uasset
+LogSavePackage: Save=10.31ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/BP_SMGAnim.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/BP_SMGAnim.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/SMG_Fire -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Fire.uasset
+LogSavePackage: Save=0.98ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Fire.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Fire.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/SMG_Hide -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Hide.uasset
+LogSavePackage: Save=1.09ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Hide.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Hide.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/SMG_Idle -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Idle.uasset
+LogSavePackage: Save=0.88ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Idle.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Idle.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/SMG_Melee -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Melee.uasset
+LogSavePackage: Save=0.98ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Melee.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Melee.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/SMG_Reload -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Reload.uasset
+LogSavePackage: Save=2.08ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Reload.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Reload.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/SMG_Throw -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Throw.uasset
+LogSavePackage: Save=1.13ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Throw.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Throw.uasset
+LogCook: Display: Cooking /Game/Animations/SMG/SMG_Weild -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Weild.uasset
+LogSavePackage: Save=0.91ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Weild.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Animations/SMG/SMG_Weild.uasset
+LogCook: Display: Cooking /Game/Sound/SFX/SMG/Empty_SMG_Shot -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Sound/SFX/SMG/Empty_SMG_Shot.uasset
+LogSavePackage: Save=1.28ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Sound/SFX/SMG/Empty_SMG_Shot.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Sound/SFX/SMG/Empty_SMG_Shot.uasset
+LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileStart_Cue -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+LogSavePackage: Save=0.71ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+LogSavePackage: Save=1.52ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess_Cue -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+LogSavePackage: Save=1.61ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed_Cue -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+LogSavePackage: Save=0.80ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+LogSavePackage: Save=2.80ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+LogCook: Display: Cooking /MediaCompositing/DefaultMediaPlaneMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneMaterial.uasset
+LogSavePackage: Save=1.51ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneMaterial.uasset
+LogCook: Display: Cooking /MediaCompositing/DefaultMediaPlaneTexture -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneTexture.uasset
+LogSavePackage: Save=0.45ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneTexture.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneTexture.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/RemoveSurfaceMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+LogSavePackage: Save=1.11ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/PersonaAnimEditorWalkthrough -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for PersonaAnimEditorWalkThrough. Package will not be saved.
+LogCook: Display: Cooking /Game/StarterContent/Textures/T_Smoke_SubUV -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+LogSavePackage: Save=2.73ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Textures/T_Smoke_SubUV.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+LogCook: Display: Cooking /Game/Particles/MuzzleFlash/Textures/UE4FlashTex -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/UE4FlashTex.uasset
+LogSavePackage: Save=14.29ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/UE4FlashTex.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Particles/MuzzleFlash/Textures/UE4FlashTex.uasset
+LogCook: Display: Cooking /Game/Models/Player/Arms/raptorSpecular -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorSpecular.uasset
+LogSavePackage: Save=5.64ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorSpecular.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Models/Player/Arms/raptorSpecular.uasset
+LogCook: Display: Cooking /Engine/EngineDebugMaterials/DebugMeshMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+LogSavePackage: Save=4.26ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/M_InvalidLightmapSettings -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+LogSavePackage: Save=3.95ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/InvalidLightmapSettings -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+LogSavePackage: Save=0.79ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+LogCook: Display: Cooking /Engine/EditorMaterials/GizmoMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+LogSavePackage: Save=4.64ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/PhAT_JointLimitMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+LogSavePackage: Save=3.70ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset
+LogSavePackage: Save=0.89ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/Good64x64TilingNoiseHighFreq -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+LogSavePackage: Save=1.39ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultBokeh -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+LogSavePackage: Save=0.75ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/PreintegratedSkinBRDF -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+LogSavePackage: Save=1.15ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/MiniFont -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+LogSavePackage: Save=0.94ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/WeightMapPlaceholderTexture -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+LogSavePackage: Save=1.22ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultWhiteGrid -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+LogSavePackage: Save=1.59ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultPhysicalMaterial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+LogSavePackage: Save=0.66ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/RobotoTiny -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+LogSavePackage: Save=0.71ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoTiny -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset
+LogSavePackage: Save=3.35ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset
+LogCook: Display: Cooking /Engine/BasicShapes/Cube -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+LogSavePackage: Save=1.19ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+LogCook: Display: Cooking /Engine/BasicShapes/Sphere -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+LogSavePackage: Save=0.96ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+LogCook: Display: Cooking /Engine/BasicShapes/Cylinder -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+LogSavePackage: Save=0.98ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+LogCook: Display: Cooking /Engine/BasicShapes/Cone -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+LogSavePackage: Save=1.13ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+LogCook: Display: Cooking /Engine/BasicShapes/Plane -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset
+LogSavePackage: Save=0.87ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset
+LogCook: Display: Cooking /Engine/EditorResources/SequenceRecorder/Countdown -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+LogSavePackage: Save=0.65ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+LogCook: Display: Cooking /Engine/EditorResources/SequenceRecorder/RecordingIndicator -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+LogSavePackage: Save=1.03ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+LogCook: Display: Cooking /Engine/Tutorial/Foliage/TutorialAssets/Foliage -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset
+LogSavePackage: Save=0.74ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset
+LogCook: Display: Cooking /Engine/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset
+LogSavePackage: Save=0.79ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset
+LogSavePackage: Save=0.81ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset
+LogCook: Display: Forcing save package ../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset because was already requeued once
+LogCook: Display: Cooking /Engine/EngineMaterials/DefaultBloomKernel -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset
+LogSavePackage: Save=154.29ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for PersonaAnimBlueprintEditorWalkthrough. Package will not be saved.
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d766b98c8, Size=40, Default__TutorialTPP_AnimBlueprint_C Function /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.TutorialTPP_AnimBlueprint_C:ExecuteUbergraph_TutorialTPP_AnimBlueprint
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d766b98c8, Size=40
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d766b98c8, Size=40, Default__TutorialTPP_AnimBlueprint_C Function /Engine/Transient.REINST_TutorialTPP_AnimBlueprint_C_1:ExecuteUbergraph_TutorialTPP_AnimBlueprint
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d766b9350, Size=40, Default__TutorialTPP_AnimBlueprint_C Function /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.TutorialTPP_AnimBlueprint_C:ExecuteUbergraph_TutorialTPP_AnimBlueprint
+LogSkeletalMesh: Skeletal Mesh found in DDC [4.483153ms] /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.TutorialTPP
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset
+LogSavePackage: Save=2.59ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset
+LogSavePackage: Save=0.80ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset
+LogSavePackage: Save=1.25ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset
+LogSavePackage: Save=0.95ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset
+LogSavePackage: Save=1.28ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset
+LogCook: Display: Cooking /Engine/EditorBlueprintResources/StandardMacros -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+LogSavePackage: Save=2.30ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset
+LogSavePackage: Save=2.05ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset
+LogSavePackage: Save=1.30ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset
+LogSavePackage: Save=4.70ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset
+LogSavePackage: Save=6.91ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset
+LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for LevelBlueprintEditorOverview. Package will not be saved.
+LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset
+LogSavePackage: Save=0.48ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset
+LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for BlueprintInterfacesEditorOverview. Package will not be saved.
+LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset
+LogSavePackage: Save=0.53ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset
+LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
+LogSavePackage: Save=0.64ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
+LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for BlueprintEditorTutorial. Package will not be saved.
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/StaticMeshEditorTutorial -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset
+LogSavePackage: Display: No exports found (or all exports are editor-only) for StaticMeshEditorTutorial. Package will not be saved.
+LogCook: Display: Cooking /Engine/EngineMeshes/Cube -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset
+LogSavePackage: Save=0.68ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset
+LogCook: Display: Forcing save package ../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset because was already requeued once
+LogCook: Display: Cooking /Engine/Tutorial/Landscape/TutorialAssets/Landscape -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset
+LogSavePackage: Save=0.43ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/ColorCalibrator/SM_ColorCalibrator -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset
+LogSavePackage: Save=2.64ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset
+LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset
+LogSavePackage: Save=1.90ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ChromeBall -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset
+LogSavePackage: Save=2.57ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ClearCoat -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset
+LogSavePackage: Save=5.49ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ClearCoatBlack -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset
+LogSavePackage: Save=3.94ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ColorGrid -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset
+LogSavePackage: Save=2.67ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/ColorCalibrator/Color_checker -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset
+LogSavePackage: Save=4.45ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset
+LogCook: Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_GreyBall -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset
+LogSavePackage: Save=4.59ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset
+LogCook: Display: Cooking /Engine/MobileResources/HUD/DefaultVirtualJoysticks -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+LogSavePackage: Save=0.48ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+LogCook: Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Background -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+LogSavePackage: Save=0.90ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+LogCook: Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Thumb -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+LogSavePackage: Save=0.56ms
+LogSavePackage: Async saving from memory to 'D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset'
+LogSavePackage: Display: Finished SavePackage D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.Interaction or Class /Script/FPS.Interaction
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BaseWeapon or Class /Script/FPS.BaseWeapon
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BaseWeapon or Class /Script/FPS.BaseWeapon
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BaseWeapon or Class /Script/FPS.BaseWeapon
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d00da3e40, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d00da3e40, Size=104
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d00da3e40, Size=104, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_0:ExecuteUbergraph_BP_InGameGUI
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01ecb740, Size=104, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d015d3040, Size=4, Default__OnGroundSlot_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundSlot.OnGroundSlot_C:ExecuteUbergraph_OnGroundSlot
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d015d3040, Size=4
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d015d3040, Size=4, Default__OnGroundSlot_C Function /Engine/Transient.REINST_OnGroundSlot_C_2:ExecuteUbergraph_OnGroundSlot
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d015d2f40, Size=4, Default__OnGroundSlot_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundSlot.OnGroundSlot_C:ExecuteUbergraph_OnGroundSlot
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d013c0540, Size=160, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d013c0540, Size=160
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01411da0, Size=160, Default__OnGroundUI_C Function /Engine/Transient.REINST_OnGroundUI_C_3:ExecuteUbergraph_OnGroundUI
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d014634c0, Size=160, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.HoldAblePickUp or Class /Script/FPS.HoldAblePickUp
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.BasicPickup or Class /Script/FPS.BasicPickup
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d77b4cb80, Size=424, Default__Slot_C Function /Game/UI/Widgets/Inventory/Slot.Slot_C:ExecuteUbergraph_Slot
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d77b4cb80, Size=424
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d77b52cc0, Size=424, Default__Slot_C Function /Engine/Transient.REINST_Slot_C_5:ExecuteUbergraph_Slot
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d77b52940, Size=424, Default__Slot_C Function /Game/UI/Widgets/Inventory/Slot.Slot_C:ExecuteUbergraph_Slot
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01df3e70, Size=40, Default__InventorySlots_C Function /Game/UI/Widgets/Inventory/InventorySlots.InventorySlots_C:ExecuteUbergraph_InventorySlots
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d01df3e70, Size=40
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01df3e70, Size=40, Default__InventorySlots_C Function /Engine/Transient.REINST_InventorySlots_C_6:ExecuteUbergraph_InventorySlots
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01df3df8, Size=40, Default__InventorySlots_C Function /Game/UI/Widgets/Inventory/InventorySlots.InventorySlots_C:ExecuteUbergraph_InventorySlots
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01df3bf0, Size=40, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d01df3bf0, Size=40
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01df3bf0, Size=40, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_7:ExecuteUbergraph_UIHUD
+LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d01df3c18, Size=40, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSPlayer or Class /Script/FPS.FPSPlayer
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.Interaction or Class /Script/FPS.Interaction
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.UIComponent or Class /Script/FPS.UIComponent
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSGameModeBase or Class /Script/FPS.FPSGameModeBase
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSGameModeBase or Class /Script/FPS.FPSGameModeBase
+LogUObjectHash: Warning: Ambiguous search, could be Class /Script/FPS.FPSGameModeBase or Class /Script/FPS.FPSGameModeBase
+LogCook: Display: Cooking /Game/Blueprints/BP_FPSGameModeBase -> D:/SpareTime/Unreal/FPS/FPS/Saved/Cooked/WindowsNoEditor/FPS/Content/Blueprints/BP_FPSGameModeBase.uasset
+LogStats: FPlatformStackWalk::StackWalkAndDump -  0.664 s
+LogOutputDevice: Error: begin: stack for UAT
+LogOutputDevice: Error: === Handled ensure: ===
+LogOutputDevice: Error: 
+LogOutputDevice: Error: Ensure condition failed: Import.OuterIndex != FPackageIndex() || Import.ClassName == NAME_Package [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SavePackage.cpp] [Line: 5385]
+LogOutputDevice: Error: Import /Engine/Transient.BPGC_ARCH_FOR_CDO_FPSGameModeBase_0 has no valid outer when cooking!
+LogOutputDevice: Error: Stack: 
+LogOutputDevice: Error: [Callstack] 0x0000000003EEB706 UE4Editor-Core.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x0000000003C4AE3A UE4Editor-Core.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x0000000003C5ECD6 UE4Editor-Core.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x0000000004722C7E UE4Editor-CoreUObject.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000FC815264 UE4Editor-UnrealEd.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000FC6BEEEB UE4Editor-UnrealEd.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000FC6C022D UE4Editor-UnrealEd.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000FC6CBC59 UE4Editor-UnrealEd.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000FC57A580 UE4Editor-UnrealEd.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000FC5A1CB0 UE4Editor-UnrealEd.dll!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000761FEB20 UE4Editor-Cmd.exe!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000761F69FA UE4Editor-Cmd.exe!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x00000000761F6C4A UE4Editor-Cmd.exe!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x0000000076204177 UE4Editor-Cmd.exe!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x0000000076204FBF UE4Editor-Cmd.exe!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x0000000060283034 KERNEL32.DLL!UnknownFunction []
+LogOutputDevice: Error: [Callstack] 0x0000000061501431 ntdll.dll!UnknownFunction []
+LogOutputDevice: Error: 
+LogOutputDevice: Error: end: stack for UAT
+LogStats:                SubmitErrorReport -  0.000 s

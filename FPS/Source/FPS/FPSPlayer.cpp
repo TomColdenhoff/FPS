@@ -2,7 +2,6 @@
 
 #include "FPSPlayer.h"
 #include "Runtime/Engine/Classes/Engine/Engine.h"
-#include "Runtime/Engine/Classes/Camera/CameraComponent.h"
 #include "Runtime/Engine/Classes/Components/SceneComponent.h"
 #include "Runtime/Engine//Classes/Components/SkeletalMeshComponent.h"
 #include "BaseWeapon.h"
@@ -22,9 +21,9 @@ AFPSPlayer::AFPSPlayer()
 	CreateCamera();
 	CreateInteractionComponent();
 	CreateUIComponent();
-	AddMainWeapon<USMG>();
 
-	
+	//Weapon Gets added through Inventory uncomment if player needs gun immidiatly
+	//AddMainWeapon<USMG>();	
 }
 
 void AFPSPlayer::CreateCamera()
@@ -52,9 +51,6 @@ void AFPSPlayer::BeginPlay()
 	Super::BeginPlay();
 	//Show the default HUD to the player
 	ChangeWidget(m_DefaultPlayerHUD);
-
-	//Set values current weapon depends on
-	CurrentWeapon->SetValues(CameraComponent);
 }
 
 // Called every frame
@@ -191,20 +187,25 @@ void AFPSPlayer::ChangeWidget(TSubclassOf<UUserWidget> NewWidget)
 	}
 }
 
-template<typename T>
-void AFPSPlayer::AddMainWeapon()
-{
-	// TODO Add class check
-
-	//TODO Change to game needs
-	CurrentWeaponMesh = CreateAbstractDefaultSubobject<T>(TEXT("CurrentWeaponMesh"));
-	CurrentWeaponMesh->SetOnlyOwnerSee(true);
-	CurrentWeaponMesh->SetupAttachment(CameraComponent);
-	CurrentWeaponMesh->bCastDynamicShadow = false;
-	CurrentWeaponMesh->CastShadow = false;
-
-	CurrentWeapon = Cast<UBaseWeapon>(CurrentWeaponMesh);
-}
+//template<typename T>
+//void AFPSPlayer::AddMainWeapon()
+//{
+//	// TODO Add class check
+//
+//	//TODO Change to game needs
+//	CurrentWeaponMesh = CreateAbstractDefaultSubobject<T>(TEXT("CurrentWeaponMesh"));
+//	CurrentWeaponMesh->SetOnlyOwnerSee(true);
+//	CurrentWeaponMesh->SetupAttachment(CameraComponent);
+//	CurrentWeaponMesh->bCastDynamicShadow = false;
+//	CurrentWeaponMesh->CastShadow = false;
+//
+//	CurrentWeapon = Cast<UBaseWeapon>(CurrentWeaponMesh);
+//
+//	//Set values current weapon depends on
+//	CurrentWeapon->SetValues(CameraComponent);
+//	//Update the ammo for the UI
+//	CurrentWeapon->GetAmmoUpdate();
+//}
 
 void AFPSPlayer::GiveDamage(float DamagaAmount)
 {

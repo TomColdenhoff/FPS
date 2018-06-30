@@ -1,0 +1,670 @@
+﻿Log file open, 06/29/18 12:03:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-69169872) SRandInit(-69169872).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.380407
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CoverPointGenerator
+LogStreaming: Display: Took  0.110s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Tom-Laptop (192.168.80.102:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.29-10.03.49:419][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.29-10.03.49:419][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.29-10.03.49:456][  0]LogInit: Computer: TOM-LAPTOP
+[2018.06.29-10.03.49:456][  0]LogInit: User: tomco
+[2018.06.29-10.03.49:457][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.29-10.03.49:457][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2018.06.29-10.03.49:457][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.06.29-10.03.49:457][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.29-10.03.49:457][  0]LogMemory: Process Physical Memory: 279.37 MB used, 279.79 MB peak
+[2018.06.29-10.03.49:457][  0]LogMemory: Process Virtual Memory: 270.16 MB used, 270.16 MB peak
+[2018.06.29-10.03.49:457][  0]LogMemory: Physical Memory: 5568.07 MB used,  2522.46 MB free, 8090.52 MB total
+[2018.06.29-10.03.49:457][  0]LogMemory: Virtual Memory: 4799.37 MB used,  2522.46 MB free, 134217728.00 MB total
+[2018.06.29-10.03.49:530][  0]LogInit: Using OS detected language (en-US).
+[2018.06.29-10.03.49:530][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.29-10.03.49:533][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.29-10.03.50:046][  0]LogStreaming: Display: Took  0.516s to EndInitTextLocalization.
+[2018.06.29-10.03.50:046][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.29-10.03.50:100][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.29-10.03.50:100][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.29-10.03.50:343][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.29-10.03.50:408][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.06.29-10.03.50:408][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.29-10.03.50:427][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.06.29-10.03.50:427][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.06.29-10.03.50:434][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.29-10.03.50:434][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.29-10.03.50:434][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.29-10.03.50:456][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.29-10.03.50:456][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.06.29-10.03.50:456][  0]LogWindows: EnumDisplayDevices:
+[2018.06.29-10.03.50:457][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.06.29-10.03.50:457][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.06.29-10.03.50:457][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.06.29-10.03.50:457][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.29-10.03.50:458][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.06.29-10.03.50:458][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.29-10.03.50:458][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.29-10.03.50:458][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.06.29-10.03.50:492][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.06.29-10.03.50:492][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.29-10.03.50:492][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.29-10.03.50:505][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.06.29-10.03.50:506][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../SpareTime/Unreal/FPS/FPS/Intermediate/Shaders/WorkingDirectory/2328/).
+[2018.06.29-10.03.50:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomco/AppData/Local/Temp/UnrealShaderWorkingDir/ABF7A3C74BDD1C1E21416AA6CC3C51A4/'.
+[2018.06.29-10.03.52:027][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.29-10.03.52:045][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.29-10.03.52:063][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.29-10.03.52:081][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.29-10.03.52:099][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.29-10.03.52:116][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.29-10.03.52:134][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.29-10.03.52:151][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.29-10.03.52:162][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.29-10.03.52:179][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.29-10.03.52:198][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.29-10.03.52:216][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.29-10.03.52:238][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.29-10.03.52:254][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.29-10.03.52:270][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.29-10.03.52:303][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.29-10.03.52:303][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.29-10.03.52:320][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.29-10.03.52:324][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.29-10.03.52:375][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.29-10.03.52:391][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.29-10.03.52:406][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.29-10.03.52:422][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.29-10.03.52:441][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.29-10.03.52:459][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.29-10.03.52:459][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.29-10.03.52:627][  0]LogXGEController: Cleaning working directory: C:/Users/tomco/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.29-10.03.52:627][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.29-10.03.52:628][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.29-10.03.52:628][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.29-10.03.53:398][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.29-10.03.53:508][  0]LogDerivedDataCache: Loaded boot cache 0.11s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.29-10.03.53:509][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.29-10.03.53:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.29-10.03.53:509][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.29-10.03.53:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.29-10.03.53:509][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.29-10.03.53:534][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.29-10.03.53:548][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.29-10.03.53:549][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.29-10.03.53:549][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.29-10.03.53:562][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.29-10.03.53:562][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.29-10.03.53:563][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.29-10.03.53:564][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.29-10.03.53:691][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
+[2018.06.29-10.03.55:029][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.29-10.03.55:248][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.29-10.03.55:254][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.29-10.03.55:255][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.29-10.03.55:255][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.29-10.03.55:255][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.29-10.03.55:255][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.29-10.03.55:291][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.06.29-10.03.55:918][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.110000 seconds
+[2018.06.29-10.03.55:927][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.29-10.03.55:927][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.06.29-10.03.55:927][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.29-10.03.58:270][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.29-10.03.58:303][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.29-10.03.58:720][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.282368ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.06.29-10.03.58:742][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204dc647c90, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.29-10.03.58:756][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204dc647c90, Size=80
+[2018.06.29-10.03.58:756][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204dc61f790, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.06.29-10.03.58:768][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204df8196c0, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.06.29-10.03.58:969][  0]SourceControl: Source control is disabled
+[2018.06.29-10.03.58:970][  0]SourceControl: Source control is disabled
+[2018.06.29-10.03.58:990][  0]SourceControl: Source control is disabled
+[2018.06.29-10.03.59:009][  0]SourceControl: Source control is disabled
+[2018.06.29-10.03.59:595][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.29-10.03.59:811][  0]LogOcInput: OculusInput pre-init called
+[2018.06.29-10.04.01:153][  0]LogEngine: Initializing Engine...
+[2018.06.29-10.04.01:234][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.06.29-10.04.01:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.29-10.04.01:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.29-10.04.01:532][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.29-10.04.01:567][  0]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.29-10.04.01:618][  0]LogInit: FAudioDevice initialized.
+[2018.06.29-10.04.01:722][  0]LogDerivedDataCache: Saved boot cache 0.10s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.29-10.04.01:742][  0]LogInit: Texture streaming: Enabled
+[2018.06.29-10.04.01:779][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.29-10.04.01:780][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={7555C38E-41A7-5D71-0474-F894179CA9EF}
+[2018.06.29-10.04.01:797][  0]LogInit: Transaction tracking system initialized
+[2018.06.29-10.04.01:849][  0]BlueprintLog: New page: Editor Load
+[2018.06.29-10.04.02:015][  0]LocalizationService: Localization service is disabled
+[2018.06.29-10.04.02:183][  0]LogConsoleResponse: Display: 
+[2018.06.29-10.04.02:399][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.29-10.04.02:399][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.29-10.04.02:399][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.29-10.04.02:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.29-10.04.02:400][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.29-10.04.02:904][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/' took 0.02s
+[2018.06.29-10.04.02:905][  0]SourceControl: Source control is disabled
+[2018.06.29-10.04.02:905][  0]Cmd: MAP LOAD FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.29-10.04.02:906][  0]LightingResults: New page: Lighting Build
+[2018.06.29-10.04.02:910][  0]MapCheck: New page: Map Check
+[2018.06.29-10.04.02:910][  0]LightingResults: New page: Lighting Build
+[2018.06.29-10.04.02:923][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204dc61f790, Size=80
+[2018.06.29-10.04.04:252][  0]LogAIModule: Creating AISystem for world Level1
+[2018.06.29-10.04.04:346][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.29-10.04.04:403][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.29-10.04.04:505][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.364ms to complete.
+[2018.06.29-10.04.04:507][  0]LogFileHelpers: Loading map 'Level1' took 1.601
+[2018.06.29-10.04.04:828][  0]LogCollectionManager: Loaded 0 collections in 0.001407 seconds
+[2018.06.29-10.04.04:884][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.06.29-10.04.04:884][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Developers/tomco/Collections/' took 0.01s
+[2018.06.29-10.04.04:884][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Collections/' took 0.01s
+[2018.06.29-10.04.04:885][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.29-10.04.04:896][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2482 classes and 567 folders.
+[2018.06.29-10.04.04:907][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.06.29-10.04.05:068][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.06.29-10.04.07:692][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.29-10.04.07:739][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPS
+[2018.06.29-10.04.07:740][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.29-10.04.07:740][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2018.06.29-10.04.07:740][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.29-10.04.07:740][  0]LogTemp: BranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries
+[2018.06.29-10.04.07:740][  0]LogSlate: Took 0.005705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.29-10.04.07:747][  0]LogSlate: Took 0.002054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.29-10.04.07:766][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tomco\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.29-10.04.07:767][  0]LogSlate: Took 0.003268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.29-10.04.07:936][  0]LogRenderer: Reallocating scene render targets to support 908x600 Format 10 NumSamples 1 (Frame:1).
+[2018.06.29-10.04.08:354][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2018.06.29-10.04.08:355][  0]LogLoad: (Engine Initialization) Total time: 22.11 seconds
+[2018.06.29-10.04.08:355][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.29-10.04.08:380][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.29-10.04.08:426][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.29-10.04.08:478][  0]LogSlate: Took 0.002199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.29-10.04.08:539][  2]LogAssetRegistry: Asset discovery search completed in 14.8735 seconds
+[2018.06.29-10.04.08:546][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.29-10.04.08:547][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000405 seconds (updated 0 objects)
+[2018.06.29-10.06.08:680][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.29-10.06.08:800][632]Candidate modules for hot reload:
+[2018.06.29-10.06.08:801][632]  FPS
+[2018.06.29-10.06.08:801][632]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,6341 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.06.29-10.06.09:867][632]Warning: Starting HotReload took  1.1s.
+[2018.06.29-10.06.53:310][ 35]CompilerResultsLog: New page: Compilation - Jun 29, 2018, 2:06:53 PM
+[2018.06.29-10.06.53:311][ 35]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog: Creating makefile for hot reloading FPS (ini files are newer than UBTMakefile)
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog: UIComponent.cpp
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog: [2/3] Link UE4Editor-FPS-6341.dll
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog: [3/3] Link UE4Editor-FPS-6341.lib
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6341.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6341.suppressed.exp
+[2018.06.29-10.06.53:312][ 35]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6341.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-6341.exp
+[2018.06.29-10.06.53:313][ 35]CompilerResultsLog: Total build time: 43.16 seconds (Local executor: 32.63 seconds)
+[2018.06.29-10.06.53:313][ 35]LogMainFrame: MainFrame: Module compiling took 44.522 seconds
+[2018.06.29-10.06.53:403][ 35]LogClass: Collum HotReload.
+[2018.06.29-10.06.53:403][ 35]LogClass: SlotImage HotReload.
+[2018.06.29-10.06.53:412][ 35]LogHotReload: Re-instancing CoverPoint after hot-reload.
+[2018.06.29-10.06.54:977][ 35]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0013 seconds. Added 29 classes and 7 folders.
+[2018.06.29-10.06.54:980][ 35]Display: HotReload successful (18 functions remapped  2 scriptstructs remapped)
+[2018.06.29-10.06.55:120][ 35]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2482 classes and 567 folders.
+[2018.06.29-10.06.55:121][ 35]Display: HotReload took 46.4s.
+[2018.06.29-10.06.59:464][171]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.29-10.06.59:498][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.29-10.06.59:505][171]PIE: New page: PIE session: Level1 (Jun 29, 2018, 2:06:59 PM)
+[2018.06.29-10.06.59:506][171]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.06.29-10.06.59:527][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020541s)
+[2018.06.29-10.06.59:529][171]LogAIModule: Creating AISystem for world Level1
+[2018.06.29-10.06.59:530][171]LogPlayLevel: PIE: World Init took: (0.002677s)
+[2018.06.29-10.06.59:530][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.024316s)
+[2018.06.29-10.06.59:557][171]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.29-10.06.59:595][171]LogInit: FAudioDevice initialized.
+[2018.06.29-10.06.59:684][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204b018a880, Size=128, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.29-10.06.59:708][171]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204b018a880, Size=128
+[2018.06.29-10.06.59:708][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204b018a880, Size=128, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_0:ExecuteUbergraph_BP_InGameGUI
+[2018.06.29-10.06.59:717][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204b0189d00, Size=128, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.06.29-10.06.59:742][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204ac1fc0e0, Size=4, Default__OnGroundSlot_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundSlot.OnGroundSlot_C:ExecuteUbergraph_OnGroundSlot
+[2018.06.29-10.06.59:746][171]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204ac1fc0e0, Size=4
+[2018.06.29-10.06.59:747][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204ac1fc0e0, Size=4, Default__OnGroundSlot_C Function /Engine/Transient.REINST_OnGroundSlot_C_2:ExecuteUbergraph_OnGroundSlot
+[2018.06.29-10.06.59:754][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204ac1fda08, Size=4, Default__OnGroundSlot_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundSlot.OnGroundSlot_C:ExecuteUbergraph_OnGroundSlot
+[2018.06.29-10.06.59:759][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa200ea0, Size=160, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.29-10.06.59:765][171]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204fa200ea0, Size=160
+[2018.06.29-10.06.59:765][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa1e22a0, Size=160, Default__OnGroundUI_C Function /Engine/Transient.REINST_OnGroundUI_C_3:ExecuteUbergraph_OnGroundUI
+[2018.06.29-10.06.59:771][171]LogBlueprint: Error: [Compiler OnGroundUI] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:772][171]LogBlueprint: Error: [Compiler OnGroundUI] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:772][171]LogBlueprint: Error: [Compiler OnGroundUI] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:772][171]LogBlueprint: Error: [Compiler OnGroundUI] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:773][171]LogBlueprint: Error: [Compiler OnGroundUI] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:775][171]LogBlueprint: Error: [Compiler OnGroundUI] Couldn't find target for dynamically bound delegate node  Bind Event to OnUpdateInventory
+[2018.06.29-10.06.59:777][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa1971a0, Size=152, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.06.29-10.06.59:778][171]LogBlueprint: Warning: [Compiler OnGroundUI] [0193.53] Compile of OnGroundUI failed. 6 Fatal Issue(s) 0 Warning(s) [in 15 ms] (/Game/UI/Widgets/Inventory/Ground/OnGroundUI.OnGroundUI)
+[2018.06.29-10.06.59:786][171]LogBlueprint: Error: [Compiler HandSlot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:786][171]LogBlueprint: Error: [Compiler HandSlot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:787][171]LogBlueprint: Error: [Compiler HandSlot] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:787][171]LogBlueprint: Error: [Compiler HandSlot] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:787][171]LogBlueprint: Error: [Compiler HandSlot] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:788][171]LogBlueprint: Warning: [Compiler HandSlot] [0193.54] Compile of HandSlot failed. 5 Fatal Issue(s) 0 Warning(s) [in 4 ms] (/Game/UI/Widgets/Inventory/HandSlot.HandSlot)
+[2018.06.29-10.06.59:808][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa214640, Size=424, Default__Slot_C Function /Game/UI/Widgets/Inventory/Slot.Slot_C:ExecuteUbergraph_Slot
+[2018.06.29-10.06.59:816][171]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204fa214640, Size=424
+[2018.06.29-10.06.59:816][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204d048b3c0, Size=424, Default__Slot_C Function /Engine/Transient.REINST_Slot_C_5:ExecuteUbergraph_Slot
+[2018.06.29-10.06.59:819][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:819][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:820][171]LogBlueprint: Error: [Compiler Slot] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:820][171]LogBlueprint: Error: [Compiler Slot] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:820][171]LogBlueprint: Error: [Compiler Slot] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:821][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:821][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:821][171]LogBlueprint: Error: [Compiler Slot] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:822][171]LogBlueprint: Error: [Compiler Slot] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:822][171]LogBlueprint: Error: [Compiler Slot] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:823][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:823][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:824][171]LogBlueprint: Error: [Compiler Slot] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:824][171]LogBlueprint: Error: [Compiler Slot] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:824][171]LogBlueprint: Error: [Compiler Slot] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:826][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:826][171]LogBlueprint: Error: [Compiler Slot] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:826][171]LogBlueprint: Error: [Compiler Slot] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:826][171]LogBlueprint: Error: [Compiler Slot] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:827][171]LogBlueprint: Error: [Compiler Slot] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:828][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204d048ae80, Size=400, Default__Slot_C Function /Game/UI/Widgets/Inventory/Slot.Slot_C:ExecuteUbergraph_Slot
+[2018.06.29-10.06.59:829][171]LogBlueprint: Warning: [Compiler Slot] [0193.59] Compile of Slot failed. 20 Fatal Issue(s) 0 Warning(s) [in 16 ms] (/Game/UI/Widgets/Inventory/Slot.Slot)
+[2018.06.29-10.06.59:831][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa22f3a8, Size=40, Default__InventorySlots_C Function /Game/UI/Widgets/Inventory/InventorySlots.InventorySlots_C:ExecuteUbergraph_InventorySlots
+[2018.06.29-10.06.59:853][171]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204fa22f3a8, Size=40
+[2018.06.29-10.06.59:853][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa22f3a8, Size=40, Default__InventorySlots_C Function /Engine/Transient.REINST_InventorySlots_C_6:ExecuteUbergraph_InventorySlots
+[2018.06.29-10.06.59:856][171]LogBlueprint: Error: [Compiler InventorySlots] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:856][171]LogBlueprint: Error: [Compiler InventorySlots] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:856][171]LogBlueprint: Error: [Compiler InventorySlots] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:856][171]LogBlueprint: Error: [Compiler InventorySlots] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:857][171]LogBlueprint: Error: [Compiler InventorySlots] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:864][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204c8ec22a0, Size=32, Default__InventorySlots_C Function /Game/UI/Widgets/Inventory/InventorySlots.InventorySlots_C:ExecuteUbergraph_InventorySlots
+[2018.06.29-10.06.59:865][171]LogBlueprint: Warning: [Compiler InventorySlots] [0193.62] Compile of InventorySlots failed. 5 Fatal Issue(s) 0 Warning(s) [in 19 ms] (/Game/UI/Widgets/Inventory/InventorySlots.InventorySlots)
+[2018.06.29-10.06.59:867][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa22f380, Size=40, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.06.59:872][171]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204fa22f380, Size=40
+[2018.06.29-10.06.59:872][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204fa22f380, Size=40, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_7:ExecuteUbergraph_UIHUD
+[2018.06.29-10.06.59:874][171]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:874][171]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:875][171]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:875][171]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.06.59:875][171]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.06.59:877][171]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.06.59:878][171]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204d0401c80, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.06.59:879][171]LogBlueprint: Warning: [Compiler UIHUD] [0193.64] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 9 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.06.59:972][171]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.06.29-10.07.00:000][171]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.06.29-12.07.00
+[2018.06.29-10.07.00:014][171]LogWorld: Bringing up level for play took: 0.024286
+[2018.06.29-10.07.00:063][171]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2018.06.29-10.07.00:120][171]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.133
+[2018.06.29-10.07.02:694][265]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204b018a880, Size=128
+[2018.06.29-10.07.02:695][265]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204ac1fc0e0, Size=4
+[2018.06.29-10.07.02:695][265]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204fa1e22a0, Size=160
+[2018.06.29-10.07.02:695][265]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204d048b3c0, Size=424
+[2018.06.29-10.07.02:695][265]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204fa22f3a8, Size=40
+[2018.06.29-10.07.02:697][265]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204fa22f380, Size=40
+[2018.06.29-10.07.09:782][523]LogSlate: Took 0.000716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.29-10.07.10:197][523]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 116 classes and 0 folders.
+[2018.06.29-10.07.10:548][523]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204dac7fcd0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.29-10.07.10:550][523]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204dac7fcc8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.29-10.07.11:186][523]LogSlate: Took 0.002690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.29-10.07.12:198][582]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.12:218][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204d0401c80, Size=32
+[2018.06.29-10.07.12:218][582]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053f9fd580, Size=32, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_9:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.12:220][582]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:220][582]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:221][582]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:221][582]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:221][582]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.12:222][582]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.12:223][582]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053f9fc1e0, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.12:267][582]LogBlueprint: Warning: [Compiler UIHUD] [0206.02] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 68 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.12:978][624]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.12:993][624]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053f9fc1e0, Size=32
+[2018.06.29-10.07.12:994][624]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204c8ec27c0, Size=32, UIHUD_C_6 Function /Engine/Transient.REINST_UIHUD_C_11:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.12:995][624]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:996][624]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:996][624]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:997][624]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.12:997][624]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.12:998][624]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.12:999][624]LogUObjectGlobals: Created PersistentFrame Addr=0x00000205320ccd20, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.13:029][624]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053f9fd580, Size=32
+[2018.06.29-10.07.13:045][624]LogBlueprint: Warning: [Compiler UIHUD] [0206.80] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 66 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.13:734][665]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.13:747][665]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000205320ccd20, Size=32
+[2018.06.29-10.07.13:747][665]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053fcd3620, Size=32, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_13:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.13:750][665]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:750][665]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:750][665]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:750][665]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:751][665]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.13:752][665]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.13:753][665]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053fcd25c0, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.13:780][665]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204c8ec27c0, Size=32
+[2018.06.29-10.07.13:794][665]LogBlueprint: Warning: [Compiler UIHUD] [0207.55] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 60 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.13:900][671]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.13:916][671]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053fcd25c0, Size=32
+[2018.06.29-10.07.13:916][671]LogUObjectGlobals: Created PersistentFrame Addr=0x00000204b123dca0, Size=32, UIHUD_C_13 Function /Engine/Transient.REINST_UIHUD_C_15:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.13:918][671]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:918][671]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:918][671]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:919][671]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.13:919][671]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.13:920][671]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.13:921][671]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054019bb00, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.13:948][671]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053fcd3620, Size=32
+[2018.06.29-10.07.13:962][671]LogBlueprint: Warning: [Compiler UIHUD] [0207.72] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 61 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.14:082][678]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.14:099][678]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002054019bb00, Size=32
+[2018.06.29-10.07.14:099][678]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053fcd05c0, Size=32, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_17:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.14:101][678]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.14:101][678]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.14:101][678]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.14:102][678]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.14:102][678]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.14:103][678]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.14:104][678]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053fcd1300, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.14:132][678]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000204b123dca0, Size=32
+[2018.06.29-10.07.14:149][678]LogBlueprint: Warning: [Compiler UIHUD] [0207.91] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 66 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.15:163][731]LogSlate: Took 0.002563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.29-10.07.16:903][836]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.16:918][836]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053fcd1300, Size=32
+[2018.06.29-10.07.16:919][836]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054255a500, Size=32, UIHUD_C_20 Function /Engine/Transient.REINST_UIHUD_C_19:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.16:920][836]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.16:921][836]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.16:921][836]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.16:922][836]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.16:922][836]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.16:923][836]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.16:924][836]LogUObjectGlobals: Created PersistentFrame Addr=0x00000205425594a0, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.16:952][836]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053fcd05c0, Size=32
+[2018.06.29-10.07.16:974][836]LogBlueprint: Warning: [Compiler UIHUD] [0210.73] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 69 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.17:512][867]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.17:526][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000205425594a0, Size=32
+[2018.06.29-10.07.17:527][867]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020541179960, Size=32, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_21:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.17:529][867]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.17:529][867]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.17:529][867]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.17:530][867]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.17:530][867]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.17:531][867]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.17:532][867]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054019ae80, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.17:561][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002054255a500, Size=32
+[2018.06.29-10.07.17:580][867]LogBlueprint: Warning: [Compiler UIHUD] [0211.34] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 67 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.18:033][893]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.18:049][893]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002054019ae80, Size=32
+[2018.06.29-10.07.18:050][893]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054216f860, Size=32, UIHUD_C_27 Function /Engine/Transient.REINST_UIHUD_C_23:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.18:051][893]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:052][893]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:052][893]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:052][893]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:053][893]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.18:054][893]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.18:055][893]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054216e800, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.18:080][893]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020541179960, Size=32
+[2018.06.29-10.07.18:097][893]LogBlueprint: Warning: [Compiler UIHUD] [0211.85] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 63 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.18:587][921]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.18:602][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002054216e800, Size=32
+[2018.06.29-10.07.18:603][921]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053fcd1400, Size=32, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_25:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.18:605][921]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:606][921]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:606][921]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:606][921]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.18:606][921]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.18:608][921]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.18:609][921]LogUObjectGlobals: Created PersistentFrame Addr=0x000002053fcd2000, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.18:638][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002054216f860, Size=32
+[2018.06.29-10.07.18:656][921]LogBlueprint: Warning: [Compiler UIHUD] [0212.41] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 67 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.19:146][949]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.19:160][949]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053fcd2000, Size=32
+[2018.06.29-10.07.19:160][949]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054019a320, Size=32, UIHUD_C_34 Function /Engine/Transient.REINST_UIHUD_C_27:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.19:162][949]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.19:163][949]LogBlueprint: Error: [Compiler UIHUD] In use pin  <Unnamed>  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.19:163][949]LogBlueprint: Error: [Compiler UIHUD] In use pin  Target  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.19:163][949]LogBlueprint: Error: [Compiler UIHUD] In use pin  Return Value  no longer exists on node  Get UIComponent . Please refresh node or break links to remove pin.
+[2018.06.29-10.07.19:163][949]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.19:165][949]LogBlueprint: Error: [Compiler UIHUD] This blueprint (self) is not a FPSPlayer, therefore ' Target ' must have a connection.
+[2018.06.29-10.07.19:166][949]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054255a460, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.19:192][949]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002053fcd1400, Size=32
+[2018.06.29-10.07.19:212][949]LogBlueprint: Warning: [Compiler UIHUD] [0212.97] Compile of UIHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 66 ms] (/Game/UI/Widgets/UIHUD.UIHUD)
+[2018.06.29-10.07.22:607][149]BlueprintLog: New page: Compile UIHUD
+[2018.06.29-10.07.22:623][149]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002054255a460, Size=32
+[2018.06.29-10.07.22:623][149]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020540199c60, Size=32, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_29:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.22:627][149]LogBlueprint: Error: [Compiler UIHUD] Could not find a function named "GetUIComponent" in 'FPSPlayer'.
+Make sure 'FPSPlayer' has been compiled for  Get UIComponent
+[2018.06.29-10.07.22:629][149]LogBlueprint: Warning: [Compiler UIHUD] Node  Get UIComponent . The node won't be pruned as isolated one. The node is not pure, but it has no exec pin(s). Verify IsNodePure implementation in K2Node Call Function.
+[2018.06.29-10.07.22:630][149]LogUObjectGlobals: Created PersistentFrame Addr=0x000002054019a9a0, Size=32, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.06.29-10.07.22:658][149]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002054019a320, Size=32
+[2018.06.29-10.07.22:681][149]LogBlueprint: Warning: [Compiler UIHUD] [0216.44] Compile of UIHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 73 ms] (/Game/UI/Widgets/UIHUD.UIHUD)

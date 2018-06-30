@@ -69,8 +69,13 @@ public:
 	/*Switches the UI to the new mode*/
 	void SwitchMode(EUIMode NewUIMode);
 
+	/*Puts the pickup in to the inventory*/
 	UFUNCTION(BlueprintCallable)
 	void DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum);
+
+	/*Puts the pickup/inventory item in to the hands*/
+	UFUNCTION(BlueprintCallable)
+	bool DropToHands(class AHoldAblePickUp* Pickup);
 
 	UFUNCTION(BlueprintCallable)
 	void RemoveFromInventory(ABasicPickup* Pickup);
@@ -101,6 +106,8 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = "Inventory")
 	UTexture2D* m_DefaultImage;
+
+	class AFPSPlayer* m_Player;
 
 	/*Disables all the the passed in widgets*/
 	void DisableWidgets(TArray<UWidget*> ToDisable);

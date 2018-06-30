@@ -14,7 +14,8 @@ class FPS_API AHoldAblePickUp : public ABasicPickup
 {
 	GENERATED_BODY()
 	
-	
+public:
+	virtual void ToHands(class AFPSPlayer* Player) {};
 	
 	
 };

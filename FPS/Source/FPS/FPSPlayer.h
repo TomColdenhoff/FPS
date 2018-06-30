@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "HitAble.h"
+#include "Runtime/Engine/Classes/Camera/CameraComponent.h"
 #include "FPSPlayer.generated.h"
 
 UCLASS()
@@ -12,6 +13,7 @@ class FPS_API AFPSPlayer : public ACharacter, public IHitAble
 {
 	GENERATED_BODY()
 
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnNewWeapon);
 public:
 	// Sets default values for this character's properties
 	AFPSPlayer();
@@ -23,6 +25,11 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+
+	//Event when new weapon is attached to player
+	UPROPERTY(BlueprintAssignable)
+	FOnNewWeapon NewWeaponUpdate;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -56,7 +63,7 @@ public:
 	void ChangeWidget(TSubclassOf<class UUserWidget> NewWidget);
 
 	/*Creates a weapon based on its class*/
-	template<typename T> void AddMainWeapon();
+	template<typename T> void AddMainWeapon();	
 
 	/*Returns the running state of the player*/
 	bool GetIsRunning() { return m_IsRunning; }
@@ -109,3 +116,29 @@ private:
 
 	
 };
+
+template<typename T>
+void AFPSPlayer::AddMainWeapon()
+{
+	// TODO Add class check
+	CurrentWeaponMesh = NewObject<T>(this, TEXT("CurrentWeaponMesh"));
+
+	CurrentWeaponMesh->OnComponentCreated();
+	CurrentWeaponMesh->GetOwner()->GetName();
+	CurrentWeaponMesh->SetOnlyOwnerSee(true);
+	CurrentWeaponMesh->SetupAttachment(CameraComponent);
+	CurrentWeaponMesh->bCastDynamicShadow = false;
+	CurrentWeaponMesh->CastShadow = false;
+	if (CurrentWeaponMesh->GetOwner()->IsValidLowLevel())
+		CurrentWeaponMesh->RegisterComponent();
+
+	if (IsValid(CurrentWeaponMesh))
+		CurrentWeapon = Cast<UBaseWeapon>(CurrentWeaponMesh);
+
+	//Set values current weapon depends on
+	CurrentWeapon->SetValues(CameraComponent);
+	//Let interested items know there is a new gun
+	NewWeaponUpdate.Broadcast();
+	//Update the ammo for the UI
+	CurrentWeapon->GetAmmoUpdate();
+}

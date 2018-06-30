@@ -5,10 +5,13 @@
 #include "WorldCollision.h"
 #include "DrawDebugHelpers.h"
 #include "Level/BasicPickup.h"
+#include "Level/HoldAblePickUp.h"
+#include "FPSPlayer.h"
 #include "GameFramework/PlayerController.h"
 #include "Runtime/UMG/Public/Components/Image.h"
 #include "Runtime/Engine/Classes/Engine/Texture2D.h"
 #include "Runtime/UMG/Public/Components/CanvasPanelSlot.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 
 // Sets default values for this component's properties
@@ -29,6 +32,7 @@ void UUIComponent::BeginPlay()
 
 	// ...
 	HideImageGrid();
+	m_Player = Cast<AFPSPlayer>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 }
 
 
@@ -104,10 +108,14 @@ void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 		RemoveFromInventory(Pickup);
 	}
 	//SlotImage is nullptr so hasn't been in inventory yet so we remove it from the ground
-	else
+	else if (Pickup->GetFSlotImage() == nullptr && !m_InvetoryItems.Contains(Pickup))
 	{
 		Pickup->SetActorLocation(FVector(0.0f, 0.0f, 0.0f));
 		Pickup->SetActorHiddenInGame(true);
+	}
+	else if (Pickup->GetFSlotImage() == nullptr && m_InvetoryItems.Contains(Pickup))
+	{
+		RemoveFromInventory(Pickup);
 	}
 
 
@@ -121,6 +129,27 @@ void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 
 	UE_LOG(LogTemp, Warning, TEXT("%s: Added to inventory"), *Pickup->GetName())
 
+}
+
+bool UUIComponent::DropToHands(AHoldAblePickUp * Pickup)
+{
+	if (m_Player == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("There is no player"));
+		return false;
+	}
+	if (Pickup->GetFSlotImage() != nullptr)
+	{
+		ResetImage(Pickup->GetFSlotImage());
+		RemoveOverlap(Pickup->GetFSlotImage());
+	}
+	else
+	{
+		m_InvetoryItems.Add(Pickup);
+	}
+	Pickup->ToHands(m_Player);
+
+	return true;
 }
 
 void UUIComponent::RemoveFromInventory(ABasicPickup * Pickup)

@@ -16,7 +16,7 @@
 USMG::USMG()
 {
 	SetWeaponMesh("SkeletalMesh'/Game/Models/Player/Arms/Arms_SMG.Arms_SMG'");
-	SetWeaponAnimation("AnimInstance'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim'");
+	SetWeaponAnimation("Class'/Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C'");
 	SetWeaponAudio();
 	SetWeaponParticle("Particle Component'/Game/Particles/Muzzle_Flash/P_Muzzle_Flash.P_Muzzle_Flash'");
 }

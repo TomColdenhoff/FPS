@@ -29,7 +29,7 @@ void UBaseWeapon::SetWeaponMesh(FString FilePath)
 
 void UBaseWeapon::SetWeaponAnimation(FString FilePath)
 {
-	ConstructorHelpers::FObjectFinder<UAnimBlueprint> animationInstance(*FilePath);
+	ConstructorHelpers::FObjectFinder<UClass> animationInstance(*FilePath);
 
 	if (animationInstance.Object == nullptr)
 	{
@@ -37,7 +37,8 @@ void UBaseWeapon::SetWeaponAnimation(FString FilePath)
 		return;
 	}
 
-	SetAnimInstanceClass(animationInstance.Object->GeneratedClass);
+	
+	SetAnimInstanceClass(animationInstance.Object);
 }
 
 void UBaseWeapon::SetWeaponParticle(FString FilePath)
