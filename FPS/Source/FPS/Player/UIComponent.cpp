@@ -55,15 +55,13 @@ void UUIComponent::Initialize(TArray<UWidget*> GameUI, TArray<UWidget*> PauseUI,
 	m_PauseUI = PauseUI;
 	m_InventoryUI = InventoryUI;
 
+	//Switch mode to the in game UI
 	SwitchMode(EUIMode::Game);
 }
 
 void UUIComponent::SwitchMode(EUIMode NewUIMode)
 {
-
-
-
-	// We do a toggle
+	// We do a toggle to game if we are this new mode allready
 	if (m_CurrentUIMode == NewUIMode)
 	{
 		m_CurrentUIMode = EUIMode::Game;
@@ -104,24 +102,26 @@ void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 	{
 		return;
 	}
-	//Remove from inventory first if it was allready in there
-	if (Pickup->GetFSlotImage() != nullptr)
+
+	//Remove from inventory first if it was already in there
+	if (m_InvetoryItems.Contains(Pickup)) //Can afford a heavy operation because we won't be doing this every frame
 	{
-		ResetImage(Pickup->GetFSlotImage());
-		RemoveOverlap(Pickup->GetFSlotImage());
+		if (Pickup->GetFSlotImage() != nullptr)
+		{
+			ResetImage(Pickup->GetFSlotImage());
+			RemoveOverlap(Pickup->GetFSlotImage());
+		}
+
 		RemoveFromInventory(Pickup);
 	}
-	//SlotImage is nullptr so hasn't been in inventory yet so we remove it from the ground
-	else if (Pickup->GetFSlotImage() == nullptr && !m_InvetoryItems.Contains(Pickup))
+	//The pickup is not in the inventory yet
+	else if (!m_InvetoryItems.Contains(Pickup))
 	{
 		Pickup->SetActorLocation(FVector(0.0f, 0.0f, 0.0f));
 		Pickup->SetActorHiddenInGame(true);
 	}
-	else if (Pickup->GetFSlotImage() == nullptr && m_InvetoryItems.Contains(Pickup))
-	{
-		RemoveFromInventory(Pickup);
-	}
 
+	//If this pick up is currently held we remove it from the hands
 	if (m_CurrentHoldPickUp == Pickup)
 	{
 		m_CurrentHoldPickUp = nullptr;
@@ -129,7 +129,8 @@ void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 	}
 
 
-	//Availability check done in blueprint
+	//Before this function is called the blueprint slot makes sure this slot is available
+	//This is done by calling IsAvailable() from blueprint
 
 	SetImage(Pickup->GetInventoryImage(), Row, Collum, Pickup->GetSlotSize());
 	Rows[Row].SlotImage[Collum].Pickup = Pickup;
@@ -137,8 +138,7 @@ void UUIComponent::DropToIventory(ABasicPickup* Pickup, int32 Row, int32 Collum)
 	SetSlotImage(Row, Collum, Pickup);
 	m_InvetoryItems.Add(Pickup);
 
-	UE_LOG(LogTemp, Warning, TEXT("%s: Added to inventory"), *Pickup->GetName())
-
+	UE_LOG(LogTemp, Warning, TEXT("%s: Added to inventory"), *Pickup->GetName());
 }
 
 bool UUIComponent::DropToHands(AHoldAblePickUp * Pickup)
@@ -149,11 +149,11 @@ bool UUIComponent::DropToHands(AHoldAblePickUp * Pickup)
 		return false;
 	}
 
-	if (Pickup->GetFSlotImage() != nullptr)
+	//If item from inventory to hands clear Inventory image first
+	if (m_InvetoryItems.Contains(Pickup))
 	{
 		ResetImage(Pickup->GetFSlotImage());
 		RemoveOverlap(Pickup->GetFSlotImage());
-
 	}
 	else
 	{
@@ -161,6 +161,8 @@ bool UUIComponent::DropToHands(AHoldAblePickUp * Pickup)
 		Pickup->SetActorLocation(FVector(0.0f, 0.0f, 0.0f));
 		Pickup->SetActorHiddenInGame(true);
 	}
+
+	//Add the pickup to the hands
 	m_CurrentHoldPickUp = Pickup;
 	Pickup->ToHands(m_Player);
 
@@ -169,8 +171,10 @@ bool UUIComponent::DropToHands(AHoldAblePickUp * Pickup)
 
 void UUIComponent::RemoveFromInventory(ABasicPickup * Pickup)
 {
+	//Remove the item from the inventory
 	m_InvetoryItems.Remove(Pickup);
 
+	//Clear the visuals of the item
 	if (Pickup->GetFSlotImage() != nullptr)
 	{
 		ResetImage(Pickup->GetFSlotImage());
@@ -184,6 +188,7 @@ void UUIComponent::DropItem(ABasicPickup* Pickup)
 {
 	RemoveFromInventory(Pickup);
 	
+	//Calculate drop position of pickup in front of player
 	FVector dropLocation;
 	dropLocation = GetOwner()->GetActorLocation() + (GetOwner()->GetActorForwardVector() * 100.0f);
 
@@ -194,9 +199,11 @@ void UUIComponent::DropItem(ABasicPickup* Pickup)
 		dropLocation = hitResult.Location;
 	}
 
+	//Set the pickup to the drop location and make it visible
 	Pickup->SetActorLocation(dropLocation);
 	Pickup->SetActorHiddenInGame(false);
 
+	//If item is being dropped from hands clear hands
 	if (Pickup == m_CurrentHoldPickUp)
 	{
 		m_CurrentHoldPickUp = nullptr;
@@ -206,7 +213,9 @@ void UUIComponent::DropItem(ABasicPickup* Pickup)
 
 void UUIComponent::DisableWidgets(TArray<UWidget*> ToDisable)
 {
-	for (int32 i = 0; i != ToDisable.Num(); ++i)
+	//Small optimalization to not have to call .Num() every loop
+	int32 disableNum = ToDisable.Num();
+	for (int32 i = 0; i != disableNum; ++i)
 	{
 		ToDisable[i]->SetVisibility(ESlateVisibility::Hidden);
 	} 
@@ -214,7 +223,9 @@ void UUIComponent::DisableWidgets(TArray<UWidget*> ToDisable)
 
 void UUIComponent::EnableWidgets(TArray<UWidget*> ToEnable)
 {
-	for (int32 i = 0; i != ToEnable.Num(); ++i)
+	//Small optimalization to not have to call .Num() every loop
+	int32 enableNum = ToEnable.Num();
+	for (int32 i = 0; i != enableNum; ++i)
 	{
 		ToEnable[i]->SetVisibility(ESlateVisibility::Visible);
 	}
@@ -222,31 +233,35 @@ void UUIComponent::EnableWidgets(TArray<UWidget*> ToEnable)
 
 void UUIComponent::LookForObjects()
 {
+	//Overlap value's
 	TArray<FOverlapResult> outHits;
 	FVector originPoint = GetOwner()->GetActorLocation();
 	FCollisionShape collisionShape = FCollisionShape::MakeSphere(m_SearchDistance);
-
 	TArray<ABasicPickup*> pickups;
 
+	//We call this if debug is checked
 	if (bDebug)
 	{
 		DrawDebugSphere(GetWorld(), originPoint, m_SearchDistance, 100, FColor::Yellow, false);
 	}
 
+	//Overlap check for pickups
 	bool gotHits = GetWorld()->OverlapMultiByChannel(outHits, originPoint, FQuat::Identity, ECC_Visibility, collisionShape);
-
 	if (gotHits)
 	{
-		for (int32 i = 0; i != outHits.Num(); ++i)
+		int32 outHitsAmount = outHits.Num();
+		for (int32 i = 0; i != outHitsAmount; ++i)
 		{
 			if (ABasicPickup* pickUp = Cast<ABasicPickup>(outHits[i].Actor))
 			{
+				//Add found item to the pickup array
 				pickups.Add(pickUp);
 			}
 		}
 	}
 
-		OnUpdateInventory.Broadcast(pickups);
+	//Broadcast the found items to the interested classes/blueprint
+	OnUpdateInventory.Broadcast(pickups);
 }
 
 void UUIComponent::ToggleMouse(const bool Enable)
@@ -273,10 +288,14 @@ void UUIComponent::ToggleMouse(const bool Enable)
 
 void UUIComponent::HideImageGrid()
 {
-	for (int32 i = 0; i != Rows.Num(); ++i)
+	//Small optimalization to not have to call .Num() every loop
+	int32 rowAmount = Rows.Num();
+	for (int32 i = 0; i != rowAmount; ++i)
 	{
-		for (int32 j = 0; j != Rows[i].CollumImages.Num(); ++j)
+		int32 collumAmount = Rows[i].CollumImages.Num();
+		for (int32 j = 0; j != collumAmount; ++j)
 		{
+			//Hide the image from the player and add it to the array
 			FSlotImage slotImage;
 			slotImage.Image = Rows[i].CollumImages[j];
 			Rows[i].SlotImage.Add(slotImage);
@@ -288,8 +307,11 @@ void UUIComponent::HideImageGrid()
 
 void UUIComponent::SetImage(UTexture2D* Texture, int32 Row, int32 Collum, FVector2D GridSize)
 {
+	//Set the image to the desired texture
 	Rows[Row].SlotImage[Collum].Image->SetBrushFromTexture(Texture, true);
 	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
+
+	//Set the size from the image so it overlaps the needed slots
 	UCanvasPanelSlot* slot = Cast<UCanvasPanelSlot>(Rows[Row].SlotImage[Collum].Image->Slot);
 	if (slot)
 		slot->SetSize(GridSize * 100);
@@ -303,28 +325,34 @@ void UUIComponent::SetSlotImage(int32 Row, int32 Collum, ABasicPickup * Pickup)
 
 void UUIComponent::ResetImage(class UTexture2D* Texture, int32 Row, int32 Collum, FVector2D GridSize)
 {
+	//Reset the image to the desired texture and hide it from the player
 	Rows[Row].SlotImage[Collum].Image->SetBrushFromTexture(Texture, true);
 	Rows[Row].SlotImage[Collum].Image->SetVisibility(ESlateVisibility::Hidden);
 }
 
 void UUIComponent::ResetImage(FSlotImage* SlotImage)
 {
+	//Reset image and hide it from player
 	SlotImage->Image->SetBrushFromTexture(m_DefaultImage, true);
 	SlotImage->Image->SetVisibility(ESlateVisibility::Hidden);
 }
 
 bool UUIComponent::IsAvailable(int32 Row, int32 Collum, FVector2D GridSize)
+
 {
+	//If the item is going outside the border
 	if (Row + GridSize.Y > Rows.Num() || Collum + GridSize.X > Rows[Row].SlotImage.Num())
 	{
 		return false;
 	}
 
+	//If the item overlaps with and other item
 	if (IsOverlapping(Row, Collum, GridSize))
 	{
 		return false;
 	}
 
+	//Return true if slot is available for this item
 	return true;
 }
 
@@ -351,6 +379,7 @@ ABasicPickup* UUIComponent::GetInventoryItem(int32 Row, int32 Collum)
 		}
 	}
 	
+	//Return the item belonging to this image position
 	return pickupToReturn;
 }
 
@@ -370,6 +399,7 @@ bool UUIComponent::IsButtonTaken(int32 Row, int32 Collum) const
 			{
 				if (Rows[i].SlotImage[j].OverlappingSlots[k] == slotPosition)
 				{
+					//Return true of this slot is already used by an other item
 					return true;
 				}
 			}
@@ -381,12 +411,14 @@ bool UUIComponent::IsButtonTaken(int32 Row, int32 Collum) const
 
 bool UUIComponent::IsOverlapping(int32 Row, int32 Collum, FVector2D SlotSize) const
 {
+	//Loop through possible overlapped slots for this item
 	for (int i = 0; i < SlotSize.Y; ++i)
 	{
 		for (int j = 0; j < SlotSize.X; ++j)
 		{
 			if (IsButtonTaken(Row + i, Collum + j))
 			{
+				//Return true if slot is taken
 				return true;
 			}
 		}
@@ -396,11 +428,15 @@ bool UUIComponent::IsOverlapping(int32 Row, int32 Collum, FVector2D SlotSize) co
 }
 
 void UUIComponent::CalculateOverlap(ABasicPickup* Pickup, int32 Row, int32 Collum)
-{
-	for (int32 i = 0; i != Pickup->GetSlotSize().X; ++i)
+{	
+	//Small optimalization to not have to call the get function every loop
+	int32 slotSizeX = Pickup->GetSlotSize().X;
+	int32 slotSizeY = Pickup->GetSlotSize().Y;
+	for (int32 i = 0; i != slotSizeX; ++i)
 	{
-		for (int32 j = 0; j != Pickup->GetSlotSize().Y; ++j)
+		for (int32 j = 0; j != slotSizeY; ++j)
 		{
+			//Add overlapping slots to the item
 			FVector2D overlappingSlot = { (float)Collum + i, (float)Row + j };
 			Rows[Row].SlotImage[Collum].OverlappingSlots.Add(overlappingSlot);
 		}
@@ -409,6 +445,7 @@ void UUIComponent::CalculateOverlap(ABasicPickup* Pickup, int32 Row, int32 Collu
 
 void UUIComponent::RemoveOverlap(FSlotImage * SlotImage)
 {
+	//Clear all the overlap from an item
 	SlotImage->OverlappingSlots.Empty();
 }
 
