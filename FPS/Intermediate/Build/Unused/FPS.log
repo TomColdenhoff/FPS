@@ -1,10 +1,89 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FPSEditor (ini files are newer than UBTMakefile)
-  Performing 3 actions (4 in parallel)
+  Creating makefile for FPSEditor (game project files are newer)
+  Parsing headers for FPSEditor
+    Running UnrealHeaderTool "E:\Projects\FPS\FPS\FPS.uproject" "E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSEditor in 11.4197999 seconds
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5802.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-5802.pdb".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-772.dll".
+  Deleting old hot reload file: "E:\Projects\FPS\FPS\Binaries\Win64\UE4Editor-FPS-772.pdb".
+  Performing 65 actions (4 in parallel)
+  ClearKey.gen.cpp
+  CoverPoint.gen.cpp
+  DoorOpenComponent.gen.cpp
+  CloseEnough.gen.cpp
+  ChooseNextWaypoint.gen.cpp
+  CheckDistance.gen.cpp
+  ChangeSpeed.gen.cpp
+  BasicPickup.gen.cpp
+  BaseWeapon.gen.cpp
+  BaseEnemy.gen.cpp
+  AssualtCharacter.gen.cpp
+  AssaultEnemy.gen.cpp
+  AimTowardsTarget.gen.cpp
+  Dummy.gen.cpp
+  FindCoverPoint.gen.cpp
+  FireAtTarget.gen.cpp
+  FPS.init.gen.cpp
+  FPSGameModeBase.gen.cpp
+  FPSPlayer.gen.cpp
+  HoldAblePickUp.gen.cpp
+  HitAble.gen.cpp
+  IDamageAble.gen.cpp
+  SMG.gen.cpp
+  InteractAble.gen.cpp
+  Interaction.gen.cpp
+  SMGPickUp.gen.cpp
+  ToggleDuck.gen.cpp
+  UnitAIController.gen.cpp
+  UIComponent.gen.cpp
+  WeaponBase.gen.cpp
+  HitAble.cpp
+  FireAtTarget.cpp
+  BaseEnemy.cpp
+  AssaultEnemy.cpp
+  AssualtCharacter.cpp
+  BaseWeapon.cpp
+  CloseEnough.cpp
+E:\Projects\FPS\FPS\Source\FPS\BaseWeapon.cpp(55): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
+E:\Projects\FPS\FPS\Source\FPS\AssualtCharacter.cpp(94): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
+E:\Projects\FPS\FPS\Source\FPS\AssualtCharacter.cpp(122): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
+  Dummy.cpp
+  FPS.cpp
+  FPSGameModeBase.cpp
+  FPSPlayer.cpp
+  SMG.cpp
+  UnitAIController.cpp
+E:\Projects\FPS\FPS\Source\FPS\SMG.cpp(35): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
+  AimTowardsTarget.cpp
+  ChangeSpeed.cpp
+  CheckDistance.cpp
+  WeaponBase.cpp
+  ClearKey.cpp
+  CoverPoint.cpp
+  IDamageAble.cpp
+  ChooseNextWaypoint.cpp
+  Interaction.cpp
+  SMGPickUp.cpp
+  InteractAble.cpp
   UIComponent.cpp
-  [2/3] Link UE4Editor-FPS.lib
-  [3/3] Link UE4Editor-FPS.dll
+  DoorOpenComponent.cpp
+  BasicPickup.cpp
+  ToggleDuck.cpp
+  FindCoverPoint.cpp
+  HoldAblePickUp.cpp
+  Module.CoverPointGenerator.cpp
+  [62/65] Link UE4Editor-FPS.lib
+  [63/65] Link UE4Editor-FPS.dll
      Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.exp
      Creating library E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.lib and object E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS.suppressed.exp
+  [64/65] Link UE4Editor-CoverPointGenerator.dll
+  [65/65] Link UE4Editor-CoverPointGenerator.lib
+     Creating library E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.lib and object E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.exp
+     Creating library E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.suppressed.lib and object E:\Projects\FPS\FPS\Plugins\CoverPointGenerator\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoverPointGenerator.suppressed.exp
   Deploying FPSEditor Win64 Development...
-  Total build time: 7.17 seconds (Local executor: 3.04 seconds)
+  Total build time: 277.98 seconds (Local executor: 230.95 seconds)
