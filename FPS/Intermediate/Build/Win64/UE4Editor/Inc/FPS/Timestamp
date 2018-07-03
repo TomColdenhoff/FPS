@@ -3,6 +3,7 @@ E:\Projects\FPS\FPS\Source\FPS\Public\AI\BaseEnemy.h
 E:\Projects\FPS\FPS\Source\FPS\Public\AI\FireAtTarget.h
 E:\Projects\FPS\FPS\Source\FPS\Public\AI\HitAble.h
 E:\Projects\FPS\FPS\Source\FPS\Public\CoverPoint.h
+E:\Projects\FPS\FPS\Source\FPS\Public\GameData.h
 E:\Projects\FPS\FPS\Source\FPS\Public\IDamageAble.h
 E:\Projects\FPS\FPS\Source\FPS\AI\AimTowardsTarget.h
 E:\Projects\FPS\FPS\Source\FPS\AI\ChangeSpeed.h
@@ -18,6 +19,9 @@ E:\Projects\FPS\FPS\Source\FPS\Level\InteractAble.h
 E:\Projects\FPS\FPS\Source\FPS\Level\SMGPickUp.h
 E:\Projects\FPS\FPS\Source\FPS\Player\Interaction.h
 E:\Projects\FPS\FPS\Source\FPS\Player\UIComponent.h
+E:\Projects\FPS\FPS\Source\FPS\Tasks\CollectItem.h
+E:\Projects\FPS\FPS\Source\FPS\Tasks\Task.h
+E:\Projects\FPS\FPS\Source\FPS\Tasks\TaskManager.h
 E:\Projects\FPS\FPS\Source\FPS\AssualtCharacter.h
 E:\Projects\FPS\FPS\Source\FPS\BaseWeapon.h
 E:\Projects\FPS\FPS\Source\FPS\CloseEnough.h
