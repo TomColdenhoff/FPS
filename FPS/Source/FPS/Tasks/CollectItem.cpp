@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "CollectItem.h"
-
+#include "../Public/GameData.h"
+#include "Engine.h"
 
 // Sets default values
 ACollectItem::ACollectItem()
@@ -31,6 +32,14 @@ void ACollectItem::OnTaskEnd()
 
 void ACollectItem::OnTaskStart()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Task Started"));
+	UGameData* gameData = Cast<UGameData>(GEngine->GameSingleton);
+
+	if (gameData == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Singleton is nullptr"));
+		return;
+	}
+
+	gameData->SetTaskText("Collect the " + ActorToCollect->GetFName().ToString());
 }
 

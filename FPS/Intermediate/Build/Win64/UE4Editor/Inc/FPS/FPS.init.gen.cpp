@@ -14,6 +14,7 @@ void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 	FPS_API UFunction* Z_Construct_UDelegateFunction_ABaseEnemy_GunFireDelegate__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_ABaseEnemy_DeathDelegate__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_ABaseEnemy_DuckDelegate__DelegateSignature();
+	FPS_API UFunction* Z_Construct_UDelegateFunction_UGameData_OnTaskUpdate__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_AFPSPlayer_OnNewWeapon__DelegateSignature();
@@ -28,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_ABaseEnemy_GunFireDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ABaseEnemy_DeathDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ABaseEnemy_DuckDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_UGameData_OnTaskUpdate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_AAssualtCharacter_FireDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_AFPSPlayer_OnNewWeapon__DelegateSignature,
@@ -37,8 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FPS",
 				PKG_CompiledIn | 0x00000000,
-				0x24D1FB70,
-				0xDA301C9C,
+				0x47F1128C,
+				0xE30DC353,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

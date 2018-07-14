@@ -7,6 +7,11 @@
 
 void UGameData::SetTaskText(FString string)
 {
+	if (OnTaskUpdate.IsBound())
+	{
+		OnTaskUpdate.Broadcast(string);
+	}
+	
 
 }
 

@@ -13,6 +13,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPS_GameData_generated_h
 
+#define FPS_Source_FPS_Public_GameData_h_18_DELEGATE \
+struct GameData_eventOnTaskUpdate_Parms \
+{ \
+	FString stringText; \
+}; \
+static inline void FOnTaskUpdate_DelegateWrapper(const FMulticastScriptDelegate& OnTaskUpdate, const FString& stringText) \
+{ \
+	GameData_eventOnTaskUpdate_Parms Parms; \
+	Parms.stringText=stringText; \
+	OnTaskUpdate.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
 #define FPS_Source_FPS_Public_GameData_h_16_RPC_WRAPPERS
 #define FPS_Source_FPS_Public_GameData_h_16_RPC_WRAPPERS_NO_PURE_DECLS
 #define FPS_Source_FPS_Public_GameData_h_16_INCLASS_NO_PURE_DECLS \

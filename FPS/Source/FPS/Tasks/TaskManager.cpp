@@ -2,6 +2,8 @@
 
 #include "TaskManager.h"
 #include "Tasks/Task.h"
+#include "Runtime/Engine/Classes/Engine/World.h"
+#include "Runtime/Engine/Public/TimerManager.h"
 
 
 // Sets default values
@@ -17,7 +19,7 @@ void ATaskManager::BeginPlay()
 	Super::BeginPlay();
 	
 	//Start the first task
-	StartTask(m_Tasks[0]);
+	GetWorld()->GetTimerManager().SetTimer(m_TaskTimerHandle, this, &ATaskManager::StartFirstTask, 0.1f, false);
 	
 }
 
@@ -34,5 +36,10 @@ void ATaskManager::StartTask(AActor* TaskActor)
 
 	if (currentTask != nullptr)
 		currentTask->OnTaskStart();
+}
+
+void ATaskManager::StartFirstTask()
+{
+	StartTask(m_Tasks[0]);
 }
 

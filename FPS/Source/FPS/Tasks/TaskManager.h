@@ -27,8 +27,13 @@ private:
 	UPROPERTY(EditAnywhere)
 	TArray<AActor*> m_Tasks;
 
+	FTimerHandle m_TaskTimerHandle;
+
 	/*Starts the task based of an actor*/
 	void StartTask(AActor* TaskActor);
+
+	/*Start the first task*/
+	void StartFirstTask();
 
 	
 	
