@@ -39,7 +39,7 @@
 #define PROJECT_PRODUCT_IDENTIFIER FPS
 #define NDEBUG 1
 #define UE_BUILD_DEVELOPMENT 1
-#define UE_ENGINE_DIRECTORY ../../../../../../Epic Games/UE_4.19/Engine/
+#define UE_ENGINE_DIRECTORY ../../../../../Game Engines/Epic Games/4.19/UE_4.19/Engine/
 #define ORIGINAL_FILE_NAME "FPS.exe"
 #define UE_IS_ENGINE_MODULE 0
 #define UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME 0

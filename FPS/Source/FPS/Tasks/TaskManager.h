@@ -24,8 +24,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	//UPROPERTY(EditAnywhere)
-	//TArray<TSubclassOf<ITask*>()> m_Tasks;
+	UPROPERTY(EditAnywhere)
+	TArray<AActor*> m_Tasks;
+
+	/*Starts the task based of an actor*/
+	void StartTask(AActor* TaskActor);
 
 	
 	

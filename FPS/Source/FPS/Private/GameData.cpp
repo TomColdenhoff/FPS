@@ -5,3 +5,12 @@
 
 
 
+void UGameData::SetTaskText(FString string)
+{
+
+}
+
+void UGameData::IntializeTaskText(class UTextBlock* TextBlock)
+{
+	p_TastTextBlock = TextBlock;
+}

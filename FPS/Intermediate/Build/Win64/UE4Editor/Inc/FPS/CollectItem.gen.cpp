@@ -13,26 +13,27 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCollectItem() {}
 // Cross Module References
-	FPS_API UClass* Z_Construct_UClass_UCollectItem_NoRegister();
-	FPS_API UClass* Z_Construct_UClass_UCollectItem();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	FPS_API UClass* Z_Construct_UClass_ACollectItem_NoRegister();
+	FPS_API UClass* Z_Construct_UClass_ACollectItem();
+	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_FPS();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	FPS_API UClass* Z_Construct_UClass_UTask_NoRegister();
 // End Cross Module References
-	void UCollectItem::StaticRegisterNativesUCollectItem()
+	void ACollectItem::StaticRegisterNativesACollectItem()
 	{
 	}
-	UClass* Z_Construct_UClass_UCollectItem_NoRegister()
+	UClass* Z_Construct_UClass_ACollectItem_NoRegister()
 	{
-		return UCollectItem::StaticClass();
+		return ACollectItem::StaticClass();
 	}
-	UClass* Z_Construct_UClass_UCollectItem()
+	UClass* Z_Construct_UClass_ACollectItem()
 	{
 		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
 			static UObject* (*const DependentSingletons[])() = {
-				(UObject* (*)())Z_Construct_UClass_UObject,
+				(UObject* (*)())Z_Construct_UClass_AActor,
 				(UObject* (*)())Z_Construct_UPackage__Script_FPS,
 			};
 #if WITH_METADATA
@@ -41,18 +42,28 @@ void EmptyLinkFunctionForGeneratedCodeCollectItem() {}
 				{ "ModuleRelativePath", "Tasks/CollectItem.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorToCollect_MetaData[] = {
+				{ "Category", "CollectItem" },
+				{ "ModuleRelativePath", "Tasks/CollectItem.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorToCollect = { UE4CodeGen_Private::EPropertyClass::Object, "ActorToCollect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ACollectItem, ActorToCollect), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(NewProp_ActorToCollect_MetaData, ARRAY_COUNT(NewProp_ActorToCollect_MetaData)) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ActorToCollect,
+			};
 			static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[] = {
-				{ Z_Construct_UClass_UTask_NoRegister, (int32)VTABLE_OFFSET(UCollectItem, ITask), false },
+				{ Z_Construct_UClass_UTask_NoRegister, (int32)VTABLE_OFFSET(ACollectItem, ITask), false },
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
-				TCppClassTypeTraits<UCollectItem>::IsAbstract,
+				TCppClassTypeTraits<ACollectItem>::IsAbstract,
 			};
 			static const UE4CodeGen_Private::FClassParams ClassParams = {
-				&UCollectItem::StaticClass,
+				&ACollectItem::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
-				0x00100080u,
+				0x00900080u,
 				nullptr, 0,
-				nullptr, 0,
+				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
 				InterfaceParams, ARRAY_COUNT(InterfaceParams),
@@ -62,9 +73,9 @@ void EmptyLinkFunctionForGeneratedCodeCollectItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCollectItem, 688066039);
-	static FCompiledInDefer Z_CompiledInDefer_UClass_UCollectItem(Z_Construct_UClass_UCollectItem, &UCollectItem::StaticClass, TEXT("/Script/FPS"), TEXT("UCollectItem"), false, nullptr, nullptr, nullptr);
-	DEFINE_VTABLE_PTR_HELPER_CTOR(UCollectItem);
+	IMPLEMENT_CLASS(ACollectItem, 1420124783);
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ACollectItem(Z_Construct_UClass_ACollectItem, &ACollectItem::StaticClass, TEXT("/Script/FPS"), TEXT("ACollectItem"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ACollectItem);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

@@ -21,13 +21,13 @@
 /wd4463
 /wd4838
 /w44668
-/I "D:\Epic Games\UE_4.19\Engine\Source"
+/I "E:\Game Engines\Epic Games\4.19\UE_4.19\Engine\Source"
 /D_HAS_EXCEPTIONS=0
-/FI"D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\PCH.UELinkerFixups.h"
-/Yu"D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\PCH.UELinkerFixups.h"
-/Fp"D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\PCH.UELinkerFixups.h.pch"
-"D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4\Development\UELinkerFixups.cpp"
-/Fo"D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\UELinkerFixups.cpp.obj"
+/FI"E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\PCH.UELinkerFixups.h"
+/Yu"E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\PCH.UELinkerFixups.h"
+/Fp"E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\PCH.UELinkerFixups.h.pch"
+"E:\Projects\FPS\FPS\Intermediate\Build\Win64\UE4\Development\UELinkerFixups.cpp"
+/Fo"E:\Projects\FPS\FPS\Intermediate\Build\Win64\FPS\Development\UELinkerFixups\UELinkerFixups.cpp.obj"
 /TP
 /GR-
 /W4

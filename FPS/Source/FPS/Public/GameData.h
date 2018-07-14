@@ -17,5 +17,12 @@ class FPS_API UGameData : public UObject
 	
 public:
 	
-	
+	/*Sets the task description in the HUD*/
+	void SetTaskText(FString string);
+	void IntializeTaskText(class UTextBlock* TextBlock);
+
+private:
+	 
+	class UTextBlock* p_TastTextBlock;
+
 };

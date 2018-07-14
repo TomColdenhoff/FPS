@@ -3,14 +3,34 @@
 #include "CollectItem.h"
 
 
-
-
-void UCollectItem::OnTaskStart()
+// Sets default values
+ACollectItem::ACollectItem()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Collect Task Started"))
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
 }
 
-void UCollectItem::OnTaskEnd()
+// Called when the game starts or when spawned
+void ACollectItem::BeginPlay()
 {
+	Super::BeginPlay();
 	
 }
+
+// Called every frame
+void ACollectItem::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+
+void ACollectItem::OnTaskEnd()
+{
+}
+
+void ACollectItem::OnTaskStart()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Task Started"));
+}
+

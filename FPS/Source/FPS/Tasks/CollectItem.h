@@ -3,25 +3,34 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
+#include "GameFramework/Actor.h"
 #include "Task.h"
 #include "CollectItem.generated.h"
 
-/**
- * 
- */
 UCLASS()
-class FPS_API UCollectItem : public UObject, public ITask
+class FPS_API ACollectItem : public AActor, public ITask
 {
 	GENERATED_BODY()
 	
-	
-	
-	
-public:
+public:	
+	// Sets default values for this actor's properties
+	ACollectItem();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Inherited via ITask
+	virtual void OnTaskEnd() override;
+
 	virtual void OnTaskStart() override;
 
-
-	virtual void OnTaskEnd() override;
+private:
+	UPROPERTY(EditAnywhere)
+	AActor* ActorToCollect;
 
 };

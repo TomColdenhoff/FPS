@@ -13,76 +13,77 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPS_CollectItem_generated_h
 
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_RPC_WRAPPERS
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_INCLASS_NO_PURE_DECLS \
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_RPC_WRAPPERS
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUCollectItem(); \
-	friend FPS_API class UClass* Z_Construct_UClass_UCollectItem(); \
+	static void StaticRegisterNativesACollectItem(); \
+	friend FPS_API class UClass* Z_Construct_UClass_ACollectItem(); \
 public: \
-	DECLARE_CLASS(UCollectItem, UObject, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
-	DECLARE_SERIALIZER(UCollectItem) \
+	DECLARE_CLASS(ACollectItem, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
+	DECLARE_SERIALIZER(ACollectItem) \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
-	virtual UObject* _getUObject() const override { return const_cast<UCollectItem*>(this); }
+	virtual UObject* _getUObject() const override { return const_cast<ACollectItem*>(this); }
 
 
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_INCLASS \
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_INCLASS \
 private: \
-	static void StaticRegisterNativesUCollectItem(); \
-	friend FPS_API class UClass* Z_Construct_UClass_UCollectItem(); \
+	static void StaticRegisterNativesACollectItem(); \
+	friend FPS_API class UClass* Z_Construct_UClass_ACollectItem(); \
 public: \
-	DECLARE_CLASS(UCollectItem, UObject, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
-	DECLARE_SERIALIZER(UCollectItem) \
+	DECLARE_CLASS(ACollectItem, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPS"), NO_API) \
+	DECLARE_SERIALIZER(ACollectItem) \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
-	virtual UObject* _getUObject() const override { return const_cast<UCollectItem*>(this); }
+	virtual UObject* _getUObject() const override { return const_cast<ACollectItem*>(this); }
 
 
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_STANDARD_CONSTRUCTORS \
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UCollectItem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCollectItem) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCollectItem); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCollectItem); \
+	NO_API ACollectItem(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACollectItem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACollectItem); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACollectItem); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UCollectItem(UCollectItem&&); \
-	NO_API UCollectItem(const UCollectItem&); \
+	NO_API ACollectItem(ACollectItem&&); \
+	NO_API ACollectItem(const ACollectItem&); \
 public:
 
 
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UCollectItem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UCollectItem(UCollectItem&&); \
-	NO_API UCollectItem(const UCollectItem&); \
+	NO_API ACollectItem(ACollectItem&&); \
+	NO_API ACollectItem(const ACollectItem&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCollectItem); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCollectItem); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCollectItem)
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACollectItem); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACollectItem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACollectItem)
 
 
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_PRIVATE_PROPERTY_OFFSET
-#define FPS_Source_FPS_Tasks_CollectItem_h_13_PROLOG
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_GENERATED_BODY_LEGACY \
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ActorToCollect() { return STRUCT_OFFSET(ACollectItem, ActorToCollect); }
+
+
+#define FPS_Source_FPS_Tasks_CollectItem_h_10_PROLOG
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_PRIVATE_PROPERTY_OFFSET \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_RPC_WRAPPERS \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_INCLASS \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_STANDARD_CONSTRUCTORS \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_PRIVATE_PROPERTY_OFFSET \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_RPC_WRAPPERS \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_INCLASS \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FPS_Source_FPS_Tasks_CollectItem_h_16_GENERATED_BODY \
+#define FPS_Source_FPS_Tasks_CollectItem_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_PRIVATE_PROPERTY_OFFSET \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_INCLASS_NO_PURE_DECLS \
-	FPS_Source_FPS_Tasks_CollectItem_h_16_ENHANCED_CONSTRUCTORS \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_PRIVATE_PROPERTY_OFFSET \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_INCLASS_NO_PURE_DECLS \
+	FPS_Source_FPS_Tasks_CollectItem_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

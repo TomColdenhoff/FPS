@@ -23,6 +23,14 @@ static inline void FOnNewWeapon_DelegateWrapper(const FMulticastScriptDelegate& 
 
 #define FPS_Source_FPS_FPSPlayer_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execClearHands) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ClearHands(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetUIComponent) \
 	{ \
 		P_FINISH; \
@@ -33,6 +41,14 @@ static inline void FOnNewWeapon_DelegateWrapper(const FMulticastScriptDelegate& 
 
 
 #define FPS_Source_FPS_FPSPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execClearHands) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ClearHands(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetUIComponent) \
 	{ \

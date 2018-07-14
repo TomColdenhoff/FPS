@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 	FPS_API UFunction* Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_AFPSPlayer_OnNewWeapon__DelegateSignature();
 	FPS_API UFunction* Z_Construct_UDelegateFunction_FPS_UpdateOnGroundDelegate__DelegateSignature();
+	FPS_API UFunction* Z_Construct_UDelegateFunction_FPS_ClearHandSlot__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_FPS()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -31,12 +32,13 @@ void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_UBaseWeapon_AmmoChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_AFPSPlayer_OnNewWeapon__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_FPS_UpdateOnGroundDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_FPS_ClearHandSlot__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FPS",
 				PKG_CompiledIn | 0x00000000,
-				0x013F867A,
-				0x45EF9DC8,
+				0x12AD35DF,
+				0xFB79BAA3,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

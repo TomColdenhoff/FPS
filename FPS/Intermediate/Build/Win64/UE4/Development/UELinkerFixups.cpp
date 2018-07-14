@@ -111,7 +111,7 @@
 	#define UE_BUILD_DEVELOPMENT 1
 #endif
 #ifndef UE_ENGINE_DIRECTORY
-	#define UE_ENGINE_DIRECTORY ../../../../../../Epic Games/UE_4.19/Engine/
+	#define UE_ENGINE_DIRECTORY ../../../../../Game Engines/Epic Games/4.19/UE_4.19/Engine/
 #endif
 #ifndef UE_IS_ENGINE_MODULE
 	#define UE_IS_ENGINE_MODULE 0
@@ -4342,6 +4342,8 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeClearKey();
     extern void EmptyLinkFunctionForGeneratedCodeCloseEnough();
     EmptyLinkFunctionForGeneratedCodeCloseEnough();
+    extern void EmptyLinkFunctionForGeneratedCodeCollectItem();
+    EmptyLinkFunctionForGeneratedCodeCollectItem();
     extern void EmptyLinkFunctionForGeneratedCodeCoverPoint();
     EmptyLinkFunctionForGeneratedCodeCoverPoint();
     extern void EmptyLinkFunctionForGeneratedCodeDoorOpenComponent();
@@ -4358,6 +4360,8 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeFPSGameModeBase();
     extern void EmptyLinkFunctionForGeneratedCodeFPSPlayer();
     EmptyLinkFunctionForGeneratedCodeFPSPlayer();
+    extern void EmptyLinkFunctionForGeneratedCodeGameData();
+    EmptyLinkFunctionForGeneratedCodeGameData();
     extern void EmptyLinkFunctionForGeneratedCodeHitAble();
     EmptyLinkFunctionForGeneratedCodeHitAble();
     extern void EmptyLinkFunctionForGeneratedCodeHoldAblePickUp();
@@ -4372,6 +4376,10 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeSMG();
     extern void EmptyLinkFunctionForGeneratedCodeSMGPickUp();
     EmptyLinkFunctionForGeneratedCodeSMGPickUp();
+    extern void EmptyLinkFunctionForGeneratedCodeTask();
+    EmptyLinkFunctionForGeneratedCodeTask();
+    extern void EmptyLinkFunctionForGeneratedCodeTaskManager();
+    EmptyLinkFunctionForGeneratedCodeTaskManager();
     extern void EmptyLinkFunctionForGeneratedCodeToggleDuck();
     EmptyLinkFunctionForGeneratedCodeToggleDuck();
     extern void EmptyLinkFunctionForGeneratedCodeUIComponent();
