@@ -19,7 +19,7 @@ void ATaskManager::BeginPlay()
 	Super::BeginPlay();
 	
 	//Start the first task
-	GetWorld()->GetTimerManager().SetTimer(m_TaskTimerHandle, this, &ATaskManager::StartFirstTask, 0.1f, false);
+	GetWorld()->GetTimerManager().SetTimer(m_TaskTimerHandle, this, &ATaskManager::StartFirstTask, 3.0f, false);
 	
 }
 
@@ -28,6 +28,16 @@ void ATaskManager::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (m_CurrentTask != nullptr)
+	{
+		//Update the task information to check if its completed
+		if (m_CurrentTask->Update())
+		{
+			//Call the end behaviour of the task
+			m_CurrentTask->OnTaskEnd();
+		}
+	}
+
 }
 
 void ATaskManager::StartTask(AActor* TaskActor)
@@ -35,7 +45,11 @@ void ATaskManager::StartTask(AActor* TaskActor)
 	ITask* currentTask = Cast<ITask>(TaskActor);
 
 	if (currentTask != nullptr)
+	{
 		currentTask->OnTaskStart();
+		m_CurrentTask = currentTask;
+	}
+
 }
 
 void ATaskManager::StartFirstTask()

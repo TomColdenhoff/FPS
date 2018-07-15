@@ -211,6 +211,16 @@ void UUIComponent::DropItem(ABasicPickup* Pickup)
 	}
 }
 
+bool UUIComponent::ContainsItem(ABasicPickup * Item)
+{
+	if (m_InvetoryItems.Contains(Item))
+	{
+		return true;
+	}
+
+	return false;
+}
+
 void UUIComponent::DisableWidgets(TArray<UWidget*> ToDisable)
 {
 	//Small optimalization to not have to call .Num() every loop

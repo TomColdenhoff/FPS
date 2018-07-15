@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectItem() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_FPS();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	FPS_API UClass* Z_Construct_UClass_ABasicPickup_NoRegister();
 	FPS_API UClass* Z_Construct_UClass_UTask_NoRegister();
 // End Cross Module References
 	void ACollectItem::StaticRegisterNativesACollectItem()
@@ -43,13 +44,29 @@ void EmptyLinkFunctionForGeneratedCodeCollectItem() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_p_TaskEndBehaviour_MetaData[] = {
+				{ "Category", "CollectItem" },
+				{ "ModuleRelativePath", "Tasks/CollectItem.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_p_TaskEndBehaviour = { UE4CodeGen_Private::EPropertyClass::Object, "p_TaskEndBehaviour", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ACollectItem, p_TaskEndBehaviour), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(NewProp_p_TaskEndBehaviour_MetaData, ARRAY_COUNT(NewProp_p_TaskEndBehaviour_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_p_TaskBeginBehaviour_MetaData[] = {
+				{ "Category", "CollectItem" },
+				{ "ModuleRelativePath", "Tasks/CollectItem.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_p_TaskBeginBehaviour = { UE4CodeGen_Private::EPropertyClass::Object, "p_TaskBeginBehaviour", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ACollectItem, p_TaskBeginBehaviour), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(NewProp_p_TaskBeginBehaviour_MetaData, ARRAY_COUNT(NewProp_p_TaskBeginBehaviour_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorToCollect_MetaData[] = {
 				{ "Category", "CollectItem" },
 				{ "ModuleRelativePath", "Tasks/CollectItem.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorToCollect = { UE4CodeGen_Private::EPropertyClass::Object, "ActorToCollect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ACollectItem, ActorToCollect), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(NewProp_ActorToCollect_MetaData, ARRAY_COUNT(NewProp_ActorToCollect_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorToCollect = { UE4CodeGen_Private::EPropertyClass::Object, "ActorToCollect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ACollectItem, ActorToCollect), Z_Construct_UClass_ABasicPickup_NoRegister, METADATA_PARAMS(NewProp_ActorToCollect_MetaData, ARRAY_COUNT(NewProp_ActorToCollect_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_p_TaskEndBehaviour,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_p_TaskBeginBehaviour,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ActorToCollect,
 			};
 			static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[] = {
@@ -73,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACollectItem, 1420124783);
+	IMPLEMENT_CLASS(ACollectItem, 868957248);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACollectItem(Z_Construct_UClass_ACollectItem, &ACollectItem::StaticClass, TEXT("/Script/FPS"), TEXT("ACollectItem"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACollectItem);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

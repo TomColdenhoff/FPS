@@ -96,6 +96,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
 	TArray<FCollum> Rows;
 
+	bool ContainsItem(ABasicPickup* Item);
+
 private:
 	EUIMode m_CurrentUIMode;
 

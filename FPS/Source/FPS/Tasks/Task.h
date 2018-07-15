@@ -23,6 +23,8 @@ class FPS_API ITask
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	virtual void OnTaskStart() = 0;
+	virtual bool Update() = 0;
 	virtual void OnTaskEnd() = 0;
+
 	
 };

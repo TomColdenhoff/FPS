@@ -62,7 +62,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACollectItem); \
 
 
 #define FPS_Source_FPS_Tasks_CollectItem_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ActorToCollect() { return STRUCT_OFFSET(ACollectItem, ActorToCollect); }
+	FORCEINLINE static uint32 __PPO__ActorToCollect() { return STRUCT_OFFSET(ACollectItem, ActorToCollect); } \
+	FORCEINLINE static uint32 __PPO__p_TaskBeginBehaviour() { return STRUCT_OFFSET(ACollectItem, p_TaskBeginBehaviour); } \
+	FORCEINLINE static uint32 __PPO__p_TaskEndBehaviour() { return STRUCT_OFFSET(ACollectItem, p_TaskEndBehaviour); }
 
 
 #define FPS_Source_FPS_Tasks_CollectItem_h_10_PROLOG

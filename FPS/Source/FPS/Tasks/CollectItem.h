@@ -27,10 +27,19 @@ public:
 	// Inherited via ITask
 	virtual void OnTaskEnd() override;
 
+	virtual bool Update() override;
+
 	virtual void OnTaskStart() override;
 
 private:
 	UPROPERTY(EditAnywhere)
-	AActor* ActorToCollect;
+	class ABasicPickup* ActorToCollect;
 
+	class UUIComponent* p_Inventory = nullptr;
+
+	UPROPERTY(EditAnywhere)
+	AActor* p_TaskBeginBehaviour;
+
+	UPROPERTY(EditAnywhere)
+	AActor* p_TaskEndBehaviour;
 };

@@ -27,6 +27,8 @@ private:
 	UPROPERTY(EditAnywhere)
 	TArray<AActor*> m_Tasks;
 
+	class ITask* m_CurrentTask;
+
 	FTimerHandle m_TaskTimerHandle;
 
 	/*Starts the task based of an actor*/
