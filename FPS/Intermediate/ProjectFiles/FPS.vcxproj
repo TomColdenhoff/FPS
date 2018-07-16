@@ -442,9 +442,11 @@
     <ClCompile Include="..\..\Source\FPS\SMG.cpp" />
     <ClInclude Include="..\..\Source\FPS\SMG.h" />
     <ClCompile Include="..\..\Source\FPS\Tasks\ActivateActors.cpp" />
+    <ClCompile Include="..\..\Source\FPS\Tasks\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\FPS\Tasks\StartBehaviour.cpp" />
     <ClCompile Include="..\..\Source\FPS\UnitAIController.cpp" />
     <ClInclude Include="..\..\Source\FPS\Tasks\ActivateActors.h" />
+    <ClInclude Include="..\..\Source\FPS\Tasks\OpenDoor.h" />
     <ClInclude Include="..\..\Source\FPS\Tasks\StartBehaviour.h" />
     <ClInclude Include="..\..\Source\FPS\UnitAIController.h" />
     <ClCompile Include="..\..\Source\FPS\WeaponBase.cpp" />

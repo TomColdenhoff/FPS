@@ -31,6 +31,7 @@
 #include "D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\ActivateActors.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\CollectItem.cpp"
+#include "D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\OpenDoor.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\StartBehaviour.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\Task.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\TaskManager.cpp"

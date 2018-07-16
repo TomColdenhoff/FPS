@@ -22,6 +22,7 @@ D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Player\Interaction.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Player\UIComponent.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\ActivateActors.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\CollectItem.h
+D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\OpenDoor.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\StartBehaviour.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\Task.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\TaskManager.h

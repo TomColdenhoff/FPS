@@ -13,6 +13,8 @@ class FPS_API UDoorOpenComponent : public UActorComponent, public IInteractAble
 {
 	GENERATED_BODY()
 
+	// Use normal delegate becuase we don't have to serialize it
+	DECLARE_DELEGATE(FOnDoorOpen);
 public:	
 	// Sets default values for this component's properties
 	UDoorOpenComponent();
@@ -27,6 +29,8 @@ public:
 
 	// Inherited via IInteractAble
 	virtual void Interact(class AFPSPlayer* Player);
+
+	FOnDoorOpen OnDoorOpen;
 
 private:
 	/*Calculate Values for door openening*/
@@ -47,4 +51,7 @@ private:
 	FVector m_OpenDoorRotation;
 
 	AActor* p_Owner = nullptr;
+
+	UPROPERTY(EditAnywhere)
+	class ABasicPickup* p_NeededActor;
 };

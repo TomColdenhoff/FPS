@@ -2,6 +2,7 @@
 
 #include "DoorOpenComponent.h"
 #include "../FPSPlayer.h"
+#include "../Player/UIComponent.h"
 
 
 // Sets default values for this component's properties
@@ -50,11 +51,20 @@ void UDoorOpenComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 
 void UDoorOpenComponent::Interact(AFPSPlayer* Player)
 {
-	OpenDoor(Player);
+	if (p_NeededActor == nullptr)
+		OpenDoor(Player);
+	else if (Player->GetUIComponent()->ContainsItem(p_NeededActor))
+	{
+		//Fire Delegate of opening door
+		OpenDoor(Player);
+	}
 }
 
 void UDoorOpenComponent::OpenDoor(AFPSPlayer* Player)
 {
+	//Execute the delegate
+	OnDoorOpen.ExecuteIfBound();
+
 	if (p_Owner == nullptr)
 	{
 		return;

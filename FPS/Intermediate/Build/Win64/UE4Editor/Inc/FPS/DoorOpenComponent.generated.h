@@ -63,7 +63,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDoorOpenComponent); \
 
 #define FPS_Source_FPS_Level_DoorOpenComponent_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_TargetOpenRotation() { return STRUCT_OFFSET(UDoorOpenComponent, m_TargetOpenRotation); } \
-	FORCEINLINE static uint32 __PPO__m_OpenRate() { return STRUCT_OFFSET(UDoorOpenComponent, m_OpenRate); }
+	FORCEINLINE static uint32 __PPO__m_OpenRate() { return STRUCT_OFFSET(UDoorOpenComponent, m_OpenRate); } \
+	FORCEINLINE static uint32 __PPO__p_NeededActor() { return STRUCT_OFFSET(UDoorOpenComponent, p_NeededActor); }
 
 
 #define FPS_Source_FPS_Level_DoorOpenComponent_h_11_PROLOG

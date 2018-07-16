@@ -29,6 +29,8 @@ private:
 
 	class ITask* m_CurrentTask;
 
+	int32 currentIndex = 0;
+
 	FTimerHandle m_TaskTimerHandle;
 
 	/*Starts the task based of an actor*/

@@ -1,0 +1,943 @@
+﻿Log file open, 07/16/18 12:09:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-68010332) SRandInit(-68010332).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.400601
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CoverPointGenerator
+LogStreaming: Display: Took  0.138s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Binaries/Win64/UE4Editor-FPS.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../SpareTime/Unreal/FPS/FPS/Plugins/CoverPointGenerator/Binaries/Win64/UE4Editor-CoverPointGenerator.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Tom-Laptop (192.168.1.142:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.16-10.09.29:634][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.16-10.09.29:634][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.16-10.09.29:669][  0]LogInit: Computer: TOM-LAPTOP
+[2018.07.16-10.09.29:669][  0]LogInit: User: tomco
+[2018.07.16-10.09.29:670][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.16-10.09.29:670][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2018.07.16-10.09.29:670][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.16-10.09.29:670][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.16-10.09.29:670][  0]LogMemory: Process Physical Memory: 280.68 MB used, 280.68 MB peak
+[2018.07.16-10.09.29:671][  0]LogMemory: Process Virtual Memory: 273.02 MB used, 273.02 MB peak
+[2018.07.16-10.09.29:671][  0]LogMemory: Physical Memory: 5104.95 MB used,  2985.57 MB free, 8090.52 MB total
+[2018.07.16-10.09.29:671][  0]LogMemory: Virtual Memory: 4802.24 MB used,  2985.57 MB free, 134217728.00 MB total
+[2018.07.16-10.09.29:761][  0]LogInit: Using OS detected language (en-US).
+[2018.07.16-10.09.29:761][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.16-10.09.29:781][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.16-10.09.30:287][  0]LogStreaming: Display: Took  0.525s to EndInitTextLocalization.
+[2018.07.16-10.09.30:288][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.16-10.09.30:357][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.16-10.09.30:357][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.16-10.09.30:805][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.16-10.09.30:893][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.07.16-10.09.30:893][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.16-10.09.30:913][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.07.16-10.09.30:913][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.16-10.09.30:921][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.16-10.09.30:921][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.16-10.09.30:921][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.16-10.09.30:941][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.16-10.09.30:941][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.07.16-10.09.30:941][  0]LogWindows: EnumDisplayDevices:
+[2018.07.16-10.09.30:941][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.07.16-10.09.30:942][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.07.16-10.09.30:942][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.07.16-10.09.30:943][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.16-10.09.30:943][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.07.16-10.09.30:943][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.16-10.09.30:943][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.16-10.09.30:943][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.07.16-10.09.30:974][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.07.16-10.09.30:974][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.16-10.09.30:974][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.16-10.09.30:986][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.16-10.09.30:987][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../SpareTime/Unreal/FPS/FPS/Intermediate/Shaders/WorkingDirectory/3092/).
+[2018.07.16-10.09.30:988][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomco/AppData/Local/Temp/UnrealShaderWorkingDir/6A40E0CE40D8E562BB9E1FA4F90E0C2A/'.
+[2018.07.16-10.09.31:265][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.16-10.09.31:282][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.16-10.09.31:300][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.16-10.09.31:318][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.16-10.09.31:336][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.16-10.09.31:354][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.16-10.09.31:373][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.16-10.09.31:392][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.16-10.09.31:402][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.16-10.09.31:418][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.16-10.09.31:434][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.16-10.09.31:451][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.16-10.09.31:470][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.16-10.09.31:490][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.16-10.09.31:508][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.16-10.09.31:542][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.16-10.09.31:543][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.16-10.09.31:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.16-10.09.31:566][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.16-10.09.31:623][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.16-10.09.31:640][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.16-10.09.31:656][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.16-10.09.31:673][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.16-10.09.31:691][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.16-10.09.31:709][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.16-10.09.31:710][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.16-10.09.31:925][  0]LogXGEController: Cleaning working directory: C:/Users/tomco/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.16-10.09.31:925][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.16-10.09.31:926][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.16-10.09.31:926][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.16-10.09.32:809][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.16-10.09.33:205][  0]LogDerivedDataCache: Loaded boot cache 0.39s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.16-10.09.33:205][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.16-10.09.33:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.16-10.09.33:205][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.16-10.09.33:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SpareTime/Unreal/FPS/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.16-10.09.33:206][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.16-10.09.33:222][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.16-10.09.33:237][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.16-10.09.33:237][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.16-10.09.33:237][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.16-10.09.33:250][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.16-10.09.33:251][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.16-10.09.33:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.16-10.09.33:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.16-10.09.33:830][  0]LogAssetRegistry: FAssetRegistry took 0.0310 seconds to start up
+[2018.07.16-10.09.35:033][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.16-10.09.35:234][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.16-10.09.35:241][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.16-10.09.35:241][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.16-10.09.35:241][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.16-10.09.35:241][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.16-10.09.35:242][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.16-10.09.35:275][  0]LogNetVersion: FPS , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2326512385)
+[2018.07.16-10.09.35:808][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.101027 seconds
+[2018.07.16-10.09.35:815][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.16-10.09.35:815][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.16-10.09.35:815][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.16-10.09.39:090][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.16-10.09.39:123][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.16-10.09.39:518][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.869431ms] /Game/Models/Player/Arms/Arms_SMG.Arms_SMG
+[2018.07.16-10.09.39:548][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002881318bc90, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.07.16-10.09.39:560][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002881318bc90, Size=80
+[2018.07.16-10.09.39:560][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002881315f790, Size=80, Default__BP_SMGAnim_C Function /Engine/Transient.REINST_BP_SMGAnim_C_0:ExecuteUbergraph_BP_SMGAnim
+[2018.07.16-10.09.39:570][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288130c16c0, Size=80, Default__BP_SMGAnim_C Function /Game/Animations/SMG/BP_SMGAnim.BP_SMGAnim_C:ExecuteUbergraph_BP_SMGAnim
+[2018.07.16-10.09.39:769][  0]SourceControl: Source control is disabled
+[2018.07.16-10.09.39:770][  0]SourceControl: Source control is disabled
+[2018.07.16-10.09.39:790][  0]SourceControl: Source control is disabled
+[2018.07.16-10.09.39:810][  0]SourceControl: Source control is disabled
+[2018.07.16-10.09.40:396][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.16-10.09.40:605][  0]LogOcInput: OculusInput pre-init called
+[2018.07.16-10.09.41:817][  0]LogEngine: Initializing Engine...
+[2018.07.16-10.09.41:876][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.07.16-10.09.41:878][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.16-10.09.41:878][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.16-10.09.42:156][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.16-10.09.42:173][  0]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.16-10.09.42:222][  0]LogInit: FAudioDevice initialized.
+[2018.07.16-10.09.42:316][  0]LogDerivedDataCache: Saved boot cache 0.09s 80MB C:/Users/tomco/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.16-10.09.42:328][  0]LogInit: Texture streaming: Enabled
+[2018.07.16-10.09.42:361][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.16-10.09.42:390][  0]LogInit: Transaction tracking system initialized
+[2018.07.16-10.09.42:439][  0]BlueprintLog: New page: Editor Load
+[2018.07.16-10.09.42:597][  0]LocalizationService: Localization service is disabled
+[2018.07.16-10.09.42:751][  0]LogConsoleResponse: Display: 
+[2018.07.16-10.09.42:931][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.16-10.09.42:932][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.16-10.09.42:932][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.16-10.09.42:932][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.16-10.09.42:932][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.16-10.09.43:395][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/' took 0.02s
+[2018.07.16-10.09.43:395][  0]SourceControl: Source control is disabled
+[2018.07.16-10.09.43:395][  0]Cmd: MAP LOAD FILE="../../../../../SpareTime/Unreal/FPS/FPS/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.16-10.09.43:396][  0]LightingResults: New page: Lighting Build
+[2018.07.16-10.09.43:400][  0]MapCheck: New page: Map Check
+[2018.07.16-10.09.43:400][  0]LightingResults: New page: Lighting Build
+[2018.07.16-10.09.43:412][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002881315f790, Size=80
+[2018.07.16-10.09.43:477][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028875aaf380, Size=128, Default__BP_AssaultAIAnim_C Function /Game/Animations/AI/BP_AssaultAIAnim.BP_AssaultAIAnim_C:ExecuteUbergraph_BP_AssaultAIAnim
+[2018.07.16-10.09.43:504][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028875aaf380, Size=128
+[2018.07.16-10.09.43:504][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028875aaf380, Size=128, Default__BP_AssaultAIAnim_C Function /Engine/Transient.REINST_BP_AssaultAIAnim_C_1:ExecuteUbergraph_BP_AssaultAIAnim
+[2018.07.16-10.09.43:530][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002882347ee80, Size=128, Default__BP_AssaultAIAnim_C Function /Game/Animations/AI/BP_AssaultAIAnim.BP_AssaultAIAnim_C:ExecuteUbergraph_BP_AssaultAIAnim
+[2018.07.16-10.09.44:454][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [16.194365ms] /Game/Animations/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2018.07.16-10.09.45:115][  0]LogAIModule: Creating AISystem for world Level1
+[2018.07.16-10.09.45:149][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.16-10.09.45:166][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028875aaf380, Size=128
+[2018.07.16-10.09.45:168][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.16-10.09.45:250][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.504ms to complete.
+[2018.07.16-10.09.45:251][  0]LogFileHelpers: Loading map 'Level1' took 1.855
+[2018.07.16-10.09.45:443][  0]LogCollectionManager: Loaded 0 collections in 0.001496 seconds
+[2018.07.16-10.09.45:496][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Saved/Collections/' took 0.01s
+[2018.07.16-10.09.45:496][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Developers/tomco/Collections/' took 0.01s
+[2018.07.16-10.09.45:497][  0]LogFileCache: Scanning file cache for directory 'D:/SpareTime/Unreal/FPS/FPS/Content/Collections/' took 0.01s
+[2018.07.16-10.09.45:497][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.16-10.09.45:510][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2490 classes and 568 folders.
+[2018.07.16-10.09.45:521][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.07.16-10.09.45:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2018.07.16-10.09.47:097][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.16-10.09.47:130][  0]LogSlate: Took 0.002557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.16-10.09.47:139][  0]LogSlate: Took 0.003245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.16-10.09.47:151][  0]LogSlate: Took 0.001963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.16-10.09.47:288][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPS
+[2018.07.16-10.09.47:288][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.16-10.09.47:288][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2018.07.16-10.09.47:288][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.16-10.09.47:289][  0]LogTemp: BranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = TOM-LAPTOP/D/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.16-10.09.47:289][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tomco\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.16-10.09.47:289][  0]LogRenderer: Reallocating scene render targets to support 908x600 Format 10 NumSamples 1 (Frame:1).
+[2018.07.16-10.09.47:469][  0]LogSlate: Took 0.003396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.16-10.09.47:638][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.07.16-10.09.47:639][  0]LogLoad: (Engine Initialization) Total time: 21.31 seconds
+[2018.07.16-10.09.47:639][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.16-10.09.47:649][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.16-10.09.47:673][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.16-10.09.47:717][  1]LogAssetRegistry: Asset discovery search completed in 13.9136 seconds
+[2018.07.16-10.09.47:721][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.16-10.09.47:721][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000326 seconds (updated 0 objects)
+[2018.07.16-10.09.53:297][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.16-10.09.53:389][521]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.16-10.09.53:415][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.16-10.09.53:416][521]PIE: New page: PIE session: Level1 (Jul 16, 2018, 2:09:53 PM)
+[2018.07.16-10.09.53:416][521]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.07.16-10.09.53:436][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019285s)
+[2018.07.16-10.09.53:437][521]LogAIModule: Creating AISystem for world Level1
+[2018.07.16-10.09.53:438][521]LogPlayLevel: PIE: World Init took: (0.001598s)
+[2018.07.16-10.09.53:438][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.021681s)
+[2018.07.16-10.09.53:457][521]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.16-10.09.53:494][521]LogInit: FAudioDevice initialized.
+[2018.07.16-10.09.53:565][521]LogUObjectGlobals: Created PersistentFrame Addr=0x000002886207cf00, Size=128, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.07.16-10.09.53:569][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002886207cf00, Size=128
+[2018.07.16-10.09.53:569][521]LogUObjectGlobals: Created PersistentFrame Addr=0x000002886207cf00, Size=128, Default__BP_InGameGUI_C Function /Engine/Transient.REINST_BP_InGameGUI_C_0:ExecuteUbergraph_BP_InGameGUI
+[2018.07.16-10.09.53:572][521]LogUObjectGlobals: Created PersistentFrame Addr=0x000002886207d880, Size=128, Default__BP_InGameGUI_C Function /Game/UI/Widgets/BP_InGameGUI.BP_InGameGUI_C:ExecuteUbergraph_BP_InGameGUI
+[2018.07.16-10.09.53:589][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288620fa620, Size=4, Default__OnGroundSlot_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundSlot.OnGroundSlot_C:ExecuteUbergraph_OnGroundSlot
+[2018.07.16-10.09.53:593][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288620fa620, Size=4
+[2018.07.16-10.09.53:593][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288620fa620, Size=4, Default__OnGroundSlot_C Function /Engine/Transient.REINST_OnGroundSlot_C_2:ExecuteUbergraph_OnGroundSlot
+[2018.07.16-10.09.53:596][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288620fa728, Size=4, Default__OnGroundSlot_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundSlot.OnGroundSlot_C:ExecuteUbergraph_OnGroundSlot
+[2018.07.16-10.09.53:599][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac9f2160, Size=160, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.07.16-10.09.53:606][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288ac9f2160, Size=160
+[2018.07.16-10.09.53:606][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288aca2cae0, Size=160, Default__OnGroundUI_C Function /Engine/Transient.REINST_OnGroundUI_C_3:ExecuteUbergraph_OnGroundUI
+[2018.07.16-10.09.53:613][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac9c28e0, Size=160, Default__OnGroundUI_C Function /Game/UI/Widgets/Inventory/Ground/OnGroundUI.OnGroundUI_C:ExecuteUbergraph_OnGroundUI
+[2018.07.16-10.09.53:619][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288610c4758, Size=56, Default__HandSlot_C Function /Game/UI/Widgets/Inventory/HandSlot.HandSlot_C:ExecuteUbergraph_HandSlot
+[2018.07.16-10.09.53:624][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288610c4758, Size=56
+[2018.07.16-10.09.53:624][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288610c4758, Size=56, Default__HandSlot_C Function /Engine/Transient.REINST_HandSlot_C_4:ExecuteUbergraph_HandSlot
+[2018.07.16-10.09.53:629][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288610c79a8, Size=56, Default__HandSlot_C Function /Game/UI/Widgets/Inventory/HandSlot.HandSlot_C:ExecuteUbergraph_HandSlot
+[2018.07.16-10.09.53:640][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac9e8f00, Size=424, Default__Slot_C Function /Game/UI/Widgets/Inventory/Slot.Slot_C:ExecuteUbergraph_Slot
+[2018.07.16-10.09.53:648][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288ac9e8f00, Size=424
+[2018.07.16-10.09.53:648][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac7a3e40, Size=424, Default__Slot_C Function /Engine/Transient.REINST_Slot_C_5:ExecuteUbergraph_Slot
+[2018.07.16-10.09.53:653][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac7a3900, Size=424, Default__Slot_C Function /Game/UI/Widgets/Inventory/Slot.Slot_C:ExecuteUbergraph_Slot
+[2018.07.16-10.09.53:656][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288acb065c0, Size=40, Default__InventorySlots_C Function /Game/UI/Widgets/Inventory/InventorySlots.InventorySlots_C:ExecuteUbergraph_InventorySlots
+[2018.07.16-10.09.53:674][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288acb065c0, Size=40
+[2018.07.16-10.09.53:675][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288acb065c0, Size=40, Default__InventorySlots_C Function /Engine/Transient.REINST_InventorySlots_C_6:ExecuteUbergraph_InventorySlots
+[2018.07.16-10.09.53:683][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288acb06318, Size=40, Default__InventorySlots_C Function /Game/UI/Widgets/Inventory/InventorySlots.InventorySlots_C:ExecuteUbergraph_InventorySlots
+[2018.07.16-10.09.53:691][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac6376a0, Size=80, Default__TaskDisplay_C Function /Game/UI/Widgets/Task/TaskDisplay.TaskDisplay_C:ExecuteUbergraph_TaskDisplay
+[2018.07.16-10.09.53:694][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288ac6376a0, Size=80
+[2018.07.16-10.09.53:694][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac6376a0, Size=80, Default__TaskDisplay_C Function /Engine/Transient.REINST_TaskDisplay_C_7:ExecuteUbergraph_TaskDisplay
+[2018.07.16-10.09.53:696][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ac634540, Size=80, Default__TaskDisplay_C Function /Game/UI/Widgets/Task/TaskDisplay.TaskDisplay_C:ExecuteUbergraph_TaskDisplay
+[2018.07.16-10.09.53:699][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288acb066b0, Size=40, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.07.16-10.09.53:704][521]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288acb066b0, Size=40
+[2018.07.16-10.09.53:704][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288acb066b0, Size=40, Default__UIHUD_C Function /Engine/Transient.REINST_UIHUD_C_8:ExecuteUbergraph_UIHUD
+[2018.07.16-10.09.53:707][521]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288acb05a30, Size=40, Default__UIHUD_C Function /Game/UI/Widgets/UIHUD.UIHUD_C:ExecuteUbergraph_UIHUD
+[2018.07.16-10.09.53:799][521]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.07.16-10.09.53:813][521]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.07.16-12.09.53
+[2018.07.16-10.09.53:815][521]LogWorld: Bringing up level for play took: 0.013519
+[2018.07.16-10.09.53:820][521]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2018.07.16-10.09.53:831][521]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.264
+[2018.07.16-10.10.01:608][ 31]LogTemp: Warning: There is no current weapon
+[2018.07.16-10.10.03:631][184]LogTemp: Warning: There is no current weapon
+[2018.07.16-10.10.04:017][213]LogTemp: Warning: There is no current weapon
+[2018.07.16-10.10.05:656][330]LogTemp: Warning: Keycard: Added to inventory
+[2018.07.16-10.10.05:660][330]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:675][331]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:693][332]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:707][333]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:719][334]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:733][335]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:747][336]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:761][337]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:772][338]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:786][339]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:801][340]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:815][341]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:829][342]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:842][343]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:856][344]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:873][345]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:891][346]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:908][347]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:919][348]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:933][349]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:948][350]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:962][351]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:976][352]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.05:992][353]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:005][354]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:020][355]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:032][356]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:046][357]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:061][358]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:077][359]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:094][360]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:107][361]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:121][362]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:133][363]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:149][364]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:163][365]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:176][366]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:187][367]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:202][368]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:214][369]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:229][370]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:243][371]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:254][372]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:268][373]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:284][374]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:299][375]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:315][376]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:331][377]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:344][378]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:356][379]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:371][380]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:384][381]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:398][382]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:412][383]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:426][384]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:442][385]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:451][386]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:463][387]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:475][388]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:486][389]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:502][390]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:514][391]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:526][392]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:534][393]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:547][394]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:560][395]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:568][396]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:580][397]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:591][398]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:602][399]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:615][400]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:625][401]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:635][402]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:647][403]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:660][404]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:669][405]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:680][406]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:695][407]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:703][408]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:719][409]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:732][410]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:742][411]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:752][412]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:765][413]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:777][414]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:786][415]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:797][416]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:812][417]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:820][418]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:832][419]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:845][420]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:858][421]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:868][422]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:882][423]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:892][424]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:905][425]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:919][426]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:930][427]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:942][428]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:951][429]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:963][430]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:977][431]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:985][432]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.06:998][433]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:010][434]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:020][435]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:032][436]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:044][437]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:053][438]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:065][439]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:077][440]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:088][441]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:102][442]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:117][443]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:131][444]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:145][445]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:155][446]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:167][447]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:181][448]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:191][449]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:201][450]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:215][451]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:227][452]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:236][453]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:249][454]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:260][455]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:275][456]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:283][457]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:296][458]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:310][459]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:324][460]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:341][461]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:350][462]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:368][463]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:381][464]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:391][465]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:403][466]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:415][467]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:428][468]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:437][469]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:451][470]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:464][471]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:473][472]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:484][473]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:497][474]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:510][475]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:518][476]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:534][477]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:545][478]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:560][479]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:568][480]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:584][481]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:596][482]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:607][483]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:617][484]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:631][485]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:642][486]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:652][487]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:665][488]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:675][489]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:685][490]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:698][491]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:711][492]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:719][493]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:732][494]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:746][495]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:754][496]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:774][497]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:786][498]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:799][499]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:814][500]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:828][501]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:840][502]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:854][503]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:863][504]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:877][505]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:884][506]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:895][507]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:908][508]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:917][509]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:930][510]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:941][511]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:955][512]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:968][513]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:978][514]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.07:992][515]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:000][516]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:013][517]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:025][518]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:034][519]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:048][520]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:060][521]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:068][522]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:083][523]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:093][524]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:104][525]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:117][526]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:128][527]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:140][528]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:153][529]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:167][530]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:181][531]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:195][532]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:207][533]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:225][534]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:234][535]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:246][536]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:259][537]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:272][538]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:285][539]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:296][540]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:309][541]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:318][542]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:332][543]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:344][544]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:353][545]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:369][546]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:383][547]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:396][548]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:406][549]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:416][550]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:431][551]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:440][552]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:450][553]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:462][554]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:476][555]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:484][556]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:497][557]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:511][558]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:520][559]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:532][560]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:545][561]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:556][562]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:569][563]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:583][564]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:594][565]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:611][566]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:626][567]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:634][568]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:650][569]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:660][570]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:671][571]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:684][572]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:694][573]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:706][574]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:717][575]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:731][576]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:740][577]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:749][578]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:763][579]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:777][580]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:791][581]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:803][582]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:818][583]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:828][584]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:843][585]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:851][586]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:864][587]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:879][588]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:887][589]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:899][590]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:913][591]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:923][592]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:934][593]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:946][594]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:960][595]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:968][596]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:984][597]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.08:998][598]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:011][599]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:020][600]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:035][601]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:046][602]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:060][603]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:068][604]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:081][605]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:094][606]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:102][607]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:115][608]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:127][609]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:136][610]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:148][611]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:160][612]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:171][613]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:184][614]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:199][615]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:213][616]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:224][617]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:234][618]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:248][619]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:257][620]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:267][621]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:281][622]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:292][623]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:301][624]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:314][625]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:324][626]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:334][627]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:348][628]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:359][629]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:368][630]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:384][631]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:398][632]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:410][633]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:423][634]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:433][635]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:447][636]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:457][637]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:467][638]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:481][639]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:491][640]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:501][641]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:515][642]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:525][643]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:536][644]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:549][645]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:559][646]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:571][647]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:582][648]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:596][649]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:607][650]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:622][651]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:634][652]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:647][653]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:657][654]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:667][655]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:680][656]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:690][657]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:701][658]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:714][659]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:725][660]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:741][661]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:748][662]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:761][663]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:774][664]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:783][665]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:796][666]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:810][667]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:821][668]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:835][669]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:846][670]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:861][671]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:869][672]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:884][673]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:897][674]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:908][675]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:918][676]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:932][677]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:943][678]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:954][679]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:967][680]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:978][681]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.09:992][682]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:000][683]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:016][684]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:030][685]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:045][686]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:059][687]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:068][688]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:083][689]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:092][690]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:104][691]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:117][692]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:130][693]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:142][694]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:150][695]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:165][696]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:177][697]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:185][698]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:198][699]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:212][700]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:225][701]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:242][702]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:254][703]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:269][704]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:282][705]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:295][706]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:309][707]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:317][708]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:333][709]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:343][710]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:356][711]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:367][712]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:381][713]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:391][714]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:403][715]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:416][716]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:429][717]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:439][718]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:456][719]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:464][720]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:478][721]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:490][722]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:506][723]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:515][724]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:527][725]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:538][726]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:549][727]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:563][728]LogTemp: Warning: Task Ended
+[2018.07.16-10.10.10:645][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288610c4758, Size=56
+[2018.07.16-10.10.10:646][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288aca2cae0, Size=160
+[2018.07.16-10.10.10:646][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288620fa620, Size=4
+[2018.07.16-10.10.10:646][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002886207cf00, Size=128
+[2018.07.16-10.10.10:647][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288ac7a3e40, Size=424
+[2018.07.16-10.10.10:648][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288acb065c0, Size=40
+[2018.07.16-10.10.10:648][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288ac6376a0, Size=80
+[2018.07.16-10.10.10:648][728]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288acb066b0, Size=40
+[2018.07.16-10.10.11:711][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.16-10.10.11:719][820]LogSlate: Took 0.001699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.07.16-10.15.07:161][300]Candidate modules for hot reload:
+[2018.07.16-10.15.07:162][300]  FPS
+[2018.07.16-10.15.07:162][300]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,7764 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.07.16-10.15.07:167][300]Warning: Starting HotReload took  0.0s.
+[2018.07.16-10.16.26:168][776]CompilerResultsLog: New page: Compilation - Jul 16, 2018, 2:16:26 PM
+[2018.07.16-10.16.26:171][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.07.16-10.16.26:172][776]CompilerResultsLog: Creating makefile for hot reloading FPS (ini files are newer than UBTMakefile)
+[2018.07.16-10.16.26:173][776]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.16-10.16.26:173][776]CompilerResultsLog: Parsing headers for FPSEditor
+[2018.07.16-10.16.26:174][776]CompilerResultsLog:   Running UnrealHeaderTool "D:\SpareTime\Unreal\FPS\FPS\FPS.uproject" "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\FPSEditor\Development\FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.16-10.16.26:175][776]CompilerResultsLog: Reflection code generated for FPSEditor in 20.2688283 seconds
+[2018.07.16-10.16.26:176][776]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.07.16-10.16.26:176][776]CompilerResultsLog: Module.FPS.cpp
+[2018.07.16-10.16.26:176][776]CompilerResultsLog: Module.FPS.gen.cpp
+[2018.07.16-10.16.26:177][776]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AssualtCharacter.cpp(94) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.16.26:178][776]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.16.26:178][776]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AssualtCharacter.cpp(122) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.16.26:179][776]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.16.26:180][776]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\BaseWeapon.cpp(55) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.16.26:182][776]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.16.26:182][776]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(35) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.16.26:183][776]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.16.26:185][776]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\TaskManager.cpp(38) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2018.07.16-10.16.26:186][776]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\TaskManager.cpp(38) : error C2446: '>': no conversion from 'int32' to 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const'
+[2018.07.16-10.16.26:186][776]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\TaskManager.cpp(38) : note: There are no conversions from integral values to pointer-to-member values
+[2018.07.16-10.16.26:187][776]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\SpareTime\Unreal\FPS\FPS\Binaries\Win64\UE4Editor-FPS-7764.dll
+[2018.07.16-10.16.26:187][776]CompilerResultsLog: Total build time: 78.65 seconds (Local executor: 0.00 seconds)
+[2018.07.16-10.16.26:188][776]LogMainFrame: MainFrame: Module compiling took 79.034 seconds
+[2018.07.16-10.16.26:189][776]Warning: HotReload failed, recompile failed
+[2018.07.16-10.16.44:128][879]Candidate modules for hot reload:
+[2018.07.16-10.16.44:128][879]  FPS
+[2018.07.16-10.16.44:129][879]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPS -ModuleWithSuffix=FPS,8937 Win64 Development -editorrecompile -canskiplink "D:/SpareTime/Unreal/FPS/FPS/FPS.uproject" ]
+[2018.07.16-10.16.44:133][879]Warning: Starting HotReload took  0.0s.
+[2018.07.16-10.17.24:247][867]CompilerResultsLog: New page: Compilation - Jul 16, 2018, 2:17:24 PM
+[2018.07.16-10.17.24:248][867]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.07.16-10.17.24:249][867]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.16-10.17.24:249][867]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.07.16-10.17.24:250][867]CompilerResultsLog: Module.FPS.cpp
+[2018.07.16-10.17.24:250][867]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AssualtCharacter.cpp(94) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.17.24:251][867]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.17.24:253][867]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AssualtCharacter.cpp(122) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.17.24:254][867]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.17.24:255][867]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\BaseWeapon.cpp(55) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.17.24:256][867]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.17.24:256][867]CompilerResultsLog: Error: D:\SpareTime\Unreal\FPS\FPS\Source\FPS\SMG.cpp(35) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.16-10.17.24:257][867]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.07.16-10.17.24:259][867]CompilerResultsLog: [2/3] Link UE4Editor-FPS-8937.dll
+[2018.07.16-10.17.24:260][867]CompilerResultsLog: [3/3] Link UE4Editor-FPS-8937.lib
+[2018.07.16-10.17.24:260][867]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8937.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8937.exp
+[2018.07.16-10.17.24:261][867]CompilerResultsLog:    Creating library D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8937.suppressed.lib and object D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPS-8937.suppressed.exp
+[2018.07.16-10.17.24:262][867]CompilerResultsLog: Total build time: 39.77 seconds (Local executor: 38.80 seconds)
+[2018.07.16-10.17.24:262][867]LogMainFrame: MainFrame: Module compiling took 40.140 seconds
+[2018.07.16-10.17.24:336][867]LogClass: Could not find existing class TaskManager in package /Script/FPS for HotReload, assuming new class
+[2018.07.16-10.17.24:342][867]LogClass: Collum HotReload.
+[2018.07.16-10.17.24:343][867]LogClass: SlotImage HotReload.
+[2018.07.16-10.17.24:350][867]LogHotReload: Re-instancing CoverPoint after hot-reload.
+[2018.07.16-10.17.26:041][867]LogHotReload: Re-instancing TaskManager after hot-reload.
+[2018.07.16-10.17.26:215][867]LogContentBrowser: Native class hierarchy updated for 'FPS' in 0.0018 seconds. Added 37 classes and 8 folders.
+[2018.07.16-10.17.26:218][867]Display: HotReload successful (21 functions remapped  2 scriptstructs remapped)
+[2018.07.16-10.17.26:353][867]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2490 classes and 568 folders.
+[2018.07.16-10.17.26:355][867]Display: HotReload took 42.2s.
+[2018.07.16-10.17.29:669][153]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.16-10.17.29:696][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.16-10.17.29:697][153]PIE: New page: PIE session: Level1 (Jul 16, 2018, 2:17:29 PM)
+[2018.07.16-10.17.29:698][153]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.07.16-10.17.29:719][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020803s)
+[2018.07.16-10.17.29:721][153]LogAIModule: Creating AISystem for world Level1
+[2018.07.16-10.17.29:722][153]LogPlayLevel: PIE: World Init took: (0.001915s)
+[2018.07.16-10.17.29:722][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.024399s)
+[2018.07.16-10.17.29:746][153]LogInit: XAudio2 using 'Luidsprekers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.16-10.17.29:788][153]LogInit: FAudioDevice initialized.
+[2018.07.16-10.17.29:832][153]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2018.07.16-10.17.29:844][153]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.07.16-12.17.29
+[2018.07.16-10.17.29:846][153]LogWorld: Bringing up level for play took: 0.011672
+[2018.07.16-10.17.29:854][153]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.241

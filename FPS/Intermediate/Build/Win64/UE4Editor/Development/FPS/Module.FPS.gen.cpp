@@ -27,6 +27,7 @@
 #include "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS\IDamageAble.gen.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS\InteractAble.gen.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS\Interaction.gen.cpp"
+#include "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS\OpenDoor.gen.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS\SMG.gen.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS\SMGPickUp.gen.cpp"
 #include "D:\SpareTime\Unreal\FPS\FPS\Intermediate\Build\Win64\UE4Editor\Inc\FPS\StartBehaviour.gen.cpp"

@@ -35,6 +35,11 @@ void ATaskManager::Tick(float DeltaTime)
 		{
 			//Call the end behaviour of the task
 			m_CurrentTask->OnTaskEnd();
+			if (currentIndex < m_Tasks.Num() - 1)
+			{
+				StartTask(m_Tasks[currentIndex + 1]);
+				currentIndex++;
+			}
 		}
 	}
 

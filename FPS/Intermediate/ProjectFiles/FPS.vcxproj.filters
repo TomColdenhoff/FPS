@@ -328,12 +328,18 @@
     <ClInclude Include="..\..\Source\FPS\Tasks\ActivateActors.h">
       <Filter>Source\FPS\Tasks</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Tasks\OpenDoor.h">
+      <Filter>Source\FPS\Tasks</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPS\Tasks\StartBehaviour.cpp">
       <Filter>Source\FPS\Tasks</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FPS\Tasks\ActivateActors.cpp">
+      <Filter>Source\FPS\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Tasks\OpenDoor.cpp">
       <Filter>Source\FPS\Tasks</Filter>
     </ClCompile>
   </ItemGroup>
