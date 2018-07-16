@@ -13,6 +13,7 @@ D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AI\ChooseNextWaypoint.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AI\ClearKey.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AI\FindCoverPoint.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\AI\ToggleDuck.h
+D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Level\ActivateActor.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Level\BasicPickup.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Level\DoorOpenComponent.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Level\HoldAblePickUp.h
@@ -20,6 +21,7 @@ D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Level\InteractAble.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Level\SMGPickUp.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Player\Interaction.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Player\UIComponent.h
+D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\Activate.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\ActivateActors.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\CollectItem.h
 D:\SpareTime\Unreal\FPS\FPS\Source\FPS\Tasks\OpenDoor.h
