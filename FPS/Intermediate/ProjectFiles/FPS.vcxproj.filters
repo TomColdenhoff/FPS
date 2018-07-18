@@ -337,6 +337,9 @@
     <ClInclude Include="..\..\Source\FPS\Tasks\Activate.h">
       <Filter>Source\FPS\Tasks</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Tasks\ReachPosition.h">
+      <Filter>Source\FPS\Tasks</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPS\Tasks\StartBehaviour.cpp">
@@ -352,6 +355,9 @@
       <Filter>Source\FPS\Level</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FPS\Tasks\Activate.cpp">
+      <Filter>Source\FPS\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Tasks\ReachPosition.cpp">
       <Filter>Source\FPS\Tasks</Filter>
     </ClCompile>
   </ItemGroup>

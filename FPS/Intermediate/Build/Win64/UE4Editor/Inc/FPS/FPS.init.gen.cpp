@@ -39,8 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeFPS_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FPS",
 				PKG_CompiledIn | 0x00000000,
-				0xB39C92EA,
-				0xA71AFE0D,
+				0x5E8816AC,
+				0xD64232B3,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

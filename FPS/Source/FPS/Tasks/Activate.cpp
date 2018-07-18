@@ -42,7 +42,7 @@ void AActivate::OnTaskEnd()
 
 void AActivate::OnTaskStart()
 {
-	//Get the game singleton
+	//Get the game singleton222
 	UGameData* gameData = Cast<UGameData>(GEngine->GameSingleton);
 
 	if (gameData == nullptr)
